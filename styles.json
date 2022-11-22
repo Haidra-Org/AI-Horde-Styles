@@ -4,51 +4,185 @@
         "model": "stable_diffusion"
     },
     "generic": {
-        "fantasy": {
+        "SciFi": {
+            "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K",
+            "model": "stable_diffusion"
+        },
+        "Fantasy": {
             "prompt": "{p}, fantasy artwork, epic, detailed and intricate digital painting, trending on artstation, by wlop and greg rutkowski, octane render",
             "model": "stable_diffusion"
         },
-        "painting": {
+        "Painting": {
             "prompt": "{p}, digitized painting, highly detailed, sharp focus, impasto brush strokes, acclaimed artwork by gaston bussiere, by j. c. leyendecker",
             "model": "stable_diffusion"
         },
-        "butter": {
+        "Butter": {
             "prompt": "{p} as award-winning butter sculpture at the Minnesota State Fair, made of butter, dairy creation",
             "model": "stable_diffusion"
         }
     },
     "halloween": {
-        "terror_ink": {
+        "Terror Ink": {
             "prompt": "a terrifying ink drawing of a {p}, by Ko Young Hoon, by Yoshitaka Amano, Charcoal Art, Ink, Oil Paint, Concept Art, Color Grading, Dramatic, Intentional camera movement, Lonely, Cracks, With Imperfections, in a symbolic and meaningful style, insanely detailed and intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, a ghost, covered in spiderweb, eerie, feeling of dread, decay, samhain",
             "model": "stable_diffusion"
         },
-        "nightmare": {
+        "Nightmare": {
             "prompt": "{p} by Aaron Horkey, by Adonna Khare, by Carrie Ann Baade, by Jeff Lemire, by Junji Ito, horror, creepy, dark, eldritch, fantasy",
             "model": "stable_diffusion"
         },
-        "abandoned": {
+        "Abandoned": {
             "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus",
             "model": "stable_diffusion"
         },
-        "witch_land": {
+        "Witch Land": {
             "prompt": "digital art of {p}, witch world, Halloween theme, scenic Halloween, highly detailed, zbrush, by artist Artgerm, by artist Stephen Hickman, by artist Carne griffiths",
             "model": "stable_diffusion"
         },
-        "nightmare_fairytale": {
+        "Nightmare Fairytale": {
             "prompt": "horror {p} in a dark forest, darkness, fog, very detailed, cold, Editorial illustration, gothic, evil, art by Sam Bosma, painting by H.P. Lovecraft",
             "model": "stable_diffusion"
         },
-        "elmstreet": {
+        "Elmstreet": {
             "prompt": "drawing of {p} by tim burton, by Aaron Horkey, by H R Giger, creepy, horror, sharp, focused, HD, detailed",
             "model": "stable_diffusion"
         },
-        "ennui": {
+        "Ennui": {
             "prompt": "{p}, black and white, foggy, negative, eerie",
             "model": "stable_diffusion"
         },
-        "dark_fantasy": {
+        "Dark Fantasy": {
             "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe",
             "model": "stable_diffusion"
+        }
+    },
+    "dreambooth": {
+        "Arcane": {
+            "prompt": "{p}, arcane style",
+            "model": "Nitro Diffusion"
+        },
+        "Spider Verse": {
+            "prompt": "{p}, spiderverse style",
+            "model": "Spider-Verse Diffusion"
+        },
+        "Archer": {
+            "prompt": "{p}, archer style",
+            "model": "Nitro Diffusion"
+        },
+        "Elden Ring": {
+            "prompt": "{p}, elden ring style",
+            "model": "Elden Ring Diffusion"
+        },
+        "Robo": {
+            "prompt": "{p}, nousr robot",
+            "model": "Robo-Diffusion"
+        },
+        "Modern Animation": {
+            "prompt": "{p}, modern disney style",
+            "model": "Nitro Diffusion"
+        },
+        "Classic Animation": {
+            "prompt": "{p}, classic disney style",
+            "model": "Classic Animation Diffusion"
+        },
+        "Xynthii": {
+            "prompt": "{p}, xynthii",
+            "model": "Xynthii-Diffusion"
+        },
+        "Comic": {
+            "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle",
+            "model": "Comic-Diffusion"
+        },
+        "Charlie Bo": {
+            "prompt": "{p}, charliebo artsyle",
+            "model": "Comic-Diffusion"
+        },
+        "Hollie Mengert": {
+            "prompt": "{p}, holliemengert artstyle",
+            "model": "Comic-Diffusion"
+        },
+        "Pepe Larraz": {
+            "prompt": "{p}, pepelarraz artstyle",
+            "model": "Comic-Diffusion"
+        },
+        "Andreas Rocha": {
+            "prompt": "{p}, andreasrocha artstyle",
+            "model": "Comic-Diffusion"
+        },
+        "James Daly": {
+            "prompt": "{p}, jamesdaly artstyle",
+            "model": "Comic-Diffusion"
+        },
+        "Tron Legacy": {
+            "prompt": "{p}, trnlgcy",
+            "model": "Tron Legacy Diffusion"
+        },
+        "Microworlds": {
+            "prompt": "{p}, microworld render style",
+            "model": "Microworlds"
+        },
+        "Redshift": {
+            "prompt": "{p}, redshift style",
+            "model": "Redshift Diffusion"
+        },
+        "Borderlands": {
+            "prompt": "{p}, borderlands",
+            "model": "Borderlands"
+        },
+        "Cyberpunk Edgerunners": {
+            "prompt": "{p}, dgs",
+            "model": "Cyberpunk Anime Diffusion"
+        },
+        "Cyberpunk Anime": {
+            "prompt": "{p}, illustration style",
+            "model": "Cyberpunk Anime Diffusion"
+        },
+        "Midjourney": {
+            "prompt": "{p}, midjrny-v4 style",
+            "model": "Midjourney Diffusion"
+        },
+        "Pixel Sprite": {
+            "prompt": "{p}, pixel sprite",
+            "model": "AIO Pixel Art"
+        },
+        "16bit Scene": {
+            "prompt": "{p}, 16bitscene",
+            "model": "AIO Pixel Art"
+        },
+        "Voxel": {
+            "prompt": "{p}, VoxelArt",
+            "model": "Voxel Art Diffusion"
+        },
+        "Van Gogh": {
+            "prompt": "{p}, lvngvncnt",
+            "model": "Van Gogh Diffusion"
+        },
+        "BubblyDubbly": {
+            "prompt": "{p}, art by bubblydubbly",
+            "model": "BubblyDubbly"
+        },
+        "Clazy": {
+            "prompt": "{p}, clazy style",
+            "model": "Clazy"
+        },
+        "Samdoesarts": {
+            "prompt": "{p}, samdoesarts style",
+            "model": "Samdoesarts Ultmerge"
+        },
+        "Synthwave": {
+            "prompt": "{p}, snthwve style",
+            "model": "Synthwave"
+        },
+        "vectorartz": {
+            "prompt": "{p}, vectorartz",
+            "model": "vectorartz"
+        },
+        "Ranma": {
+            "prompt": "{p}, 80sanimestyle",
+            "model": "Ranma Diffusion"
+        },
+        "Ghibli": {
+            "prompt": "{p}, ghibli style",
+            "model": "Ghibli Diffusion"
         }
     }
 }
