@@ -1,0 +1,76 @@
+{
+    "halloween": [
+        "terror ink",
+        "nightmare",
+        "abandoned",
+        "witch land",
+        "nightmare fairytale",
+        "elmstreet",
+        "ennui",
+        "dark fantasy"
+    ],
+    "dreambooth": [
+        "arcane",
+        "spider verse",
+        "archer",
+        "elden Rring",
+        "robo",
+        "modern animation",
+        "classic animation",
+        "xynthii",
+        "comic mashup",
+        "charlie bo",
+        "hollie mengert",
+        "pepe larraz",
+        "andreas rocha",
+        "james daly",
+        "tron legacy",
+        "microworlds",
+        "redshift",
+        "borderlands",
+        "cyberpunk edgerunners",
+        "cyberpunk anime",
+        "midjourney",
+        "pixel sprite",
+        "16bit scene",
+        "voxel",
+        "van gogh",
+        "bubblydubbly",
+        "clazy",
+        "samdoesarts",
+        "synthwave",
+        "vectorartz",
+        "ranma",
+        "ghibli"
+    ],
+    "fantasy": [
+        "high fantasy",
+        "dark fantasy",
+        "elden Rring"
+    ],
+    "anime": [
+        "ranma",
+        "ghibli",
+        "cyberpunk anime"
+    ],
+    "landscapes": [
+        "16bit scene",
+        "vectorartz"
+    ],
+    "3danimation": [
+        "arcane",
+        "spider verse",
+        "modern animation",
+        "redshift"
+    ],
+    "comic": [
+        "archer",
+        "classic animation",
+        "comic mashup",
+        "charlie bo",
+        "hollie mengert",
+        "pepe larraz",
+        "andreas rocha",
+        "james daly"
+    ]
+}
