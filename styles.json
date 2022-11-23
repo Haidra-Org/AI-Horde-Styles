@@ -3,6 +3,10 @@
         "prompt": "{p}",
         "model": "stable_diffusion"
     },
+    "backstage": {
+        "prompt": "behind the scenes footage from the set of {p}, movie set, breakdown, dramatic lighting, off centered focus, clear wide shot",
+        "model": "stable_diffusion"
+    },
     "generic scifi": {
         "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K",
         "model": "stable_diffusion"
