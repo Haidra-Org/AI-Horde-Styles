@@ -55,6 +55,22 @@
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe",
         "model": "stable_diffusion"
     },
+    "anything": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres",
+        "model": "Anything Diffusion"
+    },
+    "waifu": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres",
+        "model": "waifu_diffusion"
+    },
+    "trinart": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres",
+        "model": "trinart"
+    },
+    "hentai": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
+        "model": "Hentai Diffusion"
+    },
     "arcane": {
         "prompt": "{p}, arcane style",
         "model": "Nitro Diffusion"
@@ -179,8 +195,32 @@
         "prompt": "{p}, 80sanimestyle",
         "model": "Ranma Diffusion"
     },
+    "guohua": {
+        "prompt": "{p}, guohua style",
+        "model": "Guohua Diffusion"
+    },
+    "inkpunk": {
+        "prompt": "{p}, nvinkpunk",
+        "model": "Inkpunk Diffusion"
+    },
+    "mtg": {
+        "prompt": "{p}, mtg card art",
+        "model": "Fantasy Card Diffusion"
+    },
+    "knollingcase": {
+        "prompt": "{p}, knollingcase",
+        "model": "Knollingcase"
+    },
+    "paintart": {
+        "prompt": "{p}, mdjrny-pntrt",
+        "model": "Midjourney PaintArt"
+    },
     "ghibli": {
         "prompt": "{p}, ghibli style",
         "model": "Ghibli Diffusion"
+    },
+    "appicon": {
+        "prompt": "{p}, IconsMi",
+        "model": "App Icon Diffusion"
     }
 }

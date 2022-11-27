@@ -26,6 +26,7 @@
         "james daly",
         "tron legacy",
         "microworlds",
+        "appicon",
         "redshift",
         "borderlands",
         "cyberpunk edgerunners",
@@ -41,17 +42,26 @@
         "synthwave",
         "vectorartz",
         "ranma",
+        "guohua",
+        "inkpunk",
+        "mtg",
+        "knollingcase",
+        "paintart",
         "ghibli"
     ],
     "fantasy": [
         "high fantasy",
         "dark fantasy",
-        "elden Rring"
+        "elden Rring",
+        "mtg"
     ],
     "anime": [
         "ranma",
         "ghibli",
-        "cyberpunk anime"
+        "cyberpunk anime",
+        "anything",
+        "waifu",
+        "trinart"
     ],
     "landscapes": [
         "16bit scene",
@@ -72,5 +82,17 @@
         "pepe larraz",
         "andreas rocha",
         "james daly"
+    ],
+    "painting": [
+        "guohua",
+        "paintart",
+        "painting",
+        "van gogh",
+        "inkpunk"
+    ],
+    "reshape": [
+        "knollingcase",
+        "microworlds",
+        "appicon"
     ]
 }
