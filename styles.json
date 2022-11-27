@@ -71,6 +71,10 @@
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
         "model": "Hentai Diffusion"
     },
+    "furry": {
+        "prompt": "trending on artstation, uploaded to e621, highly detailed fullbody of a solo anthro {p}, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, (three hands, three feet, three arms, three legs, text bubble,no pupils),simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, multi balls, multi penis, floating penis,penis in chest,pussy in chest, dialogue, text, feral",
+        "model": "Yiffy"
+    },
     "arcane": {
         "prompt": "{p}, arcane style",
         "model": "Nitro Diffusion"
