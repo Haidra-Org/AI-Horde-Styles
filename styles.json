@@ -15,7 +15,7 @@
         "prompt": "{p}, fantasy artwork, epic, detailed and intricate digital painting, trending on artstation, by wlop and greg rutkowski, octane render",
         "model": "stable_diffusion"
     },
-    "19th centuty painting": {
+    "19th century painting": {
         "prompt": "{p}, digitized painting, highly detailed, sharp focus, impasto brush strokes, acclaimed artwork by gaston bussiere, by j. c. leyendecker",
         "model": "stable_diffusion"
     },
