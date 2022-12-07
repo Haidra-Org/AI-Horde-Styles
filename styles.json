@@ -80,7 +80,7 @@
         "model": "stable_diffusion"
     },
     "log cabin": {
-        "prompt": " winter in the snow, concept art oil painting of a {p}, a log cabin by a river, christmas,extremely detailed, brush hard, artstation , fantasy by jama jurabaev, Paul Lehr, masterpiece, award winning, trending on artstation",
+        "prompt": "concept art oil painting of a {p} next to a winter log cabin by a river, christmas, extremely detailed, brush hard, artstation , fantasy by jama jurabaev, Paul Lehr, masterpiece, award winning, trending on artstation",
         "model": "stable_diffusion"
     },
     "prehistoric winter": {
@@ -106,6 +106,18 @@
     "hentai": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
         "model": "Hentai Diffusion"
+    },
+    "poison": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
+        "model": "Poison"
+    },
+    "eimis": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
+        "model": "Eimis Anime Diffusion"
+    },
+    "dawgsmix": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres",
+        "model": "Dawgsmix"
     },
     "furry": {
         "prompt": "trending on artstation, uploaded to e621, highly detailed fullbody of a fully clothed solo anthro {p}, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, (three hands, three feet, three arms, three legs, text bubble,no pupils),simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, multi balls, multi penis, floating penis,penis in chest,pussy in chest, dialogue, text, feral",
@@ -258,6 +270,30 @@
     "ghibli": {
         "prompt": "{p}, ghibli style",
         "model": "Ghibli Diffusion"
+    },
+    "rpg portrait": {
+        "prompt": "{p}",
+        "model": "RPG"
+    },
+    "wavyfusion": {
+        "prompt": "{p}, wa-vy style",
+        "model": "Wavyfusion"
+    },
+    "papercutcraft": {
+        "prompt": "{p}, papercutcraft style",
+        "model": "Papercutcraft"
+    },
+    "papercut": {
+        "prompt": "{p}, PaperCut",
+        "model": "Papercut Diffusion"
+    },
+    "chroma": {
+        "prompt": "{p}, ChromaV5 award winning photography, extremely detailed, artstation, 8 k, incredible art",
+        "model": "ChromaV5"
+    },
+    "kurzgesagtish": {
+        "prompt": "{p}, illustration style kurzgesagtish",
+        "model": "Kurzgesagtish"
     },
     "appicon": {
         "prompt": "{p}, IconsMi",

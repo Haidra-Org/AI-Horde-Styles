@@ -69,13 +69,20 @@
         "mtg",
         "knollingcase",
         "paintart",
+        "rpg portrait",
+        "wavyfusion",
+        "papercutcraft",
+        "papercut",
+        "chroma",
+        "kurzgesagtish",
         "ghibli"
     ],
     "fantasy": [
         "high fantasy",
         "dark fantasy",
         "elden Rring",
-        "mtg"
+        "mtg",
+        "rpg portrait"
     ],
     "anime": [
         "ranma",
@@ -83,7 +90,10 @@
         "cyberpunk anime",
         "anything",
         "waifu",
-        "trinart"
+        "trinart",
+        "poison",
+        "eimis",
+        "dawgsmix"
     ],
     "landscapes": [
         "16bit scene",
@@ -110,11 +120,22 @@
         "paintart",
         "painting",
         "van gogh",
-        "inkpunk"
+        "inkpunk",
+        "kurzgesagtish"
     ],
     "reshape": [
         "knollingcase",
         "microworlds",
-        "appicon"
+        "appicon",
+        "papercutcraft",
+        "papercut"
+    ],
+    "portrait": [
+        "chroma",
+        "rpg"
+    ],
+    "paper": [
+        "papercutcraft",
+        "papercut"
     ]
 }
