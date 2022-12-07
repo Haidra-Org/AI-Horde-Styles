@@ -80,7 +80,7 @@
         "model": "stable_diffusion"
     },
     "log cabin": {
-        "prompt": "concept art oil painting of a {p} next to a winter log cabin by a river, christmas, extremely detailed, brush hard, artstation , fantasy by jama jurabaev, Paul Lehr, masterpiece, award winning, trending on artstation",
+        "prompt": "concept art oil painting of a {p} next to a christmas log cabin by a river, extremely detailed, brush hard, fantasy by jama jurabaev, Paul Lehr, masterpiece, award winning, trending on artstation",
         "model": "stable_diffusion"
     },
     "prehistoric winter": {
