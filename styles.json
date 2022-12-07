@@ -295,6 +295,10 @@
         "prompt": "{p}, illustration style kurzgesagtish",
         "model": "Kurzgesagtish"
     },
+    "squishmallow": {
+        "prompt": "{p}, Squishmallow",
+        "model": "Squishmallow Diffusion"
+    },
     "appicon": {
         "prompt": "{p}, IconsMi",
         "model": "App Icon Diffusion"
