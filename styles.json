@@ -16,7 +16,7 @@
         "model": "stable_diffusion"
     },
     "19th century painting": {
-        "prompt": "{p}, digitized painting, highly detailed, sharp focus, impasto brush strokes, acclaimed artwork by gaston bussiere, by j. c. leyendecker",
+        "prompt": "digitized painting of a {p}, highly detailed, sharp focus, impasto brush strokes, acclaimed artwork by gaston bussiere, by j. c. leyendecker",
         "model": "stable_diffusion"
     },
     "butter": {
@@ -32,8 +32,11 @@
         "model": "stable_diffusion"
     },
     "abandoned": {
-        "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus",
-        "model": "stable_diffusion"
+        "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus###blurry, out of focus",
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "witch land": {
         "prompt": "digital art of {p}, witch world, Halloween theme, scenic Halloween, highly detailed, zbrush, by artist Artgerm, by artist Stephen Hickman, by artist Carne griffiths",
@@ -49,7 +52,10 @@
     },
     "ennui": {
         "prompt": "{p}, black and white, foggy, negative, eerie",
-        "model": "stable_diffusion"
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "dark fantasy": {
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe",
@@ -68,8 +74,11 @@
         "model": "stable_diffusion"
     },
     "wintersun temple": {
-        "prompt": "elden ring style {p}, heron flying in a snow landscape with a japanese temple at the background, epic middle of a storm, wintersun cover, showing every detail of each snowflake in unreal engine 5, bright, dramatic light, cinematic luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown seas ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed, frames",
-        "model": "stable_diffusion"
+        "prompt": "elden ring style {p}, in a snow landscape with a japanese temple at the background, epic middle of a storm, wintersun cover, showing every detail of each snowflake in unreal engine 5, bright, dramatic light, cinematic luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown seas ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed, frames",
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "fantasy snowstorm": {
         "prompt": "{p} in a fantasy snowstorm, snowflakes,8k,highly detailed,a cozy village,sun behind clouds, masterpiece,art by WLOP ### out of frame,lowres, text, error, cropped, bad quality, jpeg artifacts, signature, watermark, deformed, ugly, unsightly",
@@ -77,15 +86,24 @@
     },
     "christmas church": {
         "prompt": "{p} next to a church with christmas lights, snowy weather, village on side of mountain, swiss alps, pixar render, unreal 5, uhd, 8k, landscape, panorama",
-        "model": "stable_diffusion"
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "log cabin": {
         "prompt": "concept art oil painting of a {p} next to a christmas log cabin by a river, extremely detailed, brush hard, fantasy by jama jurabaev, Paul Lehr, masterpiece, award winning, trending on artstation",
-        "model": "stable_diffusion"
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "prehistoric winter": {
-        "prompt": "{p}, epic iced snow landscape battles in prehistory, vasteness, Albert Bierstadt, valleys, luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown mountains ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed",
-        "model": "stable_diffusion"
+        "prompt": "epic {p} iced snow landscape battles in prehistory, vasteness, Albert Bierstadt, valleys, luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown mountains ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed",
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
     },
     "warrior fairy": {
         "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW",
