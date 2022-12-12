@@ -309,13 +309,17 @@
         "prompt": "{p}, ChromaV5 award winning photography, extremely detailed, artstation, 8 k, incredible art",
         "model": "ChromaV5"
     },
-    "kurzgesagtish": {
+    "kurzgesagt": {
         "prompt": "{p}, illustration style kurzgesagtish",
         "model": "Kurzgesagtish"
     },
     "squishmallow": {
         "prompt": "{p}, Squishmallow",
         "model": "Squishmallow Diffusion"
+    },
+    "dreamlike": {
+        "prompt": "{p}, dreamlikeart",
+        "model": "Dreamlike Diffusion"
     },
     "appicon": {
         "prompt": "{p}, IconsMi",
