@@ -96,6 +96,14 @@
         "eimis",
         "dawgsmix"
     ],
+    "anime_raw": [
+        "anything_raw",
+        "waifu_raw",
+        "trinart_raw",
+        "poison_raw",
+        "eimis_raw",
+        "dawgsmix_raw"
+    ],
     "landscapes": [
         "16bit scene",
         "vectorartz"

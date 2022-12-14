@@ -113,28 +113,56 @@
         "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
         "model": "Anything Diffusion"
     },
+    "anything_raw": {
+        "prompt": "{p}{np}",
+        "model": "Anything Diffusion"
+    },
     "waifu": {
         "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
+        "model": "waifu_diffusion"
+    },
+    "waifu_raw": {
+        "prompt": "{p}{np}",
         "model": "waifu_diffusion"
     },
     "trinart": {
         "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
         "model": "trinart"
     },
+    "trinart_raw": {
+        "prompt": "{p}{np}",
+        "model": "trinart"
+    },
     "hentai": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
+        "model": "Hentai Diffusion"
+    },
+    "hentai_raw": {
+        "prompt": "{p}{np}",
         "model": "Hentai Diffusion"
     },
     "poison": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
         "model": "Poison"
     },
+    "poison_raw": {
+        "prompt": "{p}{np}",
+        "model": "Poison"
+    },
     "eimis": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
         "model": "Eimis Anime Diffusion"
     },
+    "eimis_raw": {
+        "prompt": "{p}{np}",
+        "model": "Eimis Anime Diffusion"
+    },
     "dawgsmix": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
+        "model": "Dawgsmix"
+    },
+    "dawgsmix_raw": {
+        "prompt": "{p}{np}",
         "model": "Dawgsmix"
     },
     "furry": {
