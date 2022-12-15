@@ -349,6 +349,31 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "Dreamlike Diffusion"
     },
+    "analog": {
+        "prompt": "{p}, analog style{np}",
+        "model": "Analog Diffusion"
+    },
+    "simpsons":
+     {
+        "prompt": "{p}, asim style{np}",
+        "model": "Asim Simpsons"
+    },
+    "funko": {
+        "prompt": "{p}, funko style{np}",
+        "model": "Funko Diffusion"
+    },
+    "dublex": {
+        "prompt": "{p}, dublex{np}",
+        "model": "Double Exposure Diffusion"
+    },
+    "balloon": {
+        "prompt": "{p}, BalloonArt{np}",
+        "model": "Balloon Art"
+    },
+    "future": {
+        "prompt": "{p}, future style{np}",
+        "model": "Future Diffusion"
+    },
     "appicon": {
         "prompt": "{p}, IconsMi{np}",
         "model": "App Icon Diffusion"
