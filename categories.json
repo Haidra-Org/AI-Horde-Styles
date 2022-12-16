@@ -78,7 +78,7 @@
         "mtg",
         "knollingcase",
         "paintart",
-        "rpg",
+        "rpg_portrait",
         "wavyfusion",
         "papercutcraft",
         "papercut",
@@ -98,7 +98,7 @@
         "dark fantasy",
         "elden Rring",
         "mtg",
-        "rpg"
+        "rpg_portrait"
     ],
     "anime": [
         "ranma",
@@ -165,7 +165,7 @@
         "chroma",
         "inkpunk",
         "dublex",
-        "rpg"
+        "rpg_portrait"
     ],
     "paper": [
         "papercutcraft",
