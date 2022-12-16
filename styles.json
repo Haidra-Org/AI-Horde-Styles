@@ -338,8 +338,8 @@
         "model": "ChromaV5"
     },
     "kurzgesagt": {
-        "prompt": "{p}, illustration style kurzgesagtish{np}",
-        "model": "Kurzgesagtish"
+        "prompt": "{p}, kurzgesagt style{np}",
+        "model": "Kurzgesagt"
     },
     "squishmallow": {
         "prompt": "{p}, Squishmallow{np}",
