@@ -339,7 +339,7 @@
     },
     "kurzgesagt": {
         "prompt": "{p}, kurzgesagt style{np}",
-        "model": "Kurzgesagt"
+        "model": "kurzgesagt"
     },
     "squishmallow": {
         "prompt": "{p}, Squishmallow{np}",
