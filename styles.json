@@ -379,9 +379,7 @@
     },
     "future": {
         "prompt": "{p}, future style{np}",
-        "model": "Future Diffusion",
-        "width": 768,
-        "height": 768
+        "model": "Future Diffusion"
     },
     "appicon": {
         "prompt": "{p}, IconsMi{np}",
