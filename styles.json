@@ -312,7 +312,7 @@
         "prompt": "{p}, nvinkpunk{np}",
         "model": "Inkpunk Diffusion"
     },
-    "inkpunk plus": {
+    "inkpunk+": {
         "prompt": "{p}, insanely detailed and intricate, hyper maximalist, elegant, hyper realistic, super detailed, 8K, vivid colors, sunrise, open sky, ultra-realistic, nature photography, photographic rendering, realistic textures, color dynamic, octane render, cinematic lighting, enhance, soft light beam, perfect face, rule of thirds, nvinkpunk{np}",
         "model": "Inkpunk Diffusion"
     },
