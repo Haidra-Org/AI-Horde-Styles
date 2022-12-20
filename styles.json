@@ -164,6 +164,14 @@
         "prompt": "{p}{np}",
         "model": "Eimis Anime Diffusion"
     },
+    "acertainthing": {
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
+        "model": "ACertainThing"
+    },
+    "acertainthing_raw": {
+        "prompt": "{p}{np}",
+        "model": "ACertainThing"
+    },
     "dawgsmix": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
         "model": "Dawgsmix"
@@ -175,6 +183,14 @@
     "furry": {
         "prompt": "trending on artstation, uploaded to e621, highly detailed fullbody of a fully clothed solo anthro {p}, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, (three hands, three feet, three arms, three legs, text bubble,no pupils),simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, multi balls, multi penis, floating penis,penis in chest,pussy in chest, dialogue, text, feral, {np}",
         "model": "Yiffy"
+    },
+    "seekart": {
+        "prompt": "{p}{np}",
+        "model": "Seek.art MEGA"
+    },
+    "hassanblend": {
+        "prompt": "{p}{np}",
+        "model": "Hassanblend"
     },
     "rpg portrait": {
         "prompt": "{p}{np}",
@@ -384,6 +400,14 @@
     "future": {
         "prompt": "{p}, future style{np}",
         "model": "Future Diffusion"
+    },
+    "valorant": {
+        "prompt": "{p}, valorant style{np}",
+        "model": "Valorant Diffusion"
+    },
+    "gta5": {
+        "prompt": "{p}, gtav style{np}",
+        "model": "GTA5 Artwork Diffusion"
     },
     "appicon": {
         "prompt": "{p}, IconsMi{np}",

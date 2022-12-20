@@ -1,12 +1,10 @@
 {
     "new": [
-        "dreamlike",
-        "dublex",
-        "funko",
-        "simpsons",
-        "analog",
-        "balloon",
-        "future"
+        "hassanblend",
+        "acertainthing",
+        "gta5",
+        "seekart",
+        "valorant"
     ],
     "featured": [
         "frozen village",
@@ -91,7 +89,11 @@
         "funko",
         "balloon",
         "future",
-        "dreamlike"
+        "dreamlike",
+        "seekart",
+        "gta5",
+        "acertainthing",
+        "valorant"
     ],
     "fantasy": [
         "high fantasy",
@@ -101,6 +103,7 @@
         "rpg_portrait"
     ],
     "anime": [
+        "acertainthing",
         "ranma",
         "ghibli",
         "cyberpunk anime",
@@ -112,6 +115,7 @@
         "dawgsmix"
     ],
     "anime_raw": [
+        "acertainthing_raw",
         "anything_raw",
         "waifu_raw",
         "trinart_raw",
@@ -120,6 +124,7 @@
         "dawgsmix_raw"
     ],
     "landscapes": [
+        "acertainthing",
         "16bit scene",
         "vectorartz"
     ],
@@ -131,6 +136,7 @@
         "future"
     ],
     "comic": [
+        "gta5",
         "archer",
         "classic animation",
         "comic mashup",
@@ -147,7 +153,9 @@
         "19th century painting",
         "van gogh",
         "kurzgesagt",
-        "dreamlike"
+        "dreamlike",
+        "seekart",
+        "valorant"
     ],
     "reshape": [
         "knollingcase",
@@ -160,6 +168,7 @@
         "papercut"
     ],
     "portrait": [
+        "hassanblend",
         "samdoesarts",
         "bubblydubbly",
         "chroma",
