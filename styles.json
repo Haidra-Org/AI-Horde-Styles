@@ -180,8 +180,20 @@
         "prompt": "{p}{np}",
         "model": "Dawgsmix"
     },
+    "scalie": {
+        "prompt": "e621, highly detailed fullbody of a fully clothed solo scalie {p}, detailed scales, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, naked, dialogue, text, feral, {np}",
+        "model": "Yiffy"
+    },
     "furry": {
-        "prompt": "trending on artstation, uploaded to e621, highly detailed fullbody of a fully clothed solo anthro {p}, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, (three hands, three feet, three arms, three legs, text bubble,no pupils),simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, multi balls, multi penis, floating penis,penis in chest,pussy in chest, dialogue, text, feral, {np}",
+        "prompt": "e621, highly detailed fullbody of a fully clothed solo anthro {p}, detailed fluffy fur, fluffy tail, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, naked, dialogue, text, feral, {np}",
+        "model": "Yiffy"
+    },
+    "impasto furry": {
+        "prompt": "{p}anthro, female, detailed fluffy fur, impasto impressionism, by Leonid Afremov , Gil Elvgren, Sophie Anderson, extreme detail, detailed pupils, shining fur, pattern, hair highlight, transparent hair, fur###deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, genitals {np}",
+        "model": "Yiffy"
+    },
+    "yiffy": {
+        "prompt": "{p}{np}",
         "model": "Yiffy"
     },
     "seekart": {
