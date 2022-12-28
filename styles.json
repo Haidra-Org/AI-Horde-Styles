@@ -220,7 +220,7 @@
         "prompt": "{p}, archer style{np}",
         "model": "Nitro Diffusion"
     },
-    "elden Rring": {
+    "elden ring": {
         "prompt": "{p}, elden ring style{np}",
         "model": "Elden Ring Diffusion"
     },
