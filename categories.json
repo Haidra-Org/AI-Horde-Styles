@@ -93,7 +93,13 @@
         "seekart",
         "gta5",
         "acertainthing",
-        "valorant"
+        "valorant",
+        "space",
+        "microscopic",
+        "modern art",
+        "supermarionation",
+        "dnd",
+        "dnd item"
     ],
     "fantasy": [
         "high fantasy",
@@ -126,12 +132,15 @@
         "trinart_raw",
         "poison_raw",
         "eimis_raw",
-        "dawgsmix_raw"
+        "dawgsmix_raw",
+        "trinart_character_raw"
     ],
     "landscapes": [
         "acertainthing",
         "16bit scene",
-        "vectorartz"
+        "vectorartz",
+        "background illustration",
+        "eternos"
     ],
     "3danimation": [
         "arcane",
@@ -159,7 +168,8 @@
         "van gogh",
         "kurzgesagt",
         "dreamlike",
-        "valorant"
+        "valorant",
+        "darkest"
     ],
     "reshape": [
         "knollingcase",
@@ -169,7 +179,8 @@
         "papercutcraft",
         "funko",
         "balloon",
-        "papercut"
+        "papercut",
+        "smoke"
     ],
     "portrait": [
         "hassanblend",
@@ -178,7 +189,11 @@
         "chroma",
         "inkpunk+",
         "dublex",
-        "rpg portrait"
+        "rpg portrait",
+        "dreamlike photoreal",
+        "portraitplus",
+        "dark victorian",
+        "vintedois"
     ],
     "paper": [
         "papercutcraft",

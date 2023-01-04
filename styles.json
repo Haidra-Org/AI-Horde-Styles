@@ -424,5 +424,65 @@
     "appicon": {
         "prompt": "{p}, IconsMi{np}",
         "model": "App Icon Diffusion"
+    },
+    "space": {
+        "prompt": "{p}, jwst{np}",
+        "model": "JWST Deep Space Diffusion"
+    },
+    "dnd": {
+        "prompt": "{p}{np}",
+        "model": "Dungeons and Diffusion"
+    },
+    "microscopic": {
+        "prompt": "{p}, microscopic{np}",
+        "model": "Microscopic"
+    },
+    "trinart_character_raw": {
+        "prompt": "{p}{np}",
+        "model": "Trinart Characters"
+    },
+    "smoke": {
+        "prompt": "{p}, ssmoky{np}",
+        "model": "Smoke Diffusion"
+    },
+    "supermarionation": {
+        "prompt": "{p}, supermarionation{np}",
+        "model": "Supermarionation"
+    },
+    "dreamlike photoreal": {
+        "prompt": "{p}{np}",
+        "model": "Dreamlike Photoreal"
+    },
+    "portraitplus": {
+        "prompt": "{p}, portrait+ style{np}",
+        "model": "PortraitPlus"
+    },
+    "vintedois": {
+        "prompt": "{p}, estilovintedois{np}",
+        "model": "Vintedois Diffusion"
+    },
+    "darkest": {
+        "prompt": "{p}, in the artstyle of dd{np}",
+        "model": "Darkest Diffusion"
+    },
+    "eternos": {
+        "prompt": "{p}, romerorzeternos{np}",
+        "model": "Eternos"
+    },
+    "background illustration": {
+        "prompt": "{p}, sjh style{np}",
+        "model": "Min Illust Background"
+    },
+    "dark victorian": {
+        "prompt": "{p}, darkvictorian artstyle{np}",
+        "model": "Dark Victorian Diffusion"
+    },
+    "dnd item": {
+        "prompt": "{p}, dnditem{np}",
+        "model": "DnD Item"
+    },
+    "modern art": {
+        "prompt": "{p}, modernartst{np}",
+        "model": "ModernArt Diffusion"
     }
 }
