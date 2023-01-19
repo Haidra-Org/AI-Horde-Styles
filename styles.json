@@ -484,5 +484,93 @@
     "modern art": {
         "prompt": "{p}, modernartst{np}",
         "model": "ModernArt Diffusion"
+    },
+    "hasdx": {
+        "prompt": "{p}{np}",
+        "model": "HASDX"
+    },
+    "protogen": {
+        "prompt": "{p}{np}",
+        "model": "ProtoGen"
+    },
+    "3dkx": {
+        "prompt": "{p}{np}",
+        "model": "3DKX"
+    },
+    "moedel": {
+        "prompt": "{p}{np}",
+        "model": "Moedel"
+    },
+    "dreamlikesam": {
+        "prompt": "{p}, samdoesart{np}",
+        "model": "DreamLikeSamKuvshinov"
+    },
+    "dreamlikekuvshinov": {
+        "prompt": "{p}, Kuvshinov{np}",
+        "model": "DreamLikeSamKuvshinov"
+    },
+    "dreamlikeart": {
+        "prompt": "{p}, dreamlikeart{np}",
+        "model": "DreamLikeSamKuvshinov"
+    },
+    "sygil-dev": {
+        "prompt": "{p}{np}",
+        "model": "Sygil-Dev Diffusion"
+    },
+    "moistmix": {
+        "prompt": "{p}{np}",
+        "model": "MoistMix"
+    },
+    "healys anime": {
+        "prompt": "{p}{np}",
+        "model": "Healy's Anime Blend"
+    },
+    "lucid mix": {
+        "prompt": "{p}{np}",
+        "model": "Elldreth's Lucid Mix"
+    },
+    "sci-fi": {
+        "prompt": "{p}{np}",
+        "model": "Sci-Fi Diffusion"
+    },
+    "ultraskin": {
+        "prompt": "{p}, ultraskin{np}",
+        "model": "Ultraskin"
+    },
+    "sonic": {
+        "prompt": "{p}, mobian{np}",
+        "model": "Sonic Diffusion"
+    },
+    "ppp": {
+        "prompt": "{p}{np}",
+        "model": "PPP"
+    },
+    "anygen": {
+        "prompt": "{p}{np}",
+        "model": "Anygen"
+    },
+    "sci-fi protogen": {
+        "prompt": "{p}{np}",
+        "model": "Protogen Infinity"
+    },
+    "duchaiten": {
+        "prompt": "{p}{np}",
+        "model": "DucHaiten"
+    },
+    "dreamshaper": {
+        "prompt": "{p}{np}",
+        "model": "Dreamshaper"
+    },
+    "zelda botw": {
+        "prompt": "{p}, botw style{np}",
+        "model": "Zelda BOTW"
+    },
+    "marvel": {
+        "prompt": "{p}, whatif style{np}",
+        "model": "Marvel Diffusion"
+    },
+    "t-shirt": {
+        "prompt": "{p}, as a t-shirt logo in the style of <MAGIFACTORY> art{np}",
+        "model": "T-Shirt Diffusion"
     }
 }
