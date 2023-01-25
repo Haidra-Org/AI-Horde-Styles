@@ -141,7 +141,7 @@
         "model": "trinart"
     },
     "hentai": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
         "model": "Hentai Diffusion"
     },
     "hentai_raw": {
@@ -149,7 +149,7 @@
         "model": "Hentai Diffusion"
     },
     "poison": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
         "model": "Poison"
     },
     "poison_raw": {
@@ -157,7 +157,7 @@
         "model": "Poison"
     },
     "eimis": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, 1girl, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
         "model": "Eimis Anime Diffusion"
     },
     "eimis_raw": {
