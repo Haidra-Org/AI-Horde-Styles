@@ -565,4 +565,7 @@
         "prompt": "{p}, as a t-shirt logo in the style of <MAGIFACTORY> art{np}",
         "model": "T-Shirt Diffusion"
     }
+    "Hires Anything": {
+        "prompt": "{p},ultra-detailed, masterpiece, absurdres, intricate, 8k, (high detail:1.1), detailed background,extremely detailed,{np}",
+        "model": "Anything Diffusion"
 }
