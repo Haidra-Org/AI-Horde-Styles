@@ -564,5 +564,12 @@
     "t-shirt": {
         "prompt": "{p}, as a t-shirt logo in the style of <MAGIFACTORY> art{np}",
         "model": "T-Shirt Diffusion"
-    }
+    },
+    "Hires Anything": {
+        "prompt": "{p},ultra-detailed, masterpiece, absurdres, intricate, 8k, (high detail:1.1), detailed background,extremely detailed,{np}",
+        "model": "Anything Diffusion"
+    },
+    "chibi ": {
+        "prompt": "{p},korean, mustard colored cardigan, school uniform, sharp lines, sharp outlines, sticker, action lines, chibi{np}cropped, out of frame, bad anatomy, bad hands",
+        "model": "Anything Diffusion"
 }
