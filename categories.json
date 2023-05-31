@@ -1,39 +1,23 @@
 {
     "new": [
-        "hasdx",
-        "protogen",
-        "3dkx",
-        "model",
-        "dreamlikesam",
-        "dreamlikekuvshinov",
-        "sygil",
-        "moistmix",
-        "healys anime" ,
-        "lucid mix",
-        "sci-fi",
-        "ultraskin",
-        "sonic",
-        "ppp",
-        "anygen",
-        "sci-fi protogen",
-        "duchaiten",
-        "dreamshaper",
-        "zelda botw",
-        "marvel",
-        "t-shirt"
+        "summer 2022"
     ],
     "featured": [
-        "frozen village",
-        "culdesac",
-        "snowing",
-        "wintersun temple",
-        "fantasy snowstorm",
-        "christmas church",
-        "log cabin",
-        "prehistoric winter",
-        "warrior fairy"
+        "summer 2022"
+    ],
+    "summer": [
+        "summer 2023"
+    ],
+    "summer 2023": [
+        "perfect summer",
+        "vintage postcard",
+        "sunny day",
+        "golden light"
     ],
     "halloween": [
+        "halloween 2022"
+    ],
+    "halloween 2022": [
         "terror ink",
         "nightmare",
         "abandoned",
@@ -44,6 +28,9 @@
         "dark fantasy"
     ],
     "winter": [
+        "winter 2022"
+    ],
+    "winter 2022": [
         "frozen village",
         "culdesac",
         "snowing",

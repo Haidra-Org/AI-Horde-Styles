@@ -10,6 +10,27 @@
         "width": 768,
         "height": 768
     },
+    "perfect summer": {
+        "prompt": "digital art, cg painting, (medium long shot:1.2), hyper detailed, volumetric lighting, godrays, realistic, photorealistic render, golden hour, sun-drenched panorama, lush tropical colors, subtle shading, {p}, beautiful face, wide glossy eyes, ultra detailed, masterpiece, high resolution illustration, 4k, centered composition###nsfw, lowres, text, error, cropped, out of frame, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, out of focus, censorship, ugly, black and white, monochrome, artist name, signature, multiple views, power lines{np}",
+        "model": "Perfect World",
+        "steps": 50,
+        "cfg_scale": 9
+    },
+    "vintage postcard": {
+        "prompt": "vintage tourism postcard, portraying (giant:0.99) {p} in random pose and enjoying fun outdoor activities, at urban amusement park, in the year 1900. (closeup shot), detailed, watercolor and sharp pencil, printed on weathered paper with thin border. (ice cream, fried foods, beachside, Coney Island:0.9)###out of frame, cut off, ugly, blurry, deformed hands, deformed face, poorly drawn face, disfigured, low quality, mutilated, mangled, winter, far away,{np}",
+        "model": "Dreamshaper",
+        "width": 640,
+        "steps": 30,
+        "cfg_scale": 10
+    },
+    "sunny day": {
+        "prompt": "studio ghibli, Joaquín Sorolla, realistic 90s anime illustration of {p}, clear sunny day, warm tones and shades, variations in tone and texture, harsh shadows, harsh lighting, pastel colors, heatwaves in air{np}",
+        "model": "Realistic Vision"
+    },
+    "golden light": {
+        "prompt": "A highres photo of {p}, summer vibes, warm light, golden tint{np}",
+        "model": "Deliberate"
+    },
     "backstage": {
         "prompt": "behind the scenes footage from the set of {p}, movie set, breakdown, dramatic lighting, off centered focus, clear wide shot, dreamlikeart###blurry, distorted, ugly faces,{np}",
         "model": "Dreamlike Diffusion"
