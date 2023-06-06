@@ -10,6 +10,375 @@
         "width": 768,
         "height": 768
     },
+    "piratepunk": {
+        "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "45892"}
+        ]
+    },
+    "coalppunk": {
+        "prompt": "{p}, coalpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "84753"}
+        ]
+    },
+    "alchemypunk": {
+        "prompt": "{p}, alchemypunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "78766"}
+        ]
+    },
+    "gotchicpunk": {
+        "prompt": "{p}, gothicpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "78695"}
+        ]
+    },
+    "witchpunk": {
+        "prompt": "{p}, WitchcraftPunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "78280"}
+        ]
+    },
+    "colorpunk": {
+        "prompt": "{p}, PunkPunkAI, colorful###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "78060"}
+        ]
+    },
+    "bronzepunk": {
+        "prompt": "{p}, bronzepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "77293"}
+        ]
+    },
+    "neonpunk": {
+        "prompt": "{p}, CyberpunkAI, neon###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "77121"}
+        ]
+    },
+    "kazakpunk": {
+        "prompt": "{p}, kazakpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "76737"}
+        ]
+    },
+    "grecopunk": {
+        "prompt": "{p}, grecopunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "76190"}
+        ]
+    },
+    "romanpunk": {
+        "prompt": "{p}, romapunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "76190"}
+        ]
+    },
+    "sovietpunk": {
+        "prompt": "{p}, sovietpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "75709"}
+        ]
+    },
+    "arabiannightspunk": {
+        "prompt": "{p}, 1001ArabianNights###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "69315"}
+        ]
+    },
+    "steampunk": {
+        "prompt": "{p}, SteampunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "59338"}
+        ]
+    },
+    "cogpunk": {
+        "prompt": "{p}, CogPunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "59338"}
+        ]
+    },
+    "victorianpunk": {
+        "prompt": "{p}, VictorianPunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "84250"}
+        ]
+    },
+    "biopunk": {
+        "prompt": "{p}, BiopunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "80375"}
+        ]
+    },
+    "mahabharatapunk": {
+        "prompt": "{p}, MahabharataPunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "71478"}
+        ]
+    },
+    "javapunk": {
+        "prompt": "{p}, javapunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "72415"}
+        ]
+    },
+    "balipunk": {
+        "prompt": "{p}, balipunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "72347"}
+        ]
+    },
+    "dieselpunk": {
+        "prompt": "{p}, dieselpunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "64676"}
+        ]
+    },
+    "totempunk": {
+        "prompt": "{p}, TotempunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "71819"}
+        ]
+    },
+    "samuraipunk": {
+        "prompt": "{p}, SamuraiPunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "69108"}
+        ]
+    },
+    "zulupunk": {
+        "prompt": "{p}, zulupunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "65725"}
+        ]
+    },
+    "teslapunk": {
+        "prompt": "{p}, teslapunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "64955"}
+        ]
+    },
+    "valvepunk": {
+        "prompt": "{p}, valvepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "64955"}
+        ]
+    },
+    "infernalpunk": {
+        "prompt": "{p}, 1nf3rnalAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "62585"}
+        ]
+    },
+    "solarpunk": {
+        "prompt": "{p}, solarpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "43944"}
+        ]
+    },
+    "stonepunk": {
+        "prompt": "{p}, stonepunkAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "51539"}
+        ]
+    },
+    "gempunk": {
+        "prompt": "{p}, GemstoneAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "49374"}
+        ]
+    },
+    "horrorpunk": {
+        "prompt": "{p}, ManyEyedHorrorAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "47489"}
+        ]
+    },
+    "bonepunk": {
+        "prompt": "{p}, BoneyardAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "48356"}
+        ]
+    },
+    "oldegyptpunk": {
+        "prompt": "{p}, OldEgyptAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "43229"}
+        ]
+    },
+    "vikingpunk": {
+        "prompt": "{p}, vikingpunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "41364"}
+        ]
+    },
+    "gaslamppunk": {
+        "prompt": "{p}, GasLampFantasyAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "71335"}
+        ]
+    },
+    "atompunk": {
+        "prompt": "{p}, 1970retrofuturism###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "64235"}
+        ]
+    },
+    "gothpunk": {
+        "prompt": "{p}, PastelGothAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "75265"}
+        ]
+    },
+    "circuitpunk": {
+        "prompt": "{p}, CircuitBoardAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "58410"}
+        ]
+    },
+    "nightmarepunk": {
+        "prompt": "{p}, NightmarishAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "56336"}
+        ]
+    },
+    "crystalpunk": {
+        "prompt": "{p}, crystallineAI###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "48859"}
+        ]
+    },
+    "fantasypunk": {
+        "prompt": "{p}, fairytaleai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "RCNZ Gorilla With A Brick",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "42260"}
+        ]
+    },
     "perfect summer": {
         "prompt": "digital art, cg painting, (medium long shot:1.2), hyper detailed, volumetric lighting, godrays, realistic, photorealistic render, golden hour, sun-drenched panorama, lush tropical colors, subtle shading, {p}, beautiful face, wide glossy eyes, ultra detailed, masterpiece, high resolution illustration, 4k, centered composition###nsfw, lowres, text, error, cropped, out of frame, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, out of focus, censorship, ugly, black and white, monochrome, artist name, signature, multiple views, power lines{np}",
         "model": "Perfect World",
