@@ -10,7 +10,7 @@
         "width": 768,
         "height": 768
     },
-    "/r/piracy": {
+    "rpiracy": {
         "prompt": "8k resolution, splash art, photorealistic, digital painting, a portait of a (sexy:1.2) male pirate (John Oliver:1.4) {p}, glasses, global illumination, nudity, hot, splash art, art by artgerm and paul cadmus, and viktoria gavrilenko, piratepunkai###{np}woman, beard, fully dressed",
         "model": "Deliberate",
         "steps": 43,
