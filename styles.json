@@ -11,14 +11,11 @@
         "height": 768
     },
     "rpiracy": {
-        "prompt": "Masterpiece, splash art, digital painting, a portait of a sexy male pirate (John Oliver:1.3) {p}, glasses glasses, global illumination, nudity, hot, art by artgerm and paul cadmus, and viktoria gavrilenko, piratepunkai###{np}woman, beard, fully dressed, blurry, bad drawing, double head, blurry, ugly, deformed, malformed, lowres, mutant, mutated, disfigured, compressed, noise, artifacts, dithering, simple, watermark, text, font, signage, collage, pixel",
-        "model": "Deliberate",
+        "prompt": "Masterpiece, splash art, digital painting, a full body shot of a sexy male pirate (John Oliver:1.3) in pirate captain clothes {p}, glasses, global illumination, hot, art by artgerm and paul cadmus, and viktoria gavrilenko###{np}woman, fully dressed, blurry, bad drawing, double head, blurry, ugly, deformed, malformed, lowres, mutant, mutated, disfigured, compressed, noise, artifacts, dithering, simple, watermark, text, font, signage, collage, pixel",
+        "model": "Dreamshaper",
         "sampler_name": "k_dpm_adaptive",
         "steps": 43,
-        "cfg_scale": 8.5,
-        "loras": [
-            {"name": "45892"}
-        ]
+        "cfg_scale": 8.5
     },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
