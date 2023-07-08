@@ -1,7 +1,9 @@
 {
     "sdxl": {
         "prompt": "{p}{np}",
-        "model": "SDXL_beta::stability.ai#6901"
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1024,
+        "height": 1024
     },
     "raw": {
         "prompt": "{p}{np}",
