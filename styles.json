@@ -24,6 +24,50 @@
         "steps": 43,
         "cfg_scale": 8.5
     },
+    "glitchart": {
+        "prompt": "{p}, glitch art###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640
+        "loras": [
+            {"name": "71125"}
+        ]
+    },
+    "oldvhs": {
+        "prompt": "old vhs footage of {p}, distortion, glitch###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640
+        "loras": [
+            {"name": "103667"}
+        ]
+    },
+    "pixelsorting": {
+        "prompt": "pixel sorting,  {p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640
+        "loras": [
+            {"name": "57963"}
+        ]
+    },
+    "analogdistortion": {
+        "prompt": "AnalogDistortion, Analog Photo of {p}###{np}, worst quality, EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, Humpbacked, disfigured, mutation, mutated, extra limb, ugly, missing limb, floating limbs, disconnected limbs, malformed hands, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640
+        "loras": [
+            {"name": "104917"}
+        ]
+    },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
