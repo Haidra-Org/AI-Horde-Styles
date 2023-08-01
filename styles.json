@@ -104,6 +104,15 @@
             {"name": "51288", "model":0.7, "clip":1, "inject_trigger":"body horror, mutation, blood"}
         ]
     },
+    "ivorygoldai": {
+        "prompt": "{p}###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "62700", "inject_trigger":"any"}
+        ]
+    },
     "arielphorror": {
         "prompt": "{p}, arielpstyle, dark horror, creepy creepy-looking, painting, lovecraftian, grease, painting \(medium\), drawing, brush stroke###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Lyriel",
