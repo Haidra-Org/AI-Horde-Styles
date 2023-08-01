@@ -86,15 +86,6 @@
             {"name": "42468"}
         ]
     },
-    "manyeyedhorrorai": {
-        "prompt": "{p}, manyeyedhorrorai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
-        "model": "Dreamshaper",
-        "steps": 40,
-        "cfg_scale": 7.5,
-        "loras": [
-            {"name": "47489"}
-        ]
-    },
     "reelhorror": {
         "prompt": "portrait of {p}, reelhorror, blood, dripping, mutation, mouthface, trash, pov, pov scene, extra eyes###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
         "model": "Dreamshaper",
