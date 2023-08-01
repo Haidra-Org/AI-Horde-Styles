@@ -101,7 +101,17 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "loras": [
-            {"name": "51288", "model":0.7, "clip":1, "inject_trigger":"body horror, mutation, blood"}
+            {"name": "51288", "model":0.8, "clip":1, "inject_trigger":"body horror, mutation, blood"}
+        ]
+    },
+    "nastyhorrors": {
+        "prompt": "{p}, body horror, mutation, blood, reelhorror, dripping, trash###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "51288", "model":0.7, "clip":1, "inject_trigger":"body horror, mutation, blood"},
+            {"name": "67666", "model":0.7, "clip":1}
         ]
     },
     "ivorygoldai": {
