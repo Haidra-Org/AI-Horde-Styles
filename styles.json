@@ -33,6 +33,15 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "sdxlchibis": {
+        "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 45,
+        "cfg_scale": 8
+    },
     "sdxlstreetfashion": {
         "prompt": "high quality, intricate, (fashionable clothes, street fashion:1.2), a full-body portrait of a fashionable {p}, attractive, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render, sexy:0.7)",
         "model": "SDXL_beta::stability.ai#6901",
