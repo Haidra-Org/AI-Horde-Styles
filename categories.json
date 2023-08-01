@@ -65,6 +65,7 @@
         "gothicpunk"
     ],
     "horrors": [
+        "sdxlhorror",
         "bodyhorror",
         "gothichorrorai",
         "tentaclehorrorai",
@@ -295,6 +296,7 @@
     ],
     "other": [
         "sdxlcatgirlportrait",
+        "sdxlhorror",
         "sdxlstreetfashion"
     ]
 }
