@@ -48,7 +48,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "width": 512,
-        "height": 640
+        "height": 640,
         "loras": [
             {"name": "71125", "inject_trigger":"any"}
         ]
@@ -59,7 +59,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "width": 512,
-        "height": 640
+        "height": 640,
         "loras": [
             {"name": "103667"}
         ]
@@ -70,7 +70,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "width": 512,
-        "height": 640
+        "height": 640,
         "loras": [
             {"name": "57963", "inject_trigger":"any"}
         ]
@@ -81,7 +81,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "width": 512,
-        "height": 640
+        "height": 640,
         "loras": [
             {"name": "104917"}
         ]
@@ -142,7 +142,7 @@
         ]
     },
     "arielphorror": {
-        "prompt": "{p}, arielpstyle, dark horror, creepy creepy-looking, painting, lovecraftian, grease, painting \(medium\), drawing, brush stroke###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
+        "prompt": "{p}, arielpstyle, dark horror, creepy creepy-looking, painting, lovecraftian, grease, painting \\(medium\\), drawing, brush stroke###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Lyriel",
         "steps": 40,
         "cfg_scale": 7.5,
@@ -192,7 +192,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "loras": [
-            {"name": "95802, "inject_trigger":"any""}
+            {"name": "95802", "inject_trigger":"any"}
         ]
     },
     "mongolpunk": {
