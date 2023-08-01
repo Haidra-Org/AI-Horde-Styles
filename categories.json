@@ -12,6 +12,16 @@
         "summer 2023"
     ],
     "stylepunks": [
+        "lunarpunk",
+        "celtpunk",
+        "toxicpunk",
+        "mongolpunk",
+        "musketpunk",
+        "absinthepunk",
+        "cattlepunk",
+        "circuspunk",
+        "aetherpunk",
+        "potatopunk",
         "nightmarepunk",
         "crystalpunk",
         "fantasypunk",
@@ -51,7 +61,19 @@
         "piratepunk",
         "coalpunk",
         "alchemypunk",
+        "ivorygoldai",
         "gothicpunk"
+    ],
+    "horrors": [
+        "sdxlhorror",
+        "bodyhorror",
+        "gothichorrorai",
+        "tentaclehorrorai",
+        "horrorpunk",
+        "reelhorror",
+        "arielphorror",
+        "dreadhorror",
+        "nastyhorrors"
     ],
     "summer 2023": [
         "perfect summer",
@@ -262,8 +284,20 @@
         "duchaiten",
         "dreamshaper"
     ],
+    "glitch": [
+        "glitchart",
+        "oldvhs",
+        "analogdistortion",
+        "pixelsorting"
+    ],
     "paper": [
         "papercutcraft",
         "papercut"
+    ],
+    "other": [
+        "sdxlcatgirlportrait",
+        "sdxlhorror",
+        "sdxlchibis",
+        "sdxlstreetfashion"
     ]
 }

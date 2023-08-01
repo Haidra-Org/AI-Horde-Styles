@@ -24,6 +24,159 @@
         "steps": 43,
         "cfg_scale": 8.5
     },
+    "sdxlcatgirlportrait": {
+        "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 896,
+        "height": 1280,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "sdxlchibis": {
+        "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 45,
+        "cfg_scale": 8
+    },
+    "sdxlstreetfashion": {
+        "prompt": "high quality, intricate, (fashionable clothes, street fashion:1.2), a full-body portrait of a fashionable {p}, attractive, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render, sexy:0.7)",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 896,
+        "height": 1280,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "sdxlhorror": {
+        "prompt": "nighmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "glitchart": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640,
+        "loras": [
+            {"name": "71125", "inject_trigger":"any"}
+        ]
+    },
+    "oldvhs": {
+        "prompt": "old vhs footage of {p}, distortion, glitch###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640,
+        "loras": [
+            {"name": "103667"}
+        ]
+    },
+    "pixelsorting": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640,
+        "loras": [
+            {"name": "57963", "inject_trigger":"any"}
+        ]
+    },
+    "analogdistortion": {
+        "prompt": "AnalogDistortion, Analog Photo of {p}###{np}, worst quality, EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, Humpbacked, disfigured, mutation, mutated, extra limb, ugly, missing limb, floating limbs, disconnected limbs, malformed hands, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "width": 512,
+        "height": 640,
+        "loras": [
+            {"name": "104917"}
+        ]
+    },
+    "gothichorrorai": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "39760", "inject_trigger":"any"}
+        ]
+    },
+    "tentaclehorrorai": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "42468", "inject_trigger":"any"}
+        ]
+    },
+    "reelhorror": {
+        "prompt": "portrait of {p}, reelhorror, blood, dripping, mutation, mouthface, trash, pov, pov scene, extra eyes###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "67666"}
+        ]
+    },
+    "bodyhorror": {
+        "prompt": "{p}###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "51288", "model":0.8, "clip":1, "inject_trigger":"body horror, mutation, blood"}
+        ]
+    },
+    "nastyhorrors": {
+        "prompt": "{p}, body horror, mutation, blood, reelhorror, dripping, trash###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "51288", "model":0.7, "clip":1, "inject_trigger":"body horror, mutation, blood"},
+            {"name": "67666", "model":0.7, "clip":1}
+        ]
+    },
+    "ivorygoldai": {
+        "prompt": "{p}###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "62700", "inject_trigger":"any"}
+        ]
+    },
+    "arielphorror": {
+        "prompt": "{p}, arielpstyle, dark horror, creepy creepy-looking, painting, lovecraftian, grease, painting \\(medium\\), drawing, brush stroke###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Lyriel",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "39760"}
+        ]
+    },
+    "dreadhorror": {
+        "prompt": "{p}, Dread, horror, nightmare###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Deliberate",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "98011"}
+        ]
+    },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
@@ -31,6 +184,96 @@
         "cfg_scale": 7.5,
         "loras": [
             {"name": "45892"}
+        ]
+    },
+    "lunarpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "97136", "inject_trigger":"any"}
+        ]
+    },
+    "celtpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "92008", "inject_trigger":"any"}
+        ]
+    },
+    "toxicpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "95802", "inject_trigger":"any"}
+        ]
+    },
+    "mongolpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "85109", "inject_trigger":"any"}
+        ]
+    },
+    "musketpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "90543", "inject_trigger":"any"}
+        ]
+    },
+    "absinthepunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "89183", "inject_trigger":"any"}
+        ]
+    },
+    "cattlepunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "95828", "inject_trigger":"any"}
+        ]
+    },
+    "circuspunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "87884", "inject_trigger":"any"}
+        ]
+    },
+    "aetherpunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "85036", "inject_trigger":"any"}
+        ]
+    },
+    "potatopunk": {
+        "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 40,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "72231", "inject_trigger":"any"}
         ]
     },
     "coalpunk": {
