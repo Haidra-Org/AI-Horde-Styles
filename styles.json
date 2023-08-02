@@ -51,6 +51,15 @@
         "steps": 40,
         "cfg_scale": 7.5
     },
+    "pencilscribbles": {
+        "prompt": "`Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
     "sdxlchibis": {
         "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles",
         "model": "SDXL_beta::stability.ai#6901",
