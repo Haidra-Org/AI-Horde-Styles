@@ -42,6 +42,15 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "embroidery": {
+        "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
     "watercolorscenery": {
         "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d, {np}",
         "model": "SDXL_beta::stability.ai#6901",
