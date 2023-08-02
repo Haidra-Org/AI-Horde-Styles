@@ -33,6 +33,15 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "sovietpropaganda": {
+        "prompt": "USSR soviet propaganda poster, {p}###photorealistic, cute, modern,{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 768,
+        "height": 1152,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
     "sdxlchibis": {
         "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles",
         "model": "SDXL_beta::stability.ai#6901",
