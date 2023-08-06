@@ -66,6 +66,7 @@
     ],
     "horrors": [
         "bodyhorror",
+        "sdxlhorror",
         "gothichorrorai",
         "tentaclehorrorai",
         "horrorpunk",
@@ -293,9 +294,15 @@
         "papercutcraft",
         "papercut"
     ],
-    "other": [
+    "mediums": [
+        "watercolorscenery",
+        "pencilscribbles",
+        "broadsheetart",
+        "embroidery",
+        "sovietpropaganda",
+    ],
+    "stylish": [
         "sdxlcatgirlportrait",
-        "sdxlhorror",
         "sdxlchibis",
         "sdxlstreetfashion"
     ]
