@@ -2,7 +2,8 @@
     "new": [
         "mediums",
         "stylish",
-        "glitch"
+        "glitch",
+        "artstyles"
     ],
     "featured": [
         "sdxl"
@@ -293,14 +294,54 @@
         "papercutcraft",
         "papercut"
     ],
+    "sdxl-aspect-ratio": [
+        "sdxl-vertical",
+        "sdxl-portrait",
+        "sdxl-photo",
+        "sdxl-landscape",
+        "sdxl-widescreen",
+        "sdxl-cinematic"
+    ],
     "mediums": [
+        "floralceramic",
         "watercolorscenery",
         "pencilscribbles",
         "broadsheetart",
         "embroidery",
-        "sovietpropaganda"
+        "claymation",
+        "origami"
+    ],
+    "artstyles": [
+        "sdxlanime",
+        "isometric",
+        "manga",
+        "lowpoly",
+        "pixelart",
+        "vaporwave",
+        "goldenagecomics",
+        "neonnoir",
+        "sovietpropaganda",
+        "portraitphoto",
+        "schematic",
+        "animation",
+        "disney",
+        "pixar",
+        "lineart"
+    ],
+    "cards": [
+        "playingcard",
+        "pokemoncard",
+        "baseballcard",
+        "greetingcard",
+        "postcard",
+        "moderntarotcard",
+        "antiquetarotcard"
     ],
     "stylish": [
+        "space",
+        "building",
+        "animal",
+        "futurefashion",
         "sdxlcatgirlportrait",
         "sdxlchibis",
         "sdxlstreetfashion"
