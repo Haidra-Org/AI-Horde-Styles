@@ -97,7 +97,7 @@
         "cfg_scale": 8.5
     },
     "sdxlhorror": {
-        "prompt": "nighmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
+        "prompt": "nightmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 1024,
