@@ -1,0 +1,6 @@
+- add neon noir from twri
+- floralceramic, by humblemikey from [Stable Foundation](https://discord.com/channels/1002292111942635562/1108646783090958336/1143416401919479890), modified by Efreak
+- goldenagecomics, tarot cards, animation, baseballcard, disney, pixar, by efreak. other cards also by efreak (minimal prompts though 🤷)
+- portraitphoto, schematic, space, building, animal, futurefashion stolen from [Dalabad](https://github.com/Dalabad/stable-diffusion-prompt-templates)
+- vaporwave, claymation, origami, isometric, lowpoly, lineart, pixelart from https://aituts.com/sdxl-prompts/
+- anime from ?? and modified by efreak
