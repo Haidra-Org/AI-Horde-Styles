@@ -1386,7 +1386,7 @@
         "prompt": "{p}, IconsMi{np}",
         "model": "App Icon Diffusion"
     },
-    "space": {
+    "deep_space": {
         "prompt": "{p}, jwst{np}",
         "model": "JWST Deep Space Diffusion"
     },
