@@ -96,7 +96,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-frankgiger": {
+    "Birthday by Lisa Frank and HR Giger": {
         "prompt": "art by Lisa Frank and HR Giger, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
@@ -104,7 +104,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-frankmumford": {
+    "Birthday by Lisa Frank and Dan Mumford": {
         "prompt": "art by Lisa Frank and Dan Mumford, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -112,7 +112,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-mikejudge": {
+    "Birthday animated by Mike Judge": {
         "prompt": "animated by Mike Judge, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -120,7 +120,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-dreamworks": {
+    "Birthday Dreamworks animation": {
         "prompt": "in the style of dreamworks animation, (birthday theme:1.3), {p}###{np}, 2d drawing sketch",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -128,7 +128,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-gtav": {
+    "Birthday GTA-V style": {
         "prompt": "gta-v style, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -136,7 +136,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-anime": {
+    "Birthday anime": {
         "prompt": "(anime artwork:1.2), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3), {p}###{np}, 3d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -144,7 +144,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-millermucha": {
+    "Birthday by Frank Miller and Alphonse Mucha": {
         "prompt": "cover art by Frank Miller and Alphonse Mucha, (birthday theme:1.3), {p}###{np}, comic frames, panels, multiple",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -152,7 +152,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-markbrooks": {
+    "Birthday by Mark Brooks": {
         "prompt": "(cover art by Mark Brooks:1.1), (birthday theme:1.3), {p}###{np}, panels, multiple, multiple views, border, margin",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -160,7 +160,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-karolbak": {
+    "Birthday portrait by Karol Bak": {
         "prompt": "portrait by Karol Bak, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
@@ -168,7 +168,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-cdfandconstable": {
+    "Birthday oil painting by Caspar David Friedrich and John Constable": {
         "prompt": "(painting by Caspar David Friedrich and John Constable:1.1), (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -176,7 +176,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-katsuhikahokusai": {
+    "Birthday by Katsuhika Hokusai": {
         "prompt": "art by Katsushika Hokusai, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -184,7 +184,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-sebmckinnon": {
+    "Birthday creepy oil painting by Seb McKinnon": {
         "prompt": "creepy oil painting by Seb Mckinnon, (creepy birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -192,7 +192,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-killianeng": {
+    "Birthday abstract by Killian Eng": {
         "prompt": "(art by Killian Eng), (abstract birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -200,7 +200,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-annadittmann": {
+    "Birthday closeup portrait by Anna Dittmann": {
         "prompt": "(art by Anna Dittmann), (birthday theme:1.3), close-up portrait, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
@@ -208,7 +208,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-idtech5doom": {
+    "Birthday idtech 5 doom screenshot": {
         "prompt": "(idtech 5 doom screenshot), (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -216,7 +216,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-unrealengine": {
+    "Birthday rendered by Unreal Engine 5": {
         "prompt": "(unreal engine 5 render), (birthday theme:1.3), {p}###{np}, 2d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
@@ -224,7 +224,7 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
-    "bds-aarondraplin": {
+    "Birthday poster by Aaron Draplin": {
         "prompt": "(Birthday-themed:1.3) (poster by Aaron Draplin), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
