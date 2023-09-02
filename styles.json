@@ -248,6 +248,14 @@
         "steps": 43,
         "cfg_scale": 5.5
     },
+    "Birthday by Sophie Anderson, Guy Denning, and Lisa Frank": {
+        "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 5.5
+    },
     "bdcolordd": {
         "prompt": "happy birthday, colorful, in the style of t3xtn, {p}###{np}",
         "model": "Dreamshaper",
