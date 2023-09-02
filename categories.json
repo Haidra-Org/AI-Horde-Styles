@@ -4,9 +4,14 @@
         "mediums",
         "stylish",
         "glitch",
-        "artstyles"
+        "artstyles",
+        "cards",
+        "sdxl-bd",
+        "sd15-bd"
     ],
     "featured": [
+        "sdxl-bd",
+        "sd15-bd",
         "sdxl"
     ],
     "realism": [
@@ -375,5 +380,42 @@
         "sdxlcatgirlportrait",
         "sdxlchibis",
         "sdxlstreetfashion"
+    ],
+    "sdxl-bd": [
+        "bd1",
+        "bd2",
+        "bd3",
+        "bd4",
+        "bd5",
+        "bd6",
+        "bd7",
+        "bd8",
+        "bd9"
+    ],
+    "sd15-bd": [
+        "bdcolordd",
+        "bdcolor2",
+        "bdcmumford",
+        "bdrainbowpencilai",
+        "bdstainedglass"
+    ],
+    "sdxl-bd-artby": [
+        "bds1",
+        "bds2",
+        "bds3",
+        "bds4",
+        "bds5",
+        "bds6",
+        "bds7",
+        "bds8",
+        "bds9",
+        "bds10",
+        "bds11",
+        "bds12",
+        "bds13",
+        "bds14",
+        "bds15",
+        "bds16",
+        "bds17"
     ]
 }
