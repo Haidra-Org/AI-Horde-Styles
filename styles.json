@@ -235,9 +235,10 @@
     "bdcolordd": {
         "prompt": "happy birthday, colorful, in the style of t3xtn, {p}###{np}",
         "model": "Dreamshaper",
-        "width": 768,
-        "height": 640,
+        "width": 960,
+        "height": 768,
         "steps": 27,
+        "hires_fix": true,
         "cfg_scale": 9,
         "loras": [
             {"name": "85479", "model": 0.5},
@@ -249,9 +250,10 @@
     "bdcolor2": {
         "prompt": "happy birthday, colorful, {p}###{np}",
         "model": "Dreamshaper",
-        "width": 768,
-        "height": 640,
+        "width": 960,
+        "height": 768,
         "steps": 27,
+        "hires_fix": true,
         "cfg_scale": 7,
         "loras": [
             {"name": "42190", "model": 0.85},
@@ -261,9 +263,10 @@
     "bdcmumford": {
         "prompt": "happy birthday, colorful, by dan mumford, danmumford_soul3142, {p}###{np}",
         "model": "Dan Mumford Style",
-        "width": 640,
-        "height": 768,
+        "width": 768,
+        "height": 960,
         "steps": 27,
+        "hires_fix": true,
         "cfg_scale": 7,
         "loras": [
             {"name": "97822", "model": 0.3},
@@ -273,24 +276,26 @@
     "bdrainbowpencilai": {
         "prompt": "birthday party, colored pencil, RainbowPencilRockAI, {p}###{np}",
         "model": "Dreamshaper",
-        "width": 768,
-        "height": 640,
+        "width": 960,
+        "height": 768,
         "steps": 27,
+        "hires_fix": true,
         "cfg_scale": 7,
         "loras": [
-            {"name": "95930"},
+            {"name": "95930", "model": 0.6},
             {"name": "74653", "model": 0.2}
         ]
     },
     "bdstainedglass": {
         "prompt": "birthday party, stained glass, st41nedg {p}###{np}",
         "model": "Dreamshaper",
-        "width": 768,
-        "height": 640,
+        "width": 960,
+        "height": 768,
         "steps": 27,
+        "hires_fix": true,
         "cfg_scale": 7,
         "loras": [
-            {"name": "95930"},
+            {"name": "81489", "model": 0.6},
             {"name": "74653", "model": 0.2}
         ]
     },
