@@ -25,68 +25,68 @@
         "cfg_scale": 8.5
     },
     "bd1": {
-        "prompt": "happy birthday, (the words \"1 year\":1.7), cake with frosting, balloons, {p}###{np}",
+        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd2": {
-        "prompt": "happy birthday party, (the words \"stable horde\":1.7), colorful, a horse, {p}###{np}",
+        "prompt": "happy birthday party, (the words \"stable horde\":1.35), colorful, a horse, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd3": {
-        "prompt": "happy birthday, (the words \"1 year\":1.7), cake with frosting, balloons, a llama, {p}###{np}",
+        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons, a llama, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd4": {
-        "prompt": "(the words \"1 year\":1.7), a sloth eating cake at a rainforest-themed birthday party, {p}###bw, {np}",
+        "prompt": "(the words \"1 year\":1.35), a sloth eating cake at a rainforest-themed birthday party, {p}###bw, {np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd5": {
-        "prompt": "happy birthday, (the words \"stable horde\":1.7), prehistoric jungle, a dinosaur, {p}###{np}",
+        "prompt": "happy birthday, (the words \"stable horde\":1.35), prehistoric jungle, a dinosaur, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd6": {
-        "prompt": "happy birthday, (the words \"stable horde\":1.7), city park, ducklings, {p}###{np}",
+        "prompt": "happy birthday, (the words \"stable horde\":1.35), city park, ducklings, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd7": {
-        "prompt": "happy birthday party, (the words \"1 year\":1.7), colorful, a group of children at a birthday party, animated by Mike Judge, {p}###{np}",
+        "prompt": "happy birthday party, (the words \"1 year\":1.35), colorful, a group of children at a birthday party, animated by Mike Judge, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd8": {
-        "prompt": "happy birthday, (the words \"1 year\":1.7), cake with frosting, party, balloons, art by HR Giger, {p}###bw, {np}",
+        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, party, balloons, art by HR Giger, {p}###bw, {np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bd9": {
         "prompt": "Birthday-themed 150mm photo, {p}, powerful, spectral fog, photorealistic impasto technique, metallic sanguine, nocturnal infernal gradient, chiaroscuro lighting and aura of angru strength, detailed radiosity, rendered by Arnold Render, inspired by Mark Ryden Beeple and Dali###{np}",
@@ -94,143 +94,143 @@
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds1": {
-        "prompt": "(art by Lisa Frank and HR Giger, birthday theme:1.3), {p}###{np}",
+        "prompt": "art by Lisa Frank and HR Giger, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds2": {
-        "prompt": "(art by Lisa Frank and Dan Mumford, birthday theme:1.3), {p}###{np}",
+        "prompt": "art by Lisa Frank and Dan Mumford, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds3": {
-        "prompt": "(animated by Mike Judge, birthday theme:1.3), {p}###{np}",
+        "prompt": "animated by Mike Judge, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds4": {
-        "prompt": "(in the style of dreamworks animation, birthday theme:1.3), {p}###{np}, 2d drawing sketch",
+        "prompt": "in the style of dreamworks animation, (birthday theme:1.3), {p}###{np}, 2d drawing sketch",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds5": {
-        "prompt": "(gta-v style, birthday theme:1.3), {p}###{np}",
+        "prompt": "gta-v style, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds6": {
-        "prompt": "(anime artwork:1.3), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3), {p}###{np}, 3d",
+        "prompt": "(anime artwork:1.2), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3), {p}###{np}, 3d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds7": {
-        "prompt": "(art by Frank Miller and Alphonse Mucha, birthday theme:1.3), {p}###{np}",
+        "prompt": "cover art by Frank Miller and Alphonse Mucha, (birthday theme:1.3), {p}###{np}, comic frames, panels, multiple",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds8": {
-        "prompt": "(cover art by Mark Brooks, birthday theme:1.3), {p}###{np}, panels, multiple, multiple views, border, margin",
+        "prompt": "(cover art by Mark Brooks:1.1), (birthday theme:1.3), {p}###{np}, panels, multiple, multiple views, border, margin",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds9": {
-        "prompt": "(portrait by Karol Bak, birthday theme:1.3), {p}###{np}",
+        "prompt": "portrait by Karol Bak, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds10": {
-        "prompt": "(painting by Caspar David Friedrich and John Constable, birthday theme:1.3), {p}###{np}",
+        "prompt": "(painting by Caspar David Friedrich and John Constable:1.1), (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
-        "width": 896,
-        "height": 1152,
+        "width": 1152,
+        "height": 1896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds11": {
-        "prompt": "(art by Katsushika Hokusai, birthday theme:1.3), {p}###{np}",
+        "prompt": "art by Katsushika Hokusai, (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds12": {
-        "prompt": "(oil painting by Seb Mckinnon, creepy birthday theme:1.3), {p}###{np}",
+        "prompt": "creepy oil painting by Seb Mckinnon, (creepy birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds13": {
-        "prompt": "(art by Killian Eng, abstract birthday theme:1.3), {p}###{np}",
+        "prompt": "(art by Killian Eng), (abstract birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds14": {
-        "prompt": "(art by Anna Dittmann, birthday theme:1.3), close-up portrait, {p}###{np}",
+        "prompt": "(art by Anna Dittmann), (birthday theme:1.3), close-up portrait, {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds15": {
-        "prompt": "(idtech 5 doom screenshot, birthday theme:1.3), {p}###{np}",
+        "prompt": "(idtech 5 doom screenshot), (birthday theme:1.3), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds16": {
-        "prompt": "(unreal engine 5 render, birthday theme:1.3), {p}###{np}, 2d",
+        "prompt": "(unreal engine 5 render), (birthday theme:1.3), {p}###{np}, 2d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bds17": {
-        "prompt": "(Birthday-themed poster by Aaron Draplin:1.3), {p}###{np}",
+        "prompt": "(Birthday-themed:1.3) (poster by Aaron Draplin), {p}###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 6.5
+        "cfg_scale": 5.5
     },
     "bdcolordd": {
         "prompt": "happy birthday, colorful, in the style of t3xtn, {p}###{np}",
