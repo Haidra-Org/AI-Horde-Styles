@@ -27,8 +27,8 @@
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
-        "width": 768,
-        "height": 1344,
+        "width": 640,
+        "height": 1536,
         "steps": 50
     },
     "sdxl-portrait": {
