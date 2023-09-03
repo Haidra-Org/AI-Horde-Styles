@@ -1085,6 +1085,99 @@
         "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW, {np}",
         "model": "stable_diffusion"
     },
+    "cyberrealistic": {
+        "prompt": "{p}###{np}",
+        "model": "CyberRealistic",
+        "tis": [{"name": "77976", "inject_ti": "negprompt"}]
+    },
+    "deliberate": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate"
+    },
+    "majicmix realistic": {
+        "prompt": "{p}###{np}",
+        "model": "majixMIX Realistic"
+    },
+    "edge of realism": {
+        "prompt": "{p}###{np}",
+        "model": "Edge Of Realism"
+    },
+    "dreamlike photoreal": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamlike Photoreal"
+    },
+    "realistic vision": {
+        "prompt": "{p}###{np}",
+        "model": "Realistic Vision"
+    },
+    "neurogen": {
+        "prompt": "{p}###{np}",
+        "model": "Neurogen"
+    },
+    "illuminati": {
+        "prompt": "{p}###{np}",
+        "model": "Illuminati Diffusion"
+    },
+    "realbiter": {
+        "prompt": "{p}###{np}",
+        "model": "RealBiter"
+    },
+    "faetastic": {
+        "prompt": "{p}###{np}",
+        "model": "FaeTastic"
+    },
+    "moonmix fantasy": {
+        "prompt": "{p}###{np}",
+        "model": "MoonMix Fantasy"
+    },
+    "icbinp": {
+        "prompt": "{p}###{np}",
+        "model": "ICBINP - I Can't Believe It's Not Photography"
+    },
+    "meinamix": {
+        "prompt": "{p}###{np}",
+        "model": "MeinaMix"
+    },
+    "mistoon amethyst": {
+        "prompt": "{p}###{np}",
+        "model": "Mistoon Amethyst"
+    },
+    "galena redux": {
+        "prompt": "{p}###{np}",
+        "model": "Galena Redux"
+    },
+    "dark sushi": {
+        "prompt": "{p}###{np}",
+        "model": "Dark Sushi Mix"
+    },
+    "analog madness": {
+        "prompt": "{p}###{np}",
+        "model": "Analog Madness"
+    },
+    "bweshmix": {
+        "prompt": "{p}###{np}",
+        "model": "BweshMix"
+    },
+    "cetus-mix": {
+        "prompt": "{p}###{np}",
+        "model": "Cetus-Mix"
+    },
+    "realisian": {
+        "prompt": "{p}###{np}",
+        "model": "Realisian"
+    },
+    "reliberate": {
+        "prompt": "{p}###{np}",
+        "model": "Reliberate"
+    },
+    "toonyou": {
+        "prompt": "{p}###{np}",
+        "model": "ToonYou"
+    },
+    "western animation": {
+        "prompt": "{p}###{np}",
+        "model": "Western Animation Diffusion"
+    },
     "anything": {
         "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
         "model": "Anything Diffusion"

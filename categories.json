@@ -1,5 +1,6 @@
 {
     "new": [
+        "realism",
         "mediums",
         "stylish",
         "glitch",
@@ -7,6 +8,20 @@
     ],
     "featured": [
         "sdxl"
+    ],
+    "realism": [
+        "cyberrealistic",
+        "deliberate",
+        "majicmix realistic",
+        "edge of realism",
+        "dreamlike photoreal",
+        "realistic vision",
+        "neurogen",
+        "realbiter",
+        "icbinp",
+        "analog madness",
+        "realisian",
+        "reliberate"
     ],
     "summer": [
         "summer 2023"
@@ -181,10 +196,25 @@
         "hasdx",
         "sygil-dev"
     ],
+    "animation": [
+        "mistoon amethyst",
+        "toonyou",
+        "western animation"
+    ],
+    "stylized": [
+        "illuminati",
+        "faetastic",
+        "moonmix fantasy"
+    ],
     "anime": [
         "acertainthing",
         "ranma",
         "ghibli",
+        "meinamix",
+        "galena redux",
+        "dark sushi",
+        "bweshmix",
+        "cetus-mix",
         "cyberpunk anime",
         "anything",
         "waifu",
