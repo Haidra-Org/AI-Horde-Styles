@@ -382,6 +382,1687 @@
         "steps": 50,
         "cfg_scale": 7
     },
+    "egyptian riverside": {
+        "prompt": "{p}, at the riverside in egypt, reeds, pyramids in the background, (gold black brown green:0.7)###{np}, worst quality, low quality:1.4), bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "loras": [
+            {"name": "71125", "inject_trigger":"any"}
+        ],
+        "tis": [
+            {"name": "4157", "inject_ti": "prompt"},
+            {"name": "EasyNegative", "inject_ti": "negprompt", "strength":0.5}
+        ]
+    },
+    "hamunaptra": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4157", "inject_ti": "prompt"}
+        ]
+    },
+    "bad dream -neg": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "72437", "inject_ti": "negprompt"}
+        ]
+    },
+    "lessasian -neg": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "50755", "inject_ti": "negprompt"}
+        ]
+    },
+    "style-swirlmagic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "25829", "inject_ti": "prompt"}
+        ]
+    },
+    "atompunkti": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "26250", "inject_ti": "prompt"}
+        ]
+    },
+    "princess-style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "3485", "inject_ti": "prompt"}
+        ]
+    },
+    "neondiffusion": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6016", "inject_ti": "prompt"}
+        ]
+    },
+    "style-sylvamagic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7523", "inject_ti": "prompt"}
+        ]
+    },
+    "empire-style": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "2032", "inject_ti": "prompt"}
+        ]
+    },
+    "psycho style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "2289", "inject_ti": "prompt"}
+        ]
+    },
+    "bridal style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "14903", "inject_ti": "prompt"}
+        ]
+    },
+    "goblin style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 640,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4738", "inject_ti": "prompt"}
+        ]
+    },
+    "wednesday addams": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "8721", "inject_ti": "prompt"}
+        ]
+    },
+    "glass style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4415", "inject_ti": "prompt"}
+        ]
+    },
+    "style rust magic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "10764", "inject_ti": "prompt"}
+        ]
+    },
+    "clutter mechanical": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "103638", "inject_ti": "prompt"}
+        ]
+    },
+    "style nebula magic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6339", "inject_ti": "prompt"}
+        ]
+    },
+    "style paint magic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "18052", "inject_ti": "prompt"}
+        ]
+    },
+    "pirate portrait": {
+        "prompt": "Portrait of a pirate, {p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 894,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7655", "inject_ti": "prompt"}
+        ]
+    },
+    "flower style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7166", "inject_ti": "prompt"}
+        ]
+    },
+    "durer style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "514", "inject_ti": "prompt"}
+        ]
+    },
+    "pastel style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7170", "inject_ti": "prompt"}
+        ]
+    },
+    "old fashioned": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6543", "inject_ti": "prompt"}
+        ]
+    },
+    "flame surge style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7172", "inject_ti": "prompt"}
+        ]
+    },
+    "renaissance style": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4646", "inject_ti": "prompt"}
+        ]
+    },
+    "style-info": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5271", "inject_ti": "prompt"}
+        ]
+    },
+    "glorious style": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "2110", "inject_ti": "prompt"}
+        ]
+    },
+    "style swamp magic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "54966", "inject_ti": "prompt"}
+        ]
+    },
+    "widow style": {
+        "prompt": "{p}###{np}",
+        "model": "majicMIX Realistic",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "15393", "inject_ti": "prompt"}
+        ]
+    },
+    "wholesome grandpa": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7791", "inject_ti": "prompt", "strength":0.85}
+        ]
+    },
+    "wholesome granny": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7230", "inject_ti": "prompt", "strength": 0.85}
+        ]
+    },
+    "neeko style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4908", "inject_ti": "prompt"}
+        ]
+    },
+    "rfktr rootrex": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5786", "inject_ti": "prompt"}
+        ]
+    },
+    "sailor moon goth": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "103832", "inject_ti": "prompt", "strength":0.8}
+        ]
+    },
+    "was steampunk": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "18086", "inject_ti": "prompt"}
+        ]
+    },
+    "style gravity magic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "108174", "inject_ti": "prompt"}
+        ]
+    },
+    "memphis style - 80s graphic design": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7350", "inject_ti": "prompt"}
+        ]
+    },
+    "metropolis 1927 style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "25450", "inject_ti": "prompt"}
+        ]
+    },
+    "noir aesthetics": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "92131", "inject_ti": "prompt"}
+        ]
+    },
+    "south of the border style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "25749", "inject_ti": "prompt"}
+        ]
+    },
+    "vintage map": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "18410", "inject_ti": "prompt"}
+        ]
+    },
+    "kidbooks style": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "25464", "inject_ti": "prompt"}
+        ]
+    },
+    "jubbs lineart": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4179", "inject_ti": "prompt"}
+        ]
+    },
+    "colorful": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "11086", "inject_ti": "prompt"}
+        ]
+    },
+    "journal drawing": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5361", "inject_ti": "prompt"}
+        ]
+    },
+    "ukiyo-e style enhancer": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "13040", "inject_ti": "prompt"}
+        ]
+    },
+    "fairytale painting": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "1021", "inject_ti": "prompt"}
+        ]
+    },
+    "horror": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "66062", "inject_ti": "prompt"}
+        ]
+    },
+    "foorby": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5089", "inject_ti": "prompt"}
+        ]
+    },
+    "oldstyle v2": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "17553", "inject_ti": "prompt"}
+        ]
+    },
+    "musclebear": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "25111", "inject_ti": "prompt"}
+        ]
+    },
+    "pixelart embedding": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4172", "inject_ti": "prompt"}
+        ]
+    },
+    "stanley pesso": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "9852", "inject_ti": "prompt"}
+        ]
+    },
+    "starhaven machinegods": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "853", "inject_ti": "prompt"}
+        ]
+    },
+    "floral graffiti": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "40488", "inject_ti": "prompt"}
+        ]
+    },
+    "pee-wee herman": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "120091", "inject_ti": "prompt"}
+        ]
+    },
+    "cute creature": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "26793", "inject_ti": "prompt"}
+        ]
+    },
+    "gustave doré style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "8105", "inject_ti": "prompt"}
+        ]
+    },
+    "rainbow candy": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "46783", "inject_ti": "prompt"}
+        ]
+    },
+    "trypophobia": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "1037", "inject_ti": "prompt", "strength": 0.65}
+        ]
+    },
+    "dr. strange - mark viraj": {
+        "prompt": "{p}###{np}",
+        "model": "",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "702", "inject_ti": "prompt"}
+        ]
+    },
+    "80s dark fantasy": {
+        "prompt": "{p}###{np}",
+        "model": "A to Zovya RPG",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 896,
+        "height": 1344,
+        "hires_fix": true,
+        "tis": [
+            {"name": "26500", "inject_ti": "prompt"}
+        ]
+    },
+    "barnum ambrotype camera": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "116794", "inject_ti": "prompt"}
+        ]
+    },
+    "super ugly": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6396", "inject_ti": "prompt"}
+        ]
+    },
+    "ancient ruins": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 1024,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "23003", "inject_ti": "prompt"}
+        ]
+    },
+    "quimby style - beverly cleary + judy blume bw": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 896,
+        "height": 832,
+        "hires_fix": true,
+        "tis": [
+            {"name": "28397", "inject_ti": "prompt"}
+        ]
+    },
+    "tarot 512": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7346", "inject_ti": "prompt"}
+        ]
+    },
+    "mars attacks style!": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "30310", "inject_ti": "prompt"}
+        ]
+    },
+    "isometric 4000": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "9060", "inject_ti": "prompt"}
+        ]
+    },
+    "was mecha": {
+        "prompt": "art by embedding:16135, {p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "16135"}
+        ]
+    },
+    "solarpunk style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "37378", "inject_ti": "prompt"}
+        ]
+    },
+    "classic style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 896,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "92858", "inject_ti": "prompt"}
+        ]
+    },
+    "magical-girly": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "93598", "inject_ti": "prompt"}
+        ]
+    },
+    "preying mantis": {
+        "prompt": "{p}###{np}",
+        "model": "stable_iffusion",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5748", "inject_ti": "prompt"}
+        ]
+    },
+    "josan gonzalez": {
+        "prompt": "{p}###{np}, 3d, cgi, digital painting, smooth shading, vibrant",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "8709", "inject_ti": "prompt"}
+        ]
+    },
+    "itachi uchiho style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "5766", "inject_ti": "prompt"}
+        ]
+    },
+    "religious nightmare": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "112719", "inject_ti": "prompt"}
+        ]
+    },
+    "ralph mcquarrie": {
+        "prompt": "{p}###{np}",
+        "model": "stable_diffusion",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 960,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "588", "inject_ti": "prompt"}
+        ]
+    },
+    "steampunk granny": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 832,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "24452", "inject_ti": "prompt"}
+        ]
+    },
+    "leafskin dryad": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "55816", "inject_ti": "prompt"}
+        ]
+    },
+    "leafskin dryad animated": {
+        "prompt": "{p}###{np}",
+        "model": "Rev Animated",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "55816", "inject_ti": "prompt"}
+        ]
+    },
+    "dystopia": {
+        "prompt": "{p}###{np}",
+        "model": "Protogen",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "19583", "inject_ti": "prompt"}
+        ]
+    },
+    "osea island": {
+        "prompt": "{p}###{np}",
+        "model": "Dark Sushi Mix",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "127741", "inject_ti": "prompt"}
+        ]
+    },
+    "pigglywiggly": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamlike Photoreal",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "40204", "inject_ti": "prompt"}
+        ]
+    },
+    "dan seagrave": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "258", "inject_ti": "prompt"}
+        ]
+    },
+    "vsco illustration": {
+        "prompt": "{p}###{np}",
+        "model": "Rev Animated",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "97655", "inject_ti": "prompt"}
+        ]
+    },
+    "anatomical illustrations": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "23179", "inject_ti": "prompt"}
+        ]
+    },
+    "arcimboldo style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "1030", "inject_ti": "prompt"}
+        ]
+    },
+    "rfktr dark angelic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "88482", "inject_ti": "prompt"}
+        ]
+    },
+    "pooh": {
+        "prompt": "{p}###{np}",
+        "model": "stable_diffusion",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "2673", "inject_ti": "prompt"}
+        ]
+    },
+    "penguin - danny devito": {
+        "prompt": "{p}###{np}",
+        "model": "Realistic Vision",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "85586", "inject_ti": "prompt"}
+        ]
+    },
+    "ethereal girl": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "87709", "inject_ti": "prompt"}
+        ]
+    },
+    "styla mix": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "99539", "inject_ti": "prompt"}
+        ]
+    },
+    "howard the duck": {
+        "prompt": "{p}###{np}",
+        "model": "Realistic Vision",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "45270", "inject_ti": "prompt"}
+        ]
+    },
+    "this is not fine": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "103231", "inject_ti": "prompt"}
+        ]
+    },
+    "medieval drawings": {
+        "prompt": "{p}###{np}",
+        "model": "GhostMix",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 960,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "66849", "inject_ti": "prompt"}
+        ]
+    },
+    "was dieselpunk": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "18032", "inject_ti": "prompt"}
+        ]
+    },
+    "eyeglasses": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "66047", "inject_ti": "prompt"}
+        ]
+    },
+    "verhoeven": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "22974", "inject_ti": "prompt"}
+        ]
+    },
+    "style of marc allante": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "291", "inject_ti": "prompt"}
+        ]
+    },
+    "isometric 7500": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "9666", "inject_ti": "prompt"}
+        ]
+    },
+    "mad architecture": {
+        "prompt": "{p}###{np}",
+        "model": "Edge Of Realism",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 1344,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "22198", "inject_ti": "prompt"}
+        ]
+    },
+    "anime backgrounds": {
+        "prompt": "{p}###{np}",
+        "model": "Rev Animated",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 960,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "932", "inject_ti": "prompt"}
+        ]
+    },
+    "abandoned style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "54124", "inject_ti": "prompt"}
+        ]
+    },
+    "digital fantasy card style 1.5": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6556", "inject_ti": "prompt"}
+        ]
+    },
+    "digital fantasy card style 2.1": {
+        "prompt": "{p}###{np}",
+        "model": "stable_diffusion_2.1",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 832,
+        "height": 1088,
+        "hires_fix": true,
+        "tis": [
+            {"name": "9181", "inject_ti": "prompt"}
+        ]
+    },
+    "art by alexey egorov, dark style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "18473", "inject_ti": "prompt"}
+        ]
+    },
+    "summon a demon, beetlejuice-inspired": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "103801", "inject_ti": "prompt"}
+        ]
+    },
+    "ussr style": {
+        "prompt": "{p}###{np}",
+        "model": "Rev Animated",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "71142", "inject_ti": "prompt"}
+        ]
+    },
+    "baroque inspired hair style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "82173", "inject_ti": "prompt"}
+        ]
+    },
+    "rcnz style details": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 832,
+        "height": 832,
+        "hires_fix": true,
+        "tis": [
+            {"name": "36273", "inject_ti": "prompt"}
+        ]
+    },
+    "vienna style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 832,
+        "hires_fix": true,
+        "tis": [
+            {"name": "124181", "inject_ti": "prompt"}
+        ]
+    },
+    "grillaz": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "19291", "inject_ti": "prompt"}
+        ]
+    },
+    "isometric dreams 2000": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "9062", "inject_ti": "prompt"}
+        ]
+    },
+    "rfktr's contaminatrex": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "88410", "inject_ti": "prompt"}
+        ]
+    },
+    "pffpffpff+plastiq": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "22996", "inject_ti": "prompt"}
+        ],
+        "loras": [
+            {"name": "11465", "inject_trigger":"any", "model": 0.31}
+        ]
+    },
+    "fx vanish": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "71511", "inject_ti": "prompt"}
+        ]
+    },
+    "fx glow lines": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "71552", "inject_ti": "prompt"}
+        ]
+    },
+    "horror-mix": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "1037", "inject_ti": "prompt", "strength":0.1},
+            {"name": "95351", "inject_ti": "prompt", "strength":0.1},
+            {"name": "71552", "inject_ti": "prompt", "strength":0.1},
+            {"name": "71511", "inject_ti": "prompt", "strength":0.1},
+            {"name": "67109", "inject_ti": "prompt", "strength":0.1},
+            {"name": "66455", "inject_ti": "prompt", "strength":0.1},
+            {"name": "66062", "inject_ti": "prompt", "strength":0.1},
+            {"name": "82239", "inject_ti": "prompt", "strength":0.1},
+            {"name": "4499", "inject_ti": "prompt", "strength":0.1},
+            {"name": "88410", "inject_ti": "prompt", "strength":0.1},
+            {"name": "22974", "inject_ti": "prompt", "strength":0.1}
+        ],
+        "loras": [
+            {"name": "51288", "inject_trigger":"any", "model": 0.15},
+            {"name": "76956", "inject_trigger":"any", "model": 0.15},
+            {"name": "42468", "inject_trigger":"any", "model": 0.15},
+            {"name": "82703", "inject_trigger":"any", "model": 0.15},
+            {"name": "113803", "inject_trigger":"any", "model": 0.15}
+        ]
+    },
+    "style-nebula": {
+        "prompt": "{p}, in the style of embedding:121378###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "121378"}
+        ]
+    },
+    "hatsune mikuish": {
+        "prompt": "{p}###{np}",
+        "model": "Dark Sushi Mix",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "105609", "inject_ti": "prompt"},
+            {"name": "127741", "inject_ti": "prompt", "strength":0.7}
+        ]
+    },
+    "chibi": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "66477", "inject_ti": "prompt"}
+        ]
+    },
+    "demon calavera": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "103769", "inject_ti": "prompt"}
+        ]
+    },
+    "junji ito": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "428", "inject_ti": "prompt"}
+        ]
+    },
+    "ugly sonic": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "60", "inject_ti": "prompt"}
+        ]
+    },
+    "new horror fantasy": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "20850", "inject_ti": "prompt"}
+        ]
+    },
+    "high seas": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "130085", "inject_ti": "prompt"}
+        ]
+    },
+    "lizyahmet style - scribbled portraits": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 896,
+        "hires_fix": true,
+        "tis": [
+            {"name": "136004", "inject_ti": "prompt"}
+        ]
+    },
+    "malkor mancin style": {
+        "prompt": "{p}###{np}",
+        "model": "Babes",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "92332", "inject_ti": "prompt", "strength":0.8}
+        ]
+    },
+    "erich zann nobody": {
+        "prompt": "{p}###{np}",
+        "model": "Edge Of Realism",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "62426", "inject_ti": "prompt"}
+        ]
+    },
+    "new priests": {
+        "prompt": "{p}###{np}",
+        "model": "stable_diffusion",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "776", "inject_ti": "prompt"}
+        ]
+    },
+    "cute game style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "908", "inject_ti": "prompt"}
+        ]
+    },
+    "splash": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 832,
+        "height": 832,
+        "hires_fix": true,
+        "tis": [
+            {"name": "6483", "inject_ti": "prompt", "strength":1.25}
+        ]
+    },
+    "carmen sandiego": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "7293", "inject_ti": "prompt"}
+        ]
+    },
+    "horrorfantasy": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "82239", "inject_ti": "prompt"}
+        ]
+    },
+    "gothic horror style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "60197", "inject_ti": "prompt"}
+        ]
+    },
+    "kitchen style": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 768,
+        "hires_fix": true,
+        "tis": [
+            {"name": "2748", "inject_ti": "prompt"}
+        ]
+    },
     "glitchart": {
         "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
