@@ -17,247 +17,256 @@
         "width": 768,
         "height": 768
     },
-    "rpiracy": {
-        "prompt": "Masterpiece, splash art, digital painting, a full body shot of a sexy male pirate (John Oliver:1.3) in pirate captain clothes {p}, glasses, global illumination, hot, art by artgerm and paul cadmus, and viktoria gavrilenko###{np}woman, fully dressed, blurry, bad drawing, double head, blurry, ugly, deformed, malformed, lowres, mutant, mutated, disfigured, compressed, noise, artifacts, dithering, simple, watermark, text, font, signage, collage, pixel",
-        "model": "Dreamshaper",
-        "sampler_name": "k_dpm_adaptive",
-        "steps": 43,
-        "cfg_scale": 8.5
-    },
     "bd-plain": {
-        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons, {p}###{np}",
+        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
+    },
+    "bd-horde": {
+        "prompt": "a horde of {p} having a birthday party, (the words \"1 year\":1.35), instruments of joy{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1152,
+        "height": 896,
+        "steps": 43,
+        "cfg_scale": 9.5
+    },
+    "bd-ai": {
+        "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1024,
+        "height": 1024,
+        "steps": 43,
+        "cfg_scale": 9.5
     },
     "bd-horse": {
-        "prompt": "happy birthday party, (the words \"stable horde\":1.35), colorful, a horse, {p}###{np}",
+        "prompt": "{p}, happy birthday party, (the words \"stable horde\":1.35), colorful, a horse{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
     },
     "bd-llama": {
-        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons, a llama, {p}###{np}",
+        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, stars, a llama{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
     },
     "bd-sloth": {
-        "prompt": "(the words \"1 year\":1.35), a sloth eating cake at a rainforest-themed birthday party, {p}###bw, {np}",
+        "prompt": "{p}, (the words \"1 year\":1.35), a sloth eating cake at a rainforest-themed birthday party###bw{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
     },
     "bd-dino": {
-        "prompt": "happy birthday, (the words \"stable horde\":1.35), prehistoric jungle, a dinosaur, {p}###{np}",
+        "prompt": "{p}, happy birthday, (the words \"stable horde\":1.35), prehistoric jungle, a dinosaur{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
     },
     "bd-ducklings": {
-        "prompt": "happy birthday, (the words \"stable horde\":1.35), city park, ducklings, {p}###{np}",
+        "prompt": "{p}, happy birthday, (the words \"stable horde\":1.35), city park, ducklings{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 9.5
     },
     "bd-kids": {
-        "prompt": "happy birthday party, (the words \"1 year\":1.35), colorful, a group of children at a birthday party, animated by Mike Judge, {p}###{np}",
+        "prompt": "{p}, happy birthday party, (the words \"1 year\":1.35), colorful, a group of children at a birthday party, animated by Mike Judge{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
     "bd-giger": {
-        "prompt": "happy birthday, (the words \"1 year\":1.35), cake with frosting, party, balloons, art by HR Giger, {p}###bw, {np}",
+        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, party, balloons, art by HR Giger###bw{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
     "bd-render": {
-        "prompt": "Birthday-themed 150mm photo, {p}, powerful, spectral fog, photorealistic impasto technique, metallic sanguine, nocturnal infernal gradient, chiaroscuro lighting and aura of angru strength, detailed radiosity, rendered by Arnold Render, inspired by Mark Ryden Beeple and Dali###{np}",
+        "prompt": "{p}, Birthday-themed 150mm photo, {p}, powerful, spectral fog, photorealistic impasto technique, metallic sanguine, nocturnal infernal gradient, chiaroscuro lighting and aura of angru strength, detailed radiosity, rendered by Arnold Render, inspired by Mark Ryden Beeple and Dali{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by lisa frank and hr giger": {
-        "prompt": "art by Lisa Frank and HR Giger, (birthday theme:1.3), {p}###{np}",
+    "disturbing birthday": {
+        "prompt": "art by Lisa Frank and HR Giger, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by lisa frank and dan mumford": {
-        "prompt": "art by Lisa Frank and Dan Mumford, (birthday theme:1.3), {p}###{np}",
+    "splash birthday": {
+        "prompt": "{p}, splash art by Lisa Frank and Dan Mumford, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday animated by mike judge": {
-        "prompt": "animated by Mike Judge, (birthday theme:1.3), {p}###{np}",
+    "animated birthday": {
+        "prompt": "{p}, animated by Mike Judge, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday dreamworks animation": {
-        "prompt": "in the style of dreamworks animation, (birthday theme:1.3), {p}###{np}, 2d drawing sketch",
+    "dreamworks birthday": {
+        "prompt": "{p}, in the style of dreamworks animation, (birthday theme:1.3)###{np}, 2d drawing sketch",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday gta-v style": {
-        "prompt": "gta-v style, (birthday theme:1.3), {p}###{np}",
+    "gta birthday": {
+        "prompt": "{p}, gta-v style, (birthday theme:1.3)###{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday anime": {
-        "prompt": "(anime artwork:1.2), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3), {p}###{np}, 3d",
+    "anime birthday": {
+        "prompt": "{p}, (anime artwork:1.2), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3)###{np}, 3d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by makoto shinkai": {
-        "prompt": "(manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3), {p}###{np}, colorful,realistic, render, 3d, photographic",
+    "makoto birthday": {
+        "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by frank miller and alphonse mucha": {
-        "prompt": "cover art by Frank Miller and Alphonse Mucha, (birthday theme:1.3), {p}###{np}, comic frames, panels, multiple",
+    "gritty birthday": {
+        "prompt": "{p}, cover art by Frank Miller and Alphonse Mucha, (birthday theme:1.3)###{np}, comic frames, panels, multiple",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by mark brooks": {
-        "prompt": "(cover art by Mark Brooks:1.1), (birthday theme:1.3), {p}###{np}, panels, multiple, multiple views, border, margin",
+    "cover birthday": {
+        "prompt": "{p}, (cover art by Mark Brooks:1.1), (birthday theme:1.3)###{np}, panels, multiple, multiple views, border, margin",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday portrait by karol bak": {
-        "prompt": "portrait by Karol Bak, (birthday theme:1.3), {p}###{np}",
+    "portrait birthday": {
+        "prompt": "{p}, portrait by Karol Bak, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday oil painting by caspar david friedrich and john constable": {
-        "prompt": "(painting by Caspar David Friedrich and John Constable:1.1), (birthday theme:1.3), {p}###{np}",
+    "oil birthday": {
+        "prompt": "{p}, (oil painting:1.1) by Caspar David Friedrich and John Constable, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 1896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by katsuhika hokusai": {
-        "prompt": "art by Katsushika Hokusai, (birthday theme:1.3), {p}###{np}",
+    "edo birthday": {
+        "prompt": "{p} in the Japan Edo period, traditional art by Katsushika Hokusai, (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday creepy oil painting by seb mckinnon": {
-        "prompt": "creepy oil painting by Seb Mckinnon, (creepy birthday theme:1.3), {p}###{np}",
+    "creepy birthday": {
+        "prompt": "{p}, creepy oil painting by Seb Mckinnon, (creepy birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday abstract by killian eng": {
-        "prompt": "(art by Killian Eng), (abstract birthday theme:1.3), {p}###{np}",
+    "abstract birthday": {
+        "prompt": "{p}, (art by Killian Eng), (abstract birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday closeup portrait by anna dittmann": {
-        "prompt": "(art by Anna Dittmann), (birthday theme:1.3), close-up portrait, {p}###{np}",
+    "closeup birthday": {
+        "prompt": "{p}, (art by Anna Dittmann), (birthday theme:1.3), close-up portrait{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday idtech 5 doom screenshot": {
-        "prompt": "(idtech 5 doom screenshot), (birthday theme:1.3), {p}###{np}",
+    "doom birthday": {
+        "prompt": "{p}, (idtech 5 doom screenshot), (birthday theme:1.3){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday rendered by unreal engine 5": {
-        "prompt": "(unreal engine 5 render), (birthday theme:1.3), {p}###{np}, 2d",
+    "unreal birthday": {
+        "prompt": "{p}, (unreal engine 5 render), (birthday theme:1.3), {p}###{np}, 2d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by kuvshinov and evgren and ito": {
-        "prompt": "(art by Ilya Kuvshinov and Phil Evgren) and Junji Ito, (birthday theme:1.3), {p}###{np}, 2d",
+    "scary birthday ": {
+        "prompt": "{p}, (art by Ilya Kuvshinov and Phil Evgren) and Junji Ito, (birthday theme:1.3){np}, 2d",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday poster by aaron draplin": {
-        "prompt": "(Birthday-themed:1.3) (poster by Aaron Draplin), {p}###{np}",
+    "birthday poster": {
+        "prompt": "(Birthday-themed:1.3) {p}, (poster by Aaron Draplin){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 43,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
-    "birthday by sophie anderson, guy denning, and lisa frank": {
+    "artistic birthday": {
         "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 50,
-        "cfg_scale": 5.5
+        "cfg_scale": 7.5
     },
     "bdcolordd": {
-        "prompt": "happy birthday, colorful, in the style of t3xtn, {p}###{np}",
+        "prompt": "{p}, happy birthday, colorful, in the style of t3xtn, {p}{np}",
         "model": "Dreamshaper",
         "width": 960,
         "height": 768,
@@ -272,7 +281,7 @@
         ]
     },
     "bdcolor2": {
-        "prompt": "happy birthday, colorful, {p}###{np}",
+        "prompt": "happy birthday, colorful, {p}{np}",
         "model": "Dreamshaper",
         "width": 960,
         "height": 768,
@@ -285,7 +294,7 @@
         ]
     },
     "bdcmumford": {
-        "prompt": "happy birthday, colorful, by dan mumford, danmumford_soul3142, {p}###{np}",
+        "prompt": "{p}, happy birthday, colorful, by dan mumford, danmumford_soul3142{np}",
         "model": "Dan Mumford Style",
         "width": 768,
         "height": 960,
@@ -298,7 +307,7 @@
         ]
     },
     "bdrainbowpencilai": {
-        "prompt": "birthday party, colored pencil, RainbowPencilRockAI, {p}###{np}",
+        "prompt": "{p}, birthday party, colored pencil, RainbowPencilRockAI{np}",
         "model": "Dreamshaper",
         "width": 960,
         "height": 768,
@@ -311,7 +320,7 @@
         ]
     },
     "bdstainedglass": {
-        "prompt": "birthday party, stained glass, st41nedg {p}###{np}",
+        "prompt": "{p}, birthday party, stained glass, st41nedg{np}",
         "model": "Dreamshaper",
         "width": 960,
         "height": 768,
@@ -382,7 +391,7 @@
         "steps": 50
       },
     "floralceramic": {
-        "prompt": "a ceramic diorama of {p}, by Carlos Santos and Christine tennenholtz Lisa Frank, floral, glossy ceramic flowers, Rainbow prism, spectral colors, refracted light, vibrant hues, dazzling display, Picturesque, Gut Feeling, Seasoned photographer, Olympus PEN-F, blooming beauty, delicate petals, intricate 3d floral patterns###2d printed drawing sketch cgi render cartoon comic manga animation anime lineart, plain background, {np}",
+        "prompt": "a ceramic diorama of {p}, by Carlos Santos and Christine tennenholtz Lisa Frank, floral, glossy ceramic flowers, Rainbow prism, spectral colors, refracted light, vibrant hues, dazzling display, Picturesque, Gut Feeling, Seasoned photographer, Olympus PEN-F, blooming beauty, delicate petals, intricate 3d floral patterns###2d printed drawing sketch cgi render cartoon comic manga animation anime lineart, plain background{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 832,
@@ -399,7 +408,7 @@
         "cfg_scale": 8.5
     },
     "moderntarotcard": {
-        "prompt": "((A modern Tarot card)), {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique, {np}",
+        "prompt": "((A modern Tarot card)), {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 832,
@@ -408,7 +417,7 @@
         "cfg_scale": 7
     },
     "antiquetarotcard": {
-        "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, antique painting of {p}, with name below, detailed painting###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, {np}",
+        "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, antique painting of {p}, with name below, detailed painting###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 832,
@@ -462,7 +471,7 @@
         "cfg_scale": 7
     },
     "goldenagecomics": {
-        "prompt": "{np}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color, {np}",
+        "prompt": "{np}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 832,
         "height": 1280,
@@ -470,7 +479,7 @@
         "cfg_scale": 6
     },
     "manga": {
-        "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color), {np}",
+        "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color){np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
@@ -478,7 +487,7 @@
         "cfg_scale": 8.5
     },
     "sdxlanime": {
-        "prompt": "anime artwork, {p}, dramatic, anime style, key visual, vibrant, studio anime, highly detailed###photo, deformed, black and white, realism, disfigured, low contrast, {np}, ink and paper",
+        "prompt": "anime artwork, {p}, dramatic, anime style, key visual, vibrant, studio anime, highly detailed###photo, deformed, black and white, realism, disfigured, low contrast{np}, ink and paper",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
@@ -486,7 +495,7 @@
         "cfg_scale": 8.5
     },
     "portraitphoto": {
-        "prompt": "portrait photo of {p}, photograph, highly detailed face, depth of field, moody light, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography###disfigured, {np}, closeup, cropped",
+        "prompt": "portrait photo of {p}, photograph, highly detailed face, depth of field, moody light, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography###disfigured{np}, closeup, cropped",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
@@ -536,7 +545,7 @@
         "cfg_scale": 5
     },
     "vaporwave": {
-        "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, blurry, {np}",
+        "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, blurry{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1344,
         "height": 768,
@@ -544,7 +553,7 @@
         "cfg_scale": 6
     },
     "isometric": {
-        "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic, {np}",
+        "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
@@ -552,7 +561,7 @@
         "cfg_scale": 6
     },
     "lowpoly": {
-        "prompt": "low-poly style {p}, ambient occlusion, low-poly game art, (polygon mesh:0.8), jagged, blocky, (wireframe edges:0.8), centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, black and white, grayscale, colorless, {np}",
+        "prompt": "low-poly style {p}, ambient occlusion, low-poly game art, (polygon mesh:0.8), jagged, blocky, (wireframe edges:0.8), centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, black and white, grayscale, colorless{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1280,
         "height": 832,
@@ -568,7 +577,7 @@
         "cfg_scale": 6
     },
     "origami": {
-        "prompt": "origami style {p}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, {np}",
+        "prompt": "origami style {p}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
@@ -584,7 +593,7 @@
         "cfg_scale": 6
     },
     "pixelart": {
-        "prompt": "pixel-art, {p}, low-res, blocky, pixel art style, 16-bit graphics###sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic, {np}",
+        "prompt": "pixel-art, {p}, low-res, blocky, pixel art style, 16-bit graphics###sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,
         "height": 896,
@@ -592,7 +601,7 @@
         "cfg_scale": 8.5
     },
     "embroidery": {
-        "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic, {np}",
+        "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 1024,
@@ -610,7 +619,7 @@
         "cfg_scale": 6
     },
     "watercolorscenery": {
-        "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d, {np}",
+        "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 1344,
@@ -619,7 +628,7 @@
         "cfg_scale": 7.5
     },
     "pencilscribbles": {
-        "prompt": "`Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d, {np}",
+        "prompt": "`Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 1024,
@@ -1374,14 +1383,14 @@
         "height": 768
     },
     "prehistoric winter": {
-        "prompt": "epic {p} iced snow landscape battles in prehistory, vasteness, Albert Bierstadt, valleys, luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown mountains ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed, {np}",
+        "prompt": "epic {p} iced snow landscape battles in prehistory, vasteness, Albert Bierstadt, valleys, luminous golden hour, lifey landscape, beautiful, vibrant, abandoned overgrown mountains ###lowres, text, error, cropped, worst quality, jpeg artifacts, signature, watermark, deformed{np}",
         "model": "stable_diffusion_2.1",
         "sampler_name": "dpmsolver",
         "width": 768,
         "height": 768
     },
     "warrior fairy": {
-        "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW, {np}",
+        "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW{np}",
         "model": "stable_diffusion"
     },
     "cyberrealistic": {
@@ -1478,7 +1487,7 @@
         "model": "Western Animation Diffusion"
     },
     "anything": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
         "model": "Anything Diffusion"
     },
     "anything_raw": {
@@ -1486,7 +1495,7 @@
         "model": "Anything Diffusion"
     },
     "waifu": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
         "model": "waifu_diffusion"
     },
     "waifu_raw": {
@@ -1494,7 +1503,7 @@
         "model": "waifu_diffusion"
     },
     "trinart": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
         "model": "trinart"
     },
     "trinart_raw": {
@@ -1502,7 +1511,7 @@
         "model": "trinart"
     },
     "hentai": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
         "model": "Hentai Diffusion"
     },
     "hentai_raw": {
@@ -1510,7 +1519,7 @@
         "model": "Hentai Diffusion"
     },
     "poison": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
         "model": "Poison"
     },
     "poison_raw": {
@@ -1518,7 +1527,7 @@
         "model": "Poison"
     },
     "eimis": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
         "model": "Eimis Anime Diffusion"
     },
     "eimis_raw": {
@@ -1526,7 +1535,7 @@
         "model": "Eimis Anime Diffusion"
     },
     "acertainthing": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres, {np}",
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
         "model": "ACertainThing"
     },
     "acertainthing_raw": {
@@ -1534,11 +1543,11 @@
         "model": "ACertainThing"
     },
     "scalie": {
-        "prompt": "e621, highly detailed fullbody of a fully clothed solo scalie {p}, detailed scales, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, breasts, naked, dialogue, text, feral, {np}",
+        "prompt": "e621, highly detailed fullbody of a fully clothed solo scalie {p}, detailed scales, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, breasts, naked, dialogue, text, feral{np}",
         "model": "Yiffy"
     },
     "furry": {
-        "prompt": "e621, highly detailed fullbody of a fully clothed solo anthro {p}, pants, detailed fluffy fur, fluffy tail, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, breasts, naked, dialogue, text, feral, {np}",
+        "prompt": "e621, highly detailed fullbody of a fully clothed solo anthro {p}, pants, detailed fluffy fur, fluffy tail, volumetric lighting, looking at viewer, by Michael & Inessa Garmash and  Ruan Jia and Ross Tran and Pino Daeni###cropped, artifacts, lowres###crosseyed, human, human skin, human head, human hands, human face, three hands, three feet, three arms, three legs, text bubble, no pupils, simple background, bad anatomy, deformed face, undefined, incomplete, uncertain, smudge, melt, smear, disproportional, disfigured, deformed, malformed, mutant, monstrous, ugly, gross, disgusting, blurry, poorly drawn, extra limbs, extra fingers, missing limbs, amputee, malformed hands, genitals, breasts, naked, dialogue, text, feral{np}",
         "model": "Yiffy"
     },
     "impasto furry": {
