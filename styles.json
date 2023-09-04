@@ -1463,8 +1463,20 @@
         "model": "Analog Madness"
     },
     "bweshmix": {
-        "prompt": "{p}###{np}",
-        "model": "BweshMix"
+        "prompt": "{p}###{np}, embedding:16993",
+        "model": "BweshMix",
+        "width": 768,
+        "height": 832,
+        "steps": 25,
+        "hires_fix": true,
+        "cfg_scale": 7.5,
+        "loras": [
+            {"name": "82098", "model": 0.5},
+            {"name": "48139", "model": 0.2},
+            {"name": "132532", "model": -0.7},
+            {"name": "58390", "model": 0.5}
+        ],
+        "tis": [{"name": "16993"}]
     },
     "revanimated": {
         "prompt": "{p}###{np}",
