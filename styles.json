@@ -335,6 +335,13 @@
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
+        "width": 704,
+        "height": 1472,
+        "steps": 50
+    },
+    "sdxl-extreme-vertical": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
         "width": 640,
         "height": 1536,
         "steps": 50
@@ -342,11 +349,18 @@
     "sdxl-portrait": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
+        "width": 768,
+        "height": 1216,
+        "steps": 50
+    },
+    "sdxl-photo": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
         "width": 896,
         "height": 1152,
         "steps": 50
     },
-    "sdxl-photo": {
+    "sdxl-photo-horizontal": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1152,

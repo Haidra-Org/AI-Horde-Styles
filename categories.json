@@ -330,9 +330,11 @@
         "papercut"
     ],
     "sdxl-aspect-ratio": [
+        "sdxl-extreme-vertical",
         "sdxl-vertical",
         "sdxl-portrait",
         "sdxl-photo",
+        "sdxl-photo-landscape",
         "sdxl-landscape",
         "sdxl-widescreen",
         "sdxl-cinematic"
