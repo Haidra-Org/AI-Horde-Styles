@@ -707,6 +707,15 @@
         "steps": 50,
         "cfg_scale": 7
     },
+    "cyborgpunkportrait": {
+        "prompt": "lomography, {p}, a neon cyborg portrait by Jerry Ryan Rob Hefferan Artgerm HR Giger, hyperrealistic vaporwave HDR render###{np}, drawing, sketch",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_euler",
+        "width": 768,
+        "height": 1216,
+        "steps": 50,
+        "cfg_scale": 7
+    },
 
     "glitchart": {
         "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
