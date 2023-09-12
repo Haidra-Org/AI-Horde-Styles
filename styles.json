@@ -397,13 +397,13 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
-      "neonnoir": {
+    "neonnoir": {
         "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {p}",
         "model": "SDXL_beta::stability.ai#6901",
         "width": 1024,
         "height": 1024,
         "steps": 50
-      },
+    },
     "floralceramic": {
         "prompt": "a ceramic diorama of {p}, by Carlos Santos and Christine tennenholtz Lisa Frank, floral, glossy ceramic flowers, Rainbow prism, spectral colors, refracted light, vibrant hues, dazzling display, Picturesque, Gut Feeling, Seasoned photographer, Olympus PEN-F, blooming beauty, delicate petals, intricate 3d floral patterns###2d printed drawing sketch cgi render cartoon comic manga animation anime lineart, plain background{np}",
         "model": "SDXL_beta::stability.ai#6901",
