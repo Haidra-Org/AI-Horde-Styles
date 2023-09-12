@@ -17,6 +17,7 @@
         "width": 768,
         "height": 768
     },
+
     "bd-plain": {
         "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons{np}",
         "model": "SDXL_beta::stability.ai#6901",
@@ -332,6 +333,7 @@
             {"name": "74653", "model": 0.2}
         ]
     },
+
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
@@ -388,6 +390,7 @@
         "height": 640,
         "steps": 50
     },
+
     "sdxlcatgirlportrait": {
         "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
         "model": "SDXL_beta::stability.ai#6901",
@@ -704,6 +707,7 @@
         "steps": 50,
         "cfg_scale": 7
     },
+
     "glitchart": {
         "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
@@ -748,6 +752,7 @@
             {"name": "104917"}
         ]
     },
+
     "gothichorrorai": {
         "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
@@ -821,6 +826,7 @@
             {"name": "98011"}
         ]
     },
+
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
@@ -1280,6 +1286,7 @@
             {"name": "42260"}
         ]
     },
+
     "perfect summer": {
         "prompt": "digital art, cg painting, (medium long shot:1.2), hyper detailed, volumetric lighting, godrays, realistic, photorealistic render, golden hour, sun-drenched panorama, lush tropical colors, subtle shading, {p}, beautiful face, wide glossy eyes, ultra detailed, masterpiece, high resolution illustration, 4k, centered composition###nsfw, lowres, text, error, cropped, out of frame, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, out of focus, censorship, ugly, black and white, monochrome, artist name, signature, multiple views, power lines{np}",
         "model": "Perfect World",
@@ -1305,6 +1312,7 @@
         "prompt": "behind the scenes footage from the set of {p}, movie set, breakdown, dramatic lighting, off centered focus, clear wide shot, dreamlikeart###blurry, distorted, ugly faces,{np}",
         "model": "Dreamlike Diffusion"
     },
+
     "generic scifi": {
         "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K{np}",
         "model": "stable_diffusion"
@@ -1407,6 +1415,7 @@
         "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW{np}",
         "model": "stable_diffusion"
     },
+
     "cyberrealistic": {
         "prompt": "{p}###{np}",
         "model": "CyberRealistic",
