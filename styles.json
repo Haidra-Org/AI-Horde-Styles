@@ -1466,6 +1466,15 @@
         "prompt": "{p}###{np}",
         "model": "FaeTastic"
     },
+    "danmumford": {
+        "prompt": "In the style of Dan Mumford, {p}###{np}",
+        "model": "Dan Mumford Style",
+        "width": 768,
+        "height": 960,
+        "steps": 27,
+        "hires_fix": true,
+        "cfg_scale": 7
+    },
     "moonmix fantasy": {
         "prompt": "{p}###{np}",
         "model": "MoonMix Fantasy"
