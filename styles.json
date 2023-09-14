@@ -711,7 +711,16 @@
         "prompt": "lomography, {p}, a neon cyborg portrait by Jerry Ryan Rob Hefferan Artgerm HR Giger, hyperrealistic vaporwave HDR render###{np}, drawing, sketch",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_euler",
-        "width": 768,
+        "width": 832,
+        "height": 1216,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "movieposter": {
+        "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_2m",
+        "width": 832,
         "height": 1216,
         "steps": 50,
         "cfg_scale": 7

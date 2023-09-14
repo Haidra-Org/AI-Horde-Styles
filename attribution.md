@@ -4,4 +4,5 @@
 - portraitphoto, schematic, space, building, animal, futurefashion stolen from [Dalabad](https://github.com/Dalabad/stable-diffusion-prompt-templates)
 - vaporwave, claymation, origami, isometric, lowpoly, lineart, pixelart from https://aituts.com/sdxl-prompts/
 - anime from ?? and modified by efreak
-- cyborgpunkportrait keyqords mostly came from fiki on discord
+- cyborgpunkportrait keywords mostly came from fiki on discord
+- movieposter by max
