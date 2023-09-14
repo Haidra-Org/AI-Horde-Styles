@@ -351,7 +351,7 @@
     "sdxl-portrait": {
         "prompt": "{p}{np}",
         "model": "SDXL_beta::stability.ai#6901",
-        "width": 768,
+        "width": 832,
         "height": 1216,
         "steps": 50
     },
@@ -396,7 +396,7 @@
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 832,
-        "height": 1280,
+        "height": 1216,
         "steps": 50,
         "cfg_scale": 8.5
     },
