@@ -1443,6 +1443,10 @@
         "prompt": "{p}###{np}",
         "model": "Deliberate"
     },
+    "deliberate3": {
+        "prompt": "{p}###{np}",
+        "model": "Deliberate 3.0"
+    },
     "majicmix realistic": {
         "prompt": "{p}###{np}",
         "model": "majixMIX Realistic"
