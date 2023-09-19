@@ -1449,7 +1449,7 @@
     },
     "majicmix realistic": {
         "prompt": "{p}###{np}",
-        "model": "majixMIX Realistic"
+        "model": "majicMIX realistic"
     },
     "edge of realism": {
         "prompt": "{p}###{np}",
