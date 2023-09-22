@@ -1445,6 +1445,8 @@
     },
     "deliberate3": {
         "prompt": "{p}###{np}",
+        "width": 768,
+        "height": 768,
         "model": "Deliberate 3.0"
     },
     "majicmix realistic": {
