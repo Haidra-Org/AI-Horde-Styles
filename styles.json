@@ -1,7 +1,10 @@
 {
     "sdxl": {
         "prompt": "{p}{np}",
-        "model": "SDXL 1.0"
+        "model": "SDXL 1.0",
+        "steps": 50,
+        "width": 1024,
+        "height": 1024
     },
     "raw": {
         "prompt": "{p}{np}",
