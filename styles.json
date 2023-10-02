@@ -1,4 +1,8 @@
 {
+    "sdxl": {
+        "prompt": "{p}{np}",
+        "model": "SDXL 1.0"
+    },
     "raw": {
         "prompt": "{p}{np}",
         "model": "stable_diffusion"
