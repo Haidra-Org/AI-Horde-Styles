@@ -86,6 +86,7 @@
     ],
     "horrors": [
         "bodyhorror",
+        "sdxlhorror",
         "gothichorrorai",
         "tentaclehorrorai",
         "horrorpunk",
@@ -329,6 +330,75 @@
     "paper": [
         "papercutcraft",
         "papercut"
+    ],
+    "sdxl-aspect-ratio": [
+        "sdxl-extreme-vertical",
+        "sdxl-vertical",
+        "sdxl-portrait",
+        "sdxl-photo",
+        "sdxl-photo-landscape",
+        "sdxl-landscape",
+        "sdxl-widescreen",
+        "sdxl-cinematic"
+    ],
+    "mediums": [
+        "floralceramic",
+        "watercolorscenery",
+        "pencilscribbles",
+        "broadsheetart",
+        "embroidery",
+        "claymation",
+        "origami"
+    ],
+    "artstyles": [
+        "sdxlanime",
+        "isometric",
+        "manga",
+        "lowpoly",
+        "pixelart",
+        "vaporwave",
+        "goldenagecomics",
+        "neonnoir",
+        "movieposter",
+        "sovietpropaganda",
+        "portraitphoto",
+        "schematic",
+        "animation",
+        "disney",
+        "pixar",
+        "lineart"
+    ],
+    "cards": [
+        "playingcard",
+        "pokemoncard",
+        "baseballcard",
+        "greetingcard",
+        "postcard",
+        "moderntarotcard",
+        "antiquetarotcard"
+    ],
+    "stylish": [
+        "sdxlspace",
+        "building",
+        "animal",
+        "futurefashion",
+        "sdxlcatgirlportrait",
+        "sdxlchibis",
+        "cyborgpunkportrait",
+        "sdxlstreetfashion"
+    ],
+    "sdxl-bd": [
+        "bd-plain",
+        "bd-horde",
+        "bd-ai",
+        "bd-horse",
+        "bd-llama",
+        "bd-sloth",
+        "bd-dino",
+        "bd-ducklings",
+        "bd-kids",
+        "bd-giger",
+        "bd-render"
     ],
     "sd15-bd": [
         "bdcolordd",
