@@ -537,7 +537,7 @@
         "cfg_scale": 5
     },
     "futurefashion": {
-        "prompt": "photograph of a Fashion model, {p}, full body, highly detailed and intricate, golden ratio, vibrant colors, hyper maximalist, futuristic, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra high detail, ultra realistic, cinematic lighting, focused, 8k###{np}",
+        "prompt": "photograph of a Fashion model, {p}, full body, highly detailed and intricate, vibrant colors, hyper maximalist, futuristic, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra realistic, cinematic lighting, focused, 8k, (golden ratio:0.7)###{np}",
         "model": "SDXL 1.0",
         "sampler_name": "k_dpmpp_sde",
         "width": 896,
