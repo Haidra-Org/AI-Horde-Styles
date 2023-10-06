@@ -529,12 +529,13 @@
         "cfg_scale": 6.5
     },
     "schematic": {
-        "prompt": "23rd century scientific schematics for {p}, blueprint, hyperdetailed vector technical documents, callouts, legend, patent registry###{np}",
+        "prompt": "23rd century scientific schematics for {p}, blueprint, hyperdetailed vector technical documents, callouts, legend, patent registry, clean linework, crisp lines###{np}, blurry",
         "model": "SDXL 1.0",
+        "sampler_name": "k_dpmpp_2m",
         "width": 1152,
         "height": 896,
-        "steps": 50,
-        "cfg_scale": 5
+        "steps": 35,
+        "cfg_scale": 7
     },
     "futurefashion": {
         "prompt": "photograph of a Fashion model, {p}, full body, highly detailed and intricate, vibrant colors, hyper maximalist, futuristic, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra realistic, cinematic lighting, focused, 8k, (golden ratio:0.7)###{np}",
