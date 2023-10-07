@@ -6,3 +6,4 @@
 - anime from ?? and modified by efreak
 - cyborgpunkportrait keywords mostly came from fiki on discord
 - movieposter by max
+- graffiti, retrofuturistic, dystopian from stable-diffusion-art.com

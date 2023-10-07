@@ -391,6 +391,33 @@
         "steps": 50
     },
 
+    "graffiti": {
+        "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+        "model": "SDXL 1.0",
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1216,
+        "height": 832,
+        "steps": 30,
+        "cfg_scale": 7
+    },
+    "retrofuturistic": {
+        "prompt": "retro-futuristic {p} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed###{np}, contemporary, realistic, rustic, primitive",
+        "model": "SDXL 1.0",
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1216,
+        "height": 832,
+        "steps": 30,
+        "cfg_scale": 7
+    },
+    "dystopian": {
+        "prompt": "dystopian style {p} . bleak, post-apocalyptic, somber, dramatic, highly detailed###{np},ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful",
+        "model": "SDXL 1.0",
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1216,
+        "height": 832,
+        "steps": 30,
+        "cfg_scale": 7
+    },
     "sdxlcatgirlportrait": {
         "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
         "model": "SDXL 1.0",
