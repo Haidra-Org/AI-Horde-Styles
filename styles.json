@@ -406,7 +406,7 @@
         "sampler_name": "k_dpmpp_2m",
         "width": 1216,
         "height": 832,
-        "steps": 30,
+        "steps": 35,
         "cfg_scale": 7
     },
     "dystopian": {
