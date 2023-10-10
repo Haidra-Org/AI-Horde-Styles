@@ -17,23 +17,6 @@
         "width": 768,
         "height": 768
     },
-
-    "bd-plain": {
-        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, balloons{np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-horde": {
-        "prompt": "a horde of {p} having a birthday party, (the words \"1 year\":1.35), instruments of joy{np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
     "bd-ai": {
         "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
         "model": "SDXL 1.0",
@@ -42,219 +25,11 @@
         "steps": 43,
         "cfg_scale": 9.5
     },
-    "bd-horse": {
-        "prompt": "{p}, happy birthday party, (the words \"stable horde\":1.35), colorful, a horse{np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-llama": {
-        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, stars, a llama{np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-sloth": {
-        "prompt": "{p}, (the words \"1 year\":1.35), a sloth eating cake at a rainforest-themed birthday party###bw{np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-dino": {
-        "prompt": "{p}, happy birthday, (the words \"stable horde\":1.35), prehistoric jungle, a dinosaur{np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-ducklings": {
-        "prompt": "{p}, happy birthday, (the words \"stable horde\":1.35), city park, ducklings{np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 9.5
-    },
-    "bd-kids": {
-        "prompt": "{p}, happy birthday party, (the words \"1 year\":1.35), colorful, a group of children at a birthday party, animated by Mike Judge{np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "bd-giger": {
-        "prompt": "{p}, happy birthday, (the words \"1 year\":1.35), cake with frosting, party, balloons, art by HR Giger###bw{np}",
-        "model": "SDXL 1.0",
-        "width": 896,
-        "height": 1152,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "bd-render": {
-        "prompt": "{p}, Birthday-themed 150mm photo, {p}, powerful, spectral fog, photorealistic impasto technique, metallic sanguine, nocturnal infernal gradient, chiaroscuro lighting and aura of angru strength, detailed radiosity, rendered by Arnold Render, inspired by Mark Ryden Beeple and Dali{np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "disturbing birthday": {
-        "prompt": "art by Lisa Frank and HR Giger, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "splash birthday": {
-        "prompt": "{p}, splash art by Lisa Frank and Dan Mumford, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "animated birthday": {
-        "prompt": "{p}, animated by Mike Judge, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "dreamworks birthday": {
-        "prompt": "{p}, in the style of dreamworks animation, (birthday theme:1.3)###{np}, 2d drawing sketch",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "gta birthday": {
-        "prompt": "{p}, gta-v style, (birthday theme:1.3)###{np}",
-        "model": "SDXL 1.0",
-        "width": 1024,
-        "height": 1024,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "anime birthday": {
-        "prompt": "{p}, (anime artwork:1.2), dramatic key visual, detailed vibrant anime style, (birthday theme:1.3)###{np}, 3d",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
     "makoto birthday": {
         "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
         "model": "SDXL 1.0",
         "width": 1024,
         "height": 1024,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "gritty birthday": {
-        "prompt": "{p}, cover art by Frank Miller and Alphonse Mucha, (birthday theme:1.3)###{np}, comic frames, panels, multiple",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "cover birthday": {
-        "prompt": "{p}, (cover art by Mark Brooks:1.1), (birthday theme:1.3)###{np}, panels, multiple, multiple views, border, margin",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "portrait birthday": {
-        "prompt": "{p}, portrait by Karol Bak, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 896,
-        "height": 1152,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "oil birthday": {
-        "prompt": "{p}, (oil painting:1.1) by Caspar David Friedrich and John Constable, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "edo birthday": {
-        "prompt": "{p} in the Japan Edo period, traditional art by Katsushika Hokusai, (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "creepy birthday": {
-        "prompt": "{p}, creepy oil painting by Seb Mckinnon, (creepy birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "abstract birthday": {
-        "prompt": "{p}, (art by Killian Eng), (abstract birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "closeup birthday": {
-        "prompt": "{p}, (art by Anna Dittmann), (birthday theme:1.3), close-up portrait{np}",
-        "model": "SDXL 1.0",
-        "width": 896,
-        "height": 1152,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "doom birthday": {
-        "prompt": "{p}, (idtech 5 doom screenshot), (birthday theme:1.3){np}",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "unreal birthday": {
-        "prompt": "{p}, (unreal engine 5 render), (birthday theme:1.3), {p}###{np}, 2d",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "scary birthday ": {
-        "prompt": "{p}, (art by Ilya Kuvshinov and Phil Evgren) and Junji Ito, (birthday theme:1.3){np}, 2d",
-        "model": "SDXL 1.0",
-        "width": 1152,
-        "height": 896,
-        "steps": 43,
-        "cfg_scale": 7.5
-    },
-    "birthday poster": {
-        "prompt": "(Birthday-themed:1.3) {p}, (poster by Aaron Draplin){np}",
-        "model": "SDXL 1.0",
-        "width": 896,
-        "height": 1152,
         "steps": 43,
         "cfg_scale": 7.5
     },
@@ -281,59 +56,6 @@
             {"name": "22437", "model": 0.85}
         ]
     },
-    "bdcolor2": {
-        "prompt": "happy birthday, colorful, {p}{np}",
-        "model": "Dreamshaper",
-        "width": 960,
-        "height": 768,
-        "steps": 27,
-        "hires_fix": true,
-        "cfg_scale": 7,
-        "loras": [
-            {"name": "42190", "model": 0.85},
-            {"name": "74653", "model": 0.45}
-        ]
-    },
-    "bdcmumford": {
-        "prompt": "{p}, happy birthday, colorful, by dan mumford, danmumford_soul3142{np}",
-        "model": "Dan Mumford Style",
-        "width": 768,
-        "height": 960,
-        "steps": 27,
-        "hires_fix": true,
-        "cfg_scale": 7,
-        "loras": [
-            {"name": "97822", "model": 0.3},
-            {"name": "74653", "model": 0.3}
-        ]
-    },
-    "bdrainbowpencilai": {
-        "prompt": "{p}, birthday party, colored pencil, RainbowPencilRockAI{np}",
-        "model": "Dreamshaper",
-        "width": 960,
-        "height": 768,
-        "steps": 27,
-        "hires_fix": true,
-        "cfg_scale": 7,
-        "loras": [
-            {"name": "95930", "model": 0.6},
-            {"name": "74653", "model": 0.2}
-        ]
-    },
-    "bdstainedglass": {
-        "prompt": "{p}, birthday party, stained glass, st41nedg{np}",
-        "model": "Dreamshaper",
-        "width": 960,
-        "height": 768,
-        "steps": 27,
-        "hires_fix": true,
-        "cfg_scale": 7,
-        "loras": [
-            {"name": "81489", "model": 0.6},
-            {"name": "74653", "model": 0.2}
-        ]
-    },
-
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "SDXL 1.0",
@@ -1377,41 +1099,61 @@
     },
     "terror ink": {
         "prompt": "a terrifying ink drawing of a {p}, by Ko Young Hoon, by Yoshitaka Amano, Charcoal Art, Ink, Oil Paint, Concept Art, Color Grading, Dramatic, Intentional camera movement, Lonely, Cracks, With Imperfections, in a symbolic and meaningful style, insanely detailed and intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, a ghost, covered in spiderweb, eerie, feeling of dread, decay, samhain{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "model": "SDXL 1.0"
     },
     "nightmare": {
         "prompt": "{p} by Aaron Horkey, by Adonna Khare, by Carrie Ann Baade, by Jeff Lemire, by Junji Ito, horror, creepy, dark, eldritch, fantasy{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "model": "SDXL 1.0"
     },
     "abandoned": {
         "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus###blurry, out of focus{np}",
-        "model": "stable_diffusion_2.1",
-        "sampler_name": "dpmsolver",
-        "width": 768,
-        "height": 768
+        "steps": 40,
+        "width": 1280,
+        "height": 832,
+        "model": "SDXL 1.0",
+        "sampler_name": "dpmsolver"
     },
     "witch land": {
         "prompt": "digital art of {p}, witch world, Halloween theme, scenic Halloween, highly detailed, zbrush, by artist Artgerm, by artist Stephen Hickman, by artist Carne griffiths{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "model": "SDXL 1.0"
     },
     "nightmare fairytale": {
         "prompt": "horror {p} in a dark forest, darkness, fog, very detailed, cold, Editorial illustration, gothic, evil, art by Sam Bosma, painting by H.P. Lovecraft{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "model": "SDXL 1.0"
     },
     "elmstreet": {
         "prompt": "drawing of {p} by tim burton, by Aaron Horkey, by H R Giger, creepy, horror, sharp, focused, HD, detailed{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 832,
+        "height": 1280,
+        "model": "SDXL 1.0"
     },
     "ennui": {
         "prompt": "{p}, black and white, foggy, negative, eerie{np}",
-        "model": "stable_diffusion_2.1",
-        "sampler_name": "dpmsolver",
-        "width": 768,
-        "height": 768
+        "model": "SDXL 1.0",
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "dpmsolver"
     },
     "dark fantasy": {
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe{np}",
-        "model": "stable_diffusion"
+        "steps": 40,
+        "width": 1024,
+        "height": 1024,
+        "model": "SDXL 1.0"
     },
     "frozen village": {
         "prompt": "{p} close to anime village in a vast rural frozen hilly landscape, mountains, anime, makoto shinkai{np}",

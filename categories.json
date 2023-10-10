@@ -11,7 +11,7 @@
         "sd15-bd"
     ],
     "featured": [
-        "sdxl"
+        "halloween"
     ],
     "realism": [
         "cyberrealistic",
@@ -390,19 +390,6 @@
         "cyborgpunkportrait",
         "sdxlstreetfashion"
     ],
-    "sdxl-bd": [
-        "bd-plain",
-        "bd-horde",
-        "bd-ai",
-        "bd-horse",
-        "bd-llama",
-        "bd-sloth",
-        "bd-dino",
-        "bd-ducklings",
-        "bd-kids",
-        "bd-giger",
-        "bd-render"
-    ],
     "sd15-bd": [
         "bdcolordd",
         "bdcolor2",
@@ -410,26 +397,10 @@
         "bdrainbowpencilai",
         "bdstainedglass"
     ],
-    "sdxl-bd-artby": [
-        "splash birthday",
-        "disturbing birthday",
-        "artistic birthday",
-        "animated birthday",
-        "dreamworks birthday",
-        "gta birthday",
+    "birthday 2023": [
+        "bd-ai",
         "makoto birthday",
-        "anime birthday",
-        "gritty birthday",
-        "cover birthday",
-        "portrait birthday",
-        "oil birthday",
-        "edo birthday",
-        "creepy birthday",
-        "abstract birthday",
-        "closeup birthday",
-        "doom birthday",
-        "unreal birthday",
-        "scary birthday ",
-        "birthday poster"
+        "artistic birthday",
+        "bdcolordd"
     ]
 }
