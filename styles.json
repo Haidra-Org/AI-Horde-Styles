@@ -1772,9 +1772,16 @@
     "marvel": {
         "prompt": "{p}, whatif style{np}",
         "model": "Marvel Diffusion"
-    },
+    
     "t-shirt": {
         "prompt": "{p}, as a t-shirt logo in the style of <MAGIFACTORY> art{np}",
         "model": "T-Shirt Diffusion"
+    },
+        "halloween": {
+        "prompt": "halloween,haunted costume , halloween night , moonlight , dark ",
+        "model": "SDXL 1.0",
+        "steps": 50,
+        "width": 1024,
+        "height": 1024
     }
 }
