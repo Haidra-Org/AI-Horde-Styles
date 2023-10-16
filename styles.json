@@ -595,6 +595,17 @@
         ]
     },
 
+    "2023-halloween-glitch": {
+        "prompt": "Analog glitch horrornstyle portraitnof a {p} in the shadows, best quality, masterpiece, dark, nightmare fuel###{np}",
+        "model": "stable_diffusion",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": true,
+        "cfg_scale": 9
+    },
     "2023-halloween-gouache": {
         "prompt": "{p} . spooky gouache digital art, dark, creepy, highly detailed, moody, mysterious###{np}, 3d, photo, anime, text",
         "model": "SDXL 1.0",
