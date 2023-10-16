@@ -102,7 +102,23 @@
         "golden light"
     ],
     "halloween": [
-        "halloween 2022"
+        "halloween 2022",
+        "halloween 2023 testing"
+    ],
+    "halloween 2023 testing": [
+        "2023-halloween-gouache",
+        "2023-halloween-splash",
+        "2023-halloween-burton",
+        "2023-halloween-bmovie",
+        "2023-halloween-spooky",
+        "2023-halloween-daigo",
+        "2023-halloween-impressionist",
+        "2023-halloween-vibrant",
+        "2023-halloween-painting",
+        "2023-halloween-parody",
+        "2023-halloween-sketchbook",
+        "2023-halloween-vhs",
+        "2023-halloween-ominous"
     ],
     "halloween 2022": [
         "terror ink",
