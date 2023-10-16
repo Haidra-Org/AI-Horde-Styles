@@ -714,8 +714,9 @@
         "model": "Deliberate",
         "steps": 30,
         "sampler_name": "k_euler_a",
-        "width": 640,
-        "height": 640,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": true,
         "cfg_scale": 9,
         "loras": [
             {"name": "24382", "model": 0.5, "clip": 1.0},
