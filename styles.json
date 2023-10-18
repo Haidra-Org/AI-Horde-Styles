@@ -1791,10 +1791,6 @@
         "prompt": "{p}, supermarionation{np}",
         "model": "Supermarionation"
     },
-    "dreamlike photoreal": {
-        "prompt": "{p}{np}",
-        "model": "Dreamlike Photoreal"
-    },
     "portraitplus": {
         "prompt": "{p}, portrait+ style{np}",
         "model": "PortraitPlus"
