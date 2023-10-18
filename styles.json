@@ -595,6 +595,28 @@
         ]
     },
 
+    "2023-halloween-screaming": {
+        "prompt": "(Dutch angle, liminal space, sharp foreground), silent film aesthetic, dramatic shot of a SUBJECT looking off-screen in horror, screaming, (In the style of Fritz Lang)",
+        "model": "Dreamshaper",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpm_2_a",
+        "width": 704,
+        "height": 448,
+        "hires_fix": true,
+        "cfg_scale": 7.5
+    },
+    "2023-halloween-ps1": {
+        "prompt": "PS1 graphics horror style First person/Third person view of {p}, low resolution, pixelated, 3d, dark, creepy, ominous###{np}",
+        "model": "stable_diffusion",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": true,
+        "cfg_scale": 9
+    },
     "2023-halloween-glitch": {
         "prompt": "Analog glitch horrornstyle portraitnof a {p} in the shadows, best quality, masterpiece, dark, nightmare fuel###{np}",
         "model": "stable_diffusion",
