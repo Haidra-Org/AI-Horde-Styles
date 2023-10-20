@@ -595,6 +595,35 @@
         ]
     },
 
+    "2023-halloween-1930s": {
+        "prompt": "1930s horror style {p}, best quality, Masterpiece, HDR, Shot on 70mm, dark, depressing###{np}",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 9
+    },
+    "2023-halloween-itmovie": {
+        "prompt": "{p} on a 1980s italian horror b-movie poster, directed by bruno mattei, zombies, spooky creepy yellow text#{np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
+        "model": "SDXL 1.0",
+        "steps": 30,
+        "sampler_name": "k_euler_a",
+        "width": 768,
+        "height": 1344,
+        "cfg_scale": 9
+    },
+    "2023-halloween-blackmetal": {
+        "prompt": "{p} on a black metal album cover, purple background, black trees, j-horror, surreal, monochrome###{np}, anime, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
+        "model": "Dreamshaper",
+        "karras": true,
+        "steps": 30,
+        "sampler_name": "k_euler_a",
+        "width": 768,
+        "height": 704,
+        "cfg_scale": 9
+    },
     "2023-halloween-screaming": {
         "prompt": "(Dutch angle, liminal space, sharp foreground), silent film aesthetic, dramatic shot of a SUBJECT looking off-screen in horror, screaming, (In the style of Fritz Lang)",
         "model": "Dreamshaper",
