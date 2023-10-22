@@ -595,6 +595,16 @@
         ]
     },
 
+    "dark romanticism": {
+        "prompt": "Lomography Photo, Dark Romanticism, Germanic, grotesque and arabesque, {p}, sepulchered, guilt, sin, high detail, authentic textures, dark palette, Romanticism background###{np}",
+        "model": "Dreamshaper",
+        "karras": true,
+        "steps": 20,
+        "sampler_name": "k_euler_a",
+        "width": 768,
+        "height": 512,
+        "cfg_scale": 7.5
+    },
     "1930s horror movie": {
         "prompt": "1930s horror style {p}, best quality, Masterpiece, HDR, Shot on 70mm, dark, depressing###{np}",
         "model": "SDXL 1.0",
@@ -632,7 +642,6 @@
         "sampler_name": "k_dpm_2_a",
         "width": 704,
         "height": 448,
-        "hires_fix": true,
         "cfg_scale": 7.5
     },
     "ps1 horror": {
