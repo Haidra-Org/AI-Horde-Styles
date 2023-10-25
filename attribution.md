@@ -10,6 +10,8 @@
 
 
 2023 halloween styles (style name, author. notes):
+- twisted acrylic by @daigodawn [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166597846452158474)
+- apterus intestines by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166731018473062491)
 - dark romanticism by @pope_phred [here](https://discord.com/channels/781145214752129095/1160708232059297962/1165618026591301714)
 - 1930s horror movie by @maxinperson [here](https://discord.com/channels/781145214752129095/1160708232059297962/1164567632138211389)
 - 80s horror bmovie by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1164618274529624064). adjustments: 1024x1024 to 768x1344

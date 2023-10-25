@@ -595,6 +595,26 @@
         ]
     },
 
+    "twisted acrylics": {
+        "prompt": "Demonic, grotesque, chromatic aberration, acrylic painting, {p}, surrealism, horror, by francisco de goya, h r giger, caravaggio###{np}",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 20,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1280,
+        "height": 960,
+        "cfg_scale": 8.5
+    },
+    "apterus intestines": {
+        "prompt": "{p}, Jupiter, apterus:1.2, orange intestines###Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, penis, {np}",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 30,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7
+    },
     "dark romanticism": {
         "prompt": "Lomography Photo, Dark Romanticism, Germanic, grotesque and arabesque, {p}, sepulchered, guilt, sin, high detail, authentic textures, dark palette, Romanticism background###{np}",
         "model": "Dreamshaper",
