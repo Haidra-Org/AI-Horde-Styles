@@ -10,6 +10,9 @@
 
 
 2023 halloween styles (style name, author. notes):
+- everything is meat, by @pope_phred [here](https://discord.com/channels/781145214752129095/1160708232059297962/1167045781069508738)
+- crungus revege by @daigodawn [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166921467133431950)
+- gloomy green red by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166949139758710784)
 - twisted acrylic by @daigodawn [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166597846452158474)
 - apterus intestines by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1166731018473062491)
 - dark romanticism by @pope_phred [here](https://discord.com/channels/781145214752129095/1160708232059297962/1165618026591301714)
@@ -25,7 +28,7 @@
 - bmovie thriller by @dbzer0 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162079477061406730) db0 says *(it trends red and yellow, so if anyone has an idea how to reduce that without preventing it altogether, lemme know)*
 - spooky horror by @strongpoint_s [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162122208995455166)
 - grotesque by @daigodawn [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162182991666217022) examples are in multiple aspect ratios. no setti gs were given, just the prompt.
-- impressionist horror comic by @deamwinchester1971 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162210058000662549) todo: see how well it works without the comic style or with colors de-emphasized.
+- impressionist horror comic by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162210058000662549) todo: see how well it works without the comic style or with colors de-emphasized.
 - vibrant horror by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162260475275395174) todo: higher resolution or hires-fix
 - eerie painting by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162458332846628983) works with multiple aspect ratios
 - spooky parody by @strongpoint_s [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162756820285267968) changes: original resolution was 512x512

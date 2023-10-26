@@ -595,6 +595,36 @@
         ]
     },
 
+    "everything is meat": {
+        "prompt": "Masterpiece, Photographic, everything is Fresh Bloody Meat, Sinew, style of Santiago Caruso, {p}, HDR, glistening, organic, biological, visceral, [Red|Ochre|pale yellow], (hyperdetailed Meat texture), Harsh lighting, side lighting###{np}, Nudity, skin, hair, Symmetrical",
+        "model": "Dreamshaper",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 512,
+        "height": 768,
+        "cfg_scale": 10
+    },
+    "crungus revenge": {
+        "prompt": "Crungus, halloween, spooky, ink painting manga illustration, bloody disgusting, limited palette, chiaroscuro, {p}, by kentaro miura, junji ito, Yusuke Murata",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 20,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1280,
+        "height": 960,
+        "cfg_scale": 8.5
+    },
+    "gloomy green red": {
+        "prompt": "{p}, deep dark green clouds, ground clouds, (red sun:1.1), (suppuration:1.1, shadow, gloomy shadow, gloomy illumination:1.3), (Brian M. Viveros, Aaron Miller, Ayami Kojima style:1.2)###{np}, pink, long shot, photorealism, minimalist, glossy, symmetrical",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 30,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7
+    },
     "twisted acrylics": {
         "prompt": "Demonic, grotesque, chromatic aberration, acrylic painting, {p}, surrealism, horror, by francisco de goya, h r giger, caravaggio###{np}",
         "model": "SDXL 1.0",
