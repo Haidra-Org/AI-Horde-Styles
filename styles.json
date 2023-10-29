@@ -617,7 +617,7 @@
         "cfg_scale": 7
     },
     "everything is meat": {
-        "prompt": "Masterpiece, Photographic, everything is Fresh Bloody Meat, Sinew, style of Santiago Caruso, {p}, HDR, glistening, organic, biological, visceral, [Red|Ochre|pale yellow], (hyperdetailed Meat texture), Harsh lighting, side lighting###{np}, Nudity, skin, hair, Symmetrical",
+        "prompt": "Masterpiece, Photographic, everything is Fresh Bloody Meat, Sinew, style of Santiago Caruso, {p}, HDR, glistening, organic, biological, visceral, [Red|Ochre|pale yellow], (hyperdetailed Meat texture), Harsh lighting, side lighting###nsfw, nudity, {np}, skin, hair, Symmetrical",
         "model": "Dreamshaper",
         "karras": true,
         "steps": 25,
