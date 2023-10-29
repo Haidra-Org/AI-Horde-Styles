@@ -595,6 +595,27 @@
         ]
     },
 
+    "1920s brick wall atmospheric horror": {
+        "prompt": "brick walls, {p}, analog horror, B&W, (grainy:1.2), found footage, 1920s###{np}",
+        "model": "Deliberate",
+        "karras": true,
+        "steps": 30,
+        "sampler_name": "k_euler_a",
+        "hires_fix": true,
+        "width": 832,
+        "height": 832,
+        "cfg_scale": 8
+    },
+    "vibrant halloween": {
+        "prompt": "a Halloween themed vibrant pulp art by JC leyendecker and norman rockwell featuring {p}. horror vibe, dark atmospthere, depth of field, campy, spooky. purple, orange and green color palette.###{np}",
+        "model": "SDXL 1.0",
+        "karras": true,
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7
+    },
     "everything is meat": {
         "prompt": "Masterpiece, Photographic, everything is Fresh Bloody Meat, Sinew, style of Santiago Caruso, {p}, HDR, glistening, organic, biological, visceral, [Red|Ochre|pale yellow], (hyperdetailed Meat texture), Harsh lighting, side lighting###{np}, Nudity, skin, hair, Symmetrical",
         "model": "Dreamshaper",
