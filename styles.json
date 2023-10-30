@@ -855,7 +855,7 @@
         ]
     },
     "ominous gouache pulp": {
-        "prompt": "a ominous gouache painting in style of pulp art depicting a {p}, expressionism, eerie neon lighting, neon accents, a ghostly realm, ominous shadows, complimentary cookies, atmosphere of terror, paperback cover###{np}",
+        "prompt": "a ominous gouache painting in style of pulp art depicting a {p}, expressionism, eerie neon lighting, neon accents, a ghostly realm, ominous shadows, complimentary colors, atmosphere of terror, paperback cover###{np}",
         "model": "SDXL 1.0",
         "steps": 20,
         "sampler_name": "k_euler_a",
