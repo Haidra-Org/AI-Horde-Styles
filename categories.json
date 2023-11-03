@@ -1,14 +1,6 @@
 {
     "new": [
-        "realism",
-        "mediums",
-        "stylish",
-        "glitch",
-        "artstyles",
-        "cards",
-        "sdxl-bd",
-        "sdxl-bd-artby",
-        "sd15-bd"
+        "halloween 2023"
     ],
     "featured": [
         "sdxl-aspect-ratio"
@@ -103,35 +95,16 @@
     ],
     "halloween": [
         "halloween 2022",
-        "halloween 2023 testing"
+        "halloween 2023"
     ],
-    "halloween 2023 testing": [
-        "1920s brick wall atmospheric horror",
+    "halloween 2023": [
         "vibrant halloween",
-        "everything is meat",
-        "crungus revenge",
-        "gloomy green red",
-        "twisted acrylics",
-        "apterus intestines",
-        "dark romanticism",
-        "1930s horror movie",
-        "80s horror bmovie",
-        "black metal cover",
-        "screaming horror",
-        "ps1 horror",
         "glitch horror",
-        "spooky gouache",
-        "halloween splash",
         "monstrous burton",
-        "bmovie thriller",
+        "spooky gouache",
         "spooky horror",
-        "grotesque",
-        "impressionist horror comic",
-        "vibrant horror",
-        "eerie painting",
-        "spooky parody",
-        "vhs horror still",
-        "ominous gouache pulp"
+        "crungus revenge",
+        "impressionist horror comic"
     ],
     "halloween 2022": [
         "terror ink",
