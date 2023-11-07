@@ -114,22 +114,21 @@
     },
 
     "bootybash": {
-        "prompt": "{p}###{np}, low quality, blurry, no pupils, missing digits, extra limbs, monochrome, bad anatomy, watermark, signature, artist name",
+        "prompt": "{p}###{np}, low quality, blurry, no pupils, missing digits, extra limbs, monochrome, watermark, signature, artist name, bad face, bad hand, worst quality, writing,",
         "model": "Anything Diffusion",
-        "sampler": "k_dpm_2",
+        "sampler": "k_euler",
         "karras": true,
-        "steps": 18,
+        "steps": 30,
         "cfg_scale": 7,
-        "width": 768, 
+        "width": 768,
         "height": 1024,
         "clip_skip": true,
         "hires_fix": true,
         "loras": [
-            {"name": "58390", "model": 0.55, "clip": 1},
-            {"name": "4982", "model": 0.6, "clip": 1}
+            {"name": "58390", "model": 0.55, "clip": 1}
         ],
         "tis": [
-            {"name":"7808", "inject_ti":"negprompt", "strength":0.75}
+            {"name":"7808", "inject_ti":"negprompt", "strength":0.7}
         ]
     },
 
