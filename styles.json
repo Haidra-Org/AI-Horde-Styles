@@ -113,6 +113,19 @@
         "steps": 50
     },
 
+    "hamunaptra party": {
+        "prompt": "{p}###{np}",
+        "model": "Dreamshaper",
+        "sampler_name": "k_dpmpp_2m",
+        "steps": 27,
+        "cfg_scale": 7.5,
+        "width": 768,
+        "height": 960,
+        "hires_fix": true,
+        "tis": [
+            {"name": "4157"}
+        ]
+    },
     "bootybash": {
         "prompt": "{p}###{np}, low quality, blurry, no pupils, missing digits, extra limbs, monochrome, watermark, signature, artist name, bad face, bad hand, worst quality, writing,",
         "model": "Anything Diffusion",
