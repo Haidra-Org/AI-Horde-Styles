@@ -269,7 +269,7 @@
         "cfg_scale": 7
     },
     "goldenagecomics": {
-        "prompt": "{np}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color{np}",
+        "prompt": "{p}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color{np}",
         "model": "SDXL 1.0",
         "width": 832,
         "height": 1280,
