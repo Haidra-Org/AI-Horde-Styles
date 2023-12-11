@@ -18,7 +18,7 @@
         "height": 768
     },
     "turbo": {
-        "prompt": "{p}{np}",
+        "prompt": "{p}###nsfw,loli,{np}",
         "model": "SDXL 1.0",
         "sampler_name": "k_euler_a",
         "steps": 8,
@@ -30,7 +30,7 @@
         ]
     },
     "turbo-landscape": {
-        "prompt": "{p}{np}",
+        "prompt": "{p}###nsfw,loli,{np}",
         "model": "SDXL 1.0",
         "sampler_name": "k_euler_a",
         "steps": 8,
@@ -42,7 +42,7 @@
         ]
     },
     "turbo-portrait": {
-        "prompt": "{p}{np}",
+        "prompt": "{p}###nsfw,loli,{np}",
         "model": "SDXL 1.0",
         "sampler_name": "k_euler_a",
         "steps": 8,
