@@ -26,7 +26,7 @@
         "height": 1024,
         "cfg_scale": 1.5,
         "loras": [
-            {"name": "216190", "model": 0.5}
+            {"name": "216190", "model": 1}
         ]
     },
     "turbo-landscape": {
@@ -38,7 +38,7 @@
         "height": 832,
         "cfg_scale": 1.5,
         "loras": [
-            {"name": "216190", "model": 0.5}
+            {"name": "216190", "model": 1}
         ]
     },
     "turbo-portrait": {
@@ -50,7 +50,7 @@
         "height": 1216,
         "cfg_scale": 1.5,
         "loras": [
-            {"name": "216190", "model": 0.5}
+            {"name": "216190", "model": 1}
         ]
     },
 
