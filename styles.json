@@ -24,7 +24,7 @@
         "steps": 8,
         "width": 1024,
         "height": 1024,
-        "cfg_scale": 2,
+        "cfg_scale": 1.5,
         "loras": [
             {"name": "216190", "model": 1}
         ]
@@ -36,7 +36,7 @@
         "steps": 8,
         "width": 1280,
         "height": 832,
-        "cfg_scale": 2,
+        "cfg_scale": 1.5,
         "loras": [
             {"name": "216190", "model": 1}
         ]
@@ -48,7 +48,7 @@
         "steps": 8,
         "width": 832,
         "height": 1216,
-        "cfg_scale": 2,
+        "cfg_scale": 1.5,
         "loras": [
             {"name": "216190", "model": 1}
         ]
