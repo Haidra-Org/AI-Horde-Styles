@@ -27,11 +27,11 @@
     "turbo": {
         "prompt": "{p}###nsfw,loli,{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "sampler_name": "k_euler_a",
+        "sampler_name": "lcm",
         "steps": 8,
         "width": 1024,
         "height": 1024,
-        "cfg_scale": 1.5,
+        "cfg_scale": 2,
         "loras": [
             {"name": "216190", "model": 1}
         ]
@@ -39,11 +39,11 @@
     "turbo-landscape": {
         "prompt": "{p}###nsfw,loli,{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "sampler_name": "k_euler_a",
+        "sampler_name": "lcm",
         "steps": 8,
         "width": 1280,
         "height": 832,
-        "cfg_scale": 1.5,
+        "cfg_scale": 2,
         "loras": [
             {"name": "216190", "model": 1}
         ]
@@ -51,11 +51,11 @@
     "turbo-portrait": {
         "prompt": "{p}###nsfw,loli,{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "sampler_name": "k_euler_a",
+        "sampler_name": "lcm",
         "steps": 8,
         "width": 832,
         "height": 1216,
-        "cfg_scale": 1.5,
+        "cfg_scale": 2,
         "loras": [
             {"name": "216190", "model": 1}
         ]
