@@ -3,15 +3,7 @@
         "halloween 2023"
     ],
     "featured": [
-        "sdxl-aspect-ratio",
-        "turbo",
-        "turbo-landscape",
-        "turbo-portrait"
-    ],
-    "sdxl-turbo": [
-        "turbo",
-        "turbo-landscape",
-        "turbo-portrait"
+        "sdxl-aspect-ratio"
     ],
     "realism": [
         "cyberrealistic",
