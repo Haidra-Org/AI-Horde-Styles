@@ -200,7 +200,7 @@
     "bootybash": {
         "prompt": "{p}###{np}, low quality, blurry, no pupils, missing digits, extra limbs, monochrome, watermark, signature, artist name, bad face, bad hand, worst quality, writing,",
         "model": "Anything Diffusion",
-        "sampler": "k_euler",
+        "sampler_name": "k_euler",
         "karras": true,
         "steps": 30,
         "cfg_scale": 7,
