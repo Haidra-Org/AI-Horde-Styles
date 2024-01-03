@@ -470,6 +470,7 @@
     },
     "building": {
         "prompt": "{p}, shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra-detailed, realistic###{np}",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
         "steps": 5,
@@ -481,6 +482,7 @@
     },
     "animal": {
         "prompt": "{p}, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, national geographic, award-winning photograph by nick nichols###{np}",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
         "steps": 5,
@@ -492,6 +494,7 @@
     },
     "vaporwave": {
         "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, blurry{np}",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1344,
         "height": 768,
         "steps": 5,
@@ -503,6 +506,7 @@
     },
     "isometric": {
         "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic{np}",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
         "steps": 5,
