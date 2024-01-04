@@ -71,7 +71,7 @@
         ]
     },
     "bdcolordd": {
-        "prompt": "{p}, happy birthday, colorful, in the style of t3xtn, {p}{np}",
+        "prompt": "{p}, happy birthday, colorful, in the style of t3xtn{np}",
         "model": "Dreamshaper",
         "width": 960,
         "height": 768,
