@@ -265,7 +265,7 @@
         ]
     },
     "neonnoir": {
-        "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {p}",
+        "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {np}",
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
