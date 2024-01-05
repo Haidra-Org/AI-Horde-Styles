@@ -709,7 +709,7 @@
         ]
     },
     "movieposter": {
-        "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused",
+        "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused, {np}",
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
