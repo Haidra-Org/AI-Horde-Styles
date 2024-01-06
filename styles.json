@@ -2,25 +2,25 @@
     "sdxl": {
         "prompt": "{p}{np}",
         "model": "SDXL 1.0",
-        "steps": 5,
+        "steps": 8,
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "albedo": {
         "prompt": "{p}{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "steps": 5,
+        "steps": 8,
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "raw": {
@@ -39,11 +39,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "makoto birthday": {
@@ -51,11 +51,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "artistic birthday": {
@@ -63,11 +63,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "bdcolordd": {
@@ -76,9 +76,9 @@
         "width": 960,
         "height": 768,
         "hires_fix": true,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
             {"name": "268475", "model": 1, "is_version": true},
             {"name": "85479", "model": 0.5},
@@ -92,11 +92,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 704,
         "height": 1472,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-extreme-vertical": {
@@ -104,11 +104,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 640,
         "height": 1536,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-portrait": {
@@ -116,11 +116,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-photo": {
@@ -128,11 +128,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-photo-horizontal": {
@@ -140,11 +140,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-landscape": {
@@ -152,11 +152,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-widescreen": {
@@ -164,11 +164,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1344,
         "height": 768,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "sdxl-cinematic": {
@@ -176,11 +176,11 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1536,
         "height": 640,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
-        "sampler_name": "lcm",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
 
@@ -221,7 +221,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1216,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -233,7 +233,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1216,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -245,7 +245,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1216,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -257,7 +257,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -269,7 +269,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -281,7 +281,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -293,7 +293,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 768,
         "height": 1344,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -305,7 +305,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1280,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -317,7 +317,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1280,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -329,7 +329,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1280,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -341,7 +341,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -353,7 +353,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -365,7 +365,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1280,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -377,7 +377,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -389,7 +389,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1280,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -401,7 +401,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -413,7 +413,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -425,7 +425,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -437,7 +437,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1344,
         "height": 768,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -449,7 +449,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -461,7 +461,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -473,7 +473,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -485,7 +485,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -497,7 +497,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1344,
         "height": 768,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -509,7 +509,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -521,7 +521,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -533,7 +533,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1280,
         "height": 832,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -545,7 +545,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -557,7 +557,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -569,7 +569,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -581,7 +581,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -593,7 +593,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -605,7 +605,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1344,
         "height": 768,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -617,7 +617,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -629,7 +629,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -641,7 +641,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 896,
         "height": 1152,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -653,7 +653,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -665,7 +665,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -677,7 +677,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -689,7 +689,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -701,7 +701,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
@@ -713,7 +713,7 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
-        "steps": 5,
+        "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
