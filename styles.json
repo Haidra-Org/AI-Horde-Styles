@@ -265,7 +265,7 @@
         ]
     },
     "neonnoir": {
-        "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {p}",
+        "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {np}",
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
@@ -709,7 +709,7 @@
         ]
     },
     "movieposter": {
-        "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused",
+        "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused, {np}",
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
