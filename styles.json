@@ -907,7 +907,16 @@
         "height": 1024,
         "cfg_scale": 9
     },
-
+    "impressionist oil painting": {
+        "prompt": "A beautiful oil painting of {p}, with thick messy brush strokes ### blurry, out of focus{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "karras": true,
+        "steps": 8,
+        "sampler_name": "k_dpm_fast",
+        "width": 640,
+        "height": 1024,
+        "cfg_scale": 2
+    },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
