@@ -7,7 +7,7 @@
 - cyborgpunkportrait keywords mostly came from fiki on discord
 - movieposter by max
 - graffiti, retrofuturistic, dystopian from stable-diffusion-art.com
-
+- impressionist oil painting by rockbandit
 
 2023 halloween styles (style name, author. notes):
 - 1920s brick wall atmospheric horror by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1167553375278207076)
