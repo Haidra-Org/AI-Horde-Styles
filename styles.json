@@ -908,7 +908,7 @@
         "cfg_scale": 9
     },
     "impressionist oil painting": {
-        "prompt": "A beautiful oil painting of {p}, with thick messy brush strokes ### blurry, out of focus{np}"  
+        "prompt": "A beautiful oil painting of {p}, with thick messy brush strokes ### blurry, out of focus{np}",
         "model": "AlbedoBase XL (SDXL)",
         "karras": true,
         "steps": 8,
