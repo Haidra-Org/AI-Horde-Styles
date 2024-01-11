@@ -917,6 +917,44 @@
         "height": 832,
         "cfg_scale": 2
     },
+    "flat simple cartoon": {
+        "prompt": "{p}, wikihow cartoon illustration###3d, photo, text, {np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
+    "color splash": {
+        "prompt": "{p}, painted world, colorful splashes###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "273924", "model": 0.75, "is_version": true }
+        ]
+    },
+    "parchment": {
+        "prompt": "on parchment, ink illustration, {p}###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "285737", "model": 1.0, "is_version": true }
+        ]
+    },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
