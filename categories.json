@@ -1,9 +1,10 @@
 {
     "new": [
-        "halloween 2023"
+        "icbinp xl",
+        "fustercluck"
     ],
     "featured": [
-        "sdxl-aspect-ratio"
+        "fustercluck"
     ],
     "realism": [
         "cyberrealistic",
@@ -132,14 +133,8 @@
     ],
     "dreambooth": [
         "danmumford",
-        "arcane",
-        "spider verse",
-        "archer",
-        "elden ring",
         "robo",
-        "modern animation",
         "classic animation",
-        "xynthii",
         "comic mashup",
         "charlie bo",
         "hollie mengert",
@@ -149,60 +144,36 @@
         "tron legacy",
         "microworlds",
         "appicon",
-        "redshift",
-        "borderlands",
-        "cyberpunk edgerunners",
-        "cyberpunk anime",
         "midjourney",
         "pixel sprite",
         "16bit scene",
-        "voxel",
-        "van gogh",
-        "bubblydubbly",
-        "clazy",
-        "samdoesarts",
-        "synthwave",
         "vectorartz",
         "ranma",
-        "guohua",
         "inkpunk",
         "mtg",
-        "knollingcase",
         "paintart",
         "rpg portrait",
-        "wavyfusion",
-        "papercutcraft",
         "papercut",
         "chroma",
-        "kurzgesagt",
         "ghibli",
         "analog",
-        "simpsons",
         "dublex",
-        "funko",
-        "balloon",
-        "future",
         "dreamlike",
         "seekart",
         "gta5",
         "acertainthing",
         "valorant",
         "space",
-        "microscopic",
         "modern art",
-        "supermarionation",
         "dnd",
-        "dnd item",
-        "t-shirt"
+        "dnd item"
     ],
     "fantasy": [
         "high fantasy",
         "dark fantasy",
-        "elden ring",
         "mtg",
         "rpg portrait",
-        "hasdx",
-        "sygil-dev"
+        "hasdx"
     ],
     "animation": [
         "mistoon amethyst",
@@ -224,10 +195,8 @@
         "bweshmix",
         "revanimated",
         "cetus-mix",
-        "cyberpunk anime",
         "anything",
         "waifu",
-        "trinart",
         "poison",
         "eimis"
     ],
@@ -240,7 +209,6 @@
         "acertainthing_raw",
         "anything_raw",
         "waifu_raw",
-        "trinart_raw",
         "poison_raw",
         "eimis_raw",
         "trinart_character_raw",
@@ -250,20 +218,11 @@
         "acertainthing",
         "16bit scene",
         "vectorartz",
-        "background illustration",
         "eternos",
         "sci-fi"
     ],
-    "3danimation": [
-        "arcane",
-        "spider verse",
-        "modern animation",
-        "redshift",
-        "future"
-    ],
     "comic": [
         "gta5",
-        "archer",
         "classic animation",
         "comic mashup",
         "charlie bo",
@@ -271,38 +230,23 @@
         "pepe larraz",
         "andreas rocha",
         "james daly",
-        "simpsons",
-        "sonic",
         "marvel"
     ],
     "painting": [
-        "guohua",
         "paintart",
         "19th century painting",
-        "van gogh",
-        "kurzgesagt",
         "dreamlike",
         "valorant",
-        "darkest",
         "dreamlikesam",
-        "dreamlikekuvshinov",
-        "zelda botw"
+        "dreamlikekuvshinov"
     ],
     "reshape": [
-        "knollingcase",
         "microworlds",
         "appicon",
-        "clazy",
-        "papercutcraft",
-        "funko",
-        "balloon",
-        "papercut",
-        "smoke"
+        "papercut"
     ],
     "portrait": [
         "hassanblend",
-        "samdoesarts",
-        "bubblydubbly",
         "chroma",
         "inkpunk+",
         "dublex",
@@ -328,10 +272,6 @@
         "oldvhs",
         "analogdistortion",
         "pixelsorting"
-    ],
-    "paper": [
-        "papercutcraft",
-        "papercut"
     ],
     "sdxl-aspect-ratio": [
         "sdxl-extreme-vertical",

@@ -1628,6 +1628,30 @@
         "prompt": "{p}###{np}",
         "model": "ICBINP - I Can't Believe It's Not Photography"
     },
+    "icbinp xl": {
+        "prompt": "{p}###{np}",
+        "width": 832,
+        "height": 1152,
+        "steps": 10,
+        "cfg_scale": 1,
+        "model": "ICBINP XL",
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            {"name": "247778", "model": 1, "is_version": true}
+        ]
+    },
+    "fustercluck": {
+        "prompt": "{p}###{np}",
+        "width": 832,
+        "height": 1216,
+        "steps": 10,
+        "cfg_scale": 1,
+        "model": "Fustercluck",
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            {"name": "247778", "model": 1, "is_version": true}
+        ]
+    },
     "meinamix": {
         "prompt": "{p}###{np}",
         "model": "MeinaMix"
@@ -1704,14 +1728,6 @@
         "prompt": "{p}{np}",
         "model": "waifu_diffusion"
     },
-    "trinart": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
-        "model": "trinart"
-    },
-    "trinart_raw": {
-        "prompt": "{p}{np}",
-        "model": "trinart"
-    },
     "hentai": {
         "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
         "model": "Hentai Diffusion"
@@ -1772,37 +1788,13 @@
         "prompt": "{p}{np}",
         "model": "RPG"
     },
-    "arcane": {
-        "prompt": "{p}, arcane style{np}",
-        "model": "Nitro Diffusion"
-    },
-    "spider verse": {
-        "prompt": "{p}, spiderverse style{np}",
-        "model": "Spider-Verse Diffusion"
-    },
-    "archer": {
-        "prompt": "{p}, archer style{np}",
-        "model": "Nitro Diffusion"
-    },
-    "elden ring": {
-        "prompt": "{p}, elden ring style{np}",
-        "model": "Elden Ring Diffusion"
-    },
     "robo": {
         "prompt": "{p}, nousr robot{np}",
         "model": "Robo-Diffusion"
     },
-    "modern animation": {
-        "prompt": "{p}, modern disney style{np}",
-        "model": "Nitro Diffusion"
-    },
     "classic animation": {
         "prompt": "{p}, classic disney style{np}",
         "model": "Classic Animation Diffusion"
-    },
-    "xynthii": {
-        "prompt": "{p}, xynthii{np}",
-        "model": "Xynthii-Diffusion"
     },
     "comic mashup": {
         "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle{np}",
@@ -1836,22 +1828,6 @@
         "prompt": "{p}, microworld render style{np}",
         "model": "Microworlds"
     },
-    "redshift": {
-        "prompt": "{p}, redshift style{np}",
-        "model": "Redshift Diffusion"
-    },
-    "borderlands": {
-        "prompt": "{p}, borderlands{np}",
-        "model": "Borderlands"
-    },
-    "cyberpunk edgerunners": {
-        "prompt": "{p}, dgs{np}",
-        "model": "Cyberpunk Anime Diffusion"
-    },
-    "cyberpunk anime": {
-        "prompt": "{p}, illustration style{np}",
-        "model": "Cyberpunk Anime Diffusion"
-    },
     "midjourney": {
         "prompt": "{p}, midjrny-v4 style{np}",
         "model": "Midjourney Diffusion"
@@ -1864,30 +1840,6 @@
         "prompt": "{p}, 16bitscene{np}",
         "model": "AIO Pixel Art"
     },
-    "voxel": {
-        "prompt": "{p}, VoxelArt{np}",
-        "model": "Voxel Art Diffusion"
-    },
-    "van gogh": {
-        "prompt": "{p}, lvngvncnt{np}",
-        "model": "Van Gogh Diffusion"
-    },
-    "bubblydubbly": {
-        "prompt": "{p}, art by bubblydubbly{np}",
-        "model": "BubblyDubbly"
-    },
-    "clazy": {
-        "prompt": "{p}, clazy style{np}",
-        "model": "Clazy"
-    },
-    "samdoesarts": {
-        "prompt": "{p}, samdoesarts style{np}",
-        "model": "Samdoesarts Ultmerge"
-    },
-    "synthwave": {
-        "prompt": "{p}, snthwve style{np}",
-        "model": "Synthwave"
-    },
     "vectorartz": {
         "prompt": "{p}, vectorartz{np}",
         "model": "vectorartz"
@@ -1895,10 +1847,6 @@
     "ranma": {
         "prompt": "{p}, 80sanimestyle{np}",
         "model": "Ranma Diffusion"
-    },
-    "guohua": {
-        "prompt": "{p}, guohua style{np}",
-        "model": "Guohua Diffusion"
     },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
@@ -1912,10 +1860,6 @@
         "prompt": "{p}, mtg card art{np}",
         "model": "Fantasy Card Diffusion"
     },
-    "knollingcase": {
-        "prompt": "{p}, knollingcase{np}",
-        "model": "Knollingcase"
-    },
     "paintart": {
         "prompt": "{p}, mdjrny-pntrt{np}",
         "model": "Midjourney PaintArt"
@@ -1923,14 +1867,6 @@
     "ghibli": {
         "prompt": "{p}, ghibli style{np}",
         "model": "Ghibli Diffusion"
-    },
-    "wavyfusion": {
-        "prompt": "{p}, wa-vy style{np}",
-        "model": "Wavyfusion"
-    },
-    "papercutcraft": {
-        "prompt": "{p}, papercutcraft style{np}",
-        "model": "Papercutcraft"
     },
     "papercut": {
         "prompt": "{p}, PaperCut{np}",
@@ -1940,14 +1876,6 @@
         "prompt": "{p}, ChromaV5 award winning photography, extremely detailed, artstation, 8 k, incredible art{np}",
         "model": "ChromaV5"
     },
-    "kurzgesagt": {
-        "prompt": "{p}, kurzgesagt style{np}",
-        "model": "kurzgesagt"
-    },
-    "squishmallow": {
-        "prompt": "{p}, Squishmallow{np}",
-        "model": "Squishmallow Diffusion"
-    },
     "dreamlike": {
         "prompt": "{p}, dreamlikeart{np}",
         "model": "Dreamlike Diffusion"
@@ -1956,26 +1884,9 @@
         "prompt": "{p}, analog style{np}",
         "model": "Analog Diffusion"
     },
-    "simpsons":
-     {
-        "prompt": "{p}, asim style{np}",
-        "model": "Asim Simpsons"
-    },
-    "funko": {
-        "prompt": "{p}, funko style{np}",
-        "model": "Funko Diffusion"
-    },
     "dublex": {
         "prompt": "{p}, dublex{np}",
         "model": "Double Exposure Diffusion"
-    },
-    "balloon": {
-        "prompt": "{p}, BalloonArt{np}",
-        "model": "Balloon Art"
-    },
-    "future": {
-        "prompt": "{p}, future style{np}",
-        "model": "Future Diffusion"
     },
     "valorant": {
         "prompt": "{p}, valorant style{np}",
@@ -1997,21 +1908,9 @@
         "prompt": "{p}{np}",
         "model": "Dungeons and Diffusion"
     },
-    "microscopic": {
-        "prompt": "{p}, microscopic{np}",
-        "model": "Microscopic"
-    },
     "trinart_character_raw": {
         "prompt": "{p}{np}",
         "model": "Trinart Characters"
-    },
-    "smoke": {
-        "prompt": "{p}, ssmoky{np}",
-        "model": "Smoke Diffusion"
-    },
-    "supermarionation": {
-        "prompt": "{p}, supermarionation{np}",
-        "model": "Supermarionation"
     },
     "portraitplus": {
         "prompt": "{p}, portrait+ style{np}",
@@ -2021,17 +1920,9 @@
         "prompt": "{p}, estilovintedois{np}",
         "model": "Vintedois Diffusion"
     },
-    "darkest": {
-        "prompt": "{p}, in the artstyle of dd{np}",
-        "model": "Darkest Diffusion"
-    },
     "eternos": {
         "prompt": "{p}, romerorzeternos{np}",
         "model": "Eternos"
-    },
-    "background illustration": {
-        "prompt": "{p}, sjh style{np}",
-        "model": "Min Illust Background"
     },
     "dark victorian": {
         "prompt": "{p}, darkvictorian artstyle{np}",
@@ -2073,10 +1964,6 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "DreamLikeSamKuvshinov"
     },
-    "sygil-dev": {
-        "prompt": "{p}{np}",
-        "model": "Sygil-Dev Diffusion"
-    },
     "moistmix": {
         "prompt": "{p}{np}",
         "model": "MoistMix"
@@ -2096,10 +1983,6 @@
     "ultraskin": {
         "prompt": "{p}, ultraskin{np}",
         "model": "Ultraskin"
-    },
-    "sonic": {
-        "prompt": "{p}, mobian{np}",
-        "model": "Sonic Diffusion"
     },
     "ppp": {
         "prompt": "{p}{np}",
@@ -2121,16 +2004,8 @@
         "prompt": "{p}{np}",
         "model": "Dreamshaper"
     },
-    "zelda botw": {
-        "prompt": "{p}, botw style{np}",
-        "model": "Zelda BOTW"
-    },
     "marvel": {
         "prompt": "{p}, whatif style{np}",
         "model": "Marvel Diffusion"
-    },
-    "t-shirt": {
-        "prompt": "{p}, as a t-shirt logo in the style of <MAGIFACTORY> art{np}",
-        "model": "T-Shirt Diffusion"
     }
 }
