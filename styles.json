@@ -1633,7 +1633,7 @@
         "width": 832,
         "height": 1152,
         "steps": 10,
-        "cfg_scale": 1,
+        "cfg_scale": 3.5,
         "model": "ICBINP XL",
         "sampler_name": "k_dpmpp_sde",
         "loras": [
