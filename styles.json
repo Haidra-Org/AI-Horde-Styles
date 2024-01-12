@@ -1631,7 +1631,7 @@
     "icbinp xl": {
         "prompt": "{p}###{np}",
         "width": 832,
-        "height": 1152,
+        "height": 1216,
         "steps": 10,
         "cfg_scale": 3.5,
         "model": "ICBINP XL",
