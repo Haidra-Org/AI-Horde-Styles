@@ -1637,7 +1637,7 @@
         "model": "ICBINP XL",
         "sampler_name": "k_euler_a",
         "loras": [
-            {"name": "246747", "model": 0.3, "is_version": true}
+            {"name": "246747", "model": 1, "is_version": true}
         ]
     },
     "fustercluck": {
