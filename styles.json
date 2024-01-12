@@ -1635,9 +1635,9 @@
         "steps": 10,
         "cfg_scale": 3.5,
         "model": "ICBINP XL",
-        "sampler_name": "k_dpmpp_sde",
+        "sampler_name": "k_euler_a",
         "loras": [
-            {"name": "247778", "model": 1, "is_version": true}
+            {"name": "246747", "model": 0.3, "is_version": true}
         ]
     },
     "fustercluck": {
