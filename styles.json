@@ -955,6 +955,54 @@
             { "name": "285737", "model": 1.0, "is_version": true }
         ]
     },
+    "emoji 3d": {
+        "prompt": "{p} . cgi emoji centered icon, cute, solid white background###nsfw, flat, 2d, photo, anime, {np}",
+        "model": "Fustercluck",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
+    "emoji 2d": {
+        "prompt": "{p} . flat 2d emoji icon, cute, crisp outlined icon art, colorful, centered, on a solid white background###nsfw, 3d, octane render, photo, anime, {np}",
+        "model": "Fustercluck",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
+    "fustercluck 3d": {
+        "prompt": "{p} . cgi render, volumetric lighting###nsfw, anime, 2d, flat, photo, {np}",
+        "model": "Fustercluck",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
+    "vector illustration": {
+        "prompt": "{p} . digital vector art, svg, adobe illustrator, made in procreate###nsfw, text, 3d, photo, anime, {np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
