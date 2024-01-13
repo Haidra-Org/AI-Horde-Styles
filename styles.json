@@ -969,7 +969,7 @@
     },
     "emoji 2d": {
         "prompt": "{p} . flat 2d emoji icon, cute, crisp outlined icon art, colorful, centered, on a solid white background###nsfw, 3d, octane render, photo, anime, {np}",
-        "model": "Fustercluck",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
         "steps": 8,
