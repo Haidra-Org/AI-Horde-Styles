@@ -1660,11 +1660,11 @@
         "width": 832,
         "height": 1216,
         "steps": 10,
-        "cfg_scale": 1,
+        "cfg_scale": 2.5,
         "model": "Fustercluck",
-        "sampler_name": "k_euler_a",
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "246747", "model": 1, "is_version": true}
+            {"name": "247778", "model": 1, "is_version": true}
         ]
     },
     "meinamix": {
