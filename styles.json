@@ -390,7 +390,7 @@
     },
     "portraitphoto": {
         "prompt": "portrait photo of {p}, photograph, highly detailed face, depth of field, moody light, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography###disfigured{np}, closeup, cropped",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "ICBINP XL",
         "width": 896,
         "height": 1152,
         "steps": 8,
