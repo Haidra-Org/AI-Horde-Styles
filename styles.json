@@ -259,6 +259,15 @@
         "sampler_name": "k_dpmpp_sde",
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
+    "chinese digital oil painting": {
+        "prompt": "a digital oil painting of {p}. year of the dragon. Chinese motif, red, yellow, gold, and jade color palette, intricate linework, black background. high-angle shot###{np}",
+        "model": "SDXL 1.0",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 9,
+        "sampler_name": "k_euler_a"
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
