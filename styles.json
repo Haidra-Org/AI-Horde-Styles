@@ -184,6 +184,82 @@
         ]
     },
 
+    "chinese wash painting": {
+        "prompt": "red and yellow and green, in style of Wang Wei , Chinese wash painting depicting {p}, watercolor, bold brush strokes, central focus, mandarin letters, rusted paper###{np}",
+        "model": "SDXL 1.0",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7.5,
+        "sampler_name": "k_dpmpp_euler"
+    },
+    "chinese paper art": {
+        "prompt": "{p} . traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{ "name": "246747", "model": 0.3, "is_version": true }]
+    },
+    "flowers and sparks": {
+        "prompt": "{p} . highly detailed illustration of a print, colorful, dragon, china, festive, flowers, fireworks, smoke, sparks, studio ghibli, pastel tetradic colors, fantasy art, matte painting, watercolor effect, bokeh, adobe illustrator, digital painting, soft lighting, 4K resolution, 4k, photorealistic rendering, artstation painting concept art ### nsfw, disfigured, creepy, cropped",
+        "model": "Fustercluck",
+        "steps": 11,
+        "height": 1024,
+        "width": 1024,
+        "karras": true,
+        "cfg_scale": 3,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
+    "chinese ink": {
+        "prompt": "(Celebratory Chinese black ink well artwork representing the chinese new year with {p}:1.2), best quality, Masterpiece, Super detailed and intricate, Ink well, Fine lines, White canvas, Crisp quality, Textured###Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn, {np}",
+        "model": "SDXL 1.0",
+        "steps": 14,
+        "width": 1024,
+        "height": 1024,
+        "karras": true,
+        "cfg_scale": 2.5,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
+    "dragonpunk new year": {
+        "prompt": "{p} . dragonpunk digital art, trending on artstation, gouache digital art, dragons! d&d style art###nsfw, {np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
+    "rich red": {
+        "prompt": "{p} . Chinese New Year, China, festive, fireworks, oil painting, vibrant background, vibrant, highly detailed illustration, top quality ### nsfw, disfigured, cropped, {np}",
+        "model": "Fustercluck",
+        "steps": 10,
+        "height": 1024,
+        "width": 1024,
+        "karras": true,
+        "cfg_scale": 2.5,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+          {"name": "124691","model": 1,"clip": 1,"is_version": true},
+          {"name": "38884", "model": 1,"clip": 1,"is_version": true}
+        ]
+    },
+    "dragon propaganda poster": {
+        "prompt": "dragon flying over {p} , propaganda poster art, oriental full framed, new year´s greetings, intricate, cartoon###{np}",
+        "model": "Fustercluck",
+        "steps": 12,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
+
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
         "model": "AlbedoBase XL (SDXL)",

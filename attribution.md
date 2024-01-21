@@ -38,3 +38,12 @@
 - spooky sketchbook by @arkeis [here](https://discord.com/channels/781145214752129095/1160708232059297962/1162868907523182693). not reproducible/flexible. will be removed if unchanged.
 - vhs horror still by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1163084198425395250), step count not specified
 - ominous gouache pulp by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1163085147118252104), works woth multiple aspect ratios
+
+2024 chinese new year styles
+- wash painting by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1196668735277236344)
+- chinese paper art by @robertcs [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197238697163247706)
+- flowers and sparks by @greyshi [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197253106430382131)
+- chinese ink by @maxinperson [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197514247836532766)
+- dragonpunk new year by @robertcs [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197597482541129918)
+- rich red by @greyshi [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197848277329125417)
+- dragon propaganda poster by @kasuai [here](https://discord.com/channels/781145214752129095/1195909363244740649/1198255653572059186)
