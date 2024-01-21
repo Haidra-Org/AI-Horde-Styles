@@ -191,7 +191,7 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 7.5,
-        "sampler_name": "k_dpmpp_euler"
+        "sampler_name": "k_euler"
     },
     "chinese paper art": {
         "prompt": "{p} . traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw",
