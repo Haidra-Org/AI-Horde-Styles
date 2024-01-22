@@ -1182,7 +1182,19 @@
             { "name": "247778", "model": 1, "is_version": true }
         ]
     },
-
+    "rainbow": {
+        "prompt": "{p} . 2d cartoon illustration in the style of lisa frank, rainbow colorscheme, photoillustration, cute, friendly###nsfw, {np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
+    },
+    
     "piratepunk": {
         "prompt": "{p}, piratepunkai###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
