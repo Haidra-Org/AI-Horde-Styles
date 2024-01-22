@@ -204,7 +204,7 @@
         "loras": [{ "name": "246747", "model": 0.3, "is_version": true }]
     },
     "flowers and sparks": {
-        "prompt": "{p} . highly detailed illustration of a print, colorful, dragon, china, festive, flowers, fireworks, smoke, sparks, studio ghibli, pastel tetradic colors, fantasy art, matte painting, watercolor effect, bokeh, adobe illustrator, digital painting, soft lighting, 4K resolution, 4k, photorealistic rendering, artstation painting concept art ### nsfw, disfigured, creepy, cropped",
+        "prompt": "{p} . highly detailed illustration of a print, colorful, dragon, china, festive, flowers, fireworks, smoke, sparks, studio ghibli, pastel tetradic colors, fantasy art, matte painting, watercolor effect, bokeh, adobe illustrator, digital painting, soft lighting, 4K resolution, 4k, photorealistic rendering, artstation painting concept art ###{np}, nsfw, disfigured, creepy, cropped",
         "model": "Fustercluck",
         "steps": 11,
         "height": 1024,
