@@ -195,7 +195,8 @@
         "illuminati",
         "faetastic",
         "moonmix fantasy",
-        "color splash"
+        "color splash",
+        "rainbow"
     ],
     "anime": [
         "acertainthing",
@@ -330,7 +331,10 @@
         "disney",
         "pixar",
         "lineart",
-        "vector illustration"
+        "vector illustration",
+        "line art",
+        "charcoal drawing",
+        "pencil drawing",
     ],
     "cards": [
         "playingcard",
