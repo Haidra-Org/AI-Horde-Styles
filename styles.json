@@ -268,7 +268,7 @@
         "cfg_scale": 9,
         "sampler_name": "k_euler_a"
     },
-    "The People's New Year": {
+    "the people's new year": {
         "prompt": "1949 Chinese propaganda poster featuring {p}, painted by Dong Xiwen, (chinese dragon:1.06), chinese kanji, cloudy skies, vintage, best quality ### bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
         "model": "SDXL 1.0",
         "cfg_scale": 7,
@@ -279,7 +279,7 @@
         "karras": true,
         "hires_fix": false
     },
-    "Chinese Pictogram": {
+    "chinese pictogram": {
         "prompt": "(Minimalistic Chinese Pictogram depicting festive Chinese traditional cuisine:1.2), best quality, Masterpiece, Super detailed and intricate, Minimalistic, High contrast, Crisp quality, Textured ### Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn",
         "model": "Dreamshaper",
         "cfg_scale": 9,
