@@ -280,7 +280,7 @@
         "hires_fix": false
     },
     "chinese pictogram": {
-        "prompt": "(Minimalistic Chinese Pictogram depicting festive Chinese traditional cuisine:1.2), best quality, Masterpiece, Super detailed and intricate, Minimalistic, High contrast, Crisp quality, Textured ### Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn",
+        "prompt": "(Minimalistic Chinese Pictogram depicting {p}:1.2), best quality, Masterpiece, Super detailed and intricate, Minimalistic, High contrast, Crisp quality, Textured ### {np}, Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn",
         "model": "Dreamshaper",
         "cfg_scale": 9,
         "sampler_name": "k_dpmpp_sde",
