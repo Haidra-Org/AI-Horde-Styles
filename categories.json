@@ -315,7 +315,7 @@
         "sdxl-vertical",
         "sdxl-portrait",
         "sdxl-photo",
-        "sdxl-photo-landscape",
+        "sdxl-photo-horizontal",
         "sdxl-landscape",
         "sdxl-widescreen",
         "sdxl-cinematic"
@@ -354,7 +354,6 @@
     ],
     "cards": [
         "playingcard",
-        "pokemoncard",
         "baseballcard",
         "greetingcard",
         "postcard",
@@ -372,11 +371,7 @@
         "sdxlstreetfashion"
     ],
     "sd15-bd": [
-        "bdcolordd",
-        "bdcolor2",
-        "bdcmumford",
-        "bdrainbowpencilai",
-        "bdstainedglass"
+        "bdcolordd"
     ],
     "birthday 2023": [
         "bd-ai",
