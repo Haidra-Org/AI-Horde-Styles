@@ -1138,7 +1138,7 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "loras": [
-            {"name": "89183", "inject_trigger":"any"}
+            {"name": "89193", "inject_trigger":"any"}
         ]
     },
     "cattlepunk": {
