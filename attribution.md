@@ -51,3 +51,5 @@
 - The People's New Year by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1198738239117344888)
 - Chinese Pictogram by @maxinperson [here](https://discord.com/channels/781145214752129095/1195909363244740649/1198852488086958171), steps reduced from 50 🙄
 - mad dragon world by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200061466708029451)
+- chinese blue porcelain by @robertcs [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200206464988500039)
+- wuxia by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1199963162716426311)

@@ -302,6 +302,27 @@
         "steps": 30,
         "karras": true
     },
+    "chinese blue porcelain": {
+        "prompt": "{p} . Ming dynasty blue-and-white porcelain art, ancient chinese intricate flat art, centered on a white background###nsfw, {np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "karras": true,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "246747", "model": 1, "is_version": true}]
+    },
+    "wuxia": {
+        "prompt": "{p}, wuxia comic, (art by bernie wrightson, art by 邱福龍:1.4,)###{np}, (black and white, monochrome, low quality, worst quality), 3d rendering, 3d animation, CGI illustration, oversaturated, old, ugly, unrealistic, photograph, worst quality, kid, child, infant, little kid, curly hair, sword, deformed, deformity, deformed body",
+        "model": "AlbedoBase XL (SDXL)",
+        "cfg_scale": 2.5,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 832,
+        "width": 1152,
+        "steps": 8,
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
