@@ -1951,10 +1951,6 @@
         "prompt": "{p}, microworld render style{np}",
         "model": "Microworlds"
     },
-    "midjourney": {
-        "prompt": "{p}, midjrny-v4 style{np}",
-        "model": "Midjourney Diffusion"
-    },
     "pixel sprite": {
         "prompt": "{p}, pixel sprite{np}",
         "model": "AIO Pixel Art"
@@ -2011,10 +2007,6 @@
         "prompt": "{p}, dublex{np}",
         "model": "Double Exposure Diffusion"
     },
-    "valorant": {
-        "prompt": "{p}, valorant style{np}",
-        "model": "Valorant Diffusion"
-    },
     "gta5": {
         "prompt": "{p}, gtav style{np}",
         "model": "GTA5 Artwork Diffusion"
@@ -2038,14 +2030,6 @@
     "portraitplus": {
         "prompt": "{p}, portrait+ style{np}",
         "model": "PortraitPlus"
-    },
-    "vintedois": {
-        "prompt": "{p}, estilovintedois{np}",
-        "model": "Vintedois Diffusion"
-    },
-    "eternos": {
-        "prompt": "{p}, romerorzeternos{np}",
-        "model": "Eternos"
     },
     "dark victorian": {
         "prompt": "{p}, darkvictorian artstyle{np}",
@@ -2126,9 +2110,5 @@
     "dreamshaper": {
         "prompt": "{p}{np}",
         "model": "Dreamshaper"
-    },
-    "marvel": {
-        "prompt": "{p}, whatif style{np}",
-        "model": "Marvel Diffusion"
     }
 }
