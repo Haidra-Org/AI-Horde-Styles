@@ -185,11 +185,12 @@
     },
 
     "chinese wash painting": {
-        "prompt": "red and yellow and green, in style of Wang Wei , Chinese wash painting depicting {p}, watercolor, bold brush strokes, central focus, mandarin letters, rusted paper###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "prompt": "red and yellow and green, in style of Wang Wei , Chinese wash painting depicting {p}, watercolor, bold brush strokes, central focus, (mandarin letters:1.5), rusted paper###{np}",
+        "model": "SDXL 1.0",
         "steps": 20,
         "width": 1024,
         "height": 1024,
+        "karras": false,
         "cfg_scale": 7.5,
         "sampler_name": "k_euler"
     },

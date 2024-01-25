@@ -40,7 +40,7 @@
 - ominous gouache pulp by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1163085147118252104), works woth multiple aspect ratios
 
 2024 chinese new year styles
-- wash painting by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1196668735277236344). model changed, original style assumed use of refiner and despite not really fitting contest requirements (able to generate on horde), it was too good to pass up. still needs tweaks.
+- wash painting by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200151845977456660)
 - chinese paper art by @robertcs [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197238697163247706)
 - flowers and sparks by @greyshi [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197253106430382131)
 - chinese ink by @maxinperson [here](https://discord.com/channels/781145214752129095/1195909363244740649/1197514247836532766)
