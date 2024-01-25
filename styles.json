@@ -292,6 +292,16 @@
         "hires_fix": true,
         "tis": [{ "name": "94057", "inject_ti": "negprompt", "strength": 1}]
     },
+    "mad dragon world": {
+        "prompt": "3D Nintendo Wii Graphics, sin city artstyle, B&W, Chinese black ink, heavy contrast, cel-shaded, (sepia:0.1), {p}, triad dragon artwork, 480p ### bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, lowres, missing digits, missing limbs, mutilated, mutilated hands, photorealism, poorly drawn face, poorly drawn hands, text, watermark, worst quality",
+        "model": "AlbedoBase XL (SDXL)",
+        "cfg_scale": 7,
+        "sampler_name": "k_euler_a",
+        "height": 832,
+        "width": 1152,
+        "steps": 30,
+        "karras": true
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
