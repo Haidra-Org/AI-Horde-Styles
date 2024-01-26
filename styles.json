@@ -323,6 +323,17 @@
         "steps": 8,
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
+    "hongbao coin": {
+        "prompt": "Chinese Hongbao coin with X, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "cfg_scale": 7,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 1024,
+        "width": 1024,
+        "steps": 25,
+        "karras": true,
+        "loras": [{"name": "247778", "model": 1, "is_version": true}]
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
