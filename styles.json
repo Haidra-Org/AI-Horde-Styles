@@ -195,7 +195,7 @@
         "sampler_name": "k_euler"
     },
     "chinese paper art": {
-        "prompt": "{p} . traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw",
+        "prompt": "{p} . traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw, {np}",
         "model": "AlbedoBase XL (SDXL)",
         "steps": 8,
         "width": 1024,
@@ -270,7 +270,7 @@
         "sampler_name": "k_euler_a"
     },
     "the people's new year": {
-        "prompt": "1949 Chinese propaganda poster featuring {p}, painted by Dong Xiwen, (chinese dragon:1.06), chinese kanji, cloudy skies, vintage, best quality ### bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
+        "prompt": "1949 Chinese propaganda poster featuring {p}, painted by Dong Xiwen, (chinese dragon:1.06), chinese kanji, cloudy skies, vintage, best quality ### {np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
         "model": "SDXL 1.0",
         "cfg_scale": 7,
         "sampler_name": "k_dpmpp_sde",
@@ -293,7 +293,7 @@
         "tis": [{ "name": "94057", "inject_ti": "negprompt", "strength": 1}]
     },
     "mad dragon world": {
-        "prompt": "3D Nintendo Wii Graphics, sin city artstyle, B&W, Chinese black ink, heavy contrast, cel-shaded, (sepia:0.1), {p}, triad dragon artwork, 480p ### bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, lowres, missing digits, missing limbs, mutilated, mutilated hands, photorealism, poorly drawn face, poorly drawn hands, text, watermark, worst quality",
+        "prompt": "3D Nintendo Wii Graphics, sin city artstyle, B&W, Chinese black ink, heavy contrast, cel-shaded, (sepia:0.1), {p}, triad dragon artwork, 480p ### {np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, lowres, missing digits, missing limbs, mutilated, mutilated hands, photorealism, poorly drawn face, poorly drawn hands, text, watermark, worst quality",
         "model": "AlbedoBase XL (SDXL)",
         "cfg_scale": 7,
         "sampler_name": "k_euler_a",
@@ -324,7 +324,7 @@
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
     "hongbao coin": {
-        "prompt": "Chinese Hongbao coin with X, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
+        "prompt": "Chinese Hongbao coin with {p}, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
         "model": "AlbedoBase XL (SDXL)",
         "cfg_scale": 7,
         "sampler_name": "k_dpmpp_sde",
