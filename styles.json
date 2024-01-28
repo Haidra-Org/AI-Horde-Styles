@@ -730,7 +730,7 @@
         ]
     },
     "pencilscribbles": {
-        "prompt": "`Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d{np}",
+        "prompt": "Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d{np}",
         "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
