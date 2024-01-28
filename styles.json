@@ -689,7 +689,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "247778", "model": 1, "is_version": true}
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "120096", "model": 1, "is_version": false }
         ]
     },
     "embroidery": {
@@ -1609,11 +1610,11 @@
 
     "generic scifi": {
         "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K{np}",
-        "model": "stable_diffusion"
+        "model": "Dreamshaper"
     },
     "high fantasy": {
         "prompt": "{p}, fantasy artwork, epic, detailed and intricate digital painting, trending on artstation, by wlop and greg rutkowski, octane render{np}",
-        "model": "stable_diffusion"
+        "model": "Dreamshaper"
     },
     "19th century painting": {
         "prompt": "digitized painting of a {p}, highly detailed, sharp focus, impasto brush strokes, acclaimed artwork by gaston bussiere, by j. c. leyendecker{np}",
@@ -1621,21 +1622,39 @@
     },
     "butter": {
         "prompt": "{p} as award-winning butter sculpture at the Minnesota State Fair, made of butter, dairy creation{np}",
-        "model": "stable_diffusion"
+        "width": 1024,
+        "height": 1024,
+        "steps": 10,
+        "cfg_scale": 2.5,
+        "model": "Fustercluck",
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            {"name": "247778", "model": 1, "is_version": true}
+        ]
     },
     "terror ink": {
         "prompt": "a terrifying ink drawing of a {p}, by Ko Young Hoon, by Yoshitaka Amano, Charcoal Art, Ink, Oil Paint, Concept Art, Color Grading, Dramatic, Intentional camera movement, Lonely, Cracks, With Imperfections, in a symbolic and meaningful style, insanely detailed and intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, a ghost, covered in spiderweb, eerie, feeling of dread, decay, samhain{np}",
-        "steps": 40,
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "model": "AlbedoBase XL (SDXL)"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "nightmare": {
         "prompt": "{p} by Aaron Horkey, by Adonna Khare, by Carrie Ann Baade, by Jeff Lemire, by Junji Ito, horror, creepy, dark, eldritch, fantasy{np}",
-        "steps": 40,
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "model": "AlbedoBase XL (SDXL)"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "abandoned": {
         "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus###blurry, out of focus{np}",
@@ -1647,17 +1666,27 @@
     },
     "witch land": {
         "prompt": "digital art of {p}, witch world, Halloween theme, scenic Halloween, highly detailed, zbrush, by artist Artgerm, by artist Stephen Hickman, by artist Carne griffiths{np}",
-        "steps": 40,
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "model": "AlbedoBase XL (SDXL)"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "nightmare fairytale": {
         "prompt": "horror {p} in a dark forest, darkness, fog, very detailed, cold, Editorial illustration, gothic, evil, art by Sam Bosma, painting by H.P. Lovecraft{np}",
-        "steps": 40,
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "model": "AlbedoBase XL (SDXL)"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "elmstreet": {
         "prompt": "drawing of {p} by tim burton, by Aaron Horkey, by H R Giger, creepy, horror, sharp, focused, HD, detailed{np}",
@@ -1669,17 +1698,26 @@
     "ennui": {
         "prompt": "{p}, black and white, foggy, negative, eerie{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "steps": 40,
         "width": 1024,
         "height": 1024,
-        "sampler_name": "dpmsolver"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "dark fantasy": {
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe{np}",
-        "steps": 40,
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
-        "model": "AlbedoBase XL (SDXL)"
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true }
+        ]
     },
     "frozen village": {
         "prompt": "{p} close to anime village in a vast rural frozen hilly landscape, mountains, anime, makoto shinkai{np}",
@@ -1994,13 +2032,31 @@
         "prompt": "{p}, microworld render style{np}",
         "model": "Microworlds"
     },
-    "pixel sprite": {
-        "prompt": "{p}, pixel sprite{np}",
-        "model": "AIO Pixel Art"
+    "microverse": {
+        "prompt": "miniature model of {p}{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "122594", "model": 1, "is_version": false }
+        ]
     },
-    "16bit scene": {
-        "prompt": "{p}, 16bitscene{np}",
-        "model": "AIO Pixel Art"
+    "soft pixels": {
+        "prompt": "{p}, pixel art, dark background, dramatic, ambient{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "230035", "model": 1, "is_version": false }
+        ]
     },
     "vectorartz": {
         "prompt": "{p}, vectorartz{np}",
@@ -2055,8 +2111,56 @@
         "model": "GTA5 Artwork Diffusion"
     },
     "appicon": {
-        "prompt": "{p}, IconsMi{np}",
-        "model": "App Icon Diffusion"
+        "prompt": "{p}, App Icon{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "149101", "model": 1, "is_version": false }
+        ]
+    },
+    "diablo icon": {
+        "prompt": "{p}, game icon{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "209703", "model": 1, "is_version": false }
+        ]
+    },
+    "game icon": {
+        "prompt": "{p}, icon{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "141066", "model": 1, "is_version": false }
+        ]
+    },
+    "stickers": {
+        "prompt": "{p}, icon{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "model": 1, "is_version": true },
+            { "name": "105297", "model": 1, "is_version": false }
+        ]
     },
     "space": {
         "prompt": "{p}, jwst{np}",

@@ -1,40 +1,9 @@
 {
     "new": [
-        "icbinp xl",
-        "fustercluck",
-        "chinese new year 2024",
-        "chinese wash painting",
-        "chinese paper art",
-        "flowers and sparks",
-        "chinese ink",
-        "dragonpunk new year",
-        "rich red",
-        "chinese digital oil painting",
-        "the people's new year",
-        "chinese pictogram",
-        "mad dragon world",
-        "chinese blue porcelain",
-        "wuxia",
-        "hongbao coin",
-        "dragon propaganda poster"
+        "chinese new year 2024"
     ],
     "featured": [
-        "fustercluck",
-        "chinese new year 2024",
-        "chinese wash painting",
-        "chinese paper art",
-        "flowers and sparks",
-        "chinese ink",
-        "dragonpunk new year",
-        "rich red",
-        "the people's new year",
-        "chinese pictogram",
-        "chinese digital oil painting",
-        "mad dragon world",
-        "chinese blue porcelain",
-        "wuxia",
-        "hongbao coin",
-        "dragon propaganda poster"
+        "fustercluck"
     ],
     "chinese new year 2024": [
         "chinese wash painting",
@@ -190,8 +159,6 @@
         "tron legacy",
         "microworlds",
         "appicon",
-        "pixel sprite",
-        "16bit scene",
         "vectorartz",
         "ranma",
         "inkpunk",
@@ -261,7 +228,6 @@
     ],
     "landscapes": [
         "acertainthing",
-        "16bit scene",
         "vectorartz",
         "sci-fi"
     ],
@@ -285,9 +251,16 @@
         "impressionist oil painting"
     ],
     "reshape": [
+        "icons",
         "microworlds",
-        "appicon",
+        "microverse",
         "papercut"
+    ],
+    "icons": [
+        "appicon",
+        "diablo icon",
+        "stickers",
+        "game icon"
     ],
     "portrait": [
         "hassanblend",
@@ -345,6 +318,7 @@
         "manga",
         "lowpoly",
         "pixelart",
+        "soft pixels",
         "vaporwave",
         "goldenagecomics",
         "neonnoir",
