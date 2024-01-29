@@ -334,6 +334,26 @@
         "karras": true,
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
+    "red gold style": {
+        "prompt": "Concept art, promotional poster, X, red tint, Golden hue, year of the dragon aesthetic###{np}",
+        "model": "Deliberate",
+        "cfg_scale": 7.5,
+        "sampler_name": "k_dpmpp_2s_a",
+        "height": 512,
+        "width": 512,
+        "steps": 26,
+        "karras": true
+    },
+    "chinese animation artstyle": {
+        "prompt": "{p} . top quality, highly detailed, chinese animation artstyle, donghua, inplick###{np}, poor quality, badly drawn, cropped, watermark, NSFW",
+        "model": "AlbedoBase XL (SDXL)",
+        "cfg_scale": 5,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 1024,
+        "width": 1024,
+        "steps": 10,
+        "karras": true
+    },
 
     "mad-marbled-paper": {
         "prompt": "{p}{np}",

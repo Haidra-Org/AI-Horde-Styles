@@ -54,3 +54,5 @@
 - chinese blue porcelain by @robertcs [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200206464988500039)
 - wuxia by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1199963162716426311)
 - hongbao coin by @maxinperson [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200304910898573412)
+- red gold style by @adfarrwrites [here](https://discord.com/channels/781145214752129095/1195909363244740649/1201563796913791006)
+- chinese animation artstyle by @greyshi [here](https://discord.com/channels/781145214752129095/1195909363244740649/1201616219137122366)
