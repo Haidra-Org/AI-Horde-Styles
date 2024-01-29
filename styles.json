@@ -326,11 +326,11 @@
     "hongbao coin": {
         "prompt": "Chinese Hongbao coin with {p}, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
         "model": "AlbedoBase XL (SDXL)",
-        "cfg_scale": 7,
+        "cfg_scale": 2.5,
         "sampler_name": "k_dpmpp_sde",
         "height": 1024,
         "width": 1024,
-        "steps": 25,
+        "steps": 12,
         "karras": true,
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
