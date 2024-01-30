@@ -335,7 +335,7 @@
         "loras": [{"name": "247778", "model": 1, "is_version": true}]
     },
     "red gold style": {
-        "prompt": "Concept art, promotional poster, X, red tint, Golden hue, year of the dragon aesthetic###{np}",
+        "prompt": "{p}, Concept art, promotional poster, X, red tint, Golden hue, year of the dragon aesthetic###{np}",
         "model": "Deliberate",
         "cfg_scale": 7.5,
         "sampler_name": "k_dpmpp_2s_a",
