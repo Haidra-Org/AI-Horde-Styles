@@ -339,8 +339,8 @@
         "model": "Deliberate",
         "cfg_scale": 7.5,
         "sampler_name": "k_dpmpp_2s_a",
-        "height": 512,
-        "width": 512,
+        "height": 704,
+        "width": 704,
         "steps": 26,
         "karras": true
     },
