@@ -44,6 +44,8 @@ class TestStyles(unittest.TestCase):
                 request["params"][field] = value
             elif field in request_fields:
                 request[field] = value
+            elif field == 'enhance':
+                pass
             else:
                 raise KeyError(f"Unknown field: {field}")
 
