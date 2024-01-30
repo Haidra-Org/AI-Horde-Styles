@@ -1,6 +1,6 @@
 import json
 import unittest
-from collections.abc import Mapping, Sequence
+from collections.abc import MutableMapping, Sequence, Mapping
 from typing import Any
 
 import requests
@@ -13,10 +13,10 @@ def get_github_json_file(url: str) -> dict[str, Any]:
     return response.json()
 
 
-def recursive_update(target: dict[str, Any], source: dict[str, Any]) -> None:
+def recursive_update(target: MutableMapping[str, Any], source: Mapping[str, Any]) -> None:
     for key, value in source.items():
-        if isinstance(value, Mapping):
-            recursive_update(target.setdefault(key, {}), value)  # type: ignore
+        if isinstance(value, MutableMapping):
+            recursive_update(target.setdefault(key, {}), value)
         elif isinstance(value, Sequence):
             target.setdefault(key, []).extend(value)
         else:
