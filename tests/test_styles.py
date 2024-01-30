@@ -38,42 +38,45 @@ class TestStyles(unittest.TestCase):
         ImageGenerateAsyncRequest.model_validate(request, strict=True)
 
     def style_to_request(self, style: dict[str, Any]) -> dict[str, ImageGenerationInputPayload | Any]:
-        prompt = style.pop("prompt")
-        if "###" not in prompt and "{np}" in prompt:
-            prompt = prompt.replace("{np}", "###{np}")
+        with self.subTest(msg="Validate prompt"):
+            prompt = style.pop("prompt")
+            if "###" not in prompt and "{np}" in prompt:
+                prompt = prompt.replace("{np}", "###{np}")
 
-        # The negative prompt is greedy
-        positive_prompt, *negative_prompt = prompt.split("###")
-        negative_prompt = "###".join(negative_prompt) or None
-        del prompt
+            # The negative prompt is greedy
+            positive_prompt, *negative_prompt = prompt.split("###")
+            negative_prompt = "###".join(negative_prompt) or None
+            del prompt
 
-        self.assertIn("{p}", positive_prompt, msg="Positive prompt must contain {p}")
-        self.assertNotIn("{np}", positive_prompt, msg="Positive prompt must not contain {np}")
-        if negative_prompt is not None:
-            self.assertIn("{np}", negative_prompt, msg="Negative prompt must contain {np}")
-            self.assertNotIn("{p}", negative_prompt, msg="Negative prompt must not contain {p}")
+            self.assertIn("{p}", positive_prompt, msg="Positive prompt must contain {p}")
+            self.assertNotIn("{np}", positive_prompt, msg="Positive prompt must not contain {np}")
+            if negative_prompt is not None:
+                self.assertIn("{np}", negative_prompt, msg="Negative prompt must contain {np}")
+                self.assertNotIn("{p}", negative_prompt, msg="Negative prompt must not contain {p}")
 
         request = {
             "prompt": positive_prompt + (f"###{negative_prompt}" if negative_prompt else ""),
             "params": {},
         }
         if style.pop("enhance", False):
-            model = style["model"]
-            baseline = self.model_reference[model]["baseline"]
-            enhancements = self.enhancements[baseline]
-            recursive_update(style, enhancements)
+            with self.subTest(msg="Validate enhancement"):
+                model = style["model"]
+                baseline = self.model_reference[model]["baseline"]
+                enhancements = self.enhancements[baseline]
+                recursive_update(style, enhancements)
         if "model" in style:
             request["models"] = [style.pop("model")]
 
-        request_fields = set(ImageGenerateAsyncRequest.model_fields.keys())
-        params_fields = set(ImageGenerationInputPayload.model_fields.keys())
-        for field, value in style.items():
-            if field in params_fields:
-                request["params"][field] = value
-            elif field in request_fields:
-                request[field] = value
-            else:
-                raise KeyError(f"Unknown field: {field}")
+        with self.subTest(msg="Convert to request"):
+            request_fields = set(ImageGenerateAsyncRequest.model_fields.keys())
+            params_fields = set(ImageGenerationInputPayload.model_fields.keys())
+            for field, value in style.items():
+                if field in params_fields:
+                    request["params"][field] = value
+                elif field in request_fields:
+                    request[field] = value
+                else:
+                    raise KeyError(f"Unknown field: {field}")
 
         if not request["params"]:
             del request["params"]
