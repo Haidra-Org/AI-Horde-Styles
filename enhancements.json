@@ -1,22 +1,26 @@
 {
-    "tis": [
-        {
-            "name": "100191",
-            "strength": 1,
-            "inject_ti": "negprompt",
-            "id": 100191
-        },
-        {
-            "name": "5224",
-            "strength": 1,
-            "inject_ti": "negprompt",
-            "id": 5224
-        },
-        {
-            "name": "55700",
-            "strength": 1,
-            "inject_ti": "negprompt",
-            "id": 55700
-        }
-    ]
+    "stable diffusion 1": {
+        "tis": [
+            {
+                "name": "100191",
+                "strength": 1,
+                "inject_ti": "negprompt",
+                "id": 100191
+            },
+            {
+                "name": "5224",
+                "strength": 1,
+                "inject_ti": "negprompt",
+                "id": 5224
+            },
+            {
+                "name": "55700",
+                "strength": 1,
+                "inject_ti": "negprompt",
+                "id": 55700
+            }
+        ]
+    },
+    "stable_diffusion_xl": {
+    }
 }
