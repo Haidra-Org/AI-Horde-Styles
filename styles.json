@@ -881,26 +881,7 @@
         "loras": [
             {"name": "71125", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "oldvhs": {
         "prompt": "old vhs footage of {p}, distortion, glitch{np}",
@@ -912,26 +893,7 @@
         "loras": [
             {"name": "103667"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "pixelsorting": {
         "prompt": "{p}{np}",
@@ -943,26 +905,7 @@
         "loras": [
             {"name": "57963", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
 
     },
     "analogdistortion": {
@@ -975,26 +918,7 @@
         "loras": [
             {"name": "104917"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
 
     "gothichorrorai": {
@@ -1005,26 +929,7 @@
         "loras": [
             {"name": "39760", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
 
     },
     "tentaclehorrorai": {
@@ -1035,26 +940,7 @@
         "loras": [
             {"name": "42468", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "reelhorror": {
         "prompt": "portrait of {p}, reelhorror, blood, dripping, mutation, mouthface, trash, pov, pov scene, extra eyes###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
@@ -1358,26 +1244,7 @@
         "loras": [
             {"name": "45892"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
 
     },
     "lunarpunk": {
@@ -1388,26 +1255,7 @@
         "loras": [
             {"name": "97136", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
 
     },
     "celtpunk": {
@@ -1418,26 +1266,7 @@
         "loras": [
             {"name": "92008", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "toxicpunk": {
         "prompt": "{p}{np}",
@@ -1447,26 +1276,7 @@
         "loras": [
             {"name": "95802", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "mongolpunk": {
         "prompt": "{p}{np}",
@@ -1476,26 +1286,7 @@
         "loras": [
             {"name": "85109", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "musketpunk": {
         "prompt": "{p}{np}",
@@ -1505,26 +1296,7 @@
         "loras": [
             {"name": "90543", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "absinthepunk": {
         "prompt": "{p}{np}",
@@ -1534,26 +1306,7 @@
         "loras": [
             {"name": "89193", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "cattlepunk": {
         "prompt": "{p}{np}",
@@ -1563,26 +1316,7 @@
         "loras": [
             {"name": "95828", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
 
     },
     "circuspunk": {
@@ -1593,26 +1327,7 @@
         "loras": [
             {"name": "87884", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "aetherpunk": {
         "prompt": "{p}{np}",
@@ -1622,26 +1337,7 @@
         "loras": [
             {"name": "85036", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "potatopunk": {
         "prompt": "{p}{np}",
@@ -1651,26 +1347,7 @@
         "loras": [
             {"name": "72231", "inject_trigger":"any"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "coalpunk": {
         "prompt": "{p}, coalpunkai{np}",
@@ -1680,26 +1357,7 @@
         "loras": [
             {"name": "84753"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "alchemypunk": {
         "prompt": "{p}, alchemypunkai{np}",
@@ -1709,26 +1367,7 @@
         "loras": [
             {"name": "78766"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "gothicpunk": {
         "prompt": "{p}, gothicpunkai{np}",
@@ -1738,26 +1377,7 @@
         "loras": [
             {"name": "78695"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "witchpunk": {
         "prompt": "{p}, WitchcraftPunkAI{np}",
@@ -1767,26 +1387,7 @@
         "loras": [
             {"name": "78280"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "colorpunk": {
         "prompt": "{p}, PunkPunkAI, colorful{np}",
@@ -1796,26 +1397,7 @@
         "loras": [
             {"name": "78060"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "bronzepunk": {
         "prompt": "{p}, bronzepunkai{np}",
@@ -1825,26 +1407,7 @@
         "loras": [
             {"name": "77293"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "neonpunk": {
         "prompt": "{p}, CyberpunkAI, neon{np}",
@@ -1854,26 +1417,7 @@
         "loras": [
             {"name": "77121"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "kazakpunk": {
         "prompt": "{p}, kazakpunkai{np}",
@@ -1883,26 +1427,7 @@
         "loras": [
             {"name": "76737"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "grecopunk": {
         "prompt": "{p}, grecopunkai{np}",
@@ -1912,26 +1437,7 @@
         "loras": [
             {"name": "76190"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "romanpunk": {
         "prompt": "{p}, romapunkai{np}",
@@ -1941,26 +1447,7 @@
         "loras": [
             {"name": "76190"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "sovietpunk": {
         "prompt": "{p}, sovietpunkai{np}",
@@ -1970,26 +1457,7 @@
         "loras": [
             {"name": "75709"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "arabiannightspunk": {
         "prompt": "{p}, 1001ArabianNights{np}",
@@ -1999,26 +1467,7 @@
         "loras": [
             {"name": "69315"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "steampunk": {
         "prompt": "{p}, SteampunkAI{np}",
@@ -2028,26 +1477,7 @@
         "loras": [
             {"name": "59338"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "cogpunk": {
         "prompt": "{p}, CogPunkAI{np}",
@@ -2057,26 +1487,7 @@
         "loras": [
             {"name": "59338"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "victorianpunk": {
         "prompt": "{p}, VictorianPunkAI{np}",
@@ -2086,26 +1497,7 @@
         "loras": [
             {"name": "84250"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "biopunk": {
         "prompt": "{p}, BiopunkAI{np}",
@@ -2115,26 +1507,7 @@
         "loras": [
             {"name": "80375"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "mahabharatapunk": {
         "prompt": "{p}, MahabharataPunkAI{np}",
@@ -2144,26 +1517,7 @@
         "loras": [
             {"name": "71478"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "javapunk": {
         "prompt": "{p}, javapunkai{np}",
@@ -2173,26 +1527,7 @@
         "loras": [
             {"name": "72415"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "balipunk": {
         "prompt": "{p}, balipunkai{np}",
@@ -2202,26 +1537,7 @@
         "loras": [
             {"name": "72347"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "dieselpunk": {
         "prompt": "{p}, dieselpunkAI{np}",
@@ -2231,26 +1547,7 @@
         "loras": [
             {"name": "64676"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "totempunk": {
         "prompt": "{p}, TotempunkAI{np}",
@@ -2260,26 +1557,7 @@
         "loras": [
             {"name": "71819"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "samuraipunk": {
         "prompt": "{p}, SamuraiPunkAI{np}",
@@ -2289,26 +1567,7 @@
         "loras": [
             {"name": "69108"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "zulupunk": {
         "prompt": "{p}, zulupunkai{np}",
@@ -2318,26 +1577,7 @@
         "loras": [
             {"name": "65725"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "teslapunk": {
         "prompt": "{p}, teslapunkai{np}",
@@ -2347,26 +1587,7 @@
         "loras": [
             {"name": "64955"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "valvepunk": {
         "prompt": "{p}, valvepunkai{np}",
@@ -2376,26 +1597,7 @@
         "loras": [
             {"name": "64955"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "infernalpunk": {
         "prompt": "{p}, 1nf3rnalAI{np}",
@@ -2405,26 +1607,7 @@
         "loras": [
             {"name": "62585"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "solarpunk": {
         "prompt": "{p}, solarpunkai{np}",
@@ -2434,26 +1617,7 @@
         "loras": [
             {"name": "43944"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "stonepunk": {
         "prompt": "{p}, stonepunkAI{np}",
@@ -2463,26 +1627,7 @@
         "loras": [
             {"name": "51539"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "gempunk": {
         "prompt": "{p}, GemstoneAI{np}",
@@ -2492,26 +1637,7 @@
         "loras": [
             {"name": "49374"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "horrorpunk": {
         "prompt": "{p}, ManyEyedHorrorAI{np}",
@@ -2521,26 +1647,7 @@
         "loras": [
             {"name": "47489"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "bonepunk": {
         "prompt": "{p}, BoneyardAI{np}",
@@ -2550,26 +1657,7 @@
         "loras": [
             {"name": "48356"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "oldegyptpunk": {
         "prompt": "{p}, OldEgyptAI{np}",
@@ -2579,26 +1667,7 @@
         "loras": [
             {"name": "43229"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "vikingpunk": {
         "prompt": "{p}, vikingpunkai{np}",
@@ -2608,26 +1677,7 @@
         "loras": [
             {"name": "41364"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "gaslamppunk": {
         "prompt": "{p}, GasLampFantasyAI{np}",
@@ -2637,26 +1687,7 @@
         "loras": [
             {"name": "71335"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "atompunk": {
         "prompt": "{p}, 1970retrofuturism{np}",
@@ -2666,26 +1697,7 @@
         "loras": [
             {"name": "64235"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "gothpunk": {
         "prompt": "{p}, PastelGothAI{np}",
@@ -2695,26 +1707,7 @@
         "loras": [
             {"name": "75265"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "circuitpunk": {
         "prompt": "{p}, CircuitBoardAI{np}",
@@ -2724,26 +1717,7 @@
         "loras": [
             {"name": "58410"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "nightmarepunk": {
         "prompt": "{p}, NightmarishAI{np}",
@@ -2753,26 +1727,7 @@
         "loras": [
             {"name": "56336"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "crystalpunk": {
         "prompt": "{p}, crystallineAI{np}",
@@ -2782,26 +1737,7 @@
         "loras": [
             {"name": "48859"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "fantasypunk": {
         "prompt": "{p}, fairytaleai{np}",
@@ -2811,26 +1747,7 @@
         "loras": [
             {"name": "42260"}
         ],
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "perfect summer": {
         "prompt": "digital art, cg painting, (medium long shot:1.2), hyper detailed, volumetric lighting, godrays, realistic, photorealistic render, golden hour, sun-drenched panorama, lush tropical colors, subtle shading, {p}, beautiful face, wide glossy eyes, ultra detailed, masterpiece, high resolution illustration, 4k, centered composition###nsfw, lowres, text, error, cropped, out of frame, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, out of focus, censorship, ugly, black and white, monochrome, artist name, signature, multiple views, power lines{np}",
@@ -3037,114 +1954,42 @@
         "prompt": "{p}{np}",
         "model": "majicMIX realistic",
         "steps": 20,
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "edge of realism": {
         "prompt": "{p}, POV, by lee jeffries, nikon d850, film stock photograph ,4 kodak portra 400 ,camera f1.6 lens ,rich colors ,hyper realistic ,lifelike texture, dramatic lighting , cinestill 800{np}",
         "model": "Edge Of Realism",
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "dreamlike photoreal": {
         "prompt": "{p}{np}",
         "model": "Dreamlike Photoreal",
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },  
     "realistic vision": {
         "prompt": "{p}{np}",
-        "model": "Realistic Vision"
+        "model": "Realistic Vision",
+        "enhance": true
     },
     "neurogen": {
         "prompt": "{p}{np}",
-        "model": "Neurogen"
+        "model": "Neurogen",
+        "enhance": true
     },
     "illuminati": {
         "prompt": "{p}{np}",
-        "model": "Illuminati Diffusion"
+        "model": "Illuminati Diffusion",
+        "enhance": true
     },
     "realbiter": {
         "prompt": "{p}, 8k, ultra sharp, photorealistic{np}",
         "model": "RealBiter",
-        "tis": [
-            {
-                "name": "100191",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 100191
-            },
-            {
-                "name": "5224",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 5224
-            },
-            {
-                "name": "55700",
-                "strength": 1,
-                "inject_ti": "negprompt",
-                "id": 55700
-            }
-        ]
+        "enhance": true
     },
     "faetastic": {
         "prompt": "{p}{np}",
-        "model": "FaeTastic"
+        "model": "FaeTastic",
+        "enhance": true
     },
     "danmumford": {
         "prompt": "In the style of Dan Mumford, {p}{np}",
@@ -3153,11 +1998,13 @@
         "height": 960,
         "steps": 27,
         "hires_fix": true,
-        "cfg_scale": 7
+        "cfg_scale": 7,
+        "enhance": true
     },
     "moonmix fantasy": {
         "prompt": "{p}{np}",
-        "model": "MoonMix Fantasy"
+        "model": "MoonMix Fantasy",
+        "enhance": true
     },
     "icbinp": {
         "prompt": "{p}{np}",
@@ -3189,23 +2036,28 @@
     },
     "meinamix": {
         "prompt": "{p}{np}",
-        "model": "MeinaMix"
+        "model": "MeinaMix",
+        "enhance": true
     },
     "mistoon amethyst": {
         "prompt": "{p}{np}",
-        "model": "Mistoon Amethyst"
+        "model": "Mistoon Amethyst",
+        "enhance": true
     },
     "galena redux": {
         "prompt": "{p}{np}",
-        "model": "Galena Redux"
+        "model": "Galena Redux",
+        "enhance": true
     },
     "dark sushi": {
         "prompt": "{p}{np}",
-        "model": "Dark Sushi Mix"
+        "model": "Dark Sushi Mix",
+        "enhance": true
     },
     "analog madness": {
         "prompt": "{p}{np}",
-        "model": "Analog Madness"
+        "model": "Analog Madness",
+        "enhance": true
     },
     "bweshmix": {
         "prompt": "{p}###{np}, embedding:16993",
@@ -3225,71 +2077,83 @@
     },
     "revanimated": {
         "prompt": "{p}{np}",
-        "model": "Rev Animated"
+        "model": "Rev Animated",
+        "enhance": true
     },
     "cetus-mix": {
         "prompt": "{p}{np}",
-        "model": "Cetus-Mix"
+        "model": "Cetus-Mix",
+        "enhance": true
     },
     "realisian": {
         "prompt": "{p}{np}",
-        "model": "Realisian"
+        "model": "Realisian",
+        "enhance": true
     },
     "reliberate": {
         "prompt": "{p}{np}",
-        "model": "Reliberate"
+        "model": "Reliberate",
+        "enhance": true
     },
     "toonyou": {
         "prompt": "{p}{np}",
-        "model": "ToonYou"
+        "model": "ToonYou",
+        "enhance": true
     },
     "western animation": {
         "prompt": "{p}{np}",
-        "model": "Western Animation Diffusion"
+        "model": "Western Animation Diffusion",
+        "enhance": true
     },
     "anything": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
-        "model": "Anything Diffusion"
+        "prompt": "{p}, shadows, lights, outline, highly detailed{np}",
+        "model": "Anything Diffusion",
+        "enhance": true
     },
     "anything_raw": {
         "prompt": "{p}{np}",
         "model": "Anything Diffusion"
     },
     "waifu": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed###cropped, artifacts, lowres{np}",
-        "model": "waifu_diffusion"
+        "prompt": "{p}, shadows, lights, outline, highly detailed{np}",
+        "model": "waifu_diffusion",
+        "enhance": true
     },
     "waifu_raw": {
         "prompt": "{p}{np}",
         "model": "waifu_diffusion"
     },
     "hentai": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
-        "model": "Hentai Diffusion"
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime{np}",
+        "model": "Hentai Diffusion",
+        "enhance": true
     },
     "hentai_raw": {
         "prompt": "{p}{np}",
         "model": "Hentai Diffusion"
     },
     "poison": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
-        "model": "Poison"
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime{np}",
+        "model": "Poison",
+        "enhance": true
     },
     "poison_raw": {
         "prompt": "{p}{np}",
         "model": "Poison"
     },
     "eimis": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
-        "model": "Eimis Anime Diffusion"
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime{np}",
+        "model": "Eimis Anime Diffusion",
+        "enhance": true
     },
     "eimis_raw": {
         "prompt": "{p}{np}",
         "model": "Eimis Anime Diffusion"
     },
     "acertainthing": {
-        "prompt": "{p}, shadows, lights, outline, highly detailed, anime###cropped, artifacts, lowres{np}",
-        "model": "ACertainThing"
+        "prompt": "{p}, shadows, lights, outline, highly detailed, anime{np}",
+        "model": "ACertainThing",
+        "enhance": true
     },
     "acertainthing_raw": {
         "prompt": "{p}{np}",
@@ -3309,19 +2173,23 @@
     },
     "yiffy": {
         "prompt": "{p}{np}",
-        "model": "Yiffy"
+        "model": "Yiffy",
+        "enhance": true
     },
     "seekart": {
         "prompt": "{p}{np}",
-        "model": "Seek.art MEGA"
+        "model": "Seek.art MEGA",
+        "enhance": true
     },
     "hassanblend": {
         "prompt": "{p}{np}",
-        "model": "Hassanblend"
+        "model": "Hassanblend",
+        "enhance": true
     },
     "rpg portrait": {
         "prompt": "{p}{np}",
-        "model": "RPG"
+        "model": "RPG",
+        "enhance": true
     },
     "robo": {
         "prompt": "{p}, nousr robot{np}",
@@ -3329,35 +2197,43 @@
     },
     "classic animation": {
         "prompt": "{p}, classic disney style{np}",
-        "model": "Classic Animation Diffusion"
+        "model": "Classic Animation Diffusion",
+        "enhance": true
     },
     "comic mashup": {
         "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "charlie bo": {
         "prompt": "{p}, charliebo artsyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "hollie mengert": {
         "prompt": "{p}, holliemengert artstyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "pepe larraz": {
         "prompt": "{p}, pepelarraz artstyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "andreas rocha": {
         "prompt": "{p}, andreasrocha artstyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "james daly": {
         "prompt": "{p}, jamesdaly artstyle{np}",
-        "model": "Comic-Diffusion"
+        "model": "Comic-Diffusion",
+        "enhance": true
     },
     "tron legacy": {
         "prompt": "{p}, trnlgcy{np}",
-        "model": "Tron Legacy Diffusion"
+        "model": "Tron Legacy Diffusion",
+        "enhance": true
     },
     "microworlds": {
         "prompt": "{p}, microworld render style{np}",
@@ -3395,31 +2271,38 @@
     },
     "ranma": {
         "prompt": "{p}, 80sanimestyle{np}",
-        "model": "Ranma Diffusion"
+        "model": "Ranma Diffusion",
+        "enhance": true
     },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
-        "model": "Inkpunk Diffusion"
+        "model": "Inkpunk Diffusion",
+        "enhance": true
     },
     "inkpunk+": {
         "prompt": "{p}, insanely detailed and intricate, hyper maximalist, elegant, hyper realistic, super detailed, 8K, vivid colors, sunrise, open sky, ultra-realistic, nature photography, photographic rendering, realistic textures, color dynamic, octane render, cinematic lighting, enhance, soft light beam, perfect face, rule of thirds, nvinkpunk{np}",
-        "model": "Inkpunk Diffusion"
+        "model": "Inkpunk Diffusion",
+        "enhance": true
     },
     "mtg": {
         "prompt": "{p}, mtg card art{np}",
-        "model": "Fantasy Card Diffusion"
+        "model": "Fantasy Card Diffusion",
+        "enhance": true
     },
     "paintart": {
         "prompt": "{p}, mdjrny-pntrt{np}",
-        "model": "Midjourney PaintArt"
+        "model": "Midjourney PaintArt",
+        "enhance": true
     },
     "ghibli": {
         "prompt": "{p}, ghibli style{np}",
-        "model": "Ghibli Diffusion"
+        "model": "Ghibli Diffusion",
+        "enhance": true
     },
     "papercut": {
         "prompt": "{p}, PaperCut{np}",
-        "model": "Papercut Diffusion"
+        "model": "Papercut Diffusion",
+        "enhance": true
     },
     "chroma": {
         "prompt": "{p}, ChromaV5 award winning photography, extremely detailed, artstation, 8 k, incredible art{np}",
