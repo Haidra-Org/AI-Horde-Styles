@@ -1,1 +1,2 @@
 horde_sdk
+requests
