@@ -355,19 +355,6 @@
         "karras": true
     },
 
-    "mad-marbled-paper": {
-        "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
-        "width": 1216,
-        "height": 832,
-        "steps": 8,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [
-            {"name": "303184", "model": 0.8, "is_version": true},
-            {"name": "247778", "model": 1, "is_version": true}
-        ]
-    },
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
         "model": "AlbedoBase XL (SDXL)",
