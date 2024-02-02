@@ -893,7 +893,6 @@
             {"name": "57963", "inject_trigger":"any"}
         ],
         "enhance": true
-
     },
     "analogdistortion": {
         "prompt": "AnalogDistortion, Analog Photo of {p}{np}",
@@ -917,7 +916,6 @@
             {"name": "39760", "inject_trigger":"any"}
         ],
         "enhance": true
-
     },
     "tentaclehorrorai": {
         "prompt": "{p}{np}",
@@ -1222,7 +1220,7 @@
             { "name": "247778", "model": 1, "is_version": true }
         ]
     },
-    
+
     "piratepunk": {
         "prompt": "{p}, piratepunkai{np}",
         "model": "Dreamshaper",
@@ -1232,7 +1230,6 @@
             {"name": "45892"}
         ],
         "enhance": true
-
     },
     "lunarpunk": {
         "prompt": "{p}{np}",
@@ -1243,7 +1240,6 @@
             {"name": "97136", "inject_trigger":"any"}
         ],
         "enhance": true
-
     },
     "celtpunk": {
         "prompt": "{p}{np}",
@@ -1304,7 +1300,6 @@
             {"name": "95828", "inject_trigger":"any"}
         ],
         "enhance": true
-
     },
     "circuspunk": {
         "prompt": "{p}{np}",
