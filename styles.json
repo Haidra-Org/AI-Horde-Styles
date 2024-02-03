@@ -343,6 +343,16 @@
             {"name": "82098", "model":-0.8}
         ]
     },
+    "traditional chinese art": {
+        "prompt": "realistic Traditional Chinese art depicting {p}, thick outlines, Centered and frontal, solid colors, flat shadows, (red background:0.4), gold embroidery, muted tones###{np}",
+        "model": "SDXL 1.0",
+        "cfg_scale": 9,
+        "sampler_name": "k_euler",
+        "height": 1024,
+        "width": 1024,
+        "steps": 20,
+        "karras": true
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
