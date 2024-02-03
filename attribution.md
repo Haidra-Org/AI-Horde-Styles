@@ -56,3 +56,4 @@
 - hongbao coin by @maxinperson [here](https://discord.com/channels/781145214752129095/1195909363244740649/1200304910898573412)
 - red gold style by @adfarrwrites [here](https://discord.com/channels/781145214752129095/1195909363244740649/1201563796913791006)
 - chinese animation artstyle by @greyshi [here](https://discord.com/channels/781145214752129095/1195909363244740649/1201616219137122366)
+- chinese watercolor by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1195909363244740649/1202668960026329150)

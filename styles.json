@@ -328,6 +328,21 @@
         "steps": 10,
         "karras": true
     },
+    "chinese watercolor": {
+        "prompt": "chinese watercolor painting of a {p}, Chinese symbolism, (Chinese dragon:0.5), soft color palette, red and yellow color, bold linework, black outline, Chinese calligraphy, art by Hiroshi Yoshida, Guan Liang, and Chen Chun.###{np}, digital art, 3d, photography, photo, 3d render, malnourished, out of frame, out of frame face, out of frame body, frame, tattoos, deformed anatomy, out of frame, cross-eyed, disfigured, bad anatomy, disfigured, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, , mangled, old, surreal",
+        "model": "Dreamshaper",
+        "cfg_scale": 8,
+        "sampler_name": "k_euler_a",
+        "height": 1024,
+        "width": 1024,
+        "steps": 20,
+        "hires_fix": true,
+        "karras": true,
+        "loras": [
+            {"name": "13941", "model":1.85},
+            {"name": "82098", "model":-0.8}
+        ]
+    },
 
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
