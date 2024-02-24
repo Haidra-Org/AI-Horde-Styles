@@ -105,7 +105,7 @@
         "steps": 25,
         "karras": true,
         "hires_fix": true,
-        "tis": [{ "name": "94057", "inject_ti": "negprompt", "strength": 1}]
+        "tis": [{ "name": "94057", "inject_ti": "negprompt"}]
     },
     "mad dragon world": {
         "prompt": "3D Nintendo Wii Graphics, sin city artstyle, B&W, Chinese black ink, heavy contrast, cel-shaded, (sepia:0.1), {p}, triad dragon artwork, 480p ### {np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, lowres, missing digits, missing limbs, mutilated, mutilated hands, photorealism, poorly drawn face, poorly drawn hands, text, watermark, worst quality",

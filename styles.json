@@ -158,15 +158,26 @@
         "loras": [{"name": "247778", "is_version": true}]
     },
 
-    "chinese wash painting": {
-        "prompt": "red and yellow and green, in style of Wang Wei , Chinese wash painting depicting {p}, watercolor, bold brush strokes, central focus, (mandarin letters:1.5), rusted paper###{np}",
+    "traditional chinese art": {
+        "prompt": "realistic Traditional Chinese art depicting {p}, thick outlines, Centered and frontal, solid colors, flat shadows, (red background:0.4), gold embroidery, muted tones###{np}",
         "model": "SDXL 1.0",
-        "steps": 20,
-        "width": 1024,
+        "cfg_scale": 9,
+        "sampler_name": "k_euler",
         "height": 1024,
-        "karras": false,
-        "cfg_scale": 7.5,
-        "sampler_name": "k_euler"
+        "width": 1024,
+        "steps": 20,
+        "karras": true
+    },
+    "hongbao coin": {
+        "prompt": "Chinese Hongbao coin with {p}, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "cfg_scale": 2.5,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 1024,
+        "width": 1024,
+        "steps": 12,
+        "karras": true,
+        "loras": [{"name": "247778", "is_version": true}]
     },
     "chinese paper art": {
         "prompt": "{p}. traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw, {np}",
@@ -177,104 +188,6 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [{ "name": "246747", "model": 0.3, "is_version": true }]
-    },
-    "flowers and sparks": {
-        "prompt": "{p} . highly detailed illustration of a print, colorful, dragon, china, festive, flowers, fireworks, smoke, sparks, studio ghibli, pastel tetradic colors, fantasy art, matte painting, watercolor effect, bokeh, adobe illustrator, digital painting, soft lighting, 4K resolution, 4k, photorealistic rendering, artstation painting concept art ###{np}, nsfw, disfigured, creepy, cropped",
-        "model": "Fustercluck",
-        "steps": 11,
-        "height": 1024,
-        "width": 1024,
-        "karras": true,
-        "cfg_scale": 3,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "chinese ink": {
-        "prompt": "(Celebratory Chinese black ink well artwork representing the chinese new year with {p}:1.2), best quality, Masterpiece, Super detailed and intricate, Ink well, Fine lines, White canvas, Crisp quality, Textured###Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn, {np}",
-        "model": "SDXL 1.0",
-        "steps": 14,
-        "width": 1024,
-        "height": 1024,
-        "karras": true,
-        "cfg_scale": 2.5,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "dragonpunk new year": {
-        "prompt": "{p} . dragonpunk digital art, trending on artstation, gouache digital art, dragons! d&d style art###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
-        "steps": 8,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "rich red": {
-        "prompt": "{p} . Chinese New Year, China, festive, fireworks, oil painting, vibrant background, vibrant, highly detailed illustration, top quality ### nsfw, disfigured, cropped, {np}",
-        "model": "Fustercluck",
-        "steps": 10,
-        "height": 1024,
-        "width": 1024,
-        "karras": true,
-        "cfg_scale": 2.5,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [
-          {"name": "124691", "is_version": true},
-          {"name": "38884", "is_version": true}
-        ]
-    },
-    "dragon propaganda poster": {
-        "prompt": "dragon flying over {p} , propaganda poster art, oriental full framed, new year´s greetings, intricate, cartoon###{np}",
-        "model": "Fustercluck",
-        "steps": 12,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "chinese digital oil painting": {
-        "prompt": "a digital oil painting of {p}. year of the dragon. Chinese motif, red, yellow, gold, and jade color palette, intricate linework, black background. high-angle shot###{np}",
-        "model": "SDXL 1.0",
-        "steps": 20,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 9,
-        "sampler_name": "k_euler_a"
-    },
-    "the people's new year": {
-        "prompt": "1949 Chinese propaganda poster featuring {p}, painted by Dong Xiwen, (chinese dragon:1.06), chinese kanji, cloudy skies, vintage, best quality ### {np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, low quality, lowres, missing digits, missing limbs, mutilated, mutilated hands, poorly drawn face, poorly drawn hands, watermark, worst quality",
-        "model": "SDXL 1.0",
-        "cfg_scale": 7,
-        "sampler_name": "k_dpmpp_sde",
-        "height": 1024,
-        "width": 1024,
-        "steps": 30,
-        "karras": true,
-        "hires_fix": false
-    },
-    "chinese pictogram": {
-        "prompt": "(Minimalistic Chinese Pictogram depicting {p}:1.2), best quality, Masterpiece, Super detailed and intricate, Minimalistic, High contrast, Crisp quality, Textured ### {np}, Poor Resolution, Lack of Details, Poor Quality, Ugly, Tiling, Smudged, Out of focus, Out of bounds, Watermarks, Cgi, Badly drawn",
-        "model": "Dreamshaper",
-        "cfg_scale": 9,
-        "sampler_name": "k_dpmpp_sde",
-        "height": 768,
-        "width": 768,
-        "steps": 25,
-        "karras": true,
-        "hires_fix": true,
-        "tis": [{ "name": "94057", "inject_ti": "negprompt"}]
-    },
-    "mad dragon world": {
-        "prompt": "3D Nintendo Wii Graphics, sin city artstyle, B&W, Chinese black ink, heavy contrast, cel-shaded, (sepia:0.1), {p}, triad dragon artwork, 480p ### {np}, bad anatomy, bad fingers, bad hands, bad proportions, blurry, clone, cropped, deformed, deformed face, deformed fingers, disfigured, duplicate, extra digits, extra fingers, extra hands, extra limbs, gross proportions, jpeg artifacts, lowres, missing digits, missing limbs, mutilated, mutilated hands, photorealism, poorly drawn face, poorly drawn hands, text, watermark, worst quality",
-        "model": "AlbedoBase XL (SDXL)",
-        "cfg_scale": 7,
-        "sampler_name": "k_euler_a",
-        "height": 832,
-        "width": 1152,
-        "steps": 30,
-        "karras": true
     },
     "chinese blue porcelain": {
         "prompt": "{p} . Ming dynasty blue-and-white porcelain art, ancient chinese intricate flat art, centered on a white background###nsfw, {np}",
@@ -296,62 +209,6 @@
         "width": 1152,
         "steps": 8,
         "loras": [{"name": "247778", "is_version": true}]
-    },
-    "hongbao coin": {
-        "prompt": "Chinese Hongbao coin with {p}, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
-        "model": "AlbedoBase XL (SDXL)",
-        "cfg_scale": 2.5,
-        "sampler_name": "k_dpmpp_sde",
-        "height": 1024,
-        "width": 1024,
-        "steps": 12,
-        "karras": true,
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "red gold style": {
-        "prompt": "{p}, Concept art, promotional poster, X, red tint, Golden hue, year of the dragon aesthetic###{np}",
-        "model": "Deliberate",
-        "cfg_scale": 7.5,
-        "sampler_name": "k_dpmpp_2s_a",
-        "height": 704,
-        "width": 704,
-        "steps": 26,
-        "karras": true
-    },
-    "chinese animation artstyle": {
-        "prompt": "{p} . top quality, highly detailed, chinese animation artstyle, donghua, inplick###{np}, poor quality, badly drawn, cropped, watermark, NSFW",
-        "model": "AlbedoBase XL (SDXL)",
-        "cfg_scale": 5,
-        "sampler_name": "k_dpmpp_sde",
-        "height": 1024,
-        "width": 1024,
-        "steps": 10,
-        "karras": true
-    },
-    "chinese watercolor": {
-        "prompt": "chinese watercolor painting of a {p}, Chinese symbolism, (Chinese dragon:0.5), soft color palette, red and yellow color, bold linework, black outline, Chinese calligraphy, art by Hiroshi Yoshida, Guan Liang, and Chen Chun.###{np}, digital art, 3d, photography, photo, 3d render, malnourished, out of frame, out of frame face, out of frame body, frame, tattoos, deformed anatomy, out of frame, cross-eyed, disfigured, bad anatomy, disfigured, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, , mangled, old, surreal",
-        "model": "Dreamshaper",
-        "cfg_scale": 8,
-        "sampler_name": "k_euler_a",
-        "height": 1024,
-        "width": 1024,
-        "steps": 20,
-        "hires_fix": true,
-        "karras": true,
-        "loras": [
-            {"name": "13941", "model":1.85},
-            {"name": "82098", "model":-0.8}
-        ]
-    },
-    "traditional chinese art": {
-        "prompt": "realistic Traditional Chinese art depicting {p}, thick outlines, Centered and frontal, solid colors, flat shadows, (red background:0.4), gold embroidery, muted tones###{np}",
-        "model": "SDXL 1.0",
-        "cfg_scale": 9,
-        "sampler_name": "k_euler",
-        "height": 1024,
-        "width": 1024,
-        "steps": 20,
-        "karras": true
     },
 
     "graffiti": {
