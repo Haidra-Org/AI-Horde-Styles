@@ -216,13 +216,10 @@
         "model": "AlbedoBase XL (SDXL)",
         "width": 1152,
         "height": 896,
-        "steps": 8,
-        "cfg_scale": 2,
+        "steps": 20,
+        "cfg_scale": 5,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [
-            {"name": "247778", "is_version": true},
-            {"name": "153586", "is_version": true}
-        ]
+        "loras": [{"name": "153586", "is_version": true}]
     },
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
