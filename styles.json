@@ -23,6 +23,38 @@
         "prompt": "{p}{np}",
         "model": "stable_diffusion"
     },
+    "cascade": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 5
+    },
+    "cascade-big": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1536,
+        "height": 1536,
+        "cfg_scale": 5
+    },
+    "cascade-portrait": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1024,
+        "height": 1536,
+        "cfg_scale": 5
+    },
+    "cascade-landscape": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1536,
+        "height": 1024,
+        "cfg_scale": 5
+    },
     "raw2": {
         "prompt": "{p}{np}",
         "model": "stable_diffusion_2.1",

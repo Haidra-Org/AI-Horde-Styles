@@ -1,9 +1,16 @@
 {
     "new": [
-        "chinese new year 2024"
+        "stable cascade",
+        "ikea"
     ],
     "featured": [
         "fustercluck"
+    ],
+    "stable cascade": [
+        "stable-cascade",
+        "stable-cascade-big",
+        "stable-cascade-portrait",
+        "stable-cascade-landscape"
     ],
     "chinese new year 2024": [
         "traditional chinese art",
