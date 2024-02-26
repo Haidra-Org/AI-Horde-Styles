@@ -23,6 +23,13 @@
         "prompt": "{p}{np}",
         "model": "stable_diffusion"
     },
+    "raw2": {
+        "prompt": "{p}{np}",
+        "model": "stable_diffusion_2.1",
+        "sampler_name": "dpmsolver",
+        "width": 768,
+        "height": 768
+    },
     "cascade": {
         "prompt": "{p}{np}",
         "model": "Stable Cascade 1.0",
@@ -31,84 +38,7 @@
         "height": 1024,
         "cfg_scale": 5
     },
-    "cascade-big": {
-        "prompt": "{p}{np}",
-        "model": "Stable Cascade 1.0",
-        "steps": 25,
-        "width": 1536,
-        "height": 1536,
-        "cfg_scale": 5
-    },
-    "cascade-portrait": {
-        "prompt": "{p}{np}",
-        "model": "Stable Cascade 1.0",
-        "steps": 25,
-        "width": 1024,
-        "height": 1536,
-        "cfg_scale": 5
-    },
-    "cascade-landscape": {
-        "prompt": "{p}{np}",
-        "model": "Stable Cascade 1.0",
-        "steps": 25,
-        "width": 1536,
-        "height": 1024,
-        "cfg_scale": 5
-    },
-    "raw2": {
-        "prompt": "{p}{np}",
-        "model": "stable_diffusion_2.1",
-        "sampler_name": "dpmsolver",
-        "width": 768,
-        "height": 768
-    },
-    "bd-ai": {
-        "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
-        "model": "AlbedoBase XL (SDXL)",
-        "width": 1024,
-        "height": 1024,
-        "steps": 8,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "makoto birthday": {
-        "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
-        "model": "AlbedoBase XL (SDXL)",
-        "width": 1024,
-        "height": 1024,
-        "steps": 8,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "artistic birthday": {
-        "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
-        "model": "AlbedoBase XL (SDXL)",
-        "width": 1024,
-        "height": 1024,
-        "steps": 8,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
-    },
-    "bdcolordd": {
-        "prompt": "{p}, happy birthday, colorful, in the style of t3xtn{np}",
-        "model": "Dreamshaper",
-        "width": 960,
-        "height": 768,
-        "hires_fix": true,
-        "steps": 8,
-        "cfg_scale": 2,
-        "sampler_name": "k_dpmpp_sde",
-        "loras": [
-            {"name": "268475", "is_version": true},
-            {"name": "85479", "model": 0.5},
-            {"name": "42190", "model": 0.85},
-            {"name": "109775", "model": 0.2},
-            {"name": "22437", "model": 0.85}
-        ]
-    },
+
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "AlbedoBase XL (SDXL)",
@@ -188,6 +118,79 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [{"name": "247778", "is_version": true}]
+    },
+
+    "cascade-big": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1536,
+        "height": 1536,
+        "cfg_scale": 5
+    },
+    "cascade-portrait": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1024,
+        "height": 1536,
+        "cfg_scale": 5
+    },
+    "cascade-landscape": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1536,
+        "height": 1024,
+        "cfg_scale": 5
+    },
+
+    "bd-ai": {
+        "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "makoto birthday": {
+        "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "artistic birthday": {
+        "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "bdcolordd": {
+        "prompt": "{p}, happy birthday, colorful, in the style of t3xtn{np}",
+        "model": "Dreamshaper",
+        "width": 960,
+        "height": 768,
+        "hires_fix": true,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            {"name": "268475", "is_version": true},
+            {"name": "85479", "model": 0.5},
+            {"name": "42190", "model": 0.85},
+            {"name": "109775", "model": 0.2},
+            {"name": "22437", "model": 0.85}
+        ]
     },
 
     "traditional chinese art": {
