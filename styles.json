@@ -1658,16 +1658,6 @@
         "prompt": "{p}{np}",
         "model": "ICBINP - I Can't Believe It's Not Photography"
     },
-    "dreamshaper xl": {
-        "prompt": "{p}{np}",
-        "model": "DreamShaper XL",
-        "sampler_name": "k_dpmpp_sde",
-        "karras": true,
-        "steps": 4,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 2
-    },
     "juggernaut": {
         "prompt": "{p}{np}",
         "model": "Juggernaut XL",
