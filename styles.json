@@ -1679,11 +1679,12 @@
         "loras": [{"name": "247778", "is_version": true}]
     },
     "pony": {
-        "prompt": "{p}{np}",
+        "prompt": "score_9, score_8_up, score_7_up, {p}{np}",
         "model": "Pony Diffusion XL",
-        "steps": 25,
+        "steps": 30,
         "width": 1024,
         "height": 1024,
+        "clip_skip": 2,
         "cfg_scale": 5
     },
     "animagine": {
@@ -2152,6 +2153,12 @@
     },
     "dreamshaper": {
         "prompt": "{p}{np}",
-        "model": "Dreamshaper"
+        "model": "DreamShaper XL",
+        "steps": 4,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true,
+        "cfg_scale": 2
     }
 }
