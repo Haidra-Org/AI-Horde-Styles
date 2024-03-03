@@ -1669,17 +1669,17 @@
         "loras": [{"name": "247778", "is_version": true}]
     },
     "anime illust": {
-        "prompt": "{p}{np}",
+        "prompt": "{p}###aidxlv05_neg,{np}",
         "model": "Anime Illust Diffusion XL",
-        "sampler_name": "k_dpmpp_sde",
-        "steps": 8,
+        "sampler_name": "k_dpmpp_2m",
+        "steps": 30,
         "width": 1024,
         "height": 1024,
-        "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "cfg_scale": 8,
+        "tis": [{"name": "144327","inject_ti": "negprompt"}]
     },
     "pony": {
-        "prompt": "score_9, score_8_up, score_7_up, {p}{np}",
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, {p}{np}",
         "model": "Pony Diffusion XL",
         "steps": 30,
         "width": 1024,
@@ -1688,14 +1688,14 @@
         "cfg_scale": 5
     },
     "animagine": {
-        "prompt": "{p}{np}",
+        "prompt": "{p}###aidxlv05_neg,{np}",
         "model": "Animagine XL",
-        "sampler_name": "k_dpmpp_sde",
-        "steps": 8,
+        "sampler_name": "k_euler_a",
+        "steps": 30,
         "width": 1024,
         "height": 1024,
-        "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "cfg_scale": 7,
+        "tis": [{"name": "144327","inject_ti": "negprompt"}]
     },
     "icbinp xl": {
         "prompt": "{p}{np}",
