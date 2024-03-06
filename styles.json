@@ -39,6 +39,15 @@
         "cfg_scale": 5
     },
 
+    "neonlines": {
+        "prompt": "Intricate colorful neon rainbow {p} darkness, intricately stylized vector design, line work, flourishes, patterns###white, blank,{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 20,
+        "width": 1152,
+        "height": 896,
+        "cfg_scale": 5
+    },
+
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "AlbedoBase XL (SDXL)",

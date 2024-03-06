@@ -6,7 +6,8 @@
         "anime illust",
         "juggernaut",
         "animagine",
-        "ikea"
+        "ikea",
+        "neonlines"
     ],
     "featured": [
         "stable cascade"
@@ -319,6 +320,7 @@
         "parchment"
     ],
     "artstyles": [
+        "neonlines",
         "ikea",
         "graffiti",
         "retrofuturistic",
