@@ -137,7 +137,7 @@
         "height": 1536,
         "cfg_scale": 5
     },
-    "cascade-portrait": {
+    "cascade-big-portrait": {
         "prompt": "{p}{np}",
         "model": "Stable Cascade 1.0",
         "steps": 25,
@@ -145,12 +145,28 @@
         "height": 1536,
         "cfg_scale": 5
     },
-    "cascade-landscape": {
+    "cascade-big-landscape": {
         "prompt": "{p}{np}",
         "model": "Stable Cascade 1.0",
         "steps": 25,
         "width": 1536,
         "height": 1024,
+        "cfg_scale": 5
+    },
+    "cascade-portrait": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 896,
+        "height": 1152,
+        "cfg_scale": 5
+    },
+    "cascade-landscape": {
+        "prompt": "{p}{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 25,
+        "width": 1152,
+        "height": 896,
         "cfg_scale": 5
     },
 
