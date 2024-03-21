@@ -1722,7 +1722,7 @@
         "prompt": "{p}{np}",
         "width": 832,
         "height": 1216,
-        "steps": 25,
+        "steps": 30,
         "cfg_scale": 4.5,
         "model": "ICBINP XL",
         "sampler_name": "k_dpmpp_2m"
