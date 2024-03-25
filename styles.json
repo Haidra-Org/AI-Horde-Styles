@@ -2184,13 +2184,13 @@
 
     "mre-cinematic-dynamic": {
         "prompt": "epic cinematic shot of dynamic {p} in motion. main subject of high budget action movie. raw photo, motion blur. best quality, high resolution###{np}, static, still, motionless, sluggish. drawing, painting, illustration, rendered. low budget. low quality, low resolution",
-        "model": "DreamShaper XL",
-        "steps": 4,
+        "model": "Stable Cascade 1.0",
+        "steps": 20,
         "width": 1024,
         "height": 1024,
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
-        "cfg_scale": 2
+        "cfg_scale": 5
     },
     "mre-spontaneous-picture":  { "model": "Stable Cascade 1.0", "steps": 20, "width": 1664, "height": 640, "sampler_name": "k_dpmpp_sde",  "cfg_scale": 5,        "prompt": "spontaneous picture of {p}, taken by talented amateur. best quality, high resolution. magical moment, natural look. simple but good looking###{np}, overthinked. low quality, low resolution"},
     "mre-artistic-vision":      { "model": "Stable Cascade 1.0", "steps": 20, "width": 1664, "height": 640, "sampler_name": "k_dpmpp_sde",  "cfg_scale": 5,        "prompt": "powerful artistic vision of {p}. breathtaking masterpiece made by great artist. best quality, high resolution###{np}, insignificant, flawed, made by bad artist. low quality, low resolution"},
