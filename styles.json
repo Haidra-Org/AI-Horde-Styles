@@ -2182,7 +2182,7 @@
         "cfg_scale": 2
     },
 
-    "s41fairy": {
+    "41fairy": {
         "prompt": "beautiful warrior fairy, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW, naked, porn, #({np}:0.01)#{np}",
         "model": "DreamShaper XL",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
     },    "41no1": {
