@@ -2191,8 +2191,11 @@
     },    "41no2": {
         "prompt": "obese pikachu, holding a sign words \"NOPE\", large letters, surreal, tail, complex background, hair salon, mirrors, products, people in background, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,###{p}#{np}",
         "model": "Stable Cascade 1.0",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41neu": {
-        "prompt": "origami style artwork of Alfred E. Neuman, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, ###({p}:0.01)#{np}",
+    },    "41new": {
+        "prompt": "{hyperealistic photograph of|detailed oil painting of|kawaii anime screengrab of |mad magazine cover featuring} Alfred E Neuman ### ({p}:0.01)#{np}",
+        "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
+    },    "41ori": {
+        "prompt": "origami style artwork of an animal, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, ###({p}:0.01)#{np}",
         "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
     },    "41ter": {
         "prompt": "terminator robot lying on a towel at the beach ### ({p}:0.01)sexy, nsfw, nude, naked#{np}",
