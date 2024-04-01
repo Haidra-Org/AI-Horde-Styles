@@ -2191,7 +2191,7 @@
     },    "41no2": {
         "prompt": "obese pikachu, holding a sign words \"NOPE\", large letters, surreal, tail, complex background, hair salon, mirrors, products, people in background, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,###{p}#{np}",
         "model": "Stable Cascade 1.0",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41new": {
+    },    "41neu": {
         "prompt": "{hyperealistic photograph of|detailed oil painting of|kawaii anime screengrab of |mad magazine cover featuring} Alfred E Neuman ### ({p}:0.01)#{np}",
         "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
     },    "41ori": {
