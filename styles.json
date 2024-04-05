@@ -2180,34 +2180,5 @@
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
         "cfg_scale": 2
-    },
-
-    "41fairy": {
-        "prompt": "beautiful warrior fairy, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW, naked, porn, #({np}:0.01)#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41no1": {
-        "prompt": "a surreal picture of the word \"NOPE\" in large letters on a plain background, hyperrealistic, typography, by Jony Ive, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ### ({p}:0.01)#{np}",
-        "model": "Stable Cascade 1.0",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41no2": {
-        "prompt": "obese pikachu, holding a sign words \"NOPE\", large letters, surreal, tail, complex background, hair salon, mirrors, products, people in background, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,###{p}#{np}",
-        "model": "Stable Cascade 1.0",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41neu": {
-        "prompt": "{hyperealistic photograph of|detailed oil painting of|kawaii anime screengrab of |mad magazine cover featuring} Alfred E Neuman ### ({p}:0.01)#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41ori": {
-        "prompt": "origami style artwork of an animal, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, ###({p}:0.01)#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41ter": {
-        "prompt": "terminator robot lying on a towel at the beach ### ({p}:0.01)sexy, nsfw, nude, naked#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 1216,        "height": 832,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41ast": {
-        "prompt": "Rick Astley dancing ###({p}:0.01)#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41den": {
-        "prompt": "a surreal picture of a large neon sign with the word \"DENIED\", big letters, dark background, hyperrealistic, typography, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ### ({p}:0.01)#{np}",
-        "model": "Stable Cascade 1.0",        "steps": 4,        "width": 1024,        "height": 1024,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
-    },    "41lab": {
-        "prompt": "Pixar cartoon of the worlds most adorable labrador puppy ### ({p}:0.01)#{np}",
-        "model": "DreamShaper XL",        "steps": 4,        "width": 896,        "height": 1152,        "sampler_name": "k_dpmpp_sde",        "karras": true,        "cfg_scale": 2
     }
 }
