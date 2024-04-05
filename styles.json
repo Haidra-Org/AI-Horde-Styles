@@ -1718,6 +1718,46 @@
         "cfg_scale": 2,
         "loras": [{"name": "247778", "is_version": true}]
     },
+    "photon": {
+        "prompt": "{p}###{np}",
+        "model": "Photon",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "absolute reality": {
+        "prompt": "{p}###{np}",
+        "model": "AbsoluteReality",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "aam xl": {
+        "prompt": "{p}###{np}",
+        "model": "AAM XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name": "247778", "is_version": true}]
+    },
+    "quiet goodnight xl": {
+        "prompt": "{p}###{np}",
+        "model": "Quiet Goodnight XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name": "247778", "is_version": true}]
+    },
     "icbinp xl": {
         "prompt": "{p}{np}",
         "width": 832,
