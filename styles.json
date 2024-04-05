@@ -1741,13 +1741,12 @@
     "aam xl": {
         "prompt": "{p}###{np}",
         "model": "AAM XL",
-        "sampler_name": "k_dpmpp_sde",
-        "steps": 8,
+        "sampler_name": "k_euler_a",
+        "steps": 25,
         "width": 1024,
         "height": 1024,
         "clip_skip": 2,
-        "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "cfg_scale": 7
     },
     "quiet goodnight xl": {
         "prompt": "{p}###{np}",
