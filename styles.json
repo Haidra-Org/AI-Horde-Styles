@@ -1745,6 +1745,7 @@
         "steps": 8,
         "width": 1024,
         "height": 1024,
+        "clip_skip": 2,
         "cfg_scale": 2,
         "loras": [{"name": "247778", "is_version": true}]
     },
