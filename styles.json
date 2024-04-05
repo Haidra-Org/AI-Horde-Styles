@@ -1722,21 +1722,21 @@
         "prompt": "{p}###{np}",
         "model": "Photon",
         "sampler_name": "k_dpmpp_sde",
-        "steps": 10,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 2.5,
-        "loras": [{"name": "247778", "is_version": true}]
+        "steps": 20,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "cfg_scale": 6
     },
     "absolute reality": {
         "prompt": "{p}###{np}",
         "model": "AbsoluteReality",
         "sampler_name": "k_dpmpp_sde",
-        "steps": 10,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 2.5,
-        "loras": [{"name": "247778", "is_version": true}]
+        "steps": 25,
+        "width": 640,
+        "height": 960,
+        "hires_fix": true,
+        "cfg_scale": 7
     },
     "aam xl": {
         "prompt": "{p}###{np}",
