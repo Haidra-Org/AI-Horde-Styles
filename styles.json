@@ -1723,8 +1723,8 @@
         "model": "Photon",
         "sampler_name": "k_dpmpp_sde",
         "steps": 20,
-        "width": 640,
-        "height": 960,
+        "width": 1024,
+        "height": 768,
         "hires_fix": true,
         "cfg_scale": 6
     },
@@ -1733,8 +1733,8 @@
         "model": "AbsoluteReality",
         "sampler_name": "k_dpmpp_sde",
         "steps": 25,
-        "width": 640,
-        "height": 960,
+        "width": 1024,
+        "height": 768,
         "hires_fix": true,
         "cfg_scale": 7
     },
@@ -1743,8 +1743,8 @@
         "model": "AAM XL",
         "sampler_name": "k_euler_a",
         "steps": 25,
-        "width": 1024,
-        "height": 1024,
+        "width": 832,
+        "height": 1216,
         "clip_skip": 2,
         "cfg_scale": 7
     },
@@ -1753,8 +1753,8 @@
         "model": "Quiet Goodnight XL",
         "sampler_name": "k_dpmpp_sde",
         "steps": 8,
-        "width": 1024,
-        "height": 1024,
+        "width": 832,
+        "height": 1216,
         "cfg_scale": 2,
         "loras": [{"name": "247778", "is_version": true}]
     },
