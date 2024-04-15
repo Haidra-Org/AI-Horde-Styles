@@ -2220,5 +2220,35 @@
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
         "cfg_scale": 2
+    },
+    "thuersday 526": {
+        "prompt": "{p}{np}",
+        "model": "526Mix-Animated",
+        "width": 640,
+        "height": 832,
+        "hires_fix": true,
+        "steps": 20,
+        "cfg_scale": 9,
+        "enhance": true
+    },
+    "thuersday mistoon": {
+        "prompt": "{p}{np}",
+        "model": "Mistoon Amethyst",
+        "width": 640,
+        "height": 832,
+        "hires_fix": true,
+        "steps": 20,
+        "cfg_scale": 9,
+        "enhance": true
+    },
+    "thuersday illuminati": {
+        "prompt": "{p}{np}",
+        "model": "Illuminati Diffusion",
+        "width": 768,
+        "height": 768,
+        "hires_fix": false,
+        "steps": 25,
+        "cfg_scale": 7.5,
+        "enhance": false
     }
 }
