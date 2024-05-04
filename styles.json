@@ -993,6 +993,21 @@
             { "name": "135867", "model": 1.5, "is_version": true }
         ]
     },
+    "vintage yearbook photo": {
+        "prompt": "yellowed old photo, damaged, light leaks, early 20th century dust, scratches, award winning masterpiece, foggy, {p} . vintage photograph, analog###{np}",
+        "model": "Dreamshaper",
+        "width": 768,
+        "height": 1024,
+        "steps": 18,
+        "karras": true,
+        "cfg_scale": 6,
+        "sampler_name": "k_dpmpp_sde",
+        "hires_fix": true,
+        "loras": [
+            { "name": "481378", "model": 0.7, "is_version": true },
+            { "name": "459085", "model": 0.7, "is_version": true }
+        ]
+    },
     "line art": {
         "prompt": "{p} . line art, crisp black lines, minimalism, simple, economical use of space, flowing and dynamic, contemporary aesthetic, black and white, white background###nsfw, {np}",
         "model": "AlbedoBase XL (SDXL)",
