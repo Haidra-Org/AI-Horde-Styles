@@ -994,7 +994,7 @@
         ]
     },
     "vintage yearbook photo": {
-        "prompt": "yellowed old photo, damaged, light leaks, early 20th century dust, scratches, award winning masterpiece, foggy, {p} . vintage photograph, analog###{np}",
+        "prompt": "yellowed old photo, damaged, light leaks, early 19th century dust, scratches, award winning masterpiece, foggy, {p} . vintage yearbook photograph, analog###color,{np}",
         "model": "Dreamshaper",
         "width": 768,
         "height": 1024,
