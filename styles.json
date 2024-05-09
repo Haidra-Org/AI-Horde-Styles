@@ -1694,6 +1694,16 @@
         "cfg_scale": 2,
         "loras": [{"name": "247778", "is_version": true}]
     },
+    "unstable diffusers": {
+        "prompt": "{p}{np}",
+        "model": "Unstable Diffusers XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name": "247778", "is_version": true}]
+    },
     "anime illust": {
         "prompt": "{p}###aidxlv05_neg,{np}",
         "model": "Anime Illust Diffusion XL",
