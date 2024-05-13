@@ -7,10 +7,10 @@
     ],
     "featured": [
         "unstable diffusers",
-        "stable cascade"
+        "cascade+"
     ],
     "stable cascade": [
-        "cascade",
+        "cascade+",
         "cascade-big",
         "cascade-portrait",
         "cascade-big-landscape",
