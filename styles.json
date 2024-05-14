@@ -1750,11 +1750,11 @@
         "prompt": "{p}{np}",
         "model": "Blank Canvas XL",
         "sampler_name": "k_dpmpp_2m",
-        "steps": 11,
+        "steps": 30,
         "width": 1024,
         "height": 1024,
         "karras": true,
-        "cfg_scale": 2.5
+        "cfg_scale": 4
     },
     "animagine": {
         "prompt": "{p}###aidxlv05_neg,{np}",
