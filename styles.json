@@ -1737,6 +1737,24 @@
         "clip_skip": 2,
         "cfg_scale": 5
     },
+    "am pony": {
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, {p}{np}",
+        "model": "AMPonyXL",
+        "steps": 30,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2,
+        "cfg_scale": 5
+    },
+    "blank canvas xl": {
+        "prompt": "{p}{np}",
+        "model": "Blank Canvas XL",
+        "sampler_name": "k_dpmpp_2m",
+        "steps": 6,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2
+    },
     "animagine": {
         "prompt": "{p}###aidxlv05_neg,{np}",
         "model": "Animagine XL",
