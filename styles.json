@@ -1821,7 +1821,9 @@
         "width": 832,
         "height": 1216,
         "steps": 30,
-        "cfg_scale": 4.5,
+        "cfg_scale": 3,
+        "karras": true,
+        "clip_skip": 2,
         "model": "ICBINP XL",
         "sampler_name": "k_dpmpp_2m"
     },
