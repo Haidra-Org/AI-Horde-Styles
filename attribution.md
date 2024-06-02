@@ -10,6 +10,9 @@
 - impressionist oil painting by rockbandit
 - color splash, parchment, flat simple cartoon, emoji 3d, emoji 2d, fustercluck 3d, vector illustration by robertcs
 
+2024 summer solstice styles
+- summer rays by @unit1208 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1246863030159937619)
+
 2023 halloween styles (style name, author. notes):
 - 1920s brick wall atmospheric horror by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1167553375278207076)
 - vibrant halloween by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1167882295886221453)

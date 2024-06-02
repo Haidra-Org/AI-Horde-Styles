@@ -2280,5 +2280,17 @@
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
         "cfg_scale": 2
+    },
+
+    "summer rays": {
+        "prompt": "A beautiful summer solstice image, picture of a {p}, summer day, beautiful, god rays, warm lighting, bright summer solstice, warm colors, Fantasy, Color Grading, Cinematic Postprocessing, DOF, Golden Hour, Natural Lighting, Beautiful Lighting, Warm Color Palette, Colorful, realistic shadows ### (worst quality, low quality:1.4), out of focus, text, {np}",
+        "cfg_scale": 4,
+        "sampler_name": "k_euler",
+        "height": 1024,
+        "width": 1024,
+        "steps": 20,
+        "karras": true,
+        "hires_fix": false,
+        "model": "AlbedoBase XL (SDXL)"
     }
 }
