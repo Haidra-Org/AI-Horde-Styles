@@ -2292,5 +2292,28 @@
         "karras": true,
         "hires_fix": false,
         "model": "AlbedoBase XL (SDXL)"
+    },
+    "8pm": {
+        "prompt": "((art by pixiv)), {p}, meadow, art by Abraham Pether, art by Adam Hughes###{np},child, little kid, little child, deformity, deformed, lunar, moon, night time, batman, woman, female, chick, girl, facial deformity, mutated, mutilated, camping",
+        "model": "AlbedoBase XL (SDXL)",
+        "sampler_name": "k_dpmpp_2m",
+        "steps": 15,
+        "width": 1024,
+        "height": 1024,
+        "karras": true,
+        "hires_fix": true,
+        "cfg_scale": 4,
+        "clip_skip": 6
+    },
+    "leaping–fire–cascade": {
+        "prompt": "{p} leaping over a bonfire, Summer Solstice celebration, by Nikolai Astrup and Peder Severin Krøyer and Jules Breton and Henryk Siemiradzki###{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 15,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 4,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true
     }
 }

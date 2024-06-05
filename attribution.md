@@ -12,6 +12,8 @@
 
 2024 summer solstice styles
 - summer rays by @unit1208 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1246863030159937619)
+- 8pm by @caradhigama1 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1247460068522328106)
+- leaping–fire–cascade by @paladin01101100 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1247556445222998178)
 
 2023 halloween styles (style name, author. notes):
 - 1920s brick wall atmospheric horror by @professorvoodoo666 [here](https://discord.com/channels/781145214752129095/1160708232059297962/1167553375278207076)
