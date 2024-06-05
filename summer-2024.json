@@ -18,7 +18,7 @@
         "width": 1024,
         "height": 1024,
         "karras": true,
-        "hires_fix": true,
+        "hires_fix": false,
         "cfg_scale": 4,
         "clip_skip": 6
     },
