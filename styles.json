@@ -647,7 +647,7 @@
         "loras": [{"name": "247778", "is_version": true}]
     },
     "weirdies rainbow animals": {
-        "prompt": "Ombre color scheme of neon rainbow colors, TheWeirdies, {p}, no humans, animal focus###{np}",
+        "prompt": "TheWeirdies, {p}, no humans, animal focus###{np}",
         "model": "DreamShaper XL",
         "steps": 4,
         "width": 896,
