@@ -646,7 +646,7 @@
         "sampler_name": "k_dpmpp_sde",
         "loras": [{"name": "247778", "is_version": true}]
     },
-    "weirdies rainbow animals": {
+    "weirdies animals": {
         "prompt": "TheWeirdies, {p}, no humans, animal focus###{np}",
         "model": "DreamShaper XL",
         "steps": 4,
