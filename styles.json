@@ -654,7 +654,7 @@
         "height": 1152,
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
-        "loras": [{"name": "564015", "is_version": true}],
+        "loras": [{"name": "564015", "is_version": true, "model": 0.8}],
         "cfg_scale": 2
     },
 
