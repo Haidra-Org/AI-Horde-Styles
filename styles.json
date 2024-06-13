@@ -658,6 +658,17 @@
         "cfg_scale": 2
     },
 
+    "sd3": {
+        "prompt": "sd3grl, girl lying on grass ### nsfw",
+        "model": "Juggernaut XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [{"name":"569523","is_version":true},{"name": "247778", "is_version": true}]
+    },
+
     "sdxlhorror": {
         "prompt": "nightmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
         "model": "AlbedoBase XL (SDXL)",
