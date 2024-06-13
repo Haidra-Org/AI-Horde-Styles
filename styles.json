@@ -659,7 +659,7 @@
     },
 
     "sd3": {
-        "prompt": "sd3grl, girl lying on grass ### nsfw",
+        "prompt": "sd3grl, girl lying on grass ({p}:0.000000001)### nsfw{np}",
         "model": "Juggernaut XL",
         "sampler_name": "k_dpmpp_sde",
         "steps": 8,
