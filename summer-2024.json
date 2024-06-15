@@ -1,4 +1,24 @@
 {
+    "verdant solstice": {
+        "prompt": "({p}:1.2) screengrab of fantasy film, high quality, masterpiece, detailed, 8K, summer solstice, verdant mountains in background, lush green forests, ethereal fireflies, sun-dappled leaves framing the scene, ancient runes peeking into the vibrant environment, Unreal Engine god ray tracing bonanza, volumetric lighting, depth of field, Z-depth mapping, layers of foreground_and_background_depth ###{np} campfire, bonfire, monochrome, child, loli, morbid, blocking scenic objects, cluttered foreground, overwhelming central subjects, excessive detail on unimportant elements, distracting foreground items, plain backgrounds, flat composition, lack of depth, overexposed lighting, dull colors",
+        "model": "AlbedoBase XL (SDXL)",
+        "height": 640,
+        "width": 1536,
+        "steps": 20,
+        "sampler_name": "k_dpmpp_2m",
+        "clip_skip": 2,
+        "karras": true
+    },
+    "bonfire beats on the beach": {
+        "prompt": "({p}:1.2) impressionist painting of Summer Solstice celebration, warm sunset hues, soft brush strokes, lively beach bonfire scene with dancing figures, lush forest, Nordic symbols, inspired by Claude Monet's vibrant color palette and light effects, high quality, masterpiece###{np}",
+        "karras": true,
+        "sampler_name": "k_dpmpp_2m",
+        "height": 640,
+        "width": 1536,
+        "steps": 25,
+        "model": "AlbedoBase XL (SDXL)",
+        "clip_skip": 2
+    },
     "ghibli solstice": {
         "prompt": "{p} studio ghibli style art depicting lush green enviroment set during the summer solstice####{np}",
         "model": "Stable Cascade 1.0",
