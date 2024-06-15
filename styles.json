@@ -2305,6 +2305,17 @@
         "cfg_scale": 2
     },
 
+    "ghibli solstice": {
+        "prompt": "{p} studio ghibli style art depicting lush green enviroment set during the summer solstice####{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 15,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 4,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true
+    },
     "summer rays": {
         "prompt": "A beautiful summer solstice image, picture of a {p}, summer day, beautiful, god rays, warm lighting, bright summer solstice, warm colors, Fantasy, Color Grading, Cinematic Postprocessing, DOF, Golden Hour, Natural Lighting, Beautiful Lighting, Warm Color Palette, Colorful, realistic shadows ### (worst quality, low quality:1.4), out of focus, text, {np}",
         "cfg_scale": 4,
