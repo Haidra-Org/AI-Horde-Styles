@@ -2305,6 +2305,28 @@
         "cfg_scale": 2
     },
 
+    "yellow solstice": {
+        "prompt": "{p}, summer solstice, mid summer, sun on the sky, intricate detail, psychedelic, epic, green-yellow color palette, top light,  art by wes Wilson, monet and edward hopper., ### {np}",
+        "cfg_scale": 7.5,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 1024,
+        "width": 1024,
+        "steps": 20,
+        "karras": true,
+        "hires_fix": false,
+        "model": "AlbedoBase XL (SDXL)"
+    },
+    "burning sun cascade": {
+        "prompt": "sunny day, summer solstice, fantasy oil painting of a {p}, detailed oil painting, summer solstice image, Beautiful Lighting, Warm Color Palette, Colorful, Vibrant, god rays, realistic lighting, ### {np}, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body",
+        "cfg_scale": 5,
+        "sampler_name": "k_dpmpp_sde",
+        "height": 576,
+        "width": 1024,
+        "steps": 30,
+        "karras": true,
+        "hires_fix": false,
+        "model": "Stable Cascade 1.0"
+    },
     "verdant solstice": {
         "prompt": "({p}:1.2) screengrab of fantasy film, high quality, masterpiece, detailed, 8K, summer solstice, verdant mountains in background, lush green forests, ethereal fireflies, sun-dappled leaves framing the scene, ancient runes peeking into the vibrant environment, Unreal Engine god ray tracing bonanza, volumetric lighting, depth of field, Z-depth mapping, layers of foreground_and_background_depth ###{np} campfire, bonfire, monochrome, child, loli, morbid, blocking scenic objects, cluttered foreground, overwhelming central subjects, excessive detail on unimportant elements, distracting foreground items, plain backgrounds, flat composition, lack of depth, overexposed lighting, dull colors",
         "model": "AlbedoBase XL (SDXL)",
