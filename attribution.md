@@ -11,6 +11,8 @@
 - color splash, parchment, flat simple cartoon, emoji 3d, emoji 2d, fustercluck 3d, vector illustration by robertcs
 
 2024 summer solstice styles
+- sunny solstice by @deanwinchester1971 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1251849303106785372)
+- stonehenge sunrise by @paladin01101100 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1252100701933535283)
 - yellow solstice by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1251772259878703195)
 - burning sun cascade by @unit1208 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1251774009003999292)
 - verdant solstice by @magnabos.co [here](https://discord.com/channels/781145214752129095/1246725634919497819/1251188601530880000)

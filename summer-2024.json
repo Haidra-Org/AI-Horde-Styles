@@ -1,4 +1,31 @@
 {
+    "stonehenge sunrise": {
+        "prompt": "{p}, Stonehenge, Sunrise, Summer Solstice celebration, by J. M. W. Turner and Caspar David Friedrich###{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 1,
+        "width": 1344,
+        "height": 768,
+        "hires_fix": true,
+        "cfg_scale": 4,
+        "sampler_name": "k_euler_a",
+        "karras": true
+    },
+    "sunny solstice": {
+        "prompt": "solar, sun, sunray, sunlit painting of {p}, bright highlights, cool colors, blue and green,  vintage art, illustration, impressionist painting, Vintage Postage Stamps, border###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 6,
+        "sampler_name": "k_euler_a",
+        "karras": true,
+        "loras": [
+            { "name": "151806", "model": 0.6, "clip": 1, "is_version": true},
+            { "name": "360775", "model": 0.7, "clip": 1, "is_version": true},
+            { "name": "154285", "model": 0.65, "clip": 1, "is_version": true}
+        ]
+    },
     "yellow solstice": {
         "prompt": "{p}, summer solstice, mid summer, sun on the sky, intricate detail, psychedelic, epic, green-yellow color palette, top light,  art by wes Wilson, monet and edward hopper., ### {np}",
         "cfg_scale": 7.5,
