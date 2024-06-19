@@ -2305,6 +2305,21 @@
         "cfg_scale": 2
     },
 
+    "floral solstice": {
+        "prompt": "sunlit photo of a {p}, analog, vibrant colors, floral background, flowers, surrounded by flowers. polaroid film photography###{np}",
+        "model": "ICBINP XL",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 6,
+        "sampler_name": "k_euler_a",
+        "karras": true,
+        "loras": [
+            { "name": "151806", "model": 0.65, "clip": 1, "is_version": true},
+            { "name": "356493", "model": 0.6, "clip": 1, "is_version": true}
+        ]
+    },
     "stonehenge sunrise": {
         "prompt": "{p}, Stonehenge, Sunrise, Summer Solstice celebration, by J. M. W. Turner and Caspar David Friedrich###{np}",
         "model": "Stable Cascade 1.0",
