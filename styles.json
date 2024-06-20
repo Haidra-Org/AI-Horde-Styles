@@ -2305,6 +2305,30 @@
         "cfg_scale": 2
     },
 
+    "mayan solstice": {
+        "prompt": "an impasto oil painting of {p}, Summer Solstice celebration, solstice, by  Jules Breton, (norman rockwell:0.3), and Francisco goya. (Mayan pyramid:0.1), sun on top of the sky###{np}",
+        "model": "Stable Cascade 1.0",
+        "steps": 14,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7,
+        "sampler_name": "k_euler_a",
+        "karras": true
+    },
+    "golden solstice": {
+        "prompt": "Shepard Fairey, lino print, gold colored, block print, print of {p}, sun, sunrays, sunlight, solar background, greenery, floral, flowers, outdoor background, landscape###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 6,
+        "sampler_name": "k_euler_a",
+        "karras": true,
+        "loras": [
+            { "name": "151806", "model": 0.65, "clip": 1, "is_version": true}
+        ]
+    },
     "floral solstice": {
         "prompt": "sunlit photo of a {p}, analog, vibrant colors, floral background, flowers, surrounded by flowers. polaroid film photography###{np}",
         "model": "ICBINP XL",
