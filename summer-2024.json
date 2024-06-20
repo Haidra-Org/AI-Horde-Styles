@@ -1,6 +1,6 @@
 {
     "nouveau solstice": {
-        "prompt": "a close up of a dog, the sun, sun deity, (Celtic pattern:0.1), (solstice:1.4), solstice celebration, summer solstice, (art nouveau:1.2), victorian oil painting, art by Judy Baca, Diego Rivera, and (Alphonse mucha:0.2).outline, cartoon, comic ###{np}",
+        "prompt": "{p}, sun deity, (Celtic pattern:0.1), (solstice:1.4), solstice celebration, summer solstice, (art nouveau:1.2), victorian oil painting, art by Judy Baca, Diego Rivera, and (Alphonse mucha:0.2).outline, cartoon, comic ###{np}",
         "model": "AlbedoBase XL (SDXL)",
         "steps": 14,
         "width": 1024,
