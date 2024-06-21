@@ -2305,6 +2305,24 @@
         "cfg_scale": 2
     },
 
+    "celtic solstice": {
+        "prompt": "Artistic representation of Celtic summer solstice {p} with intricate knot patterns and verdant nature elements###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 5
+    },
+    "solstice serenity": {
+        "prompt": "Tranquil and enchanting Summer Solstice scene in a mystical forest {p} vivid warm tones, ethereal lighting, natural textures, Celtic patterns, and Nordic symbols intertwined###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 5
+    },
     "nouveau solstice": {
         "prompt": "{p}, sun deity, (Celtic pattern:0.1), (solstice:1.4), solstice celebration, summer solstice, (art nouveau:1.2), victorian oil painting, art by Judy Baca, Diego Rivera, and (Alphonse mucha:0.2).outline, cartoon, comic ###{np}",
         "model": "AlbedoBase XL (SDXL)",
