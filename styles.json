@@ -2305,6 +2305,29 @@
         "cfg_scale": 2
     },
 
+    "sunbeam solstice": {
+        "prompt": "outdoor photograph by Galen Rowell, 80mm, hasselblad, National Geographic photography, nature photography, volumetric lighting, godrays, bokeh, golden hour, sun dazzle, green and gold color palette, Celtic knotwork, hyper detailed, {p}, high resolution illustration, 4k, centered composition ###{np}",
+        "model": "Fustercluck",
+        "steps": 50,
+        "width": 1024,
+        "height": 768,
+        "hires_fix": false,
+        "cfg_scale": 9,
+        "sampler_name": "k_euler_a",
+        "karras": true
+    },
+    "a midsummer night's dream": {
+        "prompt": "sleeping donkey headed {p}, daisy crown, long sleeves, forest, lying down###hoof, paw, {np}",
+        "model": "ICBINP XL",
+        "steps": 15,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 5,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true,
+        "clip_skip": 2
+    },
     "celtic solstice": {
         "prompt": "Artistic representation of Celtic summer solstice {p} with intricate knot patterns and verdant nature elements###{np}",
         "model": "AlbedoBase XL (SDXL)",

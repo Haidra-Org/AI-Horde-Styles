@@ -11,6 +11,8 @@
 - color splash, parchment, flat simple cartoon, emoji 3d, emoji 2d, fustercluck 3d, vector illustration by robertcs
 
 2024 summer solstice styles
+- sunbeam solstice by @azuredream [here](https://discord.com/channels/781145214752129095/1246725634919497819/1253700117920223262)
+- a midsummer night's dream by @paladin01101100 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1253592155050475520)
 - solstice serenity by @fbmac [here](https://discord.com/channels/781145214752129095/1246725634919497819/1253533760574455898)
 - celtic solstice by @fbmac [here](https://discord.com/channels/781145214752129095/1246725634919497819/1253535692567482488)
 - noveau solstice by @fanofdc1952 [here](https://discord.com/channels/781145214752129095/1246725634919497819/1253428482990407711)
