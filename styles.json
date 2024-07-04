@@ -1770,13 +1770,16 @@
         "cfg_scale": 5
     },
     "swam pony": {
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, {p}{np}",
+        "prompt": "score_9, score_8_up, score_8, (score_7_up, score_7:0.2), source_real, soure_photography, {p} ### (score_6, score_5, score_4, score_3, score_2, score_1:1.0), source_furry, source_pony, source_cartoon, source_anime, source_filmmmaker, {np}",
         "model": "SwamPonyXL",
-        "steps": 30,
+        "steps": 12,
+        "sampler_name": "k_dpmpp_sde",
         "width": 1024,
         "height": 1024,
+        "karras": true,
         "clip_skip": 2,
-        "cfg_scale": 5
+        "cfg_scale": 3,
+        "loras": [{"name": "247778", "is_version": true}]
     },
     "blank canvas xl": {
         "prompt": "{p}{np}",
