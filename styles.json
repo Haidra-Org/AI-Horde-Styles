@@ -1,4 +1,14 @@
 {
+    "flux": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
     "sdxl": {
         "prompt": "{p}{np}",
         "model": "SDXL 1.0",
