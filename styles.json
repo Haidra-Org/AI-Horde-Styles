@@ -67,6 +67,37 @@
         "cfg_scale": 5
     },
 
+    "flux-vertical": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "width": 384,
+        "height": 768,
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-portrait": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "width": 448,
+        "height": 640,
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-landscape": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "width": 640,
+        "height": 448,
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "AlbedoBase XL (SDXL)",

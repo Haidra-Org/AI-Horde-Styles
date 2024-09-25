@@ -1,12 +1,14 @@
 {
     "new": [
         "flux",
+        "flux-aspect-ratio",
         "vintage yearbook photo",
         "photon",
         "unstable diffusers"
     ],
     "featured": [
         "flux",
+        "flux-aspect-ratio",
         "cascade+"
     ],
     "stable cascade": [
@@ -306,6 +308,12 @@
         "oldvhs",
         "analogdistortion",
         "pixelsorting"
+    ],
+    "flux-aspect-ratio": [
+        "flux-vertical",
+        "flux-portrait",
+        "flux-landscape",
+        "flux"
     ],
     "sdxl-aspect-ratio": [
         "sdxl-extreme-vertical",
