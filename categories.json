@@ -310,9 +310,17 @@
         "pixelsorting"
     ],
     "flux-aspect-ratio": [
+        "flux-extreme-vertical",
         "flux-vertical",
         "flux-portrait",
+        "flux-portrait-big",
+        "flux-photo",
+        "flux-photo-horizontal",
         "flux-landscape",
+        "flux-landscape-big",
+        "flux-widescreen",
+        "flux-cinematic",
+        "flux-small",
         "flux"
     ],
     "sdxl-aspect-ratio": [

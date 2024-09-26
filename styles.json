@@ -67,35 +67,39 @@
         "cfg_scale": 5
     },
 
-    "flux-vertical": {
-        "prompt": "{p}{np}",
-        "model": "Flux.1-Schnell fp8 (Compact)",
-        "width": 384,
-        "height": 768,
-        "steps": 4,
-        "cfg_scale": 1,
-        "karras": false,
-        "sampler_name": "k_euler"
-    },
-    "flux-portrait": {
-        "prompt": "{p}{np}",
-        "model": "Flux.1-Schnell fp8 (Compact)",
-        "width": 448,
-        "height": 640,
-        "steps": 4,
-        "cfg_scale": 1,
-        "karras": false,
-        "sampler_name": "k_euler"
-    },
-    "flux-landscape": {
-        "prompt": "{p}{np}",
-        "model": "Flux.1-Schnell fp8 (Compact)",
-        "width": 640,
-        "height": 448,
-        "steps": 4,
-        "cfg_scale": 1,
-        "karras": false,
-        "sampler_name": "k_euler"
+    "flux-small": {
+        "width": 512,        "height": 512,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-vertical": {
+        "width": 704,        "height": 1472,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-extreme-vertical": {
+        "width": 640,        "height": 1536,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-portrait": {
+        "width": 432,        "height": 1216,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-portrait-big": {
+        "width": 1024,        "height": 1536,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-photo": {
+        "width": 496,        "height": 1152,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-photo-horizontal": {
+        "width": 1152,        "height": 496,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-landscape": {
+        "width": 1280,        "height": 432,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-landscape-big": {
+        "width": 1536,        "height": 1024,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-widescreen": {
+        "width": 1344,        "height": 768,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+    }, "flux-cinematic": {
+        "width": 1536,        "height": 640,
+        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
     },
 
     "sdxl-vertical": {
