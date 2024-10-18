@@ -2565,5 +2565,87 @@
         "cfg_scale": 4,
         "sampler_name": "k_dpmpp_sde",
         "karras": true
+    },
+    "ultraspice": {
+        "prompt": "{p}###{np}",
+        "model": "Ultraspice",
+        "steps": 9,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 1.1,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true
+    },
+    "wai-anime-pony": {
+        "prompt": "score_9, score_8_up, score_7_up, source_anime, {p}###{np}",
+        "model": "WAI-ANI-NSFW-PONYXL",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "hires_fix": false,
+        "karras": true,
+        "clip_skip": 2
+    },
+    "flat-2d animerge": {
+        "prompt": "(best-quality:0.8), perfect anime illustration, {p}###{np}",
+        "model": "Flat-2D Animerge",
+        "steps": 25,
+        "width": 512,
+        "height": 512,
+        "sampler_name": "k_euler",
+        "hires_fix": false,
+        "guidence": 5.5
+    },
+    "ether-real": {
+        "prompt": "{p}###{np}",
+        "model": "Ether Real Mix",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "guidence": 12,
+        "karras": true
+    },
+    "blendermix": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###{np}",
+        "model": "BlenderMix Pony",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "clip_skip": 2,
+        "karras": true
+    },
+    "duchaiten unreal": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###{np}",
+        "model": "DucHaiten GameArt (Unreal) Pony",
+        "steps": 30,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "clip_skip": 2,
+        "karras": true,
+        "guidence": 8.5
+    },
+    "tunix": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
+        "model": "DucHaiten GameArt (Unreal) Pony",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "clip_skip": 2
+    },
+    "wai-cute-pony": {
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, {p}###worst quality,bad quality,bad hands,very displeasing,extra digit,fewer digits,jpeg artifacts, source_cartoon, 3d, (censor),monochrome,blurry, lowres,watermark,{np}",
+        "model": "WAI-CUTE Pony",
+        "steps": 30,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "karras": true,
+        "clip_skip": 2
     }
 }

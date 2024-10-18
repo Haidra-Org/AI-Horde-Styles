@@ -1,10 +1,15 @@
 {
     "new": [
         "flux",
-        "flux-aspect-ratio",
-        "vintage yearbook photo",
         "photon",
-        "unstable diffusers"
+        "unstable diffusers",
+        "pony realism",
+        "wai-anime-pony",
+        "flat-2d animerge",
+        "blendermix",
+        "duchaiten unreal",
+        "tunix",
+        "wai-cute-pony"
     ],
     "featured": [
         "flux",
@@ -43,7 +48,9 @@
         "swam pony",
         "analog madness",
         "realisian",
-        "reliberate"
+        "reliberate",
+        "pony realism",
+        "ultraspice"
     ],
     "summer": [
         "summer 2023",
@@ -168,17 +175,14 @@
         "pepe larraz",
         "andreas rocha",
         "james daly",
-        "tron legacy",
         "microworlds",
         "appicon",
         "vectorartz",
-        "ranma",
         "inkpunk",
         "mtg",
         "paintart",
         "rpg portrait",
         "papercut",
-        "chroma",
         "ghibli",
         "analog",
         "dublex",
@@ -212,7 +216,6 @@
     ],
     "anime": [
         "acertainthing",
-        "ranma",
         "ghibli",
         "meinamix",
         "galena redux",
@@ -282,20 +285,15 @@
         "game icon"
     ],
     "portrait": [
-        "hassanblend",
-        "chroma",
         "inkpunk+",
         "dublex",
         "rpg portrait",
         "dreamlike photoreal",
         "portraitplus",
-        "dark victorian",
         "protogen",
         "3dkx",
-        "moedel",
         "moistmix",
         "lucid mix",
-        "ultraskin",
         "ppp",
         "anygen",
         "sci-fi protogen",
@@ -417,5 +415,16 @@
         "8pm",
         "leaping–fire–cascade",
         "summer rays"
+    ],
+    "pony": [
+        "blendermix",
+        "duchaiten unreal",
+        "tunix",
+        "wai-cute-pony",
+        "wai-anime-pony",
+        "pony",
+        "pony realism",
+        "am pony",
+        "swam pony"
     ]
 }
