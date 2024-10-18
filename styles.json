@@ -1544,7 +1544,6 @@
         "prompt": "behind the scenes footage from the set of {p}, movie set, breakdown, dramatic lighting, off centered focus, clear wide shot, dreamlikeart###blurry, distorted, ugly faces,{np}",
         "model": "Dreamlike Diffusion"
     },
-
     "generic scifi": {
         "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K{np}",
         "model": "Dreamshaper"
@@ -2064,11 +2063,6 @@
         "model": "Seek.art MEGA",
         "enhance": true
     },
-    "hassanblend": {
-        "prompt": "{p}{np}",
-        "model": "Hassanblend",
-        "enhance": true
-    },
     "rpg portrait": {
         "prompt": "{p}{np}",
         "model": "RPG",
@@ -2113,11 +2107,6 @@
         "model": "Comic-Diffusion",
         "enhance": true
     },
-    "tron legacy": {
-        "prompt": "{p}, trnlgcy{np}",
-        "model": "Tron Legacy Diffusion",
-        "enhance": true
-    },
     "microworlds": {
         "prompt": "{p}, microworld render style{np}",
         "model": "Microworlds"
@@ -2151,11 +2140,6 @@
     "vectorartz": {
         "prompt": "{p}, vectorartz{np}",
         "model": "vectorartz"
-    },
-    "ranma": {
-        "prompt": "{p}, 80sanimestyle{np}",
-        "model": "Ranma Diffusion",
-        "enhance": true
     },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
@@ -2361,7 +2345,6 @@
         "karras": true,
         "cfg_scale": 2
     },
-
     "sunbeam solstice": {
         "prompt": "outdoor photograph by Galen Rowell, 80mm, hasselblad, National Geographic photography, nature photography, volumetric lighting, godrays, bokeh, golden hour, sun dazzle, green and gold color palette, Celtic knotwork, hyper detailed, {p}, high resolution illustration, 4k, centered composition ###{np}",
         "model": "Fustercluck",
@@ -2565,5 +2548,101 @@
         "cfg_scale": 4,
         "sampler_name": "k_dpmpp_sde",
         "karras": true
+    },
+    "ultraspice": {
+        "prompt": "{p}###{np}",
+        "model": "Ultraspice",
+        "steps": 9,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 1.1,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true
+    },
+    "wai-anime-pony": {
+        "prompt": "score_9, score_8_up, score_7_up, source_anime, {p}###{np}",
+        "model": "WAI-ANI-NSFW-PONYXL",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "hires_fix": false,
+        "karras": true,
+        "clip_skip": 2
+    },
+    "flat-2d animerge": {
+        "prompt": "(best-quality:0.8), perfect anime illustration, {p}###{np}",
+        "model": "Flat-2D Animerge",
+        "steps": 25,
+        "width": 512,
+        "height": 512,
+        "sampler_name": "k_euler",
+        "hires_fix": false,
+        "cfg_scale": 5.5,
+        "karras": true
+    },
+    "ether-real": {
+        "prompt": "{p}###{np}",
+        "model": "Ether Real Mix",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 12,
+        "karras": true
+    },
+    "blendermix": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###{np}",
+        "model": "BlenderMix Pony",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "clip_skip": 2,
+        "karras": true
+    },
+    "duchaiten unreal": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###{np}",
+        "model": "DucHaiten GameArt (Unreal) Pony",
+        "steps": 30,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "clip_skip": 2,
+        "karras": true,
+        "cfg_scale": 8.5
+    },
+    "tunix": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
+        "model": "DucHaiten GameArt (Unreal) Pony",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2s_a",
+        "karras": true,
+        "clip_skip": 2
+    },
+    "wai-cute-pony": {
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, {p}###worst quality,bad quality,bad hands,very displeasing,extra digit,fewer digits,jpeg artifacts, source_cartoon, 3d, (censor),monochrome,blurry, lowres,watermark,{np}",
+        "model": "WAI-CUTE Pony",
+        "steps": 10,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "karras": true,
+        "clip_skip": 2
+    },
+    "pony realism":{
+        "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
+        "model": "Pony Realism",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 6,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true,
+        "clip_skip": 2
     }
 }
