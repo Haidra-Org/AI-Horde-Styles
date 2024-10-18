@@ -2596,7 +2596,8 @@
         "height": 512,
         "sampler_name": "k_euler",
         "hires_fix": false,
-        "guidence": 5.5
+        "cfg_scale": 5.5,
+        "karras": true
     },
     "ether-real": {
         "prompt": "{p}###{np}",
@@ -2605,7 +2606,7 @@
         "width": 1024,
         "height": 1024,
         "sampler_name": "k_dpmpp_2m",
-        "guidence": 12,
+        "cfg_scale": 12,
         "karras": true
     },
     "blendermix": {
@@ -2627,7 +2628,7 @@
         "sampler_name": "k_dpmpp_2s_a",
         "clip_skip": 2,
         "karras": true,
-        "guidence": 8.5
+        "cfg_scale": 8.5
     },
     "tunix": {
         "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
@@ -2636,16 +2637,29 @@
         "width": 1024,
         "height": 1024,
         "sampler_name": "k_dpmpp_2s_a",
+        "karras": true,
         "clip_skip": 2
     },
     "wai-cute-pony": {
         "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, {p}###worst quality,bad quality,bad hands,very displeasing,extra digit,fewer digits,jpeg artifacts, source_cartoon, 3d, (censor),monochrome,blurry, lowres,watermark,{np}",
         "model": "WAI-CUTE Pony",
-        "steps": 30,
+        "steps": 10,
         "width": 1024,
         "height": 1024,
         "sampler_name": "k_dpmpp_2m",
         "karras": true,
         "clip_skip": 2
-    }
+    },
+    "pony realism":{
+        "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
+        "model": "Pony Realism",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": false,
+        "cfg_scale": 6,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true, 
+        "clip_skip": 2
+      }
 }
