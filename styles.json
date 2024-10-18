@@ -1544,7 +1544,6 @@
         "prompt": "behind the scenes footage from the set of {p}, movie set, breakdown, dramatic lighting, off centered focus, clear wide shot, dreamlikeart###blurry, distorted, ugly faces,{np}",
         "model": "Dreamlike Diffusion"
     },
-
     "generic scifi": {
         "prompt": "{p}, science fiction artwork, epic, detailed and intricate digital concept art, by John Jude Palencar, Manchu, and Devin Elle Kurtz, 4K{np}",
         "model": "Dreamshaper"
@@ -2064,11 +2063,6 @@
         "model": "Seek.art MEGA",
         "enhance": true
     },
-    "hassanblend": {
-        "prompt": "{p}{np}",
-        "model": "Hassanblend",
-        "enhance": true
-    },
     "rpg portrait": {
         "prompt": "{p}{np}",
         "model": "RPG",
@@ -2113,11 +2107,6 @@
         "model": "Comic-Diffusion",
         "enhance": true
     },
-    "tron legacy": {
-        "prompt": "{p}, trnlgcy{np}",
-        "model": "Tron Legacy Diffusion",
-        "enhance": true
-    },
     "microworlds": {
         "prompt": "{p}, microworld render style{np}",
         "model": "Microworlds"
@@ -2151,11 +2140,6 @@
     "vectorartz": {
         "prompt": "{p}, vectorartz{np}",
         "model": "vectorartz"
-    },
-    "ranma": {
-        "prompt": "{p}, 80sanimestyle{np}",
-        "model": "Ranma Diffusion",
-        "enhance": true
     },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
@@ -2361,7 +2345,6 @@
         "karras": true,
         "cfg_scale": 2
     },
-
     "sunbeam solstice": {
         "prompt": "outdoor photograph by Galen Rowell, 80mm, hasselblad, National Geographic photography, nature photography, volumetric lighting, godrays, bokeh, golden hour, sun dazzle, green and gold color palette, Celtic knotwork, hyper detailed, {p}, high resolution illustration, 4k, centered composition ###{np}",
         "model": "Fustercluck",
@@ -2659,7 +2642,7 @@
         "hires_fix": false,
         "cfg_scale": 6,
         "sampler_name": "k_dpmpp_sde",
-        "karras": true, 
+        "karras": true,
         "clip_skip": 2
-      }
+    }
 }
