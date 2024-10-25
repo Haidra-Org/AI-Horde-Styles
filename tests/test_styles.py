@@ -38,6 +38,11 @@ class TestStyles(unittest.TestCase):
         ImageGenerateAsyncRequest.model_validate(request, strict=True)
 
     def style_to_request(self, style: dict[str, Any]) -> dict[str, ImageGenerationInputPayload | Any]:
+        with self.subTest(msg="Validate model exists"):
+            model = style.get("model")
+            if model is not None:
+                self.assertIn(model, self.model_reference, msg=f"Model {model} does not exist for style {style}")
+            
         with self.subTest(msg="Validate prompt"):
             prompt = style.pop("prompt")
             if "###" not in prompt and "{np}" in prompt:
