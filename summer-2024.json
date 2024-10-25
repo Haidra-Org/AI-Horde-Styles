@@ -89,17 +89,6 @@
             { "name": "356493", "model": 0.6, "clip": 1, "is_version": true}
         ]
     },
-    "stonehenge sunrise": {
-        "prompt": "{p}, Stonehenge, Sunrise, Summer Solstice celebration, by J. M. W. Turner and Caspar David Friedrich###{np}",
-        "model": "Stable Cascade 1.0",
-        "steps": 1,
-        "width": 1344,
-        "height": 768,
-        "hires_fix": true,
-        "cfg_scale": 4,
-        "sampler_name": "k_euler_a",
-        "karras": true
-    },
     "sunny solstice": {
         "prompt": "solar, sun, sunray, sunlit painting of {p}, bright highlights, cool colors, blue and green,  vintage art, illustration, impressionist painting, Vintage Postage Stamps, border###{np}",
         "model": "AlbedoBase XL (SDXL)",
