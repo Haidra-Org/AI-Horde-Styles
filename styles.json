@@ -2171,10 +2171,6 @@
         "model": "Papercut Diffusion",
         "enhance": true
     },
-    "chroma": {
-        "prompt": "{p}, ChromaV5 award winning photography, extremely detailed, artstation, 8 k, incredible art{np}",
-        "model": "ChromaV5"
-    },
     "dreamlike": {
         "prompt": "{p}, dreamlikeart{np}",
         "model": "Dreamlike Diffusion"
@@ -2259,10 +2255,6 @@
         "prompt": "{p}, portrait+ style{np}",
         "model": "PortraitPlus"
     },
-    "dark victorian": {
-        "prompt": "{p}, darkvictorian artstyle{np}",
-        "model": "Dark Victorian Diffusion"
-    },
     "dnd item": {
         "prompt": "{p}, dnditem{np}",
         "model": "DnD Item"
@@ -2282,10 +2274,6 @@
     "3dkx": {
         "prompt": "{p}{np}",
         "model": "3DKX"
-    },
-    "moedel": {
-        "prompt": "{p}{np}",
-        "model": "Moedel"
     },
     "dreamlikesam": {
         "prompt": "{p}, samdoesart{np}",
@@ -2314,10 +2302,6 @@
     "sci-fi": {
         "prompt": "{p}{np}",
         "model": "Sci-Fi Diffusion"
-    },
-    "ultraskin": {
-        "prompt": "{p}, ultraskin{np}",
-        "model": "Ultraskin"
     },
     "ppp": {
         "prompt": "{p}{np}",
