@@ -2315,10 +2315,6 @@
         "prompt": "{p}{np}",
         "model": "Sci-Fi Diffusion"
     },
-    "ultraskin": {
-        "prompt": "{p}, ultraskin{np}",
-        "model": "Ultraskin"
-    },
     "ppp": {
         "prompt": "{p}{np}",
         "model": "PPP"
