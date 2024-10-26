@@ -2617,5 +2617,146 @@
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
         "clip_skip": 2
+    },
+
+    "flux-impressionist": {
+        "prompt": "{p} . A vibrant impressionist painting with bold brush strokes and rich color contrasts, capturing light and shadow in a dynamic and emotional way.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-baroque": {
+        "prompt": "{p} . A highly detailed baroque-style artwork with intricate patterns, rich textures, and dramatic lighting, emphasizing elegance and opulence.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-dreamscape": {
+        "prompt": "{p} . A surrealist dreamscape where elements of the scene blend in unexpected ways, creating a whimsical and thought-provoking composition.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-watercolor": {
+        "prompt": "{p} . A watercolor painting with soft gradients, delicate blending, and light washes, giving the scene a gentle, dreamy, and fluid appearance.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-pixel-art": {
+        "prompt": "{p} . A digital pixel art scene, composed of sharp, square pixels, giving the image a nostalgic, video-game-like aesthetic with a simple but striking design.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-storybook": {
+        "prompt": "{p} . A children's book illustration style, with playful, soft shapes, bright colors, and a whimsical, storybook-like design perfect for young audiences.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-comic": {
+        "prompt": "{p} . A comic book style, with bold lines, halftone shading, and dynamic action scenes, capturing a dramatic and energetic feel.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-vintage-poster": {
+        "prompt": "{p} . A vintage poster style, featuring distressed textures, muted colors, and bold typography, reminiscent of mid-century advertisements or travel posters.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-pop-art": {
+        "prompt": "{p} . A pop art style, featuring bold, primary colors, thick outlines, and a sense of fun and irony, inspired by the work of artists like Andy Warhol or Roy Lichtenstein.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-glowing-aura": {
+        "prompt": "{p} . A glowing magical aura effect, radiating with vibrant, ethereal light, surrounded by swirling particles, mist, and soft energy waves in a mystical color palette.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-winter-wonderland": {
+        "prompt": "{p} . A winter wonderland scene, filled with soft snowfall, icy textures, and glowing, frosty light reflecting off snow-covered landscapes.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-stick-figures": {
+        "prompt": "{p} . A simple stick figure style, with minimalistic lines representing basic human forms and actions, drawn in a playful, childlike manner with a clean, uncluttered look.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-glitch-art": {
+        "prompt": "{p} . A glitch art style, with distorted visuals, pixelation, random noise, and color shifts, giving the image a futuristic, digital error aesthetic.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "flux-pointillism": {
+        "prompt": "{p} . A pointillism art style, composed of countless tiny, colorful dots carefully arranged to form the image, creating a textured and vibrant scene when viewed from a distance.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
     }
 }
