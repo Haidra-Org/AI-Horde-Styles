@@ -2758,5 +2758,14 @@
         "karras": false,
         "width": 1024,
         "height": 1024
+    },
+    "prefect pony": {
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, {p}###{np}",
+        "model": "Prefect Pony",
+        "steps": 20,
+        "sampler_name": "k_euler",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024
     }
 }
