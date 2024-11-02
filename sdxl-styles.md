@@ -13,9 +13,9 @@ perl -0 -pe 's/\n\n/\\n/g;s/\n/ /g;s/\\n/\n\n/g;s/\s*([^\n]+)\n\nPrompt\n\n([^\n
 
 -----------------------------------------------------------
 
-Format: I intend this file to be used as a supplementary prompt list of 
-uncurated styles that can be added to the main style list as required. As such, 
-it wraps the existing format with groups (separate from categories, the groups 
+Format: I intend this file to be used as a supplementary prompt list of
+uncurated styles that can be added to the main style list as required. As such,
+it wraps the existing format with groups (separate from categories, the groups
 are for sources. The main reason for this is the description/attribution).
 
 Fair warning: if I make changes to this list in the future, I may decide to leqve out some parts. I'm also prone to typos. In other words: keep a fork and watch this repo if you're interested in using them
@@ -39,7 +39,7 @@ Fair warning: if I make changes to this list in the future, I may decide to leqv
             "name": "string"          // either the numeric id of the lora (for an ezact match) or the name (fuzzy search)
             "clip": float             // Optional. how much to apply the lora to the clip (text understanding) (I might be wrong, this may be inaccurate). defaults to 1
             "model": float            // Optional. how much to apply the lora to the unet (image generation) (I might be wrong, this may be inaccurate). default to 1
-            "inject_trigger": string, // Optional. Specify a trigger to inject. Special cases: "all" injects *all* triggers fr\or the given lora into the prompt, while *any* injects a random trigger. Usual use: onject the trigger specified (why? just put it in the prompt!) 
+            "inject_trigger": string, // Optional. Specify a trigger to inject. Special cases: "all" injects *all* triggers fr\or the given lora into the prompt, while *any* injects a random trigger. Usual use: onject the trigger specified (why? just put it in the prompt!)
           }
         ]
       }
