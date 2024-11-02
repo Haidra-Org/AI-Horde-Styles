@@ -15,4 +15,3 @@ repos:
     rev: v0.6.8
     hooks:
     -    id: ruff
-
