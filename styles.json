@@ -1720,7 +1720,7 @@
         "prompt": "{p}{np}",
         "model": "Dreamlike Photoreal",
         "enhance": true
-    },  
+    },
     "realistic vision": {
         "prompt": "{p}{np}",
         "model": "Realistic Vision",
