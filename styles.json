@@ -2764,6 +2764,7 @@
         "model": "Prefect Pony",
         "steps": 20,
         "sampler_name": "k_euler",
+        "clip_skip": 2,
         "cfg_scale": 5,
         "width": 1024,
         "height": 1024
