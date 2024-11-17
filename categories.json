@@ -1,12 +1,15 @@
 {
     "new": [
-        "pony realism",
         "wai-anime-pony",
         "flat-2d animerge",
         "blendermix",
         "duchaiten unreal",
         "tunix",
-        "wai-cute-pony"
+        "wai-cute-pony",
+        "mhxl-aventis horizon",
+        "nova furry pony",
+        "nova anime xl",
+        "white pony diffusion"
     ],
     "featured": [
         "flux",
@@ -47,7 +50,8 @@
         "realisian",
         "reliberate",
         "pony realism",
-        "ultraspice"
+        "ultraspice",
+        "white pony diffusion"
     ],
     "summer": [
         "summer 2023",
@@ -242,12 +246,14 @@
         "am pony",
         "pony",
         "animagine",
-        "eimis"
+        "eimis",
+        "nova anime xl"
     ],
     "furries": [
         "scalie",
         "furry",
-        "impasto furry"
+        "impasto furry",
+        "nova furry pony"
     ],
     "anime_raw": [
         "acertainthing_raw",
@@ -302,7 +308,6 @@
         "portraitplus",
         "protogen",
         "3dkx",
-        "moistmix",
         "lucid mix",
         "ppp",
         "anygen",
@@ -434,6 +439,8 @@
         "pony",
         "pony realism",
         "am pony",
-        "swam pony"
+        "swam pony",
+        "nova furry pony",
+        "white pony diffusion"
     ]
 }
