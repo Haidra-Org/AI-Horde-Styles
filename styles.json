@@ -17,7 +17,9 @@
         "height": 1024,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "albedo": {
         "prompt": "{p}{np}",
@@ -27,7 +29,9 @@
         "height": 1024,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "raw": {
         "prompt": "{p}{np}",
@@ -66,42 +70,116 @@
         "hires_fix": true,
         "cfg_scale": 5
     },
-
     "flux-small": {
-        "width": 512,        "height": 512,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-vertical": {
-        "width": 704,        "height": 1472,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-extreme-vertical": {
-        "width": 640,        "height": 1536,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-portrait": {
-        "width": 832,        "height": 1216,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-portrait-big": {
-        "width": 1024,        "height": 1536,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-photo": {
-        "width": 896,        "height": 1152,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-photo-horizontal": {
-        "width": 1152,        "height": 896,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-landscape": {
-        "width": 1280,        "height": 832,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-landscape-big": {
-        "width": 1536,        "height": 1024,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-widescreen": {
-        "width": 1344,        "height": 768,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
-    }, "flux-cinematic": {
-        "width": 1536,        "height": 640,
-        "prompt": "{p}{np}",    "model": "Flux.1-Schnell fp8 (Compact)",    "steps": 4,    "cfg_scale": 1,    "karras": false,    "sampler_name": "k_euler"
+        "width": 512,
+        "height": 512,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
     },
-
+    "flux-vertical": {
+        "width": 704,
+        "height": 1472,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-extreme-vertical": {
+        "width": 640,
+        "height": 1536,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-portrait": {
+        "width": 832,
+        "height": 1216,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-portrait-big": {
+        "width": 1024,
+        "height": 1536,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-photo": {
+        "width": 896,
+        "height": 1152,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-photo-horizontal": {
+        "width": 1152,
+        "height": 896,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-landscape": {
+        "width": 1280,
+        "height": 832,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-landscape-big": {
+        "width": 1536,
+        "height": 1024,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-widescreen": {
+        "width": 1344,
+        "height": 768,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "flux-cinematic": {
+        "width": 1536,
+        "height": 640,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
     "sdxl-vertical": {
         "prompt": "{p}{np}",
         "model": "AlbedoBase XL (SDXL)",
@@ -110,7 +188,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-extreme-vertical": {
         "prompt": "{p}{np}",
@@ -120,7 +200,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-portrait": {
         "prompt": "{p}{np}",
@@ -130,7 +212,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-photo": {
         "prompt": "{p}{np}",
@@ -140,7 +224,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-photo-horizontal": {
         "prompt": "{p}{np}",
@@ -150,7 +236,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-landscape": {
         "prompt": "{p}{np}",
@@ -160,7 +248,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-widescreen": {
         "prompt": "{p}{np}",
@@ -170,7 +260,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxl-cinematic": {
         "prompt": "{p}{np}",
@@ -180,9 +272,10 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
-
     "cascade-big": {
         "prompt": "{p}{np}",
         "model": "Stable Cascade 1.0",
@@ -228,7 +321,6 @@
         "height": 896,
         "cfg_scale": 5
     },
-
     "bd-ai": {
         "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
         "model": "AlbedoBase XL (SDXL)",
@@ -237,7 +329,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "makoto birthday": {
         "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
@@ -247,7 +341,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "artistic birthday": {
         "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
@@ -257,7 +353,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "bdcolordd": {
         "prompt": "{p}, happy birthday, colorful, in the style of t3xtn{np}",
@@ -269,14 +367,13 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            {"name": "268475", "is_version": true},
-            {"name": "85479", "model": 0.5},
-            {"name": "42190", "model": 0.85},
-            {"name": "109775", "model": 0.2},
-            {"name": "22437", "model": 0.85}
+            { "name": "268475", "is_version": true},
+            { "name": "85479", "model": 0.5},
+            { "name": "42190", "model": 0.85},
+            { "name": "109775", "model": 0.2},
+            { "name": "22437", "model": 0.85}
         ]
     },
-
     "traditional chinese art": {
         "prompt": "realistic Traditional Chinese art depicting {p}, thick outlines, Centered and frontal, solid colors, flat shadows, (red background:0.4), gold embroidery, muted tones###{np}",
         "model": "SDXL 1.0",
@@ -296,7 +393,9 @@
         "width": 1024,
         "steps": 12,
         "karras": true,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "chinese paper art": {
         "prompt": "{p}. traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw, {np}",
@@ -306,7 +405,9 @@
         "height": 1024,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "246747", "model": 0.3, "is_version": true }]
+        "loras": [
+            { "name": "246747", "model": 0.3, "is_version": true}
+        ]
     },
     "chinese blue porcelain": {
         "prompt": "{p} . Ming dynasty blue-and-white porcelain art, ancient chinese intricate flat art, centered on a white background###nsfw, {np}",
@@ -317,7 +418,9 @@
         "cfg_scale": 2,
         "karras": true,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "246747", "is_version": true}]
+        "loras": [
+            { "name": "246747", "is_version": true}
+        ]
     },
     "wuxia": {
         "prompt": "{p}, wuxia comic, (art by bernie wrightson, art by 邱福龍:1.4,)###{np}, (black and white, monochrome, low quality, worst quality), 3d rendering, 3d animation, CGI illustration, oversaturated, old, ugly, unrealistic, photograph, worst quality, kid, child, infant, little kid, curly hair, sword, deformed, deformity, deformed body",
@@ -327,9 +430,10 @@
         "height": 832,
         "width": 1152,
         "steps": 8,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
-
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
         "model": "AlbedoBase XL (SDXL)",
@@ -338,7 +442,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "retrofuturistic": {
         "prompt": "retro-futuristic {p} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed###{np}, contemporary, realistic, rustic, primitive",
@@ -348,7 +454,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "dystopian": {
         "prompt": "dystopian style {p} . bleak, post-apocalyptic, somber, dramatic, highly detailed###{np},ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful",
@@ -358,7 +466,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxlcatgirlportrait": {
         "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
@@ -368,7 +478,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "neonnoir": {
         "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {np}",
@@ -378,7 +490,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "floralceramic": {
         "prompt": "a ceramic diorama of {p}, by Carlos Santos and Christine tennenholtz Lisa Frank, floral, glossy ceramic flowers, Rainbow prism, spectral colors, refracted light, vibrant hues, dazzling display, Picturesque, Gut Feeling, Seasoned photographer, Olympus PEN-F, blooming beauty, delicate petals, intricate 3d floral patterns###2d printed drawing sketch cgi render cartoon comic manga animation anime lineart, plain background{np}",
@@ -388,7 +502,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sovietpropaganda": {
         "prompt": "USSR soviet propaganda poster, {p}###photorealistic, cute, modern,{np}",
@@ -398,7 +514,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "moderntarotcard": {
         "prompt": "((A modern Tarot card)), {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique{np}",
@@ -408,7 +526,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "antiquetarotcard": {
         "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, antique painting of {p}, with name below, detailed painting###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d{np}",
@@ -418,7 +538,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "playingcard": {
         "prompt": "A modern playing card, {p}###{np}, photorealistic, cute, lowres, cropped, cgi, 3d, pixelated",
@@ -428,7 +550,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "mtgcard": {
         "prompt": "A mtg magic the gathering card, painting of fantasy creature. description, {p}, mtg magic the gathering style###{np}, lowres, cropped, cgi, pixelated, photorealistic, 3d render",
@@ -438,7 +562,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "baseballcard": {
         "prompt": "A baseball trading card, picture of player, stats in corner, {p}###{np}, lowres, cropped, cgi, pixelated, cute",
@@ -448,7 +574,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "greetingcard": {
         "prompt": "A greeting card, {p}###{np}, lowres, cropped, cgi, pixelated",
@@ -458,7 +586,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "postcard": {
         "prompt": "A souvenir postcard, {p}###{np}, lowres, cropped, cgi, pixelated, padding, border",
@@ -468,7 +598,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "goldenagecomics": {
         "prompt": "{p}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color{np}",
@@ -478,7 +610,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "manga": {
         "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color){np}",
@@ -488,7 +622,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxlanime": {
         "prompt": "anime artwork, {p}, dramatic, anime style, key visual, vibrant, studio anime, highly detailed###photo, deformed, black and white, realism, disfigured, low contrast{np}, ink and paper",
@@ -498,7 +634,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "portraitphoto": {
         "prompt": "portrait photo of {p}, photograph, highly detailed face, depth of field, moody light, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography###disfigured{np}, closeup, cropped",
@@ -517,7 +655,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "schematic": {
         "prompt": "23rd century scientific schematics for {p}, blueprint, hyperdetailed vector technical documents, callouts, legend, patent registry, clean linework, crisp lines###{np}, blurry",
@@ -536,7 +676,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "building": {
         "prompt": "{p}, shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra-detailed, realistic###{np}",
@@ -546,7 +688,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "animal": {
         "prompt": "{p}, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, national geographic, award-winning photograph by nick nichols###{np}",
@@ -556,7 +700,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "vaporwave": {
         "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, blurry{np}",
@@ -566,7 +712,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "isometric": {
         "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic{np}",
@@ -576,7 +724,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "lowpoly": {
         "prompt": "low-poly style {p}, ambient occlusion, low-poly game art, (polygon mesh:0.8), jagged, blocky, (wireframe edges:0.8), centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, black and white, grayscale, colorless{np}",
@@ -586,7 +736,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "claymation": {
         "prompt": "claymation style {p}, sculpture, clay art, centered composition, play-doh###{np}, sloppy, messy, grainy, highly detailed, ultra textured, photo, mutated",
@@ -596,7 +748,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "origami": {
         "prompt": "origami style {p}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo{np}",
@@ -606,7 +760,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "lineart": {
         "prompt": "line art drawing, {p}, professional, sleek, modern, minimalist, graphic, line art, vector graphics###{np}, anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
@@ -616,7 +772,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "pixelart": {
         "prompt": "pixel-art, {p}, low-res, blocky, pixel art style, 16-bit graphics###sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic{np}",
@@ -627,8 +785,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "120096", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "120096", "is_version": false}
         ]
     },
     "embroidery": {
@@ -639,7 +797,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "broadsheetart": {
         "prompt": "antique broadsheet drawing, {p}, text, monotone###{np}, colorful",
@@ -649,7 +809,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "watercolorscenery": {
         "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d{np}",
@@ -659,7 +821,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "pencilscribbles": {
         "prompt": "Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d{np}",
@@ -669,7 +833,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxlchibis": {
         "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles, (giant hand, minifig:0.7)",
@@ -679,7 +845,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "sdxlstreetfashion": {
         "prompt": "high quality, intricate, (fashionable clothes, street fashion:1.2), a full-body portrait of a fashionable {p}, attractive, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render, sexy:0.7)",
@@ -689,7 +857,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "weirdies animals": {
         "prompt": "TheWeirdies, {p}, no humans, animal focus###{np}",
@@ -699,10 +869,11 @@
         "height": 1152,
         "sampler_name": "k_dpmpp_sde",
         "karras": true,
-        "loras": [{"name": "564015", "is_version": true, "model": 0.65}],
+        "loras": [
+            { "name": "564015", "is_version": true, "model": 0.65}
+        ],
         "cfg_scale": 2
     },
-
     "sd3": {
         "prompt": "sd3grl, girl lying on grass ({p}:0.000000001)### nsfw{np}",
         "model": "Juggernaut XL",
@@ -711,9 +882,11 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "loras": [{"name":"569523","is_version":true},{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "569523", "is_version": true},
+            { "name": "247778", "is_version": true}
+        ]
     },
-
     "sdxlhorror": {
         "prompt": "nightmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
         "model": "AlbedoBase XL (SDXL)",
@@ -722,7 +895,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "animation": {
         "prompt": "(cute), {p}, (animated by Mike Judge)###{np}, horror, ugly, 3d, photorealistic, black and white",
@@ -732,7 +907,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "disney": {
         "prompt": "(cute), {p}, (classic disney animation)###{np}, 3d, horror, ugly, photorealistic",
@@ -742,7 +919,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "pixar": {
         "prompt": "(cute), {p}, (rendered by pixar)###{np}, 2d, horror, ugly, photorealistic, black and white",
@@ -752,7 +931,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "cyborgpunkportrait": {
         "prompt": "lomography, {p}, a neon cyborg portrait by Jerry Ryan Rob Hefferan Artgerm HR Giger, hyperrealistic vaporwave HDR render###{np}, drawing, sketch",
@@ -762,7 +943,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "movieposter": {
         "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused, {np}",
@@ -772,9 +955,10 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
-
     "glitchart": {
         "prompt": "{p}{np}",
         "model": "Dreamshaper",
@@ -782,7 +966,10 @@
         "cfg_scale": 7.5,
         "width": 512,
         "height": 640,
-        "loras": [{"name": "71125", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "71125","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "oldvhs": {
@@ -792,7 +979,9 @@
         "cfg_scale": 7.5,
         "width": 512,
         "height": 640,
-        "loras": [{"name": "103667"}],
+        "loras": [
+            { "name": "103667"}
+        ],
         "enhance": true
     },
     "pixelsorting": {
@@ -802,7 +991,10 @@
         "cfg_scale": 7.5,
         "width": 512,
         "height": 640,
-        "loras": [{"name": "57963", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "57963","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "analogdistortion": {
@@ -812,16 +1004,20 @@
         "cfg_scale": 7.5,
         "width": 512,
         "height": 640,
-        "loras": [{"name": "104917"}],
+        "loras": [
+            { "name": "104917"}
+        ],
         "enhance": true
     },
-
     "gothichorrorai": {
         "prompt": "{p}{np}",
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "39760", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "39760","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "tentaclehorrorai": {
@@ -829,7 +1025,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "42468", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "42468","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "reelhorror": {
@@ -837,14 +1036,19 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "67666"}]
+        "loras": [
+            { "name": "67666"}
+        ]
     },
     "bodyhorror": {
         "prompt": "{p}###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "51288", "model":0.8, "inject_trigger":"body horror, mutation, blood"}]
+        "loras": [
+            { "name": "51288", "model": 0.8,"inject_trigger": "body horror, mutation, blood"
+            }
+        ]
     },
     "nastyhorrors": {
         "prompt": "{p}, body horror, mutation, blood, reelhorror, dripping, trash###{np}, cropped, out of focus, monochrome, symbol, text, logo, window frame, mirror frame",
@@ -852,8 +1056,9 @@
         "steps": 40,
         "cfg_scale": 7.5,
         "loras": [
-            {"name": "51288", "model":0.7, "inject_trigger":"body horror, mutation, blood"},
-            {"name": "67666", "model":0.7}
+            { "name": "51288", "model": 0.7,"inject_trigger": "body horror, mutation, blood"
+            },
+            { "name": "67666", "model": 0.7}
         ]
     },
     "ivorygoldai": {
@@ -861,23 +1066,29 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "62700", "inject_trigger":"any"}]
+        "loras": [
+            { "name": "62700","inject_trigger": "any"
+            }
+        ]
     },
     "arielphorror": {
         "prompt": "{p}, arielpstyle, dark horror, creepy creepy-looking, painting, lovecraftian, grease, painting \\(medium\\), drawing, brush stroke###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Lyriel",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "39760"}]
+        "loras": [
+            { "name": "39760"}
+        ]
     },
     "dreadhorror": {
         "prompt": "{p}, Dread, horror, nightmare###{np}, cropped, out of focus, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Deliberate",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "98011"}]
+        "loras": [
+            { "name": "98011"}
+        ]
     },
-
     "vibrant halloween": {
         "prompt": "a Halloween themed vibrant pulp art by JC leyendecker and norman rockwell featuring {p}. horror vibe, dark atmospthere, depth of field, campy, spooky. purple, orange and green color palette.###{np}",
         "model": "AlbedoBase XL (SDXL)",
@@ -955,7 +1166,6 @@
         "height": 832,
         "cfg_scale": 2
     },
-
     "flat simple cartoon": {
         "prompt": "{p}, wikihow cartoon illustration###3d, photo, text, {np}",
         "model": "AlbedoBase XL (SDXL)",
@@ -964,7 +1174,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "color splash": {
         "prompt": "{p}, painted world, colorful splashes###{np}",
@@ -975,8 +1187,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "273924", "model": 0.75, "is_version": true }
+            { "name": "247778", "is_version": true},
+            { "name": "273924", "model": 0.75, "is_version": true}
         ]
     },
     "parchment": {
@@ -988,8 +1200,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "285737", "is_version": true }
+            { "name": "247778", "is_version": true},
+            { "name": "285737", "is_version": true}
         ]
     },
     "emoji 3d": {
@@ -1000,7 +1212,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "emoji 2d": {
         "prompt": "{p} . flat 2d emoji icon, cute, crisp outlined icon art, colorful, centered, on a solid white background###nsfw, 3d, octane render, photo, anime, {np}",
@@ -1010,7 +1224,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "fustercluck 3d": {
         "prompt": "{p} . cgi render, volumetric lighting###nsfw, anime, 2d, flat, photo, {np}",
@@ -1020,7 +1236,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "vector illustration": {
         "prompt": "{p} . digital vector art, svg, adobe illustrator, made in procreate###nsfw, text, 3d, photo, anime, {np}",
@@ -1030,7 +1248,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "charcoal drawing": {
         "prompt": "{p} . realistic black and white charcoal illustration, sharp focus, highly detailed, greyscale###nsfw, {np}",
@@ -1040,7 +1260,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "pencil drawing": {
         "prompt": "{p} . realistic pencil sketch, black and white, on a white background, pencil drawing, line drawing###nsfw, {np}",
@@ -1050,7 +1272,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "caricature illustration": {
         "prompt": "{p} . whimsical caricature illustration, centered on a white background###nsfw, {np}",
@@ -1060,7 +1284,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "vintage photo": {
         "prompt": "{p} . vintage photograph, r/oldschoolcool, polaroid photo style###nsfw, {np}",
@@ -1071,8 +1297,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "135867", "model": 1.5, "is_version": true }
+            { "name": "247778", "is_version": true},
+            { "name": "135867", "model": 1.5, "is_version": true}
         ]
     },
     "vintage yearbook photo": {
@@ -1086,8 +1312,8 @@
         "sampler_name": "k_dpmpp_sde",
         "hires_fix": true,
         "loras": [
-            { "name": "481378", "model": 0.7, "is_version": true },
-            { "name": "459085", "model": 0.7, "is_version": true }
+            { "name": "481378", "model": 0.7, "is_version": true},
+            { "name": "459085", "model": 0.7, "is_version": true}
         ]
     },
     "line art": {
@@ -1098,7 +1324,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "rainbow": {
         "prompt": "{p} . 2d cartoon illustration in the style of lisa frank, rainbow colorscheme, photoillustration, cute, friendly###nsfw, {np}",
@@ -1108,15 +1336,18 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
-
     "piratepunk": {
         "prompt": "{p}, piratepunkai{np}",
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "45892"}],
+        "loras": [
+            { "name": "45892"}
+        ],
         "enhance": true
     },
     "lunarpunk": {
@@ -1124,7 +1355,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "97136", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "97136","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "celtpunk": {
@@ -1132,7 +1366,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "92008", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "92008","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "toxicpunk": {
@@ -1140,7 +1377,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "95802", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "95802","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "mongolpunk": {
@@ -1148,7 +1388,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "85109", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "85109","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "musketpunk": {
@@ -1156,7 +1399,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "90543", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "90543","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "absinthepunk": {
@@ -1164,7 +1410,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "89193", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "89193","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "cattlepunk": {
@@ -1172,7 +1421,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "95828", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "95828","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "circuspunk": {
@@ -1180,7 +1432,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "87884", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "87884","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "aetherpunk": {
@@ -1188,7 +1443,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "85036", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "85036","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "potatopunk": {
@@ -1196,7 +1454,10 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "72231", "inject_trigger":"any"}],
+        "loras": [
+            { "name": "72231","inject_trigger": "any"
+            }
+        ],
         "enhance": true
     },
     "coalpunk": {
@@ -1204,7 +1465,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "84753"}],
+        "loras": [
+            { "name": "84753"}
+        ],
         "enhance": true
     },
     "alchemypunk": {
@@ -1212,7 +1475,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "78766"}],
+        "loras": [
+            { "name": "78766"}
+        ],
         "enhance": true
     },
     "gothicpunk": {
@@ -1220,7 +1485,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "78695"}],
+        "loras": [
+            { "name": "78695"}
+        ],
         "enhance": true
     },
     "witchpunk": {
@@ -1228,7 +1495,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "78280"}],
+        "loras": [
+            { "name": "78280"}
+        ],
         "enhance": true
     },
     "colorpunk": {
@@ -1236,7 +1505,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "78060"}],
+        "loras": [
+            { "name": "78060"}
+        ],
         "enhance": true
     },
     "bronzepunk": {
@@ -1244,7 +1515,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "77293"}],
+        "loras": [
+            { "name": "77293"}
+        ],
         "enhance": true
     },
     "neonpunk": {
@@ -1252,7 +1525,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "77121"}],
+        "loras": [
+            { "name": "77121"}
+        ],
         "enhance": true
     },
     "kazakpunk": {
@@ -1260,7 +1535,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "76737"}],
+        "loras": [
+            { "name": "76737"}
+        ],
         "enhance": true
     },
     "grecopunk": {
@@ -1268,7 +1545,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "76190"}],
+        "loras": [
+            { "name": "76190"}
+        ],
         "enhance": true
     },
     "romanpunk": {
@@ -1276,7 +1555,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "76190"}],
+        "loras": [
+            { "name": "76190"}
+        ],
         "enhance": true
     },
     "sovietpunk": {
@@ -1284,7 +1565,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "75709"}],
+        "loras": [
+            { "name": "75709"}
+        ],
         "enhance": true
     },
     "arabiannightspunk": {
@@ -1292,7 +1575,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "69315"}],
+        "loras": [
+            { "name": "69315"}
+        ],
         "enhance": true
     },
     "steampunk": {
@@ -1300,7 +1585,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "59338"}],
+        "loras": [
+            { "name": "59338"}
+        ],
         "enhance": true
     },
     "cogpunk": {
@@ -1308,7 +1595,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "59338"}],
+        "loras": [
+            { "name": "59338"}
+        ],
         "enhance": true
     },
     "victorianpunk": {
@@ -1316,7 +1605,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "84250"}],
+        "loras": [
+            { "name": "84250"}
+        ],
         "enhance": true
     },
     "biopunk": {
@@ -1324,7 +1615,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "80375"}],
+        "loras": [
+            { "name": "80375"}
+        ],
         "enhance": true
     },
     "mahabharatapunk": {
@@ -1332,7 +1625,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "71478"}],
+        "loras": [
+            { "name": "71478"}
+        ],
         "enhance": true
     },
     "javapunk": {
@@ -1340,7 +1635,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "72415"}],
+        "loras": [
+            { "name": "72415"}
+        ],
         "enhance": true
     },
     "balipunk": {
@@ -1348,7 +1645,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "72347"}],
+        "loras": [
+            { "name": "72347"}
+        ],
         "enhance": true
     },
     "dieselpunk": {
@@ -1356,7 +1655,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "64676"}],
+        "loras": [
+            { "name": "64676"}
+        ],
         "enhance": true
     },
     "totempunk": {
@@ -1364,7 +1665,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "71819"}],
+        "loras": [
+            { "name": "71819"}
+        ],
         "enhance": true
     },
     "samuraipunk": {
@@ -1372,7 +1675,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "69108"}],
+        "loras": [
+            { "name": "69108"}
+        ],
         "enhance": true
     },
     "zulupunk": {
@@ -1380,7 +1685,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "65725"}],
+        "loras": [
+            { "name": "65725"}
+        ],
         "enhance": true
     },
     "teslapunk": {
@@ -1388,7 +1695,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "64955"}],
+        "loras": [
+            { "name": "64955"}
+        ],
         "enhance": true
     },
     "valvepunk": {
@@ -1396,7 +1705,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "64955"}],
+        "loras": [
+            { "name": "64955"}
+        ],
         "enhance": true
     },
     "infernalpunk": {
@@ -1404,7 +1715,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "62585"}],
+        "loras": [
+            { "name": "62585"}
+        ],
         "enhance": true
     },
     "solarpunk": {
@@ -1412,7 +1725,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "43944"}],
+        "loras": [
+            { "name": "43944"}
+        ],
         "enhance": true
     },
     "stonepunk": {
@@ -1420,7 +1735,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "51539"}],
+        "loras": [
+            { "name": "51539"}
+        ],
         "enhance": true
     },
     "gempunk": {
@@ -1428,7 +1745,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "49374"}],
+        "loras": [
+            { "name": "49374"}
+        ],
         "enhance": true
     },
     "horrorpunk": {
@@ -1436,7 +1755,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "47489"}],
+        "loras": [
+            { "name": "47489"}
+        ],
         "enhance": true
     },
     "bonepunk": {
@@ -1444,7 +1765,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "48356"}],
+        "loras": [
+            { "name": "48356"}
+        ],
         "enhance": true
     },
     "oldegyptpunk": {
@@ -1452,7 +1775,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "43229"}],
+        "loras": [
+            { "name": "43229"}
+        ],
         "enhance": true
     },
     "vikingpunk": {
@@ -1460,7 +1785,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "41364"}],
+        "loras": [
+            { "name": "41364"}
+        ],
         "enhance": true
     },
     "gaslamppunk": {
@@ -1468,7 +1795,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "71335"}],
+        "loras": [
+            { "name": "71335"}
+        ],
         "enhance": true
     },
     "atompunk": {
@@ -1476,7 +1805,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "64235"}],
+        "loras": [
+            { "name": "64235"}
+        ],
         "enhance": true
     },
     "gothpunk": {
@@ -1484,7 +1815,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "75265"}],
+        "loras": [
+            { "name": "75265"}
+        ],
         "enhance": true
     },
     "circuitpunk": {
@@ -1492,7 +1825,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "58410"}],
+        "loras": [
+            { "name": "58410"}
+        ],
         "enhance": true
     },
     "nightmarepunk": {
@@ -1500,7 +1835,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "56336"}],
+        "loras": [
+            { "name": "56336"}
+        ],
         "enhance": true
     },
     "crystalpunk": {
@@ -1508,7 +1845,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "48859"}],
+        "loras": [
+            { "name": "48859"}
+        ],
         "enhance": true
     },
     "fantasypunk": {
@@ -1516,7 +1855,9 @@
         "model": "Dreamshaper",
         "steps": 40,
         "cfg_scale": 7.5,
-        "loras": [{"name": "42260"}],
+        "loras": [
+            { "name": "42260"}
+        ],
         "enhance": true
     },
     "perfect summer": {
@@ -1564,7 +1905,9 @@
         "cfg_scale": 2.5,
         "model": "Fustercluck",
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "terror ink": {
         "prompt": "a terrifying ink drawing of a {p}, by Ko Young Hoon, by Yoshitaka Amano, Charcoal Art, Ink, Oil Paint, Concept Art, Color Grading, Dramatic, Intentional camera movement, Lonely, Cracks, With Imperfections, in a symbolic and meaningful style, insanely detailed and intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, a ghost, covered in spiderweb, eerie, feeling of dread, decay, samhain{np}",
@@ -1574,7 +1917,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "nightmare": {
         "prompt": "{p} by Aaron Horkey, by Adonna Khare, by Carrie Ann Baade, by Jeff Lemire, by Junji Ito, horror, creepy, dark, eldritch, fantasy{np}",
@@ -1584,7 +1929,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "abandoned": {
         "prompt": "Old found footage of hyper realistic {p}, abandoned, liminal space, horror, eerie, mysterious, noise and grain, dark hues, dark tones, single source of light, 35mm, Kodak Autochrome, floating particles, auto flash, auto focus###blurry, out of focus{np}",
@@ -1602,7 +1949,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "nightmare fairytale": {
         "prompt": "horror {p} in a dark forest, darkness, fog, very detailed, cold, Editorial illustration, gothic, evil, art by Sam Bosma, painting by H.P. Lovecraft{np}",
@@ -1612,7 +1961,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "elmstreet": {
         "prompt": "drawing of {p} by tim burton, by Aaron Horkey, by H R Giger, creepy, horror, sharp, focused, HD, detailed{np}",
@@ -1629,7 +1980,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "dark fantasy": {
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe{np}",
@@ -1639,7 +1992,9 @@
         "steps": 8,
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{ "name": "247778", "is_version": true }]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "frozen village": {
         "prompt": "{p} close to anime village in a vast rural frozen hilly landscape, mountains, anime, makoto shinkai{np}",
@@ -1689,11 +2044,13 @@
         "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW{np}",
         "model": "stable_diffusion"
     },
-
     "cyberrealistic": {
         "prompt": "{p}{np}",
         "model": "CyberRealistic",
-        "tis": [{"name": "77976", "inject_ti": "negprompt"}]
+        "tis": [
+            { "name": "77976","inject_ti": "negprompt"
+            }
+        ]
     },
     "deliberate": {
         "prompt": "{p}{np}",
@@ -1773,7 +2130,9 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "unstable diffusers": {
         "prompt": "{p}{np}",
@@ -1783,7 +2142,9 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "anime illust": {
         "prompt": "{p}###aidxlv05_neg,{np}",
@@ -1793,7 +2154,10 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 8,
-        "tis": [{"name": "144327","inject_ti": "negprompt"}]
+        "tis": [
+            { "name": "144327","inject_ti": "negprompt"
+            }
+        ]
     },
     "pony": {
         "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, {p}{np}",
@@ -1823,7 +2187,9 @@
         "karras": true,
         "clip_skip": 2,
         "cfg_scale": 3,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "blank canvas xl": {
         "prompt": "{p}{np}",
@@ -1843,7 +2209,10 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 7,
-        "tis": [{"name": "144327","inject_ti": "negprompt"}]
+        "tis": [
+            { "name": "144327","inject_ti": "negprompt"
+            }
+        ]
     },
     "cheyenne": {
         "prompt": "{p}###{np}",
@@ -1853,7 +2222,9 @@
         "width": 1024,
         "height": 1024,
         "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "photon": {
         "prompt": "{p}###{np}",
@@ -1893,7 +2264,9 @@
         "width": 832,
         "height": 1216,
         "cfg_scale": 2,
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "icbinp xl": {
         "prompt": "{p}{np}",
@@ -1914,7 +2287,9 @@
         "cfg_scale": 2.5,
         "model": "Fustercluck",
         "sampler_name": "k_dpmpp_sde",
-        "loras": [{"name": "247778", "is_version": true}]
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
     },
     "meinamix": {
         "prompt": "{p}{np}",
@@ -1950,12 +2325,15 @@
         "hires_fix": true,
         "cfg_scale": 7.5,
         "loras": [
-            {"name": "82098", "model": 0.5},
-            {"name": "221845", "model": 0.2},
-            {"name": "132532", "model": -0.7},
-            {"name": "58390", "model": 0.5}
+            { "name": "82098", "model": 0.5},
+            { "name": "221845", "model": 0.2},
+            { "name": "132532","model": -0.7
+            },
+            { "name": "58390", "model": 0.5}
         ],
-        "tis": [{"name": "16993"}]
+        "tis": [
+            { "name": "16993"}
+        ]
     },
     "revanimated": {
         "prompt": "{p}{np}",
@@ -2120,8 +2498,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "122594", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "122594", "is_version": false}
         ]
     },
     "soft pixels": {
@@ -2133,8 +2511,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "230035", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "230035", "is_version": false}
         ]
     },
     "vectorartz": {
@@ -2196,8 +2574,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "149101", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "149101", "is_version": false}
         ]
     },
     "diablo icon": {
@@ -2209,8 +2587,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "209703", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "209703", "is_version": false}
         ]
     },
     "game icon": {
@@ -2222,8 +2600,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "141066", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "141066", "is_version": false}
         ]
     },
     "stickers": {
@@ -2235,8 +2613,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "247778", "is_version": true },
-            { "name": "105297", "is_version": false }
+            { "name": "247778", "is_version": true},
+            { "name": "105297", "is_version": false}
         ]
     },
     "space": {
@@ -2250,10 +2628,6 @@
     "trinart_character_raw": {
         "prompt": "{p}{np}",
         "model": "Trinart Characters"
-    },
-    "portraitplus": {
-        "prompt": "{p}, portrait+ style{np}",
-        "model": "PortraitPlus"
     },
     "dnd item": {
         "prompt": "{p}, dnditem{np}",
@@ -2287,17 +2661,9 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "DreamLikeSamKuvshinov"
     },
-    "moistmix": {
-        "prompt": "{p}{np}",
-        "model": "MoistMix"
-    },
     "healys anime": {
         "prompt": "{p}{np}",
         "model": "Healy's Anime Blend"
-    },
-    "lucid mix": {
-        "prompt": "{p}{np}",
-        "model": "Elldreth's Lucid Mix"
     },
     "sci-fi": {
         "prompt": "{p}{np}",
@@ -2310,10 +2676,6 @@
     "anygen": {
         "prompt": "{p}{np}",
         "model": "Anygen"
-    },
-    "sci-fi protogen": {
-        "prompt": "{p}{np}",
-        "model": "Protogen Infinity"
     },
     "duchaiten": {
         "prompt": "{p}{np}",
@@ -2606,7 +2968,7 @@
         "karras": true,
         "clip_skip": 2
     },
-    "pony realism":{
+    "pony realism": {
         "prompt": "score_9, score_8_up, score_7_up, {p}###score_4, score_5, score_6, {np}",
         "model": "Pony Realism",
         "steps": 25,
@@ -2618,7 +2980,6 @@
         "karras": true,
         "clip_skip": 2
     },
-
     "flux-impressionist": {
         "prompt": "{p} . A vibrant impressionist painting with bold brush strokes and rich color contrasts, capturing light and shadow in a dynamic and emotional way.###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
@@ -2768,5 +3129,45 @@
         "cfg_scale": 5,
         "width": 1024,
         "height": 1024
+    },
+    "mhxl-aventis horizon": {
+        "prompt": "{p}###{np}",
+        "model": "MHXL - Aventis Horizon",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova furry pony": {
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece {p} source_anime, detailed face eyes and fur, source_furry, furry###score_6, score_5, score_4, blurry, jpeg artifacts, username, watermark, signature, normal quality, worst quality, text, error, low quality, missing fingers, extra digits, fewer digits, bad eye, {np}",
+        "model": "Nova Furry Pony",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova anime xl": {
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, {p}, detailed eyes, masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting ###modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing,lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, username, signature, loli, simple background, conjoined, ai-generated, {np}",
+        "model": "Nova Anime XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "white pony diffusion": {
+        "prompt": "score_9, score_8_up, score_7_up, {p}###score_6, score_5, score_4, {np}",
+        "model": "White Pony Diffusion 4",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
     }
 }
