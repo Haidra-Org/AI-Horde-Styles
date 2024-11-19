@@ -2629,10 +2629,6 @@
         "prompt": "{p}{np}",
         "model": "Trinart Characters"
     },
-    "portraitplus": {
-        "prompt": "{p}, portrait+ style{np}",
-        "model": "PortraitPlus"
-    },
     "dnd item": {
         "prompt": "{p}, dnditem{np}",
         "model": "DnD Item"
