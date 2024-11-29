@@ -3259,7 +3259,7 @@
             { "name": "755617", "is_version": true}
         ]
     },
-    "Eric Carle Style": {
+    "eric carle style": {
         "prompt": "Drawn by Eric Carle {p}###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
         "steps": 4,
