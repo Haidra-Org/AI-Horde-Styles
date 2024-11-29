@@ -439,5 +439,22 @@
         "swam pony",
         "nova furry pony",
         "white pony diffusion"
+    ],
+    "album and book art": [
+        "pulp fiction cover",
+        "early 80s cover",
+        "dnd5e cover lora",
+        "harlequin romance cover",
+        "little golden book cover",
+        "wizard's vintage romance cover",
+        "children's book illustration",
+        "Eric Carle Style",
+        "wizard's vintage comic book",
+        "kid book illustration",
+        "magazine cover",
+        "mastodon album cover",
+        "vintage vogue cover",
+        "dan seagrave album cover",
+        "weird tales cover"
     ]
 }

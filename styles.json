@@ -3169,5 +3169,198 @@
         "width": 1024,
         "height": 1024,
         "clip_skip": 2
+    },
+
+    "pulp fiction cover": {
+        "prompt": "A classic pulp fiction book cover, {p}, illustrated in a dramatic, vibrant, and stylized art style reminiscent of mid-20th century pulp magazines. The cover includes bold, eye-catching colors, exaggerated expressions, and dynamic compositions, drawing inspiration from the works of {Norman Saunders|Robert Maguire|Rafael DeSoto|James Bama|Walter Popp|Frank R. Paul|Earle Bergey|H.J. Ward|George Gross|Allen Anderson|Mort Kunstler|Stanley Borack|Norm Eastman|John Newton Howitt|Rudolph Belarski|Fred Pfeiffer|Bruce Minney|George Rozen|William Teason|Emery Clarke|Clarence Doore|Harry Barton|Lawrence Sterne Stevens|Al Brule|Jerome Rozen|Robert Stanley}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280
+    },
+    "early 80s cover": {
+        "prompt": "Book Cover: {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "759150", "is_version": true}
+        ]
+    },
+    "dnd5e cover lora": {
+        "prompt": "cover of a dnd 5e book, text at the top reads: {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "835250", "is_version": true}
+        ]
+    },
+    "harlequin romance cover": {
+        "prompt": "{p}, vintage book cover, rmcebkCE style###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "835872", "is_version": true}
+        ]
+    },
+    "little golden book cover": {
+        "prompt": "The front cover of a book in the \"a Little Golden Book\" series titled {p}, \"a Little Golden Book\" written just above the main title. The left side of the cover is adorned with a golden decorative border.###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 1152,
+        "loras": [
+            { "name": "809843", "is_version": true}
+        ]
+    },
+    "wizard's vintage romance cover": {
+        "prompt": "Harlequin Romance Book Cover with the title {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "891148", "is_version": true}
+        ]
+    },
+    "children's book illustration": {
+        "prompt": "{p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024,
+        "loras": [
+            { "name": "755617", "is_version": true}
+        ]
+    },
+    "Eric Carle Style": {
+        "prompt": "Drawn by Eric Carle {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024,
+        "loras": [
+            { "name": "803445", "is_version": true}
+        ]
+    },
+    "wizard's vintage comic book": {
+        "prompt": "vintage comic book, {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 768,
+        "height": 1152,
+        "loras": [
+            { "name": "967399", "is_version": true}
+        ]
+    },
+    "kid book illustration": {
+        "prompt": "kidbook, {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 768,
+        "height": 1024,
+        "loras": [
+            { "name": "1063196", "is_version": true}
+        ]
+    },
+    "magazine cover": {
+        "prompt": "{magazine_cover|magazine_style|fashion cover} {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1152,
+        "loras": [
+            { "name": "834917", "is_version": true}
+        ]
+    },
+    "mastodon album cover": {
+        "prompt": "mastodon_cover style, {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024,
+        "loras": [
+            { "name": "766910", "is_version": true}
+        ]
+    },
+    "vintage vogue cover": {
+        "prompt": "vintage vogue cover, {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "966738", "is_version": true}
+        ]
+    },
+    "dan seagrave album cover": {
+        "prompt": "album cover art by dan seagrave, {p}, intricate details###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1088,
+        "height": 960,
+        "loras": [
+            { "name": "755477", "is_version": true}
+        ]
+    },
+    "weird tales cover": {
+        "prompt": "pulp magazine cover in the style of weirdtales {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1152,
+        "loras": [
+            { "name": "734557", "is_version": true}
+        ]
     }
 }
