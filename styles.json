@@ -3194,7 +3194,7 @@
             { "name": "759150", "is_version": true}
         ]
     },
-    "dnd5e cover lora": {
+    "dnd5e cover": {
         "prompt": "cover of a dnd 5e book, text at the top reads: {p}###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
         "steps": 4,
