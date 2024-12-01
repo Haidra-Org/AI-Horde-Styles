@@ -3253,8 +3253,8 @@
         "sampler_name": "k_euler",
         "cfg_scale": 1,
         "karras": false,
-        "width": 1024,
-        "height": 1024,
+        "width": 960,
+        "height": 960,
         "loras": [
             { "name": "755617", "is_version": true}
         ]
@@ -3266,8 +3266,8 @@
         "sampler_name": "k_euler",
         "cfg_scale": 1,
         "karras": false,
-        "width": 1024,
-        "height": 1024,
+        "width": 960,
+        "height": 960,
         "loras": [
             { "name": "803445", "is_version": true}
         ]
@@ -3318,8 +3318,8 @@
         "sampler_name": "k_euler",
         "cfg_scale": 1,
         "karras": false,
-        "width": 1024,
-        "height": 1024,
+        "width": 960,
+        "height": 960,
         "loras": [
             { "name": "766910", "is_version": true}
         ]
