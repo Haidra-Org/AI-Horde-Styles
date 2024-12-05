@@ -3247,7 +3247,7 @@
         ]
     },
     "children's book illustration": {
-        "prompt": "{p}###{np}",
+        "prompt": "childrens_book_illustration, {p}###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
         "steps": 4,
         "sampler_name": "k_euler",
