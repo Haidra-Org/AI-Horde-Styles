@@ -2246,10 +2246,6 @@
         "prompt": "{p}{np}",
         "model": "Trinart Characters"
     },
-    "portraitplus": {
-        "prompt": "{p}, portrait+ style{np}",
-        "model": "PortraitPlus"
-    },
     "dnd item": {
         "prompt": "{p}, dnditem{np}",
         "model": "DnD Item"
@@ -2282,17 +2278,10 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "DreamLikeSamKuvshinov"
     },
-    "moistmix": {
-        "prompt": "{p}{np}",
-        "model": "MoistMix"
-    },
+
     "healys anime": {
         "prompt": "{p}{np}",
         "model": "Healy's Anime Blend"
-    },
-    "lucid mix": {
-        "prompt": "{p}{np}",
-        "model": "Elldreth's Lucid Mix"
     },
     "sci-fi": {
         "prompt": "{p}{np}",
@@ -2306,10 +2295,7 @@
         "prompt": "{p}{np}",
         "model": "Anygen"
     },
-    "sci-fi protogen": {
-        "prompt": "{p}{np}",
-        "model": "Protogen Infinity"
-    },
+
     "duchaiten": {
         "prompt": "{p}{np}",
         "model": "DucHaiten"
@@ -2791,6 +2777,6 @@
         "sampler_name":"k_dpmpp_2m",
         "cfg_scale":7,
         "width":1024,
-        "heigt":1024
+        "height":1024
     }
 }
