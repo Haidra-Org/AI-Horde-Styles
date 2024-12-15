@@ -6,7 +6,8 @@
         "noob-evo",
         "noob-v-pencil",
         "kayneg",
-        "natvis"
+        "natvis",
+        "album and book art"
     ],
     "featured": [
         "flux",
@@ -46,7 +47,8 @@
         "analog madness",
         "reliberate",
         "pony realism",
-        "ultraspice"
+        "ultraspice",
+        "white pony diffusion"
     ],
     "summer": [
         "summer 2023",
@@ -123,8 +125,21 @@
         "golden light"
     ],
     "halloween": [
-        "halloween 2022",
-        "halloween 2023"
+        "terror ink",
+        "nightmare",
+        "abandoned",
+        "witch land",
+        "nightmare fairytale",
+        "elmstreet",
+        "ennui",
+        "dark fantasy",
+        "vibrant halloween",
+        "glitch horror",
+        "monstrous burton",
+        "spooky gouache",
+        "spooky horror",
+        "crungus revenge",
+        "impressionist horror comic"
     ],
     "halloween 2023": [
         "vibrant halloween",
@@ -231,12 +246,14 @@
         "eimis",
         "kayneg",
         "noob-v-pencil",
-        "noob-evo"
+        "noob-evo",
+        "nova anime xl"
     ],
     "furries": [
         "scalie",
         "furry",
-        "impasto furry"
+        "impasto furry",
+        "nova furry pony"
     ],
     "anime_raw": [
         "acertainthing_raw",
@@ -420,6 +437,24 @@
         "pony",
         "pony realism",
         "am pony",
-        "swam pony"
+        "swam pony",
+        "nova furry pony",
+        "white pony diffusion"
+    ],
+    "album and book art": [
+        "pulp fiction cover",
+        "early 80s cover",
+        "dnd5e cover",
+        "harlequin romance cover",
+        "little golden book cover",
+        "wizard's vintage romance cover",
+        "children's book illustration",
+        "eric carle style",
+        "wizard's vintage comic book",
+        "kid book illustration",
+        "magazine cover",
+        "vintage vogue cover",
+        "dan seagrave album cover",
+        "weird tales cover"
     ]
 }
