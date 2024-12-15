@@ -1967,11 +1967,6 @@
         "model": "Cetus-Mix",
         "enhance": true
     },
-    "realisian": {
-        "prompt": "{p}{np}",
-        "model": "Realisian",
-        "enhance": true
-    },
     "reliberate": {
         "prompt": "{p}{np}",
         "model": "Reliberate",
@@ -2758,5 +2753,44 @@
         "karras": false,
         "width": 1024,
         "height": 1024
+    },
+    "noob-evo":{
+        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
+        "model":"noobEvo",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":768,
+        "height":1024
+    },
+    "noob-v-pencil":{
+        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
+        "model":"noob_v_pencil XL",
+        "steps":25,
+        "sampler_name":"k_euler",
+        "clip_skip":2,
+        "cfg_scale":5,
+        "width":768,
+        "height":1024
+    },
+    "kayneg":{
+        "prompt":"{p}, masterpiece, ultra-detailed, best quality, high resolution, ### {np},worst quality, low quality, lowres, blurry, average quality, comic style, split-screen, monochrome, bad anatomy, bad hands, extra digits, jpeg artifacts",
+        "model":"KaynegIllustriousXL",
+        "steps":25,
+        "sampler_name":"k_dpmpp_2m",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":768,
+        "height":1024
+    },
+    "natvis":{
+        "prompt":"{p}###{np}",
+        "model":"NatViS",
+        "steps":28,
+        "sampler_name":"k_dpmpp_2m",
+        "cfg_scale":7,
+        "width":1024,
+        "heigt":1024
     }
 }

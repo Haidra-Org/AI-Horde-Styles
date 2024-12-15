@@ -3,13 +3,10 @@
         "flux",
         "photon",
         "unstable diffusers",
-        "pony realism",
-        "wai-anime-pony",
-        "flat-2d animerge",
-        "blendermix",
-        "duchaiten unreal",
-        "tunix",
-        "wai-cute-pony"
+        "noob-evo",
+        "noob_v_pencil XL",
+        "kayneg",
+        "natvis"
     ],
     "featured": [
         "flux",
@@ -47,7 +44,6 @@
         "icbinp xl",
         "swam pony",
         "analog madness",
-        "realisian",
         "reliberate",
         "pony realism",
         "ultraspice"
@@ -232,7 +228,10 @@
         "am pony",
         "pony",
         "animagine",
-        "eimis"
+        "eimis",
+        "kayneg",
+        "noob_v_pencil",
+        "noob-evo"
     ],
     "furries": [
         "scalie",
@@ -299,7 +298,8 @@
         "sci-fi protogen",
         "duchaiten",
         "vintage yearbook photo",
-        "dreamshaper"
+        "dreamshaper",
+        "natvis"
     ],
     "glitch": [
         "glitchart",
