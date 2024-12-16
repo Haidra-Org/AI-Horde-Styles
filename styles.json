@@ -2073,11 +2073,6 @@
         "model": "Edge Of Realism",
         "enhance": true
     },
-    "dreamlike photoreal": {
-        "prompt": "{p}{np}",
-        "model": "Dreamlike Photoreal",
-        "enhance": true
-    },
     "realistic vision": {
         "prompt": "{p}{np}",
         "model": "Realistic Vision",
@@ -2445,11 +2440,6 @@
         "prompt": "{p}, nousr robot{np}",
         "model": "Robo-Diffusion"
     },
-    "classic animation": {
-        "prompt": "{p}, classic disney style{np}",
-        "model": "Classic Animation Diffusion",
-        "enhance": true
-    },
     "comic mashup": {
         "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle{np}",
         "model": "Comic-Diffusion",
@@ -2639,10 +2629,6 @@
     "protogen": {
         "prompt": "{p}{np}",
         "model": "ProtoGen"
-    },
-    "3dkx": {
-        "prompt": "{p}{np}",
-        "model": "3DKX"
     },
     "dreamlikesam": {
         "prompt": "{p}, samdoesart{np}",
