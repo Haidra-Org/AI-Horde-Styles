@@ -1,16 +1,13 @@
 {
     "new": [
-        "album and book art",
-        "wai-anime-pony",
-        "flat-2d animerge",
-        "blendermix",
-        "duchaiten unreal",
-        "tunix",
-        "wai-cute-pony",
-        "mhxl-aventis horizon",
-        "nova furry pony",
-        "nova anime xl",
-        "white pony diffusion"
+        "flux",
+        "photon",
+        "unstable diffusers",
+        "noob-evo",
+        "noob-v-pencil",
+        "kayneg",
+        "natvis",
+        "album and book art"
     ],
     "featured": [
         "flux",
@@ -39,7 +36,6 @@
         "deliberate3",
         "majicmix realistic",
         "edge of realism",
-        "dreamlike photoreal",
         "realistic vision",
         "neurogen",
         "realbiter",
@@ -48,7 +44,6 @@
         "icbinp xl",
         "swam pony",
         "analog madness",
-        "realisian",
         "reliberate",
         "pony realism",
         "ultraspice",
@@ -183,7 +178,6 @@
         "blank canvas xl",
         "danmumford",
         "robo",
-        "classic animation",
         "comic mashup",
         "charlie bo",
         "hollie mengert",
@@ -248,6 +242,9 @@
         "pony",
         "animagine",
         "eimis",
+        "kayneg",
+        "noob-v-pencil",
+        "noob-evo",
         "nova anime xl"
     ],
     "furries": [
@@ -272,7 +269,6 @@
     ],
     "comic": [
         "gta5",
-        "classic animation",
         "comic mashup",
         "charlie bo",
         "hollie mengert",
@@ -305,14 +301,13 @@
         "inkpunk+",
         "dublex",
         "rpg portrait",
-        "dreamlike photoreal",
         "protogen",
-        "3dkx",
         "ppp",
         "anygen",
         "duchaiten",
         "vintage yearbook photo",
-        "dreamshaper"
+        "dreamshaper",
+        "natvis"
     ],
     "glitch": [
         "glitchart",
