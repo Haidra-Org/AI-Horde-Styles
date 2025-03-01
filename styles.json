@@ -2044,14 +2044,6 @@
         "prompt": "beautiful warrior fairy {p}, portrait, up close, cinematic, snowy background, dramatic lighting, highly detailed, very intricate, meta, fanciful, optimistic, wide shot, volumetric lighting, bokeh blur, unreal engine, octane render ### deformed, ugly, mutated, watermark, trademark, border, nude, NSFW{np}",
         "model": "stable_diffusion"
     },
-    "cyberrealistic": {
-        "prompt": "{p}{np}",
-        "model": "CyberRealistic",
-        "tis": [
-            { "name": "77976","inject_ti": "negprompt"
-            }
-        ]
-    },
     "deliberate": {
         "prompt": "{p}{np}",
         "model": "Deliberate"
