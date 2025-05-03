@@ -3345,6 +3345,16 @@
         "width":1024,
         "height":1024
     },
+    "holymix":{
+        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
+        "model":"HolyMix ILXL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":1024,
+        "height":1024
+    },
     "noob-v-pencil":{
         "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
         "model":"noob_v_pencil XL",
