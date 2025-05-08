@@ -2100,6 +2100,17 @@
         "cfg_scale": 7,
         "enhance": true
     },
+    "jim eidomode": {
+        "prompt": "{p}, (fantastic horror perfect art, 64k ultra hd:1.1), ({art by apterus|art by dan mumford|art by lovecraft|art by apterus, art by dan mumford|art by apterus, art by lovecraft|art by dan mumford, art by lovecraft|art by apterus, art by dan mumford, art by lovecraft}:1.2), best quality, 500px, cgsociety###{np}, lowres, watermark",
+        "model": "Dan Mumford Style",
+        "sampler_name": "k_dpmpp_2m",
+        "width": 768,
+        "height": 960,
+        "steps": 22,
+        "hires_fix": true,
+        "cfg_scale": 7,
+        "enhance": true
+    },
     "moonmix fantasy": {
         "prompt": "{p}{np}",
         "model": "MoonMix Fantasy",
