@@ -2429,19 +2429,10 @@
         "model": "Yiffy",
         "enhance": true
     },
-    "seekart": {
-        "prompt": "{p}{np}",
-        "model": "Seek.art MEGA",
-        "enhance": true
-    },
     "rpg portrait": {
         "prompt": "{p}{np}",
         "model": "RPG",
         "enhance": true
-    },
-    "robo": {
-        "prompt": "{p}, nousr robot{np}",
-        "model": "Robo-Diffusion"
     },
     "comic mashup": {
         "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle{np}",
@@ -2503,10 +2494,6 @@
             { "name": "230035", "is_version": false}
         ]
     },
-    "vectorartz": {
-        "prompt": "{p}, vectorartz{np}",
-        "model": "vectorartz"
-    },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
         "model": "Inkpunk Diffusion",
@@ -2530,11 +2517,6 @@
     "ghibli": {
         "prompt": "{p}, ghibli style{np}",
         "model": "Ghibli Diffusion",
-        "enhance": true
-    },
-    "papercut": {
-        "prompt": "{p}, PaperCut{np}",
-        "model": "Papercut Diffusion",
         "enhance": true
     },
     "dreamlike": {
@@ -2605,21 +2587,9 @@
             { "name": "105297", "is_version": false}
         ]
     },
-    "space": {
-        "prompt": "{p}, jwst{np}",
-        "model": "JWST Deep Space Diffusion"
-    },
     "dnd": {
         "prompt": "{p}{np}",
         "model": "Dungeons and Diffusion"
-    },
-    "trinart_character_raw": {
-        "prompt": "{p}{np}",
-        "model": "Trinart Characters"
-    },
-    "dnd item": {
-        "prompt": "{p}, dnditem{np}",
-        "model": "DnD Item"
     },
     "modern art": {
         "prompt": "{p}, modernartst{np}",
@@ -2628,10 +2598,6 @@
     "hasdx": {
         "prompt": "{p}{np}",
         "model": "HASDX"
-    },
-    "protogen": {
-        "prompt": "{p}{np}",
-        "model": "ProtoGen"
     },
     "dreamlikesam": {
         "prompt": "{p}, samdoesart{np}",

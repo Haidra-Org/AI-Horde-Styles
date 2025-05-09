@@ -175,7 +175,6 @@
         "blank canvas xl",
         "danmumford",
         "jim eidomode",
-        "robo",
         "comic mashup",
         "charlie bo",
         "hollie mengert",
@@ -184,23 +183,18 @@
         "james daly",
         "microworlds",
         "appicon",
-        "vectorartz",
         "inkpunk",
         "mtg",
         "paintart",
         "rpg portrait",
-        "papercut",
         "ghibli",
         "analog",
         "dublex",
         "dreamlike",
-        "seekart",
         "gta5",
         "acertainthing",
-        "space",
         "modern art",
-        "dnd",
-        "dnd item"
+        "dnd"
     ],
     "fantasy": [
         "high fantasy",
@@ -274,12 +268,10 @@
         "waifu_raw",
         "poison_raw",
         "eimis_raw",
-        "trinart_character_raw",
         "healys anime"
     ],
     "landscapes": [
         "acertainthing",
-        "vectorartz",
         "sci-fi"
     ],
     "comic": [
@@ -303,8 +295,7 @@
     "reshape": [
         "icons",
         "microworlds",
-        "microverse",
-        "papercut"
+        "microverse"
     ],
     "icons": [
         "appicon",
@@ -316,7 +307,6 @@
         "inkpunk+",
         "dublex",
         "rpg portrait",
-        "protogen",
         "ppp",
         "anygen",
         "duchaiten",
