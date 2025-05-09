@@ -1,13 +1,11 @@
 {
     "new": [
-        "flux",
-        "photon",
-        "unstable diffusers",
+        "hassaku",
+        "2dn",
         "noob-evo",
         "noob-v-pencil",
         "kayneg",
-        "natvis",
-        "album and book art"
+        "natvis"
     ],
     "featured": [
         "flux",
@@ -247,7 +245,8 @@
         "noob-evo",
         "ntr-mix",
         "holymix",
-        "nova anime xl"
+        "nova anime xl",
+        "hassaku"
     ],
     "anime-party": [
         "aam xl",

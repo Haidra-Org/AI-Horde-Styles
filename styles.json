@@ -3394,5 +3394,24 @@
         "cfg_scale":7,
         "width":1024,
         "height":1024
+    },
+    "hassaku":{
+        "prompt":"{p}###worst quality, bad quality, {np}",
+        "model":"Hassaku XL",
+        "steps":25,
+        "sampler_name":"k_dpmpp_2m",
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "2dn":{
+        "prompt":"masterpiece, best quality, amazing quality, very aesthetic, absurdres, {p}###lowres, worst quality, low quality, bad anatomy, bad hands, {np}",
+        "model":"2dn",
+        "steps":20,
+        "sampler_name":"k_dpmpp_sde",
+        "cfg_scale":1.5,
+        "clip_skip":2,
+        "width":1024,
+        "height":1024
     }
 }
