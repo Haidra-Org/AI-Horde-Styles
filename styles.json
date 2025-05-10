@@ -1581,14 +1581,18 @@
         "enhance": true
     },
     "steampunk": {
-        "prompt": "{p}, SteampunkAI{np}",
-        "model": "Dreamshaper",
-        "steps": 40,
-        "cfg_scale": 7.5,
+        "prompt": "{p}, DonMSt34mPXL{np}",
+        "model": "DreamShaper XL",
+        "width": 1024,
+        "height": 1024,
+        "steps": 4,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "59338"}
+            { "name": "1076692", "is_version": true, "strength": 0.6},
+            { "name": "375228", "is_version": true, "strength": 0.6}
         ],
-        "enhance": true
+        "enhance": false
     },
     "cogpunk": {
         "prompt": "{p}, CogPunkAI{np}",
