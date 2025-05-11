@@ -3397,5 +3397,15 @@
         "loras": [
             { "name": "247778", "is_version": true}
         ]
+    },
+    "papercut":{
+        "prompt": "A papercut image of a {p}, detailed, vibrant colors, detailed background, papercut art ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
     }
 }
