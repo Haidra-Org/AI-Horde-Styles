@@ -2610,7 +2610,6 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "DreamLikeSamKuvshinov"
     },
-
     "healys anime": {
         "prompt": "{p}{np}",
         "model": "Healy's Anime Blend"
@@ -2627,7 +2626,6 @@
         "prompt": "{p}{np}",
         "model": "Anygen"
     },
-
     "duchaiten": {
         "prompt": "{p}{np}",
         "model": "DucHaiten"
@@ -3121,7 +3119,6 @@
         "height": 1024,
         "clip_skip": 2
     },
-
     "pulp fiction cover": {
         "prompt": "A classic pulp fiction book cover, {p}, illustrated in a dramatic, vibrant, and stylized art style reminiscent of mid-20th century pulp magazines. The cover includes bold, eye-catching colors, exaggerated expressions, and dynamic compositions, drawing inspiration from the works of {Norman Saunders|Robert Maguire|Rafael DeSoto|James Bama|Walter Popp|Frank R. Paul|Earle Bergey|H.J. Ward|George Gross|Allen Anderson|Mort Kunstler|Stanley Borack|Norm Eastman|John Newton Howitt|Rudolph Belarski|Fred Pfeiffer|Bruce Minney|George Rozen|William Teason|Emery Clarke|Clarence Doore|Harry Barton|Lawrence Sterne Stevens|Al Brule|Jerome Rozen|Robert Stanley}###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
@@ -3301,93 +3298,93 @@
             { "name": "734557", "is_version": true}
         ]
     },
-    "noob-evo":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
-        "model":"noobEvo",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":768,
-        "height":1024
+    "noob-evo": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
+        "model": "noobEvo",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 768,
+        "height": 1024
     },
-    "ntr-mix":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
-        "model":"NTR MIX IL-Noob XL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":1024,
-        "height":1024
+    "ntr-mix": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024
     },
-    "holymix":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
-        "model":"HolyMix ILXL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":1024,
-        "height":1024
+    "holymix": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
+        "model": "HolyMix ILXL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024
     },
-    "noob-v-pencil":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
-        "model":"noob_v_pencil XL",
-        "steps":25,
-        "sampler_name":"k_euler",
-        "clip_skip":2,
-        "cfg_scale":5,
-        "width":768,
-        "height":1024
+    "noob-v-pencil": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
+        "model": "noob_v_pencil XL",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "clip_skip": 2,
+        "cfg_scale": 5,
+        "width": 768,
+        "height": 1024
     },
-    "kayneg":{
-        "prompt":"{p}, masterpiece, ultra-detailed, best quality, high resolution, ### {np},worst quality, low quality, lowres, blurry, average quality, comic style, split-screen, monochrome, bad anatomy, bad hands, extra digits, jpeg artifacts",
-        "model":"KaynegIllustriousXL",
-        "steps":25,
-        "sampler_name":"k_dpmpp_2m",
-        "clip_skip":2,
-        "cfg_scale":7,
-        "width":768,
-        "height":1024
+    "kayneg": {
+        "prompt": "{p}, masterpiece, ultra-detailed, best quality, high resolution, ### {np},worst quality, low quality, lowres, blurry, average quality, comic style, split-screen, monochrome, bad anatomy, bad hands, extra digits, jpeg artifacts",
+        "model": "KaynegIllustriousXL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "clip_skip": 2,
+        "cfg_scale": 7,
+        "width": 768,
+        "height": 1024
     },
-    "natvis":{
-        "prompt":"{p}###{np}",
-        "model":"NatViS",
-        "steps":28,
-        "sampler_name":"k_dpmpp_2m",
-        "cfg_scale":7,
-        "width":1024,
-        "height":1024
+    "natvis": {
+        "prompt": "{p}###{np}",
+        "model": "NatViS",
+        "steps": 28,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "width": 1024,
+        "height": 1024
     },
-    "hassaku":{
-        "prompt":"{p}###worst quality, bad quality, {np}",
-        "model":"Hassaku XL",
-        "steps":25,
-        "sampler_name":"k_dpmpp_2m",
-        "cfg_scale":7,
-        "width":1024,
-        "height":1024
+    "hassaku": {
+        "prompt": "{p}###worst quality, bad quality, {np}",
+        "model": "Hassaku XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "width": 1024,
+        "height": 1024
     },
-    "2dn":{
-        "prompt":"masterpiece, best quality, amazing quality, very aesthetic, absurdres, {p}###lowres, worst quality, low quality, bad anatomy, bad hands, {np}",
-        "model":"2dn",
-        "steps":20,
-        "sampler_name":"k_dpmpp_sde",
-        "cfg_scale":1.5,
-        "clip_skip":2,
-        "width":1024,
-        "height":1024
+    "2dn": {
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, {p}###lowres, worst quality, low quality, bad anatomy, bad hands, {np}",
+        "model": "2dn",
+        "steps": 20,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 1.5,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024
     },
-    "zavychromaxl":{
-        "prompt":"{p}###{np}",
-        "model":"ZavyChromaXL",
-        "steps":25,
-        "sampler_name":"k_dpmpp_2m",
-        "cfg_scale":6,
-        "clip_skip":2,
-        "width":1024,
-        "height":1024
+    "zavychromaxl": {
+        "prompt": "{p}###{np}",
+        "model": "ZavyChromaXL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 6,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024
     },
     "albedo3.1": {
         "prompt": "{p}{np}",
