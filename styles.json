@@ -3407,5 +3407,25 @@
         "karras": false,
         "width": 1024,
         "height": 1024
+    },
+    "dnd map": {
+        "prompt": "A dnd map of a {p}, top down view, isometric view, 2d map, top-down map, detailed, no watermark, no text ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1280,
+        "height": 960
+    },
+    "dnd item": {
+        "prompt": "painterly rendition of a {p}, dnd item, stylized art, resting on a wooden table for presentation, magical aura, best quality, high quality art ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
     }
 }
