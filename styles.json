@@ -2294,10 +2294,9 @@
         "model": "MeinaMix",
         "enhance": true
     },
-    "mistoon amethyst": {
-        "prompt": "{p}{np}",
-        "model": "Mistoon Amethyst",
-        "enhance": true
+    "mistoon anime": {
+        "prompt": "masterpiece,best quality, {p}##lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
+        "model": "Mistoon Anime"
     },
     "galena redux": {
         "prompt": "{p}{np}",
@@ -3376,6 +3375,16 @@
         "steps":20,
         "sampler_name":"k_dpmpp_sde",
         "cfg_scale":1.5,
+        "clip_skip":2,
+        "width":1024,
+        "height":1024
+    },
+    "zavychromaxl":{
+        "prompt":"{p}###{np}",
+        "model":"ZavyChromaXL",
+        "steps":25,
+        "sampler_name":"k_dpmpp_2m",
+        "cfg_scale":6,
         "clip_skip":2,
         "width":1024,
         "height":1024
