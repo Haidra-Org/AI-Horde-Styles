@@ -3341,7 +3341,7 @@
         ]
     },
     "dreamy portrait": {
-        "prompt": "serene dreamlike vibrant, {p}, peaceful dreamy dreamlike pastel###{np}",
+        "prompt": "serene dreamlike vibrant, high saturation portrait of {p}, peaceful dreamy dreamlike pastel###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
         "steps": 4,
         "sampler_name": "k_euler",
