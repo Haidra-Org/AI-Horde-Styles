@@ -3353,6 +3353,19 @@
             { "name": "1547032", "is_version": true, "model":1.5, "clip":1.5 }
         ]
     },
+    "fragoanato zombie": {
+        "prompt": "{p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 1408,
+        "loras": [
+            { "name": "972561", "is_version": true, "model":0.3, "clip":0.3 }
+        ]
+    },
     "noob-evo":{
         "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
         "model":"noobEvo",
