@@ -2303,6 +2303,12 @@
         "model": "Mistoon Amethyst",
         "enhance": true
     },
+    "perfect world": {
+        "prompt": "{p}{np}",
+        "model": "Perfect World",
+        "steps": 50,
+        "cfg_scale": 9
+    },
     "galena redux": {
         "prompt": "{p}{np}",
         "model": "Galena Redux",
@@ -3415,6 +3421,100 @@
         "cfg_scale":7,
         "width":768,
         "height":1024
+    },
+    "noob-evo_raw":{
+        "prompt":"{p}###{np}",
+        "model":"noobEvo",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":896,
+        "height":1152
+    },
+    "ntr-mix_raw":{
+        "prompt":"{p}###{np}",
+        "model":"NTR MIX IL-Noob XL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":1024,
+        "height":1024
+    },
+    "holymix_raw":{
+        "prompt":"{p}###{np}",
+        "model":"HolyMix ILXL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":1024,
+        "height":1024
+    },
+    "noob-v-pencil_raw":{
+        "prompt":"{p}###{np}",
+        "model":"noob_v_pencil XL",
+        "steps":25,
+        "sampler_name":"k_euler",
+        "clip_skip":2,
+        "cfg_scale":5,
+        "width":896,
+        "height":1152
+    },
+    "kayneg_raw":{
+        "prompt":"{p}###{np}",
+        "model":"KaynegIllustriousXL",
+        "steps":25,
+        "sampler_name":"k_dpmpp_2m",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":896,
+        "height":1152
+    },
+    "nova furry pony_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Nova Furry Pony",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova anime xl_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Nova Anime XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "white pony diffusion_raw": {
+        "prompt":"{p}###{np}",
+        "model": "White Pony Diffusion 4",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "wai-cute-pony_raw": {
+        "prompt":"{p}###{np}",
+        "model": "WAI-CUTE Pony",
+        "steps": 10,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "karras": true,
+        "clip_skip": 2
+    },
+    "edge of realism_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Edge Of Realism"
     },
     "natvis":{
         "prompt":"{p}###{np}",
