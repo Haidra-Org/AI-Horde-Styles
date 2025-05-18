@@ -3516,6 +3516,16 @@
         "prompt":"{p}###{np}",
         "model": "Edge Of Realism"
     },
+    "526mix animated": {
+        "prompt": "{p}{np}",
+        "model": "526Mix-Animated",
+        "width": 640,
+        "height": 832,
+        "hires_fix": true,
+        "steps": 20,
+        "cfg_scale": 9,
+        "enhance": true
+    },
     "natvis":{
         "prompt":"{p}###{np}",
         "model":"NatViS",
