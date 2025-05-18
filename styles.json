@@ -1581,14 +1581,18 @@
         "enhance": true
     },
     "steampunk": {
-        "prompt": "{p}, SteampunkAI{np}",
-        "model": "Dreamshaper",
-        "steps": 40,
-        "cfg_scale": 7.5,
+        "prompt": "{p}, DonMSt34mPXL{np}",
+        "model": "DreamShaper XL",
+        "width": 1024,
+        "height": 1024,
+        "steps": 4,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "59338"}
+            { "name": "1076692", "is_version": true, "strength": 0.6},
+            { "name": "375228", "is_version": true, "strength": 0.6}
         ],
-        "enhance": true
+        "enhance": false
     },
     "cogpunk": {
         "prompt": "{p}, CogPunkAI{np}",
@@ -2297,6 +2301,12 @@
     "mistoon anime": {
         "prompt": "masterpiece,best quality, {p}##lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
         "model": "Mistoon Anime"
+    },
+    "perfect world": {
+        "prompt": "{p}{np}",
+        "model": "Perfect World",
+        "steps": 50,
+        "cfg_scale": 9
     },
     "galena redux": {
         "prompt": "{p}{np}",
@@ -3298,6 +3308,32 @@
             { "name": "734557", "is_version": true}
         ]
     },
+    "dreamy portrait": {
+        "prompt": "serene dreamlike vibrant, high saturation portrait of {p}, peaceful dreamy dreamlike pastel###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 1408,
+        "loras": [
+            { "name": "1547032", "is_version": true, "model":1.5, "clip":1.5 }
+        ]
+    },
+    "fragoanato zombie": {
+        "prompt": "{p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 1408,
+        "loras": [
+            { "name": "972561", "is_version": true, "model":0.3, "clip":0.3 }
+        ]
+    },
     "noob-evo": {
         "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
         "model": "noobEvo",
@@ -3347,6 +3383,110 @@
         "cfg_scale": 7,
         "width": 768,
         "height": 1024
+    },
+    "noob-evo_raw":{
+        "prompt":"{p}###{np}",
+        "model":"noobEvo",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":896,
+        "height":1152
+    },
+    "ntr-mix_raw":{
+        "prompt":"{p}###{np}",
+        "model":"NTR MIX IL-Noob XL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":1024,
+        "height":1024
+    },
+    "holymix_raw":{
+        "prompt":"{p}###{np}",
+        "model":"HolyMix ILXL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":6,
+        "width":1024,
+        "height":1024
+    },
+    "noob-v-pencil_raw":{
+        "prompt":"{p}###{np}",
+        "model":"noob_v_pencil XL",
+        "steps":25,
+        "sampler_name":"k_euler",
+        "clip_skip":2,
+        "cfg_scale":5,
+        "width":896,
+        "height":1152
+    },
+    "kayneg_raw":{
+        "prompt":"{p}###{np}",
+        "model":"KaynegIllustriousXL",
+        "steps":25,
+        "sampler_name":"k_dpmpp_2m",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":896,
+        "height":1152
+    },
+    "nova furry pony_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Nova Furry Pony",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova anime xl_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Nova Anime XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "white pony diffusion_raw": {
+        "prompt":"{p}###{np}",
+        "model": "White Pony Diffusion 4",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "wai-cute-pony_raw": {
+        "prompt":"{p}###{np}",
+        "model": "WAI-CUTE Pony",
+        "steps": 10,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_2m",
+        "karras": true,
+        "clip_skip": 2
+    },
+    "edge of realism_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Edge Of Realism"
+    },
+    "526mix animated": {
+        "prompt": "{p}{np}",
+        "model": "526Mix-Animated",
+        "width": 640,
+        "height": 832,
+        "hires_fix": true,
+        "steps": 20,
+        "cfg_scale": 9,
+        "enhance": true
     },
     "natvis": {
         "prompt": "{p}###{np}",

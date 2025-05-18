@@ -35,6 +35,7 @@
         "deliberate3",
         "majicmix realistic",
         "edge of realism",
+        "edge of realism_raw",
         "realistic vision",
         "neurogen",
         "realbiter",
@@ -227,6 +228,7 @@
         "revanimated",
         "cetus-mix",
         "anything",
+        "perfect world",
         "waifu",
         "poison",
         "anime illust",
@@ -271,6 +273,7 @@
         "waifu_raw",
         "poison_raw",
         "eimis_raw",
+        "trinart_character_raw",
         "healys anime"
     ],
     "landscapes": [
@@ -402,6 +405,8 @@
         "sdxlchibis",
         "cyborgpunkportrait",
         "weirdies animals",
+        "dreamy portrait",
+        "fragoanato zombie",
         "sdxlstreetfashion"
     ],
     "sd15-bd": [
