@@ -471,7 +471,7 @@
         ]
     },
     "sdxlcatgirlportrait": {
-        "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
+        "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7), nsfw, nude, naked, porn",
         "model": "AlbedoBase XL (SDXL)",
         "width": 832,
         "height": 1216,
