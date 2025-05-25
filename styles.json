@@ -2976,6 +2976,20 @@
         "karras": true,
         "clip_skip": 2
     },
+    "bioluminescent": {
+        "prompt": "{p}, bo-bioluminescent, crystalz ###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 704,
+        "height": 1024,
+        "loras": [
+            { "name": "793777", "is_version": true, "model":0.3, "clip":0.3 },
+            { "name": "763697", "is_version": true, "model":0.3, "clip":0.3 }
+        ]
+    },
     "flux-impressionist": {
         "prompt": "{p} . A vibrant impressionist painting with bold brush strokes and rich color contrasts, capturing light and shadow in a dynamic and emotional way.###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
