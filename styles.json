@@ -2298,10 +2298,9 @@
         "model": "MeinaMix",
         "enhance": true
     },
-    "mistoon amethyst": {
-        "prompt": "{p}{np}",
-        "model": "Mistoon Amethyst",
-        "enhance": true
+    "mistoon anime": {
+        "prompt": "masterpiece,best quality, {p}##lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
+        "model": "Mistoon Anime"
     },
     "perfect world": {
         "prompt": "{p}{np}",
@@ -2439,19 +2438,10 @@
         "model": "Yiffy",
         "enhance": true
     },
-    "seekart": {
-        "prompt": "{p}{np}",
-        "model": "Seek.art MEGA",
-        "enhance": true
-    },
     "rpg portrait": {
         "prompt": "{p}{np}",
         "model": "RPG",
         "enhance": true
-    },
-    "robo": {
-        "prompt": "{p}, nousr robot{np}",
-        "model": "Robo-Diffusion"
     },
     "comic mashup": {
         "prompt": "{p}, charliebo artsyle, holliemengert artstyle, pepelarraz artstyle, andreasrocha artstyle, jamesdaly artstyle{np}",
@@ -2513,10 +2503,6 @@
             { "name": "230035", "is_version": false}
         ]
     },
-    "vectorartz": {
-        "prompt": "{p}, vectorartz{np}",
-        "model": "vectorartz"
-    },
     "inkpunk": {
         "prompt": "{p}, nvinkpunk{np}",
         "model": "Inkpunk Diffusion",
@@ -2540,11 +2526,6 @@
     "ghibli": {
         "prompt": "{p}, ghibli style{np}",
         "model": "Ghibli Diffusion",
-        "enhance": true
-    },
-    "papercut": {
-        "prompt": "{p}, PaperCut{np}",
-        "model": "Papercut Diffusion",
         "enhance": true
     },
     "dreamlike": {
@@ -2615,21 +2596,9 @@
             { "name": "105297", "is_version": false}
         ]
     },
-    "space": {
-        "prompt": "{p}, jwst{np}",
-        "model": "JWST Deep Space Diffusion"
-    },
     "dnd": {
         "prompt": "{p}{np}",
         "model": "Dungeons and Diffusion"
-    },
-    "trinart_character_raw": {
-        "prompt": "{p}{np}",
-        "model": "Trinart Characters"
-    },
-    "dnd item": {
-        "prompt": "{p}, dnditem{np}",
-        "model": "DnD Item"
     },
     "modern art": {
         "prompt": "{p}, modernartst{np}",
@@ -2638,10 +2607,6 @@
     "hasdx": {
         "prompt": "{p}{np}",
         "model": "HASDX"
-    },
-    "protogen": {
-        "prompt": "{p}{np}",
-        "model": "ProtoGen"
     },
     "dreamlikesam": {
         "prompt": "{p}, samdoesart{np}",
@@ -2655,7 +2620,6 @@
         "prompt": "{p}, dreamlikeart{np}",
         "model": "DreamLikeSamKuvshinov"
     },
-
     "healys anime": {
         "prompt": "{p}{np}",
         "model": "Healy's Anime Blend"
@@ -2672,7 +2636,6 @@
         "prompt": "{p}{np}",
         "model": "Anygen"
     },
-
     "duchaiten": {
         "prompt": "{p}{np}",
         "model": "DucHaiten"
@@ -3180,7 +3143,6 @@
         "height": 1024,
         "clip_skip": 2
     },
-
     "pulp fiction cover": {
         "prompt": "A classic pulp fiction book cover, {p}, illustrated in a dramatic, vibrant, and stylized art style reminiscent of mid-20th century pulp magazines. The cover includes bold, eye-catching colors, exaggerated expressions, and dynamic compositions, drawing inspiration from the works of {Norman Saunders|Robert Maguire|Rafael DeSoto|James Bama|Walter Popp|Frank R. Paul|Earle Bergey|H.J. Ward|George Gross|Allen Anderson|Mort Kunstler|Stanley Borack|Norm Eastman|John Newton Howitt|Rudolph Belarski|Fred Pfeiffer|Bruce Minney|George Rozen|William Teason|Emery Clarke|Clarence Doore|Harry Barton|Lawrence Sterne Stevens|Al Brule|Jerome Rozen|Robert Stanley}###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
@@ -3386,55 +3348,55 @@
             { "name": "972561", "is_version": true, "model":0.3, "clip":0.3 }
         ]
     },
-    "noob-evo":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
-        "model":"noobEvo",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":768,
-        "height":1024
+    "noob-evo": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
+        "model": "noobEvo",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 768,
+        "height": 1024
     },
-    "ntr-mix":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
-        "model":"NTR MIX IL-Noob XL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":1024,
-        "height":1024
+    "ntr-mix": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024
     },
-    "holymix":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
-        "model":"HolyMix ILXL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":6,
-        "width":1024,
-        "height":1024
+    "holymix": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality",
+        "model": "HolyMix ILXL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "clip_skip": 2,
+        "cfg_scale": 6,
+        "width": 1024,
+        "height": 1024
     },
-    "noob-v-pencil":{
-        "prompt":"{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
-        "model":"noob_v_pencil XL",
-        "steps":25,
-        "sampler_name":"k_euler",
-        "clip_skip":2,
-        "cfg_scale":5,
-        "width":768,
-        "height":1024
+    "noob-v-pencil": {
+        "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad quality, bad anatomy, bad hands, too many fingers",
+        "model": "noob_v_pencil XL",
+        "steps": 25,
+        "sampler_name": "k_euler",
+        "clip_skip": 2,
+        "cfg_scale": 5,
+        "width": 768,
+        "height": 1024
     },
-    "kayneg":{
-        "prompt":"{p}, masterpiece, ultra-detailed, best quality, high resolution, ### {np},worst quality, low quality, lowres, blurry, average quality, comic style, split-screen, monochrome, bad anatomy, bad hands, extra digits, jpeg artifacts",
-        "model":"KaynegIllustriousXL",
-        "steps":25,
-        "sampler_name":"k_dpmpp_2m",
-        "clip_skip":2,
-        "cfg_scale":7,
-        "width":768,
-        "height":1024
+    "kayneg": {
+        "prompt": "{p}, masterpiece, ultra-detailed, best quality, high resolution, ### {np},worst quality, low quality, lowres, blurry, average quality, comic style, split-screen, monochrome, bad anatomy, bad hands, extra digits, jpeg artifacts",
+        "model": "KaynegIllustriousXL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "clip_skip": 2,
+        "cfg_scale": 7,
+        "width": 768,
+        "height": 1024
     },
     "noob-evo_raw":{
         "prompt":"{p}###{np}",
@@ -3540,13 +3502,84 @@
         "cfg_scale": 9,
         "enhance": true
     },
-    "natvis":{
-        "prompt":"{p}###{np}",
-        "model":"NatViS",
-        "steps":28,
-        "sampler_name":"k_dpmpp_2m",
-        "cfg_scale":7,
-        "width":1024,
-        "height":1024
+    "natvis": {
+        "prompt": "{p}###{np}",
+        "model": "NatViS",
+        "steps": 28,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "width": 1024,
+        "height": 1024
+    },
+    "hassaku": {
+        "prompt": "{p}###worst quality, bad quality, {np}",
+        "model": "Hassaku XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "width": 1024,
+        "height": 1024
+    },
+    "2DN": {
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, {p}###lowres, worst quality, low quality, bad anatomy, bad hands, {np}",
+        "model": "2DN",
+        "steps": 20,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 1.5,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024
+    },
+    "zavychromaxl": {
+        "prompt": "{p}###{np}",
+        "model": "ZavyChromaXL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 6,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024
+    },
+    "albedo3.1": {
+        "prompt": "{p}{np}",
+        "model": "AlbedoBase XL 3.1",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "is_version": true}
+        ]
+    },
+    "papercut":{
+        "prompt": "A papercut image of a {p}, detailed, vibrant colors, detailed background, papercut art ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "dnd map": {
+        "prompt": "A dnd map of a {p}, top down view, isometric view, 2d map, top-down map, detailed, no watermark, no text ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1280,
+        "height": 960
+    },
+    "dnd item": {
+        "prompt": "painterly rendition of a {p}, dnd item, stylized art, resting on a wooden table for presentation, magical aura, best quality, high quality art ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
     }
 }

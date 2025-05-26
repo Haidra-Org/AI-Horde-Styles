@@ -1,13 +1,13 @@
 {
     "new": [
-        "flux",
-        "photon",
-        "unstable diffusers",
+        "hassaku",
+        "2DN",
         "noob-evo",
         "noob-v-pencil",
         "kayneg",
         "natvis",
-        "album and book art"
+        "zavychromaxl",
+        "mistoon anime"
     ],
     "featured": [
         "flux",
@@ -178,7 +178,6 @@
         "blank canvas xl",
         "danmumford",
         "jim eidomode",
-        "robo",
         "comic mashup",
         "charlie bo",
         "hollie mengert",
@@ -187,23 +186,18 @@
         "james daly",
         "microworlds",
         "appicon",
-        "vectorartz",
         "inkpunk",
         "mtg",
         "paintart",
         "rpg portrait",
-        "papercut",
         "ghibli",
         "analog",
         "dublex",
         "dreamlike",
-        "seekart",
         "gta5",
         "acertainthing",
-        "space",
         "modern art",
-        "dnd",
-        "dnd item"
+        "dnd"
     ],
     "fantasy": [
         "high fantasy",
@@ -213,7 +207,6 @@
         "hasdx"
     ],
     "animation": [
-        "mistoon amethyst",
         "toonyou",
         "western animation"
     ],
@@ -222,7 +215,8 @@
         "faetastic",
         "moonmix fantasy",
         "color splash",
-        "rainbow"
+        "rainbow",
+        "papercut"
     ],
     "anime": [
         "acertainthing",
@@ -249,7 +243,9 @@
         "noob-evo",
         "ntr-mix",
         "holymix",
-        "nova anime xl"
+        "nova anime xl",
+        "hassaku",
+        "mistoon anime"
     ],
     "anime-party": [
         "aam xl",
@@ -277,21 +273,10 @@
         "waifu_raw",
         "poison_raw",
         "eimis_raw",
-        "trinart_character_raw",
-        "noob-evo_raw",
-        "ntr-mix_raw",
-        "holymix_raw",
-        "noob-v-pencil_raw",
-        "nova furry pony_raw",
-        "nova anime xl_raw",
-        "white pony diffusion_raw",
-        "wai-cute-pony_raw",
-        "kayneg_raw",
         "healys anime"
     ],
     "landscapes": [
         "acertainthing",
-        "vectorartz",
         "sci-fi"
     ],
     "comic": [
@@ -315,8 +300,7 @@
     "reshape": [
         "icons",
         "microworlds",
-        "microverse",
-        "papercut"
+        "microverse"
     ],
     "icons": [
         "appicon",
@@ -328,7 +312,6 @@
         "inkpunk+",
         "dublex",
         "rpg portrait",
-        "protogen",
         "ppp",
         "anygen",
         "duchaiten",
@@ -401,7 +384,8 @@
         "vector illustration",
         "line art",
         "charcoal drawing",
-        "pencil drawing"
+        "pencil drawing",
+        "papercut"
     ],
     "cards": [
         "playingcard",
