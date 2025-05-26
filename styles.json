@@ -2303,9 +2303,9 @@
         "model": "Mistoon Anime",
         "width": 832,
         "height": 1216,
-        "steps": 20,
-        "cfg_scale": 3,
-        "sampler_name": "k_euler",
+        "steps": 30,
+        "cfg_scale": 5,
+        "sampler_name": "k_euler_a",
         "clip_skip": 2
     },
     "mistoon anime_raw": {
@@ -2313,9 +2313,9 @@
         "model": "Mistoon Anime",
         "width": 832,
         "height": 1216,
-        "steps": 20,
-        "cfg_scale": 3,
-        "sampler_name": "k_euler",
+        "steps": 30,
+        "cfg_scale": 5,
+        "sampler_name": "k_euler_a",
         "clip_skip": 2
     },
     "perfect world": {
