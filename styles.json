@@ -2300,7 +2300,8 @@
     },
     "mistoon anime": {
         "prompt": "masterpiece,best quality, {p}##lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
-        "model": "Mistoon Anime"
+        "model": "Mistoon Anime",
+        "clip_skip": 2
     },
     "perfect world": {
         "prompt": "{p}{np}",
@@ -3517,6 +3518,7 @@
         "steps": 25,
         "sampler_name": "k_dpmpp_2m",
         "cfg_scale": 7,
+        "clip_skip": 2,
         "width": 1024,
         "height": 1024
     },
