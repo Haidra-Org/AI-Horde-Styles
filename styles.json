@@ -3520,7 +3520,7 @@
         "width": 1024,
         "height": 1024
     },
-    "2DN": {
+    "2dn": {
         "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, {p}###lowres, worst quality, low quality, bad anatomy, bad hands, {np}",
         "model": "2DN",
         "steps": 20,
