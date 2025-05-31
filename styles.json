@@ -3393,7 +3393,7 @@
         ]
     },
     "fragoanato zombie": {
-        "prompt": "{p}###{np}",
+        "prompt": "{p}, fragoanato###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
         "steps": 4,
         "sampler_name": "k_euler",
