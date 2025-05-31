@@ -182,7 +182,7 @@
     },
     "sdxl-vertical": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 704,
         "height": 1472,
         "steps": 8,
@@ -194,7 +194,7 @@
     },
     "sdxl-extreme-vertical": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 640,
         "height": 1536,
         "steps": 8,
@@ -206,7 +206,7 @@
     },
     "sdxl-portrait": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1216,
         "steps": 8,
@@ -218,7 +218,7 @@
     },
     "sdxl-photo": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 896,
         "height": 1152,
         "steps": 8,
@@ -230,7 +230,7 @@
     },
     "sdxl-photo-horizontal": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -242,7 +242,7 @@
     },
     "sdxl-landscape": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1280,
         "height": 832,
         "steps": 8,
@@ -254,7 +254,7 @@
     },
     "sdxl-widescreen": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1344,
         "height": 768,
         "steps": 8,
@@ -266,7 +266,7 @@
     },
     "sdxl-cinematic": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1536,
         "height": 640,
         "steps": 8,
@@ -323,7 +323,7 @@
     },
     "bd-ai": {
         "prompt": "An robotic (artificial intelligence:1.1) {p}, birthday theme, (the words \"1 year\":1.35), science fiction{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -335,7 +335,7 @@
     },
     "makoto birthday": {
         "prompt": "{p}, (manga artwork:1.1), drawn by Makoto Shinkai, (birthday theme:1.3)###{np}, colorful,realistic, render, 3d, photographic",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -347,7 +347,7 @@
     },
     "artistic birthday": {
         "prompt": "(Birthday-themed:1.3), {p}, art by Sophie Anderson and Guy Denning and Lisa Frank###{np}, boring, bw, loli, teen",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -386,7 +386,7 @@
     },
     "hongbao coin": {
         "prompt": "Chinese Hongbao coin with {p}, chinese new year, best quality, Masterpiece, Super detailed and intricate, engraved###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "cfg_scale": 2.5,
         "sampler_name": "k_dpmpp_sde",
         "height": 1024,
@@ -399,7 +399,7 @@
     },
     "chinese paper art": {
         "prompt": "{p}. traditional ancient chinese paper art, intricate, beautiful, elegant, red and gold, layered paper###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 8,
         "width": 1024,
         "height": 1024,
@@ -411,7 +411,7 @@
     },
     "chinese blue porcelain": {
         "prompt": "{p} . Ming dynasty blue-and-white porcelain art, ancient chinese intricate flat art, centered on a white background###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 8,
         "width": 1024,
         "height": 1024,
@@ -424,7 +424,7 @@
     },
     "wuxia": {
         "prompt": "{p}, wuxia comic, (art by bernie wrightson, art by 邱福龍:1.4,)###{np}, (black and white, monochrome, low quality, worst quality), 3d rendering, 3d animation, CGI illustration, oversaturated, old, ugly, unrealistic, photograph, worst quality, kid, child, infant, little kid, curly hair, sword, deformed, deformity, deformed body",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "cfg_scale": 2.5,
         "sampler_name": "k_dpmpp_sde",
         "height": 832,
@@ -436,7 +436,7 @@
     },
     "graffiti": {
         "prompt": "graffiti style {p}, street art, vibrant, urban, detailed, tag, mural###{np}, ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1216,
         "height": 832,
         "steps": 8,
@@ -448,7 +448,7 @@
     },
     "retrofuturistic": {
         "prompt": "retro-futuristic {p} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed###{np}, contemporary, realistic, rustic, primitive",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1216,
         "height": 832,
         "steps": 8,
@@ -460,7 +460,7 @@
     },
     "dystopian": {
         "prompt": "dystopian style {p} . bleak, post-apocalyptic, somber, dramatic, highly detailed###{np},ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1216,
         "height": 832,
         "steps": 8,
@@ -472,7 +472,7 @@
     },
     "sdxlcatgirlportrait": {
         "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7), nsfw, nude, naked, porn",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1216,
         "steps": 8,
@@ -484,7 +484,7 @@
     },
     "neonnoir": {
         "prompt": "neon noir {p}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed###bright, sunny, daytime, low contrast, black and white, sketch, watercolor, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -496,7 +496,7 @@
     },
     "floralceramic": {
         "prompt": "a ceramic diorama of {p}, by Carlos Santos and Christine tennenholtz Lisa Frank, floral, glossy ceramic flowers, Rainbow prism, spectral colors, refracted light, vibrant hues, dazzling display, Picturesque, Gut Feeling, Seasoned photographer, Olympus PEN-F, blooming beauty, delicate petals, intricate 3d floral patterns###2d printed drawing sketch cgi render cartoon comic manga animation anime lineart, plain background{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 832,
         "steps": 8,
@@ -508,7 +508,7 @@
     },
     "sovietpropaganda": {
         "prompt": "USSR soviet propaganda poster, {p}###photorealistic, cute, modern,{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 768,
         "height": 1344,
         "steps": 8,
@@ -520,7 +520,7 @@
     },
     "moderntarotcard": {
         "prompt": "((A modern Tarot card)), {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1280,
         "steps": 8,
@@ -532,7 +532,7 @@
     },
     "antiquetarotcard": {
         "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, antique painting of {p}, with name below, detailed painting###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1280,
         "steps": 8,
@@ -544,7 +544,7 @@
     },
     "playingcard": {
         "prompt": "A modern playing card, {p}###{np}, photorealistic, cute, lowres, cropped, cgi, 3d, pixelated",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1280,
         "steps": 8,
@@ -556,7 +556,7 @@
     },
     "mtgcard": {
         "prompt": "A mtg magic the gathering card, painting of fantasy creature. description, {p}, mtg magic the gathering style###{np}, lowres, cropped, cgi, pixelated, photorealistic, 3d render",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1152,
         "steps": 8,
@@ -568,7 +568,7 @@
     },
     "baseballcard": {
         "prompt": "A baseball trading card, picture of player, stats in corner, {p}###{np}, lowres, cropped, cgi, pixelated, cute",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1152,
         "steps": 8,
@@ -580,7 +580,7 @@
     },
     "greetingcard": {
         "prompt": "A greeting card, {p}###{np}, lowres, cropped, cgi, pixelated",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1280,
         "steps": 8,
@@ -592,7 +592,7 @@
     },
     "postcard": {
         "prompt": "A souvenir postcard, {p}###{np}, lowres, cropped, cgi, pixelated, padding, border",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1280,
         "height": 832,
         "steps": 8,
@@ -604,7 +604,7 @@
     },
     "goldenagecomics": {
         "prompt": "{p}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1280,
         "steps": 8,
@@ -616,7 +616,7 @@
     },
     "manga": {
         "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color){np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 896,
         "height": 1152,
         "steps": 8,
@@ -628,7 +628,7 @@
     },
     "sdxlanime": {
         "prompt": "anime artwork, {p}, dramatic, anime style, key visual, vibrant, studio anime, highly detailed###photo, deformed, black and white, realism, disfigured, low contrast{np}, ink and paper",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -649,7 +649,7 @@
     },
     "sdxlspace": {
         "prompt": "{p}, by Andrew McCarthy, Navaneeth Unnikrishnan, Manuel Dietrich, photo realistic, 8 k, cinematic lighting, hd, atmospheric, hyperdetailed, trending on artstation, deviantart, photography, glow effect###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1344,
         "height": 768,
         "steps": 8,
@@ -670,7 +670,7 @@
     },
     "futurefashion": {
         "prompt": "photograph of a Fashion model, {p}, full body, highly detailed and intricate, vibrant colors, hyper maximalist, futuristic, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra realistic, cinematic lighting, focused, 8k, (golden ratio:0.7)###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 896,
         "height": 1152,
         "steps": 8,
@@ -682,7 +682,7 @@
     },
     "building": {
         "prompt": "{p}, shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra-detailed, realistic###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -694,7 +694,7 @@
     },
     "animal": {
         "prompt": "{p}, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, national geographic, award-winning photograph by nick nichols###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1280,
         "height": 832,
         "steps": 8,
@@ -706,7 +706,7 @@
     },
     "vaporwave": {
         "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, blurry{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1344,
         "height": 768,
         "steps": 8,
@@ -718,7 +718,7 @@
     },
     "isometric": {
         "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -730,7 +730,7 @@
     },
     "lowpoly": {
         "prompt": "low-poly style {p}, ambient occlusion, low-poly game art, (polygon mesh:0.8), jagged, blocky, (wireframe edges:0.8), centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, black and white, grayscale, colorless{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1280,
         "height": 832,
         "steps": 8,
@@ -742,7 +742,7 @@
     },
     "claymation": {
         "prompt": "claymation style {p}, sculpture, clay art, centered composition, play-doh###{np}, sloppy, messy, grainy, highly detailed, ultra textured, photo, mutated",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1280,
         "height": 832,
         "steps": 8,
@@ -754,7 +754,7 @@
     },
     "origami": {
         "prompt": "origami style {p}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -766,7 +766,7 @@
     },
     "lineart": {
         "prompt": "line art drawing, {p}, professional, sleek, modern, minimalist, graphic, line art, vector graphics###{np}, anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -778,7 +778,7 @@
     },
     "pixelart": {
         "prompt": "pixel-art, {p}, low-res, blocky, pixel art style, 16-bit graphics###sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -791,7 +791,7 @@
     },
     "embroidery": {
         "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -803,7 +803,7 @@
     },
     "broadsheetart": {
         "prompt": "antique broadsheet drawing, {p}, text, monotone###{np}, colorful",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 896,
         "height": 1152,
         "steps": 8,
@@ -815,7 +815,7 @@
     },
     "watercolorscenery": {
         "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1344,
         "height": 768,
         "steps": 8,
@@ -827,7 +827,7 @@
     },
     "pencilscribbles": {
         "prompt": "Scribbled random lines, shape of {p}, pencil scribbles sketch###solid outlines, color, fill, 3d{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -839,7 +839,7 @@
     },
     "sdxlchibis": {
         "prompt": "high quality, a chibi {p}, blindbox style, 3dcute, 3dcutecharacter, 3d, cute###{np}, (Drawing cartoon comic sketch 2d:0.6), spritesheet, multiple angles, (giant hand, minifig:0.7)",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -851,7 +851,7 @@
     },
     "sdxlstreetfashion": {
         "prompt": "high quality, intricate, (fashionable clothes, street fashion:1.2), a full-body portrait of a fashionable {p}, attractive, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render, sexy:0.7)",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 896,
         "height": 1152,
         "steps": 8,
@@ -889,7 +889,7 @@
     },
     "sdxlhorror": {
         "prompt": "nightmare horror trypophobia odontophobia thalassophobia disgusting nasty ugly bloody terror, {p}###{np}, attractive, sexy",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -901,7 +901,7 @@
     },
     "animation": {
         "prompt": "(cute), {p}, (animated by Mike Judge)###{np}, horror, ugly, 3d, photorealistic, black and white",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -913,7 +913,7 @@
     },
     "disney": {
         "prompt": "(cute), {p}, (classic disney animation)###{np}, 3d, horror, ugly, photorealistic",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -925,7 +925,7 @@
     },
     "pixar": {
         "prompt": "(cute), {p}, (rendered by pixar)###{np}, 2d, horror, ugly, photorealistic, black and white",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1152,
         "height": 896,
         "steps": 8,
@@ -937,7 +937,7 @@
     },
     "cyborgpunkportrait": {
         "prompt": "lomography, {p}, a neon cyborg portrait by Jerry Ryan Rob Hefferan Artgerm HR Giger, hyperrealistic vaporwave HDR render###{np}, drawing, sketch",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1216,
         "steps": 8,
@@ -949,7 +949,7 @@
     },
     "movieposter": {
         "prompt": "highly detailed movie premiere poster, {p}, professional quality, highly detailed, gloss finish###smudged, poor quality, Badly drawn hands and fingers, undetailed, unfocused, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 832,
         "height": 1216,
         "steps": 8,
@@ -1091,7 +1091,7 @@
     },
     "vibrant halloween": {
         "prompt": "a Halloween themed vibrant pulp art by JC leyendecker and norman rockwell featuring {p}. horror vibe, dark atmospthere, depth of field, campy, spooky. purple, orange and green color palette.###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "karras": true,
         "steps": 25,
         "sampler_name": "k_dpmpp_2m",
@@ -1112,7 +1112,7 @@
     },
     "monstrous burton": {
         "prompt": "{p} . nightmare by Tim Burton, monster-like, cinematic lighting, trending on artstation, creepy digital art###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 30,
         "sampler_name": "k_dpmpp_2m",
         "width": 1024,
@@ -1121,7 +1121,7 @@
     },
     "spooky gouache": {
         "prompt": "{p} . spooky gouache digital art, dark, creepy, highly detailed, moody, mysterious###{np}, 3d, photo, anime, text",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 30,
         "sampler_name": "k_dpmpp_2m",
         "width": 1024,
@@ -1130,7 +1130,7 @@
     },
     "spooky horror": {
         "prompt": "{p}, spooky, dark, horror aesthetics, sharp focus, Innistrad, by Keith Thompson###person, human, blurry, black and white, text, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 25,
         "sampler_name": "k_euler_a",
         "width": 1024,
@@ -1139,7 +1139,7 @@
     },
     "crungus revenge": {
         "prompt": "Crungus, halloween, spooky, ink painting manga illustration, bloody disgusting, limited palette, chiaroscuro, {p}, by kentaro miura, junji ito, Yusuke Murata",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "karras": true,
         "steps": 20,
         "sampler_name": "k_dpmpp_2m",
@@ -1149,7 +1149,7 @@
     },
     "impressionist horror comic": {
         "prompt": "impressionist purple and orange comickbook illustration depicting closeup of {p}, dark shading, bold outlines, thick outlines, creepy, eerie, scary, horror###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 20,
         "sampler_name": "k_euler_a",
         "width": 1024,
@@ -1158,7 +1158,7 @@
     },
     "impressionist oil painting": {
         "prompt": "A beautiful oil painting of {p}, with thick messy brush strokes ### blurry, out of focus{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "karras": true,
         "steps": 8,
         "sampler_name": "k_dpm_fast",
@@ -1168,7 +1168,7 @@
     },
     "flat simple cartoon": {
         "prompt": "{p}, wikihow cartoon illustration###3d, photo, text, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1180,7 +1180,7 @@
     },
     "color splash": {
         "prompt": "{p}, painted world, colorful splashes###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1193,7 +1193,7 @@
     },
     "parchment": {
         "prompt": "on parchment, ink illustration, {p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1218,7 +1218,7 @@
     },
     "emoji 2d": {
         "prompt": "{p} . flat 2d emoji icon, cute, crisp outlined icon art, colorful, centered, on a solid white background###nsfw, 3d, octane render, photo, anime, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1242,7 +1242,7 @@
     },
     "vector illustration": {
         "prompt": "{p} . digital vector art, svg, adobe illustrator, made in procreate###nsfw, text, 3d, photo, anime, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1254,7 +1254,7 @@
     },
     "charcoal drawing": {
         "prompt": "{p} . realistic black and white charcoal illustration, sharp focus, highly detailed, greyscale###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1266,7 +1266,7 @@
     },
     "pencil drawing": {
         "prompt": "{p} . realistic pencil sketch, black and white, on a white background, pencil drawing, line drawing###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1278,7 +1278,7 @@
     },
     "caricature illustration": {
         "prompt": "{p} . whimsical caricature illustration, centered on a white background###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1290,7 +1290,7 @@
     },
     "vintage photo": {
         "prompt": "{p} . vintage photograph, r/oldschoolcool, polaroid photo style###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1318,7 +1318,7 @@
     },
     "line art": {
         "prompt": "{p} . line art, crisp black lines, minimalism, simple, economical use of space, flowing and dynamic, contemporary aesthetic, black and white, white background###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1330,7 +1330,7 @@
     },
     "rainbow": {
         "prompt": "{p} . 2d cartoon illustration in the style of lisa frank, rainbow colorscheme, photoillustration, cute, friendly###nsfw, {np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1915,7 +1915,7 @@
     },
     "terror ink": {
         "prompt": "a terrifying ink drawing of a {p}, by Ko Young Hoon, by Yoshitaka Amano, Charcoal Art, Ink, Oil Paint, Concept Art, Color Grading, Dramatic, Intentional camera movement, Lonely, Cracks, With Imperfections, in a symbolic and meaningful style, insanely detailed and intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, a ghost, covered in spiderweb, eerie, feeling of dread, decay, samhain{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1927,7 +1927,7 @@
     },
     "nightmare": {
         "prompt": "{p} by Aaron Horkey, by Adonna Khare, by Carrie Ann Baade, by Jeff Lemire, by Junji Ito, horror, creepy, dark, eldritch, fantasy{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1942,12 +1942,12 @@
         "steps": 40,
         "width": 1280,
         "height": 832,
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "sampler_name": "dpmsolver"
     },
     "witch land": {
         "prompt": "digital art of {p}, witch world, Halloween theme, scenic Halloween, highly detailed, zbrush, by artist Artgerm, by artist Stephen Hickman, by artist Carne griffiths{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1959,7 +1959,7 @@
     },
     "nightmare fairytale": {
         "prompt": "horror {p} in a dark forest, darkness, fog, very detailed, cold, Editorial illustration, gothic, evil, art by Sam Bosma, painting by H.P. Lovecraft{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1974,11 +1974,11 @@
         "steps": 40,
         "width": 832,
         "height": 1280,
-        "model": "AlbedoBase XL (SDXL)"
+        "model": "AlbedoBase XL 3.1"
     },
     "ennui": {
         "prompt": "{p}, black and white, foggy, negative, eerie{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -1990,7 +1990,7 @@
     },
     "dark fantasy": {
         "prompt": "highly detailed digital painting of {p}, highly realistic fantasy concept art by Darek Zabrocki and Zdzisław Beksiński, paint strokes, intricate, eerie scenery, dark volumetric lighting, triadic color scheme, very coherent, sharp focus, illustration, film grain, spooky vibe{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2495,7 +2495,7 @@
     },
     "microverse": {
         "prompt": "miniature model of {p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2508,7 +2508,7 @@
     },
     "soft pixels": {
         "prompt": "{p}, pixel art, dark background, dramatic, ambient{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2562,7 +2562,7 @@
     },
     "appicon": {
         "prompt": "{p}, App Icon{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2575,7 +2575,7 @@
     },
     "mosaics": {
         "prompt": "{p}, mosaics ###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2583,7 +2583,7 @@
         "sampler_name": "k_dpmpp_sde",
         "loras": [
             { "name": "247778", "is_version": true},
-            { "name": "1849057", "is_version": true, "model": 0.65, "clip": 1, "is_version": true}
+            { "name": "1849057", "is_version": true, "model": 0.65, "clip": 1}
         ]
     },
     "diablo icon": {
@@ -2601,7 +2601,7 @@
     },
     "game icon": {
         "prompt": "{p}, icon{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2614,7 +2614,7 @@
     },
     "stickers": {
         "prompt": "{p}, icon{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2704,7 +2704,7 @@
     },
     "celtic solstice": {
         "prompt": "Artistic representation of Celtic summer solstice {p} with intricate knot patterns and verdant nature elements###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 25,
         "width": 1024,
         "height": 1024,
@@ -2713,7 +2713,7 @@
     },
     "solstice serenity": {
         "prompt": "Tranquil and enchanting Summer Solstice scene in a mystical forest {p} vivid warm tones, ethereal lighting, natural textures, Celtic patterns, and Nordic symbols intertwined###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 25,
         "width": 1024,
         "height": 1024,
@@ -2722,7 +2722,7 @@
     },
     "nouveau solstice": {
         "prompt": "{p}, sun deity, (Celtic pattern:0.1), (solstice:1.4), solstice celebration, summer solstice, (art nouveau:1.2), victorian oil painting, art by Judy Baca, Diego Rivera, and (Alphonse mucha:0.2).outline, cartoon, comic ###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 14,
         "width": 1024,
         "height": 1024,
@@ -2742,7 +2742,7 @@
     },
     "golden solstice": {
         "prompt": "Shepard Fairey, lino print, gold colored, block print, print of {p}, sun, sunrays, sunlight, solar background, greenery, floral, flowers, outdoor background, landscape###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 20,
         "width": 1024,
         "height": 1024,
@@ -2771,7 +2771,7 @@
     },
     "sunny solstice": {
         "prompt": "solar, sun, sunray, sunlit painting of {p}, bright highlights, cool colors, blue and green,  vintage art, illustration, impressionist painting, Vintage Postage Stamps, border###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "steps": 20,
         "width": 1024,
         "height": 1024,
@@ -2794,7 +2794,7 @@
         "steps": 20,
         "karras": true,
         "hires_fix": false,
-        "model": "AlbedoBase XL (SDXL)"
+        "model": "AlbedoBase XL 3.1"
     },
     "burning sun cascade": {
         "prompt": "sunny day, summer solstice, fantasy oil painting of a {p}, detailed oil painting, summer solstice image, Beautiful Lighting, Warm Color Palette, Colorful, Vibrant, god rays, realistic lighting, ### {np}, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body",
@@ -2809,7 +2809,7 @@
     },
     "verdant solstice": {
         "prompt": "({p}:1.2) screengrab of fantasy film, high quality, masterpiece, detailed, 8K, summer solstice, verdant mountains in background, lush green forests, ethereal fireflies, sun-dappled leaves framing the scene, ancient runes peeking into the vibrant environment, Unreal Engine god ray tracing bonanza, volumetric lighting, depth of field, Z-depth mapping, layers of foreground_and_background_depth ###{np} campfire, bonfire, monochrome, child, loli, morbid, blocking scenic objects, cluttered foreground, overwhelming central subjects, excessive detail on unimportant elements, distracting foreground items, plain backgrounds, flat composition, lack of depth, overexposed lighting, dull colors",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "height": 640,
         "width": 1536,
         "steps": 20,
@@ -2824,7 +2824,7 @@
         "height": 640,
         "width": 1536,
         "steps": 25,
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "clip_skip": 2
     },
     "ghibli solstice": {
@@ -2847,11 +2847,11 @@
         "steps": 20,
         "karras": true,
         "hires_fix": false,
-        "model": "AlbedoBase XL (SDXL)"
+        "model": "AlbedoBase XL 3.1"
     },
     "8pm": {
         "prompt": "((art by pixiv)), {p}, meadow, art by Abraham Pether, art by Adam Hughes###{np},child, little kid, little child, deformity, deformed, lunar, moon, night time, batman, woman, female, chick, girl, facial deformity, mutated, mutilated, camping",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "sampler_name": "k_dpmpp_2m",
         "steps": 15,
         "width": 1024,
