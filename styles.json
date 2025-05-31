@@ -2077,6 +2077,11 @@
     "neurogen": {
         "prompt": "{p}{np}",
         "model": "Neurogen",
+        "width": 576,
+        "height": 832,
+        "steps": 20,
+        "hires_fix": true,
+        "cfg_scale": 7,
         "enhance": true
     },
     "illuminati": {
@@ -2332,11 +2337,21 @@
     "dark sushi": {
         "prompt": "{p}{np}",
         "model": "Dark Sushi Mix",
+        "width": 576,
+        "height": 832,
+        "steps": 20,
+        "hires_fix": true,
+        "cfg_scale": 7,
         "enhance": true
     },
     "analog madness": {
         "prompt": "{p}{np}",
         "model": "Analog Madness",
+        "width": 576,
+        "height": 832,
+        "steps": 20,
+        "hires_fix": true,
+        "cfg_scale": 7,
         "enhance": true
     },
     "bweshmix": {
