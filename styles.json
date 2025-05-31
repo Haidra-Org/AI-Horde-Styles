@@ -2354,6 +2354,20 @@
         "cfg_scale": 7,
         "enhance": true
     },
+    "surreal": {
+        "prompt": "{p}, surreal00d, xs-abstract###{np}",
+        "model": "Analog Madness",
+        "width": 832,
+        "height": 832,
+        "steps": 20,
+        "hires_fix": true,
+        "cfg_scale": 7,
+        "loras": [
+            { "name": "192757" },
+            { "name": "222038" }
+        ]
+        "enhance": true
+    },
     "bweshmix": {
         "prompt": "{p}###{np}, embedding:16993",
         "model": "BweshMix",
