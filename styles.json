@@ -3386,8 +3386,8 @@
         "sampler_name": "k_euler",
         "cfg_scale": 1,
         "karras": false,
-        "width": 960,
-        "height": 1408,
+        "width": 832,
+        "height": 1280,
         "loras": [
             { "name": "1547032", "is_version": true, "model":1.5, "clip":1.5 }
         ]
