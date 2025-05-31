@@ -2603,7 +2603,7 @@
     },
     "mosaics": {
         "prompt": "{p}, mosaics ###{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
         "width": 1024,
         "height": 1024,
         "steps": 8,
@@ -2616,7 +2616,7 @@
     },
     "diablo icon": {
         "prompt": "{p}, game icon{np}",
-        "model": "AlbedoBase XL 3.1",
+        "model": "AlbedoBase XL (SDXL)",
         "width": 1024,
         "height": 1024,
         "steps": 8,
