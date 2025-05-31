@@ -2363,8 +2363,8 @@
         "hires_fix": true,
         "cfg_scale": 7,
         "loras": [
-            { "name": "192757", "is_version": true, "model":0.7},
-            { "name": "222038", "is_version": true, "model":0.7}
+            { "name": "192757", "is_version": true, "model":0.5},
+            { "name": "222038", "is_version": true, "model":0.5}
         ],
         "enhance": true
     },
