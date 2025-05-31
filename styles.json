@@ -2573,6 +2573,19 @@
             { "name": "149101", "is_version": false}
         ]
     },
+    "mosaics": {
+        "prompt": "{p}, mosaics ###{np}",
+        "model": "AlbedoBase XL (SDXL)",
+        "width": 1024,
+        "height": 1024,
+        "steps": 8,
+        "cfg_scale": 2,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "247778", "is_version": true},
+            { "name": "1849057", "is_version": true, "model": 0.65, "clip": 1, "is_version": true}
+        ]
+    },
     "diablo icon": {
         "prompt": "{p}, game icon{np}",
         "model": "AlbedoBase XL (SDXL)",
