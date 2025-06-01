@@ -3405,6 +3405,19 @@
             { "name": "972561", "is_version": true, "model":0.3, "clip":0.3 }
         ]
     },
+    "water-sculpture": {
+        "prompt": "{p} made out of water, watce {np}",
+        "model": "Juggernaut XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2,
+        "loras": [
+            { "name": "247778", "is_version": true},
+            { "name": "382409", "is_version": true, "model":0.65, "clip":1 }
+        ]
+    },
     "noob-evo": {
         "prompt": "{p}, Masterpiece, best quality, ### {np}, lowres, worst quality, low quality, bad anatomy, bad hands, too many fingers",
         "model": "noobEvo",
