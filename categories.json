@@ -366,8 +366,11 @@
         "pencilscribbles",
         "broadsheetart",
         "embroidery",
+        "water-sculpture",
         "claymation",
         "origami",
+        "mosaics",
+        "papercut",
         "parchment"
     ],
     "artstyles": [
@@ -389,7 +392,6 @@
         "sovietpropaganda",
         "portraitphoto",
         "schematic",
-        "mosaics",
         "animation",
         "disney",
         "pixar",
@@ -397,8 +399,7 @@
         "vector illustration",
         "line art",
         "charcoal drawing",
-        "pencil drawing",
-        "papercut"
+        "pencil drawing"
     ],
     "cards": [
         "playingcard",
