@@ -3415,7 +3415,7 @@
         "cfg_scale": 2,
         "loras": [
             { "name": "247778", "is_version": true},
-            { "name": "382409", "is_version": true, "model":0.65, "clip":1 }
+            { "name": "382409", "is_version": true, "model":0.85, "clip":1 }
         ]
     },
     "noob-evo": {
