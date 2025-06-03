@@ -2097,6 +2097,11 @@
     "faetastic": {
         "prompt": "{p}{np}",
         "model": "FaeTastic",
+        "width": 576,
+        "height": 832,
+        "steps": 30,
+        "hires_fix": true,
+        "cfg_scale": 10,
         "enhance": true
     },
     "danmumford": {
