@@ -2391,6 +2391,17 @@
             { "name": "16993"}
         ]
     },
+    "babes": {
+        "prompt": "{VERISM STYLE|SAMDOESART STYLE|THEPIT STYLE|OWLER STYLE|CHERRMOUS STYLE|AROSEN STYLE|UODENIM STYLE|STANLEYLAU STYLE|PUFFY LIPS|HOOP EARRINGS|THICK EYEBROWS}, {p}###{np}",
+        "model": "Babes",
+        "width": 640,
+        "height": 960,
+        "steps": 20,
+        "hires_fix": true,
+        "sampler_name": "k_dpmpp_2m",
+        "karras": true,
+        "cfg_scale": 7
+    },
     "revanimated": {
         "prompt": "{p}{np}",
         "model": "Rev Animated",
