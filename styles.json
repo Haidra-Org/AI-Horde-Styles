@@ -3424,6 +3424,32 @@
             { "name": "1328593", "is_version": true, "model":1, "clip":1 }
         ]
     },
+    "faetastic (flux)": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024,
+        "loras": [
+            { "name": "720252", "is_version": true, "model":1, "clip":1 }
+        ]
+    },
+    "microworlds (flux)": {
+        "prompt": "microworldlora, {p}###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024,
+        "loras": [
+            { "name": "1044411", "is_version": true, "model":1, "clip":1 }
+        ]
+    },
     "dreamy portrait": {
         "prompt": "serene dreamlike vibrant, high saturation portrait of {p}, peaceful dreamy dreamlike pastel###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
