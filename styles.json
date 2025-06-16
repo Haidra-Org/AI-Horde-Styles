@@ -3395,6 +3395,22 @@
             { "name": "734557", "is_version": true}
         ]
     },
+    "glow flow or dissolve party mix": {
+        "prompt": "{p}, bo-bioluminescent, {ral-watce|ral-dissolve| ral-watce, ral-dissolve} ###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1152,
+        "height": 896,
+        "loras": [
+            { "name": "793777", "is_version": true, "model":0.8, "clip":1 },
+            { "name": "890720", "is_version": true, "model":0.65, "clip":0.5 },
+            { "name": "1328593", "is_version": true, "model":0.65, "clip":0.5 },
+            { "name": "720252", "is_version": true, "model":1, "clip":1 }
+        ]
+    },
     "dissolve": {
         "prompt": "{p} with ral-dissolve effect, ral-dissolve ###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
