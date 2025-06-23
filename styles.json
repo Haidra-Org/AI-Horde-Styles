@@ -3406,8 +3406,8 @@
         "height": 896,
         "loras": [
             { "name": "793777", "is_version": true, "model":0.8, "clip":1 },
-            { "name": "890720", "is_version": true, "model":0.65, "clip":0.5 },
-            { "name": "1328593", "is_version": true, "model":0.65, "clip":0.5 },
+            { "name": "890720", "is_version": true, "model":0.65, "clip":1 },
+            { "name": "1328593", "is_version": true, "model":0.65, "clip":1 },
             { "name": "720252", "is_version": true, "model":1, "clip":1 }
         ]
     },
