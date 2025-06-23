@@ -3614,7 +3614,7 @@
         "clip_skip": 2
     },
     "bb95 furry": {
-        "prompt":"{p}###{np}",
+        "prompt":"anthro,{p}###{np}, worst quality, low quality, signature, text, nsfw, nude, naked",
         "model": "BB95 Furry Mix",
         "steps": 25,
         "sampler_name": "k_euler_a",
@@ -3625,7 +3625,7 @@
         "hires_fix": true
     },
     "bb95 furry v14": {
-        "prompt":"{p}###{np}",
+        "prompt":"anthro,{p}###{np}, worst quality, low quality, signature, text, nsfw, nude, naked",
         "model": "BB95 Furry Mix v14",
         "steps": 25,
         "sampler_name": "k_euler_a",
