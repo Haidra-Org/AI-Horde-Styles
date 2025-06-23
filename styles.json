@@ -3395,6 +3395,20 @@
             { "name": "734557", "is_version": true}
         ]
     },
+    "art deco poster": {
+        "prompt": "artdcoCE_style Highly detailed intricate Art Deco poster design {p}, Art Deco linework, Art Deco border, clean lines, symmetrical layout, geometric forms, flat design, dramatic contrast###{np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 832,
+        "height": 1280,
+        "loras": [
+            { "name": "1119342", "is_version": true, "model":0.5, "clip":1 },
+            { "name": "11155829", "is_version": true, "model":0.5, "clip":0.75 }
+        ]
+    },
     "glow flow or dissolve party mix": {
         "prompt": "{p}, bo-bioluminescent, {ral-watce|ral-dissolve| ral-watce, ral-dissolve} ###{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
