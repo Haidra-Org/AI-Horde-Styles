@@ -3619,8 +3619,8 @@
         "steps": 25,
         "sampler_name": "k_euler_a",
         "cfg_scale": 4.5,
-        "width": 1088,
-        "height": 1088,
+        "width": 640,
+        "height": 960,
         "clip_skip": 1,
         "hires_fix": true
     },
@@ -3630,8 +3630,8 @@
         "steps": 25,
         "sampler_name": "k_euler_a",
         "cfg_scale": 4.5,
-        "width": 1088,
-        "height": 1088,
+        "width": 640,
+        "height": 960,
         "clip_skip": 1,
         "hires_fix": true
     },
