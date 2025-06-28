@@ -3769,5 +3769,15 @@
         "karras": false,
         "width": 1024,
         "height": 1024
+    },
+    "midnight party temp": {
+        "prompt":"object head, CRT monitor face, screen face, {p}###{np}",
+        "model": "Nova Anime XL",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 5,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
     }
 }
