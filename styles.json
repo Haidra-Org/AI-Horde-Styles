@@ -2521,8 +2521,14 @@
         "enhance": true
     },
     "microworlds": {
-        "prompt": "{p}, microworld render style{np}",
-        "model": "Microworlds"
+        "prompt": "Micro world cube of {p}, cut-away view, micro view, simple thematic background, isometric view, in-focus subject, ### {np}",
+        "model": "Flux.1-Schnell fp8 (Compact)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
     },
     "microverse": {
         "prompt": "miniature model of {p}{np}",
