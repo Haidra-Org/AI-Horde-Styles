@@ -2614,7 +2614,7 @@
         "sampler_name": "k_dpmpp_sde",
         "loras": [
             { "name": "247778", "is_version": true},
-            { "name": "1849057", "is_version": true, "model": 0.65, "clip": 1, "is_version": true}
+            { "name": "1849057", "is_version": true, "model": 0.65, "clip": 1}
         ]
     },
     "diablo icon": {
