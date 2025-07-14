@@ -3799,25 +3799,25 @@
         "clip_skip": 2,
         "loras": [{ "name": "986237", "model": 0.8, "clip": 1, "is_version": true }]
     },
-        "venomization": {
+    "venomization": {
         "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, scenery, venom_assimilation, {p}, depth of field, volumetric lighting ### old, older, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, signature, simple background, conjoined, bad ai-generated, unprompted nsfw, {np}",
         "model": "Nova Anime XL",
         "steps": 30,
         "cfg_scale": 6,
         "sampler_name": "k_euler_a",
-        "height": 1024,
-        "width": 704,
+        "height": 1280,
+        "width": 896,
         "clip_skip": 2,
         "loras": [{ "name": "1022306", "model": 0.8, "clip": 1, "is_version": true }]
     },
-        "carnageization": {
+    "carnageization": {
         "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, scenery, carnage_assimilation, {p}, depth of field, volumetric lighting ### old, older, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, signature, simple background, conjoined, bad ai-generated, unprompted nsfw, {np}",
         "model": "Nova Anime XL",
         "steps": 30,
         "cfg_scale": 6,
         "sampler_name": "k_euler_a",
-        "height": 1024,
-        "width": 704,
+        "height": 1280,
+        "width": 896,
         "clip_skip": 2,
         "loras": [{ "name": "1098500", "model": 0.8, "clip": 1, "is_version": true }]
     }
