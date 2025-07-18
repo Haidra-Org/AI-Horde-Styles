@@ -1289,18 +1289,18 @@
         ]
     },
     "vintage yearbook photo": {
-        "prompt": "yellowed old photo, damaged, light leaks, early 19th century dust, scratches, award winning masterpiece, foggy, {p} . vintage yearbook photograph, analog###color,{np}",
-        "model": "Dreamshaper",
-        "width": 768,
-        "height": 1024,
-        "steps": 18,
-        "karras": true,
-        "cfg_scale": 6,
-        "sampler_name": "k_dpmpp_sde",
-        "hires_fix": true,
+        "prompt": "(vntg artstyle etching:1.3), black line art, vintage aesthetic, wet plate effect, dark tones, dark light background, sepia tones, dramatic shadows, natural light, monochrome 1800s tintype 1856 sepia yearbook photograph etching of {p}, black and white analog film photography, film grain, scratches, light leaks, early 19th century, dust, damaged, yellowed, weathered medium###nsfw, colorful, {np}",
+        "model": "DreamShaper XL",
+        "width": 896,
+        "height": 1280,
+        "steps": 20,
+        "cfg_scale": 7,
+        "sampler_name": "k_dpmpp_2m",
         "loras": [
-            { "name": "481378", "model": 0.7, "is_version": true},
-            { "name": "459085", "model": 0.7, "is_version": true}
+            { "name": "891167",  "model": 0.6, "clip": 0.7, "is_version": true },
+            { "name": "628126", "model": 0.45, "clip": 0.7, "is_version": true },
+            { "name": "430283", "model": 0.75, "clip": 1.0, "is_version": true },
+            { "name": "1359605", "model": 0.5, "clip": 0.7, "is_version": true }
         ]
     },
     "line art": {
