@@ -3760,27 +3760,5 @@
         "width": 1024,
         "height": 1024,
         "clip_skip": 2
-    },
-    "shinnasuka neco-arc": {
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, scenery, good eyes, noccen, animal ears, :3, chibi, cat tail, animal ear fluff, slit pupils, {p}, depth of field, volumetric lighting ### old, older, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, signature, simple background, conjoined,bad ai-generated, bad eyes, unprompted nsfw, {np}",
-        "model": "Nova Anime XL",
-        "steps": 30,
-        "cfg_scale": 6,
-        "sampler_name": "k_euler_a",
-        "height": 1024,
-        "width": 704,
-        "clip_skip": 2,
-        "loras": [{"name": "1313742", "model": 2, "clip": 2, "is_version": true }]
-    },
-    "shinnasuka super robot": {
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, scenery, mecha, {p}, depth of field, volumetric lighting ### old, older, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, signature, simple background, conjoined, bad ai-generated, unprompted nsfw, {np}",
-        "model": "Nova Anime XL",
-        "steps": 30,
-        "cfg_scale": 6,
-        "sampler_name": "k_euler_a",
-        "height": 1024,
-        "width": 704,
-        "clip_skip": 2,
-        "loras": [{ "name": "986237", "model": 0.8, "clip": 1, "is_version": true }]
     }
 }
