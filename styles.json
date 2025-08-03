@@ -3767,6 +3767,31 @@
         "height": 1024,
         "clip_skip": 2
     },
+    "glass pony": {
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, body press, g1ass_sh33t, cloud, underwater, {p}###{np}",
+        "model": "AMPonyXL",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 5,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "894554", "is_version": true, "weight": 0.8, "clip": 2 }
+        ]
+    },
+    "pastel ilxl": {
+        "prompt": "2d, flat color, pastelcass0, pastel colors, surreal, haiz_ai, no lineart, no outline, {p}###line art, outline, {np}",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 5,
+        "sampler_name": "k_dpmpp_sde",
+        "loras": [
+            { "name": "1242320", "is_version": true, "weight": 0.6, "clip": 1 },
+            { "name": "1280118", "is_version": true, "weight": 0.7, "clip": 1 }
+        ]
+    },
     "bigasp":{
         "prompt":"score_6_up, {p} ### score_3, score_2, score_1, {np}",
         "model": "BigASP",
