@@ -1576,8 +1576,8 @@
         "cfg_scale": 2,
         "sampler_name": "k_dpmpp_sde",
         "loras": [
-            { "name": "1076692", "is_version": true, "strength": 0.6},
-            { "name": "375228", "is_version": true, "strength": 0.6}
+            { "name": "1076692", "is_version": true, "weight": 0.6},
+            { "name": "375228", "is_version": true, "weight": 0.6}
         ],
         "enhance": false
     },
