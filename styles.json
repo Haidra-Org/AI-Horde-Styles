@@ -3775,6 +3775,7 @@
         "height": 1024,
         "cfg_scale": 5,
         "sampler_name": "k_dpmpp_sde",
+        "clip_skip": 2,
         "loras": [
             { "name": "894554", "is_version": true, "weight": 0.8, "clip": 2 }
         ]
@@ -3787,6 +3788,7 @@
         "height": 1024,
         "cfg_scale": 5,
         "sampler_name": "k_dpmpp_sde",
+        "clip_skip": 2,
         "loras": [
             { "name": "1242320", "is_version": true, "weight": 0.6, "clip": 1 },
             { "name": "1280118", "is_version": true, "weight": 0.7, "clip": 1 }
