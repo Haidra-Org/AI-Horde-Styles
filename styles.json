@@ -3777,7 +3777,7 @@
         "sampler_name": "k_dpmpp_sde",
         "clip_skip": 2,
         "loras": [
-            { "name": "894554", "is_version": true, "weight": 0.8, "clip": 2 }
+            { "name": "894554", "is_version": true, "weight": 0.5, "clip": 2 }
         ]
     },
     "pastel ilxl": {
