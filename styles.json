@@ -3189,6 +3189,16 @@
         "height": 1024,
         "clip_skip": 2
     },
+    "mhxl-aventis horizon-widescreen": {
+        "prompt": "{p}###{np}",
+        "model": "MHXL - Aventis Horizon",
+        "steps": 25,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 5,
+        "width": 1920,
+        "height": 1088,
+        "clip_skip": 2
+    },
     "nova furry pony": {
         "prompt": "score_9, score_8_up, score_7_up, masterpiece {p} source_anime, detailed face eyes and fur, source_furry, furry###score_6, score_5, score_4, blurry, jpeg artifacts, username, watermark, signature, normal quality, worst quality, text, error, low quality, missing fingers, extra digits, fewer digits, bad eye, {np}",
         "model": "Nova Furry Pony",
