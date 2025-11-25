@@ -1,4 +1,14 @@
 {
+    "qwen": {
+        "prompt": "{p}{np}",
+        "model": "Qwen-Image_fp8",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2.5,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
     "flux": {
         "prompt": "{p}{np}",
         "model": "Flux.1-Schnell fp8 (Compact)",
