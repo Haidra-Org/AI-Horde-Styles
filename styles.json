@@ -3833,9 +3833,9 @@
     "bigasp":{
         "prompt":"score_6_up, {p} ### score_3, score_2, score_1, {np}",
         "model": "BigASP",
-        "steps": 25,
+        "steps": 35,
         "sampler_name": "k_dpmpp_sde",
-        "cfg_scale": 3,
+        "cfg_scale": 4,
         "width": 1024,
         "height": 1024
     },
