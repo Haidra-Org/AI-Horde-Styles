@@ -1,13 +1,14 @@
 {
     "new": [
+        "nova flat",
+        "rag illustrious",
+        "nova furry",
+        "rimix",
+        "perfectdeliberate",
         "illustrious",
         "noobai",
         "pony plus",
-        "bigasp",
-        "new era",
-        "wai-nsfw-illustrious",
-        "zavychromaxl",
-        "mistoon anime"
+        "bigasp"
     ],
     "featured": [
         "flux",
@@ -250,7 +251,9 @@
         "hassaku",
         "mistoon anime",
         "new era",
-        "wai-nsfw-illustrious"
+        "wai-nsfw-illustrious",
+        "nova flat",
+        "rag illustrious"
     ],
     "anime-party": [
         "mistoon anime",
@@ -274,7 +277,8 @@
         "bb95 furry v14",
         "furry",
         "impasto furry",
-        "nova furry pony"
+        "nova furry pony",
+        "nova furry"
     ],
     "anime_raw": [
         "2dn_raw",
@@ -295,7 +299,9 @@
         "kayneg_raw",
         "healys anime",
         "new era_raw",
-        "wai-nsfw-illustrious_raw"
+        "wai-nsfw-illustrious_raw",
+        "rag illustrious",
+        "nova flat_raw"
     ],
     "landscapes": [
         "acertainthing",
@@ -340,7 +346,8 @@
         "vintage yearbook photo",
         "dreamshaper",
         "natvis",
-        "bigasp"
+        "bigasp",
+        "rimix"
     ],
     "glitch": [
         "glitchart",
