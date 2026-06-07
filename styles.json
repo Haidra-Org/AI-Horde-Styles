@@ -2155,17 +2155,16 @@
             { "name": "247778", "is_version": true}
         ]
     },
-    "anime illust": {
-        "prompt": "{p}###aidxlv05_neg,{np}",
-        "model": "Anime Illust Diffusion XL",
-        "sampler_name": "k_dpmpp_2m",
-        "steps": 30,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 8,
-        "tis": [
-            { "name": "144327","inject_ti": "negprompt"
-            }
+    "quiet goodnight xl": {
+        "prompt": "{p}###{np}",
+        "model": "Quiet Goodnight XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 832,
+        "height": 1216,
+        "cfg_scale": 2,
+        "loras": [
+            { "name": "247778", "is_version": true}
         ]
     },
     "pony": {
