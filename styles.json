@@ -2306,7 +2306,7 @@
         "enhance": true
     },
     "mistoon anime": {
-        "prompt": "masterpiece,best quality, {p}##lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
+        "prompt": "masterpiece,best quality, {p}###lowres,(bad),error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,unfinished,displeasing,extra digits,artistic error, {np}",
         "model": "Mistoon Anime",
         "width": 832,
         "height": 1216,
