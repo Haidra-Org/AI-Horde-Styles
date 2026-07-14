@@ -1,13 +1,10 @@
 {
     "new": [
-        "illustrious",
-        "noobai",
-        "pony plus",
-        "bigasp",
-        "new era",
-        "wai-nsfw-illustrious",
-        "zavychromaxl",
-        "mistoon anime"
+        "nova flat xl",
+        "rag illustrious",
+        "nova furry xl",
+        "rimix",
+        "perfectdeliberate"
     ],
     "featured": [
         "flux",
@@ -226,7 +223,6 @@
         "ghibli",
         "meinamix",
         "galena redux",
-        "dark sushi",
         "bweshmix",
         "revanimated",
         "cetus-mix",
@@ -234,7 +230,6 @@
         "perfect world",
         "waifu",
         "poison",
-        "anime illust",
         "aam xl",
         "cheyenne",
         "am pony",
@@ -250,7 +245,11 @@
         "hassaku",
         "mistoon anime",
         "new era",
-        "wai-nsfw-illustrious"
+        "perfectdeliberate",
+        "wai-nsfw-illustrious",
+        "nova flat xl",
+        "rimix",
+        "rag illustrious"
     ],
     "anime-party": [
         "mistoon anime",
@@ -291,13 +290,17 @@
         "noob-v-pencil_raw",
         "nova furry xl_raw",
         "nova furry pony_raw",
+        "rimix_raw",
         "nova anime xl_raw",
         "white pony diffusion_raw",
         "wai-cute-pony_raw",
         "kayneg_raw",
         "healys anime",
         "new era_raw",
-        "wai-nsfw-illustrious_raw"
+        "perfectdeliberate_raw",
+        "wai-nsfw-illustrious_raw",
+        "rag illustrious",
+        "nova flat xl_raw"
     ],
     "landscapes": [
         "acertainthing",
@@ -342,7 +345,8 @@
         "vintage yearbook photo",
         "dreamshaper",
         "natvis",
-        "bigasp"
+        "bigasp",
+        "rimix"
     ],
     "glitch": [
         "glitchart",
@@ -485,6 +489,9 @@
         "hassaku",
         "mistoon anime",
         "kayneg",
+        "rimix",
+        "perfectdeliberate",
+        "rag illustrious",
         "nova anime xl",
         "nova furry xl",
         "wai-nsfw-illustrious"
@@ -507,6 +514,7 @@
         "pony realism",
         "am pony",
         "swam pony",
+        "perfectdeliberate",
         "nova furry pony",
         "nova furry xl",
         "white pony diffusion",

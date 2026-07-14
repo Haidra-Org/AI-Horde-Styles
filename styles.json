@@ -2155,17 +2155,16 @@
             { "name": "247778", "is_version": true}
         ]
     },
-    "anime illust": {
-        "prompt": "{p}###aidxlv05_neg,{np}",
-        "model": "Anime Illust Diffusion XL",
-        "sampler_name": "k_dpmpp_2m",
-        "steps": 30,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 8,
-        "tis": [
-            { "name": "144327","inject_ti": "negprompt"
-            }
+    "quiet goodnight xl": {
+        "prompt": "{p}###{np}",
+        "model": "Quiet Goodnight XL",
+        "sampler_name": "k_dpmpp_sde",
+        "steps": 8,
+        "width": 832,
+        "height": 1216,
+        "cfg_scale": 2,
+        "loras": [
+            { "name": "247778", "is_version": true}
         ]
     },
     "pony": {
@@ -2265,18 +2264,7 @@
         "clip_skip": 2,
         "cfg_scale": 7
     },
-    "quiet goodnight xl": {
-        "prompt": "{p}###{np}",
-        "model": "Quiet Goodnight XL",
-        "sampler_name": "k_dpmpp_sde",
-        "steps": 8,
-        "width": 832,
-        "height": 1216,
-        "cfg_scale": 2,
-        "loras": [
-            { "name": "247778", "is_version": true}
-        ]
-    },
+
     "icbinp xl": {
         "prompt": "{p}{np}",
         "width": 832,
@@ -2334,16 +2322,6 @@
     "galena redux": {
         "prompt": "{p}{np}",
         "model": "Galena Redux",
-        "enhance": true
-    },
-    "dark sushi": {
-        "prompt": "{p}{np}",
-        "model": "Dark Sushi Mix",
-        "width": 576,
-        "height": 832,
-        "steps": 20,
-        "hires_fix": true,
-        "cfg_scale": 7,
         "enhance": true
     },
     "analog madness": {
@@ -3219,16 +3197,6 @@
         "height": 1024,
         "clip_skip": 2
     },
-    "nova furry xl": {
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, furry, anthro, {p}, depth of field, detailed fluffy fur, volumetric lighting###{np}, human, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
-        "model": "Nova Furry XL",
-        "steps": 25,
-        "sampler_name": "k_euler_a",
-        "cfg_scale": 4,
-        "width": 1024,
-        "height": 1024,
-        "clip_skip": 2
-    },
     "nova anime xl": {
         "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, {p}, detailed eyes, masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting ###modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing,lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, username, signature, loli, simple background, conjoined, ai-generated, {np}",
         "model": "Nova Anime XL",
@@ -3646,16 +3614,6 @@
         "height": 1024,
         "clip_skip": 2
     },
-    "nova furry xl_raw": {
-        "prompt":"{p}###{np}",
-        "model": "Nova Furry XL",
-        "steps": 25,
-        "sampler_name": "k_euler_a",
-        "cfg_scale": 4,
-        "width": 1024,
-        "height": 1024,
-        "clip_skip": 2
-    },
     "bb95 furry": {
         "prompt":"anthro,{p}###{np}, worst quality, low quality, signature, text, nsfw, nude, naked",
         "model": "BB95 Furry Mix",
@@ -3892,6 +3850,96 @@
     "wai-nsfw-illustrious_raw":{
         "prompt":"{p}###{np}",
         "model":"WAI-NSFW-illustrious-SDXL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "perfectdeliberate":{
+        "prompt":"masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, {p} ### bad quality, worst quality, worst detail, {np}",
+        "model":"PerfectDeliberate",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "perfectdeliberate_raw":{
+        "prompt":"{p}###{np}",
+        "model":"PerfectDeliberate",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "rimix":{
+        "prompt":"masterwork, masterpiece, best quality, detailed, high detail, best quality, very aesthetic, 8k, {p} ### lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits, censored, patreon username, loli, {np}",
+        "model":"Ri-Mix",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "rimix_raw":{
+        "prompt":"{p}###{np}",
+        "model":"Ri-Mix",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "nova furry xl": {
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, 4k, high resolution, ultra-detailed, absurdres, newest, {p} ###  flat color, muted color,, (particles, adversarial_noise:1.2), conjoined fingers, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated, {np}",
+        "model": "Nova Furry XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 4,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova furry xl_raw": {
+        "prompt":"{p}###{np}",
+        "model": "Nova Furry XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 4,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
+    },
+    "nova flat xl":{
+        "prompt":"masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, {p} ### photorealistic, realistic, 3d, (particles, adversarial_noise:1.2), multiple views, multiple angle, split view, grid view, two shot, outside border, picture frame, framed, border, letterboxed, pillarboxed, 2koma, modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, (censored, bar_censor, mosaic_censor:1.2), simple background, conjoined, bad ai-generated {np}",
+        "model":"Nova Flat XL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "nova flat xl_raw":{
+        "prompt":"{p}###{np}",
+        "model":"Nova Flat XL",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024
+    },
+    "rag illustrious":{
+        "prompt":"{p} ### {np}",
+        "model":"Rag Illustrious Mix",
         "steps":25,
         "sampler_name":"k_euler_a",
         "clip_skip":2,
