@@ -3220,11 +3220,11 @@
         "clip_skip": 2
     },
     "nova furry xl": {
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, furry, anthro, {p}, depth of field, detailed fluffy fur, volumetric lighting###{np}, human, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece {p} source_anime, detailed face eyes and fur, source_furry, furry###score_6, score_5, score_4, blurry, jpeg artifacts, username, watermark, signature, normal quality, worst quality, text, error, low quality, missing fingers, extra digits, fewer digits, bad eye, {np}",
         "model": "Nova Furry XL",
         "steps": 25,
-        "sampler_name": "k_euler_a",
-        "cfg_scale": 4,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 6,
         "width": 1024,
         "height": 1024,
         "clip_skip": 2
@@ -3650,8 +3650,8 @@
         "prompt":"{p}###{np}",
         "model": "Nova Furry XL",
         "steps": 25,
-        "sampler_name": "k_euler_a",
-        "cfg_scale": 4,
+        "sampler_name": "k_dpmpp_sde",
+        "cfg_scale": 6,
         "width": 1024,
         "height": 1024,
         "clip_skip": 2
