@@ -1,14 +1,10 @@
 {
     "new": [
-        "nova flat",
+        "nova flat xl",
         "rag illustrious",
-        "nova furry",
+        "nova furry xl",
         "rimix",
-        "perfectdeliberate",
-        "illustrious",
-        "noobai",
-        "pony plus",
-        "bigasp"
+        "perfectdeliberate"
     ],
     "featured": [
         "flux",
@@ -250,8 +246,10 @@
         "hassaku",
         "mistoon anime",
         "new era",
+        "perfectdeliberate",
         "wai-nsfw-illustrious",
-        "nova flat",
+        "nova flat xl",
+        "rimix",
         "rag illustrious"
     ],
     "anime-party": [
@@ -259,6 +257,7 @@
         "2dn",
         "aam xl",
         "cheyenne",
+        "quiet goodnight xl",
         "wai-cute-pony",
         "wai-anime-pony",
         "animagine",
@@ -275,8 +274,8 @@
         "bb95 furry v14",
         "furry",
         "impasto furry",
-        "nova furry pony",
-        "nova furry"
+        "nova furry xl",
+        "nova furry pony"
     ],
     "anime_raw": [
         "2dn_raw",
@@ -290,16 +289,19 @@
         "holymix_raw",
         "mistoon anime_raw",
         "noob-v-pencil_raw",
+        "nova furry xl_raw",
         "nova furry pony_raw",
+        "rimix_raw",
         "nova anime xl_raw",
         "white pony diffusion_raw",
         "wai-cute-pony_raw",
         "kayneg_raw",
         "healys anime",
         "new era_raw",
+        "perfectdeliberate_raw",
         "wai-nsfw-illustrious_raw",
         "rag illustrious",
-        "nova flat_raw"
+        "nova flat xl_raw"
     ],
     "landscapes": [
         "acertainthing",
@@ -488,7 +490,11 @@
         "hassaku",
         "mistoon anime",
         "kayneg",
+        "rimix",
+        "perfectdeliberate",
+        "rag illustrious",
         "nova anime xl",
+        "nova furry xl",
         "wai-nsfw-illustrious"
     ],
     "noobai": [
@@ -509,7 +515,9 @@
         "pony realism",
         "am pony",
         "swam pony",
+        "perfectdeliberate",
         "nova furry pony",
+        "nova furry xl",
         "white pony diffusion",
         "hassaku",
         "mistoon anime",

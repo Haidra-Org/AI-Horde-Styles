@@ -3897,27 +3897,27 @@
         "width":1024,
         "height":1024
     },
-    "nova furry":{
-        "prompt":"masterpiece, best quality, amazing quality, very aesthetic, 4k, high resolution, ultra-detailed, absurdres, newest, {p} ###  flat color, muted color,, (particles, adversarial_noise:1.2), conjoined fingers, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated, {np}",
-        "model":"Nova Furry XL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":7,
-        "width":1024,
-        "height":1024
+    "nova furry xl": {
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, 4k, high resolution, ultra-detailed, absurdres, newest, {p} ###  flat color, muted color,, (particles, adversarial_noise:1.2), conjoined fingers, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated, {np}",
+        "model": "Nova Furry XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 4,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
     },
-    "nova furry_raw":{
+    "nova furry xl_raw": {
         "prompt":"{p}###{np}",
-        "model":"Nova Furry XL",
-        "steps":25,
-        "sampler_name":"k_euler_a",
-        "clip_skip":2,
-        "cfg_scale":7,
-        "width":1024,
-        "height":1024
+        "model": "Nova Furry XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 4,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2
     },
-    "nova flat":{
+    "nova flat xl":{
         "prompt":"masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, {p} ### photorealistic, realistic, 3d, (particles, adversarial_noise:1.2), multiple views, multiple angle, split view, grid view, two shot, outside border, picture frame, framed, border, letterboxed, pillarboxed, 2koma, modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, (censored, bar_censor, mosaic_censor:1.2), simple background, conjoined, bad ai-generated {np}",
         "model":"Nova Flat XL",
         "steps":25,
@@ -3927,7 +3927,7 @@
         "width":1024,
         "height":1024
     },
-    "nova flat_raw":{
+    "nova flat xl_raw":{
         "prompt":"{p}###{np}",
         "model":"Nova Flat XL",
         "steps":25,
