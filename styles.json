@@ -3946,5 +3946,15 @@
         "cfg_scale":7,
         "width":1024,
         "height":1024
+    },
+    "emojiparty": {
+        "prompt": "{p}###nsfw,{np}",
+        "model": "Cheyenne",
+        "sampler_name": "k_dpmpp_2m",
+        "steps": 20,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 7,
+        "hires_fix": true
     }
 }
