@@ -3947,6 +3947,19 @@
         "width":1024,
         "height":1024
     },
+    "comet": {
+        "prompt": "score_9, score_8_up, score_7_up, source_furry, masterpiece, best quality, very aesthetic, newest, absurdres, cmthsky, male anthro husky, {p}###{np}, worst quality, worst aesthetic, bad quality, average quality, oldest, old, very displeasing, displeasing, score_6, score_5, score_4, low quality, low details, lowres, blurry, poorly drawn, bad anatomy, bad proportions, deformed anatomy, bad hands, bad paws, malformed paws, extra digits, missing digits, fused digits, extra limb, missing limb, multiple views, cropped, out of frame, text, watermark, artist name, artist signature, weibo username",
+        "model": "Nova Furry XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 4,
+        "width": 1024,
+        "height": 1024,
+        "clip_skip": 2,
+        "loras": [
+            { "name": "3126031", "is_version": true, "weight": 0.7, "clip": 1.0}
+        ]
+    },
     "emojiparty": {
         "prompt": "{p}###nsfw,{np}",
         "model": "Cheyenne",
