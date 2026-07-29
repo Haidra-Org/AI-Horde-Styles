@@ -3960,6 +3960,30 @@
             { "name": "3126031", "is_version": true, "weight": 0.7, "clip": 1.0}
         ]
     },
+    "pbj": {
+        "prompt": "{p} made of pbj###{np}",
+        "model": "ZavyChromaXL",
+        "steps": 30,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": true,
+        "loras": [{ "name": "683036", "is_version": true}]
+    },
+    "aurora": {
+        "prompt": "{p} made of aurora###{np}",
+        "model": "ZavyChromaXL",
+        "steps": 30,
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "clip_skip": 2,
+        "width": 1024,
+        "height": 1024,
+        "hires_fix": true,
+        "loras": [{ "name": "2537411", "is_version": true}]
+    },
     "emojiparty": {
         "prompt": "{p}###nsfw,{np}",
         "model": "Cheyenne",
