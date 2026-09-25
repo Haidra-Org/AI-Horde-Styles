@@ -3771,29 +3771,6 @@
         "width": 1024,
         "height": 1024
     },
-    "midnight party temp": {
-        "prompt":"object head, CRT monitor face, screen face, {p}###{np}",
-        "model": "Nova Anime XL",
-        "steps": 25,
-        "sampler_name": "k_dpmpp_sde",
-        "cfg_scale": 5,
-        "width": 1024,
-        "height": 1024,
-        "clip_skip": 2
-    },
-    "glass pony": {
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, body press, g1ass_sh33t, cloud, underwater, {p}###{np}",
-        "model": "AMPonyXL",
-        "steps": 20,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 5,
-        "sampler_name": "k_dpmpp_sde",
-        "clip_skip": 2,
-        "loras": [
-            { "name": "894554", "is_version": true, "weight": 0.5, "clip": 2 }
-        ]
-    },
     "pastel ilxl": {
         "prompt": "2d, flat color, pastelcass0, pastel colors, surreal, haiz_ai, no lineart, no outline, {p}###line art, outline, {np}",
         "model": "NTR MIX IL-Noob XL",
@@ -3947,19 +3924,6 @@
         "width":1024,
         "height":1024
     },
-    "comet": {
-        "prompt": "score_9, score_8_up, score_7_up, source_furry, masterpiece, best quality, very aesthetic, newest, absurdres, cmthsky, male anthro husky, {p}###{np}, worst quality, worst aesthetic, bad quality, average quality, oldest, old, very displeasing, displeasing, score_6, score_5, score_4, low quality, low details, lowres, blurry, poorly drawn, bad anatomy, bad proportions, deformed anatomy, bad hands, bad paws, malformed paws, extra digits, missing digits, fused digits, extra limb, missing limb, multiple views, cropped, out of frame, text, watermark, artist name, artist signature, weibo username",
-        "model": "Nova Furry XL",
-        "steps": 25,
-        "sampler_name": "k_euler_a",
-        "cfg_scale": 4,
-        "width": 1024,
-        "height": 1024,
-        "clip_skip": 2,
-        "loras": [
-            { "name": "3126031", "is_version": true, "weight": 0.7, "clip": 1.0}
-        ]
-    },
     "pbj": {
         "prompt": "{p} made of pbj###{np}",
         "model": "ZavyChromaXL",
@@ -3983,16 +3947,6 @@
         "height": 1024,
         "hires_fix": true,
         "loras": [{ "name": "2537411", "is_version": true}]
-    },
-    "emojiparty": {
-        "prompt": "{p}###nsfw,{np}",
-        "model": "Cheyenne",
-        "sampler_name": "k_dpmpp_2m",
-        "steps": 20,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 7,
-        "hires_fix": true
     },
     "figurine party krea": {
         "prompt": "kawai chibi 3d cute character",
