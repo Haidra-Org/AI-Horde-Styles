@@ -529,6 +529,10 @@
         "holymix"
     ],
     "temp party styles": [
+        "figurines party",
+        "figurine party krea",
+        "figurine party dreamshaper",
+        "figurine party anima",
         "glow flow or dissolve party mix",
         "midnight party temp",
         "glass pony",
@@ -551,5 +555,10 @@
         "vintage vogue cover",
         "dan seagrave album cover",
         "weird tales cover"
+    ],
+    "figurines party": [
+        "figurine party krea",
+        "figurine party dreamshaper",
+        "figurine party anima"
     ]
 }

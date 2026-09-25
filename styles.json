@@ -3993,5 +3993,37 @@
         "height": 1024,
         "cfg_scale": 7,
         "hires_fix": true
+    },
+    "figurine party krea": {
+        "prompt": "kawai chibi 3d cute character",
+        "model": "Krea2-Turbo_fp8",
+        "sampler_name": "k_euler",
+        "steps": 4,
+        "width": 896,
+        "height": 896,
+        "cfg_scale": 1,
+        "hires_fix": false,
+        "karras": false
+    },
+    "figurine party dreamshaper": {
+        "prompt": "kawai chibi 3d cute character###nsfw, {np}",
+        "model": "DreamShaper XL",
+        "steps": 4,
+        "width": 1024,
+        "height": 1024,
+        "sampler_name": "k_dpmpp_sde",
+        "karras": true,
+        "cfg_scale": 2
+    },
+    "figurine party anima": {
+        "prompt": "kawai chibi 3d cute character",
+        "model": "Anima-Turbo-v1.1",
+        "sampler_name": "k_euler",
+        "steps": 4,
+        "width": 896,
+        "height": 896,
+        "cfg_scale": 1,
+        "hires_fix": false,
+        "karras": false
     }
 }
