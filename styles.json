@@ -3949,7 +3949,7 @@
         "loras": [{ "name": "2537411", "is_version": true}]
     },
     "figurine party krea": {
-        "prompt": "kawai chibi 3d cute character",
+        "prompt": "kawai chibi 3d cute character, {p}",
         "model": "Krea2-Turbo_fp8",
         "sampler_name": "k_euler",
         "steps": 4,
@@ -3960,7 +3960,7 @@
         "karras": false
     },
     "figurine party dreamshaper": {
-        "prompt": "kawai chibi 3d cute character###nsfw, {np}",
+        "prompt": "kawai chibi 3d cute character, {p}###nsfw, {np}",
         "model": "DreamShaper XL",
         "steps": 4,
         "width": 1024,
@@ -3970,7 +3970,7 @@
         "cfg_scale": 2
     },
     "figurine party anima": {
-        "prompt": "kawai chibi 3d cute character",
+        "prompt": "kawai chibi 3d cute character, {p}",
         "model": "Anima-Turbo-v1.1",
         "sampler_name": "k_euler",
         "steps": 4,
