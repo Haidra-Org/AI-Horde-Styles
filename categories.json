@@ -349,6 +349,7 @@
         "rimix"
     ],
     "glitch": [
+        "0__11xx",
         "glitchart",
         "oldvhs",
         "analogdistortion",
@@ -420,6 +421,10 @@
         "vector illustration",
         "line art",
         "charcoal drawing",
+        "0__11xx",
+        "wis3",
+        "manimani",
+        "nyt3-tyd3",
         "pencil drawing"
     ],
     "cards": [
@@ -551,5 +556,12 @@
         "vintage vogue cover",
         "dan seagrave album cover",
         "weird tales cover"
+    ],
+    "aparty": [
+        "0__11xx",
+        "wis3",
+        "manimani",
+        "forestdecay",
+        "nyt3-tyd3"
     ]
 }

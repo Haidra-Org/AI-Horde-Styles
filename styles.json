@@ -3947,5 +3947,60 @@
         "height": 1024,
         "hires_fix": true,
         "loras": [{ "name": "2537411", "is_version": true}]
+    },
+    "forestdecay": {
+        "prompt": "score_9, score_8_up, score_8, rating: safe, {surrounded by |}{mushrooms|mold}, {p}, {mushrooms|mold|forest}###loli, NSFW, bad quality, worst quality, worst detail, censor, patreon username, artist name, watermark, {np}",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 5,
+        "clip_skip": 2,
+        "width": 832,
+        "height": 1216,
+        "loras": [{ "name": "1720920", "is_version": true, "model": 1.35}]
+    },
+    "manimani": {
+        "prompt":"rating: safe, masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, manimani, screentones, colorful {p} ### bad quality, worst quality, worst detail, nsfw, {np}",
+        "model":"WAI-NSFW-illustrious-SDXL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 5,
+        "clip_skip": 2,
+        "width": 832,
+        "height": 1216,
+        "loras": [{ "name": "1386487", "is_version": true}]
+    },
+    "wis3":{
+        "prompt":"masterwork, masterpiece, best quality, detailed, high detail, best quality, very aesthetic, WIS-3, {p} ### lowres, worst quality, low quality, signature, watermark, text, logo, artist name, censored, patreon username, loli, {np}",
+        "model":"Ri-Mix",
+        "steps":25,
+        "sampler_name":"k_euler_a",
+        "clip_skip":2,
+        "cfg_scale":7,
+        "width":1024,
+        "height":1024,
+        "loras": [{ "name": "2932564", "is_version": true}]
+    },
+    "0__11xx": {
+        "prompt": "score_9, score_8_up, score_8, rating: safe, 0__11Xx_illu, {surreal, |glitch, |}{p}###loli, NSFW, bad quality, worst quality, worst detail, censor, patreon username, artist name, watermark, {np}",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 5,
+        "clip_skip": 2,
+        "width": 832,
+        "height": 1216,
+        "loras": [{ "name": "1348455", "is_version": true}]
+    },
+    "nyt3-tyd3": {
+        "prompt": "score_9, score_8_up, score_8, rating: safe, Nyt3_Tyd3_illu, {painttool sai \\(medium\\), |}{p}###loli, NSFW, bad quality, worst quality, worst detail, censor, patreon username, artist name, watermark, {np}",
+        "model": "NTR MIX IL-Noob XL",
+        "steps": 25,
+        "sampler_name": "k_euler_a",
+        "cfg_scale": 5,
+        "clip_skip": 2,
+        "width": 832,
+        "height": 1216,
+        "loras": [{ "name": "2353207", "is_version": true}]
     }
 }
