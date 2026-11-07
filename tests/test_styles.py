@@ -1,10 +1,13 @@
 import json
 import unittest
-from collections.abc import MutableMapping, Sequence, Mapping
+from collections.abc import Mapping, MutableMapping, Sequence
 from typing import Any
 
 import requests
-from horde_sdk.ai_horde_api.apimodels import ImageGenerateAsyncRequest, ImageGenerationInputPayload
+from horde_sdk.ai_horde_api.apimodels import (
+    ImageGenerateAsyncRequest,
+    ImageGenerationInputPayload,
+)
 
 
 def get_github_json_file(url: str) -> dict[str, Any]:
@@ -13,7 +16,9 @@ def get_github_json_file(url: str) -> dict[str, Any]:
     return response.json()
 
 
-def recursive_update(target: MutableMapping[str, Any], source: Mapping[str, Any]) -> None:
+def recursive_update(
+    target: MutableMapping[str, Any], source: Mapping[str, Any]
+) -> None:
     for key, value in source.items():
         if isinstance(value, MutableMapping):
             recursive_update(target.setdefault(key, {}), value)
@@ -37,11 +42,17 @@ class TestStyles(unittest.TestCase):
     def validate_request(request: dict[str, ImageGenerationInputPayload | Any]) -> None:
         ImageGenerateAsyncRequest.model_validate(request, strict=True)
 
-    def style_to_request(self, style: dict[str, Any]) -> dict[str, ImageGenerationInputPayload | Any]:
+    def style_to_request(
+        self, style: dict[str, Any]
+    ) -> dict[str, ImageGenerationInputPayload | Any]:
         with self.subTest(msg="Validate model exists"):
             model = style.get("model")
             if model is not None:
-                self.assertIn(model, self.model_reference, msg=f"Model {model} does not exist for style {style}")
+                self.assertIn(
+                    model,
+                    self.model_reference,
+                    msg=f"Model {model} does not exist for style {style}",
+                )
 
         with self.subTest(msg="Validate prompt"):
             prompt = style.pop("prompt")
@@ -53,14 +64,23 @@ class TestStyles(unittest.TestCase):
             negative_prompt = "###".join(negative_prompt) or None
             del prompt
 
-            self.assertIn("{p}", positive_prompt, msg="Positive prompt must contain {p}")
-            self.assertNotIn("{np}", positive_prompt, msg="Positive prompt must not contain {np}")
+            self.assertIn(
+                "{p}", positive_prompt, msg="Positive prompt must contain {p}"
+            )
+            self.assertNotIn(
+                "{np}", positive_prompt, msg="Positive prompt must not contain {np}"
+            )
             if negative_prompt is not None:
-                self.assertIn("{np}", negative_prompt, msg="Negative prompt must contain {np}")
-                self.assertNotIn("{p}", negative_prompt, msg="Negative prompt must not contain {p}")
+                self.assertIn(
+                    "{np}", negative_prompt, msg="Negative prompt must contain {np}"
+                )
+                self.assertNotIn(
+                    "{p}", negative_prompt, msg="Negative prompt must not contain {p}"
+                )
 
         request = {
-            "prompt": positive_prompt + (f"###{negative_prompt}" if negative_prompt else ""),
+            "prompt": positive_prompt
+            + (f"###{negative_prompt}" if negative_prompt else ""),
             "params": {},
         }
         if style.pop("enhance", False):

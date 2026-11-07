@@ -17,4 +17,6 @@ class TestStyleCategories(unittest.TestCase):
                 for style in category_styles:
                     with self.subTest(category=category, style=style):
                         if style not in (*self.styles.keys(), *self.categories.keys()):
-                            raise self.failureException(f"Style {style!r} is referenced but does not exist")
+                            raise self.failureException(
+                                f"Style {style!r} is referenced but does not exist"
+                            )
