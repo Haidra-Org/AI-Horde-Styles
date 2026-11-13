@@ -4010,7 +4010,7 @@
         "clip_skip": 2,
         "width": 832,
         "height": 1216,
-        "loras": [{ "name": "1348455", "is_version": true}]
+        "loras": [{ "name": "1348455", "is_version": true, "model": 0.8}]
     },
     "nyt3-tyd3": {
         "prompt": "score_9, score_8_up, score_8, rating: safe, Nyt3_Tyd3_illu, {painttool sai \\(medium\\), |}{p}###loli, NSFW, bad quality, worst quality, worst detail, censor, patreon username, artist name, watermark, {np}",
