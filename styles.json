@@ -1,4 +1,14 @@
 {
+    "krea2": {
+        "prompt": "{p}{np}",
+        "model": "Krea2-Turbo_fp8",
+        "steps": 8,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
     "qwen": {
         "prompt": "{p}{np}",
         "model": "Qwen-Image_fp8",
@@ -8,6 +18,16 @@
         "cfg_scale": 3,
         "karras": false,
         "sampler_name": "k_euler"
+    },
+    "moss": {
+        "prompt": "{p}{np}",
+        "model": "MOSS-Image-SFT",
+        "steps": 25,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 2.5,
+        "karras": false,
+        "sampler_name": "er_sde"
     },
     "flux": {
         "prompt": "{p}{np}",
